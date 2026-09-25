@@ -95,20 +95,36 @@ INSERT INTO plan VALUES
   ('copilot-pro', 'github-copilot', 'Copilot Pro（按 token 新制）'),
   ('copilot-pro-annual-legacy', 'github-copilot', 'Copilot Pro 年付旧制');
 
-INSERT INTO offering_revision (offering_id, channel_model_id, availability,
+INSERT INTO offering_revision (offering_id, availability,
   operator_org_id, seller_org_id, billing_org_id, vendor_relationship, notes,
   valid_from, date_basis, recorded_at, source_id)
-VALUES ('azure-foundry/claude-opus-4-7@hosted-on-anthropic', 'claude-opus-4-7',
+VALUES ('azure-foundry/claude-opus-4-7@hosted-on-anthropic',
   'available', 'anthropic', 'anthropic', 'microsoft', 'contracted_partner',
   '请求里的 model 填用户自定义的 deployment name', '2026-09-01T00:00:00Z',
   'first_observed', '2026-09-24T21:00:00Z', 'foundry-claude@2026-09-24');
+INSERT INTO label_namespace (namespace_id, kind, channel_id)
+VALUES ('channel:azure-foundry', 'channel', 'azure-foundry') ON CONFLICT DO NOTHING;
+INSERT INTO model_identifier (namespace_id, kind, identifier, model_id,
+  offering_id, valid_from, date_basis, recorded_at, source_id)
+VALUES ('channel:azure-foundry', 'api_id', 'claude-opus-4-7', 'claude-opus-4-7',
+  'azure-foundry/claude-opus-4-7@hosted-on-anthropic',
+  '2026-09-01T00:00:00Z', 'first_observed', '2026-09-24T21:00:00Z',
+  'foundry-claude@2026-09-24');
 
-INSERT INTO offering_revision (offering_id, channel_model_id, availability,
+INSERT INTO offering_revision (offering_id, availability,
   operator_org_id, seller_org_id, billing_org_id, vendor_relationship,
   discloses_upstream, valid_from, date_basis, recorded_at, source_id)
-VALUES ('kiro/claude-sonnet-5', 'claude-sonnet-5', 'available', 'aws', 'aws', 'aws',
+VALUES ('kiro/claude-sonnet-5', 'available', 'aws', 'aws', 'aws',
   'disclosed_reseller', 1, '2026-09-01T00:00:00Z', 'first_observed',
   '2026-09-24T21:00:00Z', 'kiro-models@2026-09-24');
+INSERT INTO label_namespace (namespace_id, kind, channel_id)
+VALUES ('channel:kiro', 'channel', 'kiro') ON CONFLICT DO NOTHING;
+INSERT INTO model_identifier (namespace_id, kind, identifier, model_id,
+  offering_id, valid_from, date_basis, recorded_at, source_id)
+VALUES ('channel:kiro', 'api_id', 'claude-sonnet-5', 'claude-sonnet-5',
+  'kiro/claude-sonnet-5',
+  '2026-09-01T00:00:00Z', 'first_observed', '2026-09-24T21:00:00Z',
+  'kiro-models@2026-09-24');
 INSERT INTO offering_route (offering_id, upstream_offering_id, routing, valid_from,
   date_basis, recorded_at, source_id)
 VALUES ('kiro/claude-sonnet-5', 'aws-bedrock/claude-sonnet-5', 'sole',
@@ -207,12 +223,20 @@ VALUES
    'derived_from_plan', '2026-09-01T00:00:00Z', 'first_observed',
    '2026-09-24T21:00:00Z', 'kiro-pricing@2026-09-24');
 
-INSERT INTO offering_revision (offering_id, channel_model_id, availability,
+INSERT INTO offering_revision (offering_id, availability,
   seller_org_id, billing_org_id, vendor_relationship, discloses_upstream, valid_from,
   date_basis, recorded_at, source_id)
-VALUES ('openrouter/claude-sonnet-4-6', 'anthropic/claude-sonnet-4.6', 'available',
+VALUES ('openrouter/claude-sonnet-4-6', 'available',
   'openrouter', 'openrouter', 'disclosed_reseller', 1, '2026-09-01T00:00:00Z',
   'first_observed', '2026-09-24T21:00:00Z', 'openrouter-endpoints@2026-09-24');
+INSERT INTO label_namespace (namespace_id, kind, channel_id)
+VALUES ('channel:openrouter', 'channel', 'openrouter') ON CONFLICT DO NOTHING;
+INSERT INTO model_identifier (namespace_id, kind, identifier, model_id,
+  offering_id, valid_from, date_basis, recorded_at, source_id)
+VALUES ('channel:openrouter', 'api_id', 'anthropic/claude-sonnet-4.6', 'claude-sonnet-4-6',
+  'openrouter/claude-sonnet-4-6',
+  '2026-09-01T00:00:00Z', 'first_observed', '2026-09-24T21:00:00Z',
+  'openrouter-endpoints@2026-09-24');
 INSERT INTO offering_route (offering_id, upstream_offering_id, routing, valid_from,
   date_basis, recorded_at, source_id)
 VALUES
@@ -250,12 +274,20 @@ VALUES (201, 'openrouter/byok-fee', '0.05', '25000',
   '每月前 25,000 USD 的 BYOK 用量免收', '2026-09-01T00:00:00Z', 'first_observed',
   '2026-09-24T21:00:00Z', 'openrouter-faq@2026-09-24');
 
-INSERT INTO offering_revision (offering_id, channel_model_id, availability,
+INSERT INTO offering_revision (offering_id, availability,
   seller_org_id, vendor_relationship, discloses_upstream, valid_from, date_basis,
   recorded_at, source_id)
-VALUES ('fixture-relay/claude-opus-5-5', 'claude-opus-5-5', 'available',
+VALUES ('fixture-relay/claude-opus-5-5', 'available',
   'fixture-relay', 'self_declared_official', 0, '2026-09-01T00:00:00Z', 'inferred',
   '2026-09-24T21:00:00Z', 'fixture-constructed');
+INSERT INTO label_namespace (namespace_id, kind, channel_id)
+VALUES ('channel:fixture-relay', 'channel', 'fixture-relay') ON CONFLICT DO NOTHING;
+INSERT INTO model_identifier (namespace_id, kind, identifier, model_id,
+  offering_id, valid_from, date_basis, recorded_at, source_id)
+VALUES ('channel:fixture-relay', 'api_id', 'claude-opus-5-5', 'claude-opus-5-5',
+  'fixture-relay/claude-opus-5-5',
+  '2026-09-01T00:00:00Z', 'inferred', '2026-09-24T21:00:00Z',
+  'fixture-constructed');
 INSERT INTO pricing_rule (rule_key, channel_id, plan_id, kind, reference_channel_id)
 VALUES ('fixture-relay/default-group-markup', 'fixture-relay',
   'fixture-relay/default-group', 'markup', 'anthropic-api');

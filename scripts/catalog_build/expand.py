@@ -15,6 +15,7 @@ RULE_IDENTITY_COLUMNS = ("rule_key", "channel_id", "plan_id", "kind",
                          "reference_channel_id")
 PLAN_IDENTITY_COLUMNS = ("plan_id", "channel_id", "display_name")
 OFFERING_IDENTITY_COLUMNS = ("offering_id", "channel_id", "model_id", "variant")
+OFFERING_NAME_KINDS = {"channel_model_id": "api_id", "channel_model_name": "display_name"}
 
 
 class EntryError(ValueError):
@@ -203,10 +204,27 @@ def expand_offering(entry: Entry) -> list[tuple[str, dict]]:
     identity.setdefault("variant", "")
     identity.setdefault("offering_id", keys.offering_id(
         identity["channel_id"], identity["model_id"], identity["variant"]))
+    names, rest = split(rest, tuple(OFFERING_NAME_KINDS))
     rows = [("offering", identity)]
-    if rest:
+    if names:
+        rows += offering_names(entry, identity, names, rest)
+    if set(rest) - set(SCD2_DEFAULT_COLUMNS):
         rows.append(versioned(entry, "offering_revision",
                               {"offering_id": identity["offering_id"], **rest}))
+    return rows
+
+
+def offering_names(entry: Entry, identity: dict, names: dict,
+                   rest: dict) -> list[tuple[str, dict]]:
+    namespace_id = f"channel:{identity['channel_id']}"
+    rows = [("label_namespace", {"namespace_id": namespace_id, "kind": "channel",
+                                 "channel_id": identity["channel_id"]})]
+    period = {c: rest[c] for c in SCD2_DEFAULT_COLUMNS if c in rest}
+    for field, identifier in names.items():
+        rows.append(versioned(entry, "model_identifier", {
+            "namespace_id": namespace_id, "kind": OFFERING_NAME_KINDS[field],
+            "identifier": identifier, "model_id": identity["model_id"],
+            "offering_id": identity["offering_id"], **period}))
     return rows
 
 
@@ -243,7 +261,7 @@ HANDLERS = {
     "plan": expand_plan,
     "model_revision": expand_model_revision,
     "offering": expand_offering,
-    "model_alias": namespaced("model_alias"),
+    "model_identifier": namespaced("model_identifier"),
     "price_gap": namespaced("price_gap"),
     "supersede": expand_supersede,
 }

@@ -62,9 +62,9 @@ grain = "一个元信息版本 × 一个强度档；每个版本至多一个默�
 title = "客户端版本"
 grain = "一个客户端的一个版本"
 
-[model_alias]
-title = "别名"
-grain = "一个命名空间里一个标签的一个版本；持久键为 (namespace_id, alias)"
+[model_identifier]
+title = "模型标识"
+grain = "一个命名空间里一个名字的一个版本；持久键为 (namespace_id, kind, identifier)"
 
 [offering]
 title = "供给"

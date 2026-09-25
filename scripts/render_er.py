@@ -18,7 +18,7 @@ LAYERS = (
       "meter", "time_window")),
     ("模型与供给", "#EBFBEE", "#37B24D",
      ("model", "model_revision", "model_revision_modality", "model_revision_effort",
-      "client_revision", "model_alias", "offering", "offering_revision",
+      "client_revision", "model_identifier", "offering", "offering_revision",
       "offering_route")),
     ("商业条款", "#E6FCF5", "#0CA678",
      ("plan", "plan_revision", "plan_revision_client", "plan_allowance",

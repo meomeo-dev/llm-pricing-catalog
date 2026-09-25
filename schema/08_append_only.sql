@@ -159,25 +159,6 @@ BEGIN SELECT RAISE(ABORT, 'client_revision：版本行只允许补写一次 supe
 CREATE TRIGGER client_revision_no_delete BEFORE DELETE ON client_revision
 BEGIN SELECT RAISE(ABORT, 'client_revision：不允许删除，请以新版本或更正代替'); END;
 
--- model_alias
-CREATE TRIGGER model_alias_no_update BEFORE UPDATE ON model_alias
-  WHEN OLD.superseded_at IS NOT NULL
-     OR NEW.superseded_at IS NULL
-     OR OLD.model_alias_id IS NOT NEW.model_alias_id
-     OR OLD.namespace_id IS NOT NEW.namespace_id
-     OR OLD.alias IS NOT NEW.alias
-     OR OLD.model_id IS NOT NEW.model_id
-     OR OLD.implied_effort IS NOT NEW.implied_effort
-     OR OLD.implied_variant IS NOT NEW.implied_variant
-     OR OLD.valid_from IS NOT NEW.valid_from
-     OR OLD.valid_to IS NOT NEW.valid_to
-     OR OLD.date_basis IS NOT NEW.date_basis
-     OR OLD.recorded_at IS NOT NEW.recorded_at
-     OR OLD.source_id IS NOT NEW.source_id
-BEGIN SELECT RAISE(ABORT, 'model_alias：版本行只允许补写一次 superseded_at 与 supersede_reason'); END;
-CREATE TRIGGER model_alias_no_delete BEFORE DELETE ON model_alias
-BEGIN SELECT RAISE(ABORT, 'model_alias：不允许删除，请以新版本或更正代替'); END;
-
 -- offering
 CREATE TRIGGER offering_no_update BEFORE UPDATE ON offering
   WHEN OLD.offering_id IS NOT NEW.offering_id
@@ -188,13 +169,33 @@ BEGIN SELECT RAISE(ABORT, 'offering：只允许改写 Type 1 列（无）'); END
 CREATE TRIGGER offering_no_delete BEFORE DELETE ON offering
 BEGIN SELECT RAISE(ABORT, 'offering：不允许删除，请以新版本或更正代替'); END;
 
+-- model_identifier
+CREATE TRIGGER model_identifier_no_update BEFORE UPDATE ON model_identifier
+  WHEN OLD.superseded_at IS NOT NULL
+     OR NEW.superseded_at IS NULL
+     OR OLD.model_identifier_id IS NOT NEW.model_identifier_id
+     OR OLD.namespace_id IS NOT NEW.namespace_id
+     OR OLD.kind IS NOT NEW.kind
+     OR OLD.identifier IS NOT NEW.identifier
+     OR OLD.model_id IS NOT NEW.model_id
+     OR OLD.offering_id IS NOT NEW.offering_id
+     OR OLD.implied_effort IS NOT NEW.implied_effort
+     OR OLD.implied_variant IS NOT NEW.implied_variant
+     OR OLD.valid_from IS NOT NEW.valid_from
+     OR OLD.valid_to IS NOT NEW.valid_to
+     OR OLD.date_basis IS NOT NEW.date_basis
+     OR OLD.recorded_at IS NOT NEW.recorded_at
+     OR OLD.source_id IS NOT NEW.source_id
+BEGIN SELECT RAISE(ABORT, 'model_identifier：版本行只允许补写一次 superseded_at 与 supersede_reason'); END;
+CREATE TRIGGER model_identifier_no_delete BEFORE DELETE ON model_identifier
+BEGIN SELECT RAISE(ABORT, 'model_identifier：不允许删除，请以新版本或更正代替'); END;
+
 -- offering_revision
 CREATE TRIGGER offering_revision_no_update BEFORE UPDATE ON offering_revision
   WHEN OLD.superseded_at IS NOT NULL
      OR NEW.superseded_at IS NULL
      OR OLD.offering_revision_id IS NOT NEW.offering_revision_id
      OR OLD.offering_id IS NOT NEW.offering_id
-     OR OLD.channel_model_id IS NOT NEW.channel_model_id
      OR OLD.api_surface IS NOT NEW.api_surface
      OR OLD.availability IS NOT NEW.availability
      OR OLD.operator_org_id IS NOT NEW.operator_org_id

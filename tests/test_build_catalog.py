@@ -79,9 +79,10 @@ rates = { input = "3", output = "15" }
 tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.50" } }]
 excerpt = "Claude X | $3 / MTok | $15 / MTok"
 
-[[model_alias]]
+[[model_identifier]]
 client = "claude-code"
-alias = "claude-x[1m]"
+kind = "label"
+identifier = "claude-x[1m]"
 model_id = "claude-x"
 implied_variant = "[1m]"
 """
@@ -181,7 +182,7 @@ class AppendOnlyReplay(unittest.TestCase):
                          ("prices", PRICES.replace('output = "15"', 'output = "16"'))))
 
     def test_dropping_an_entry_is_rejected(self) -> None:
-        trimmed = PRICES[:PRICES.index("[[model_alias]]")]
+        trimmed = PRICES[:PRICES.index("[[model_identifier]]")]
         with self.assertRaises(database.BuildError):
             self.replay((("ref", REFERENCE), ("prices", PRICES)),
                         (("ref", REFERENCE), ("prices", trimmed)))

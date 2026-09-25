@@ -6,7 +6,8 @@ from catalog_harness import PRICE_AT_DEFAULTS, ROOT, open_catalog, price_at
 
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from query_price import lookup
+from query_price import fallback_query, lookup
+import model_search
 
 OPUS_QUERY = {"channel_id": "anthropic-api", "label": "claude-opus-5-5"}
 AT = "2026-09-24T12:00:00Z"
@@ -50,6 +51,16 @@ class QueryPrice(unittest.TestCase):
         output = next(rate for rate in card["rates"] if rate["meter_id"] == "output")
         self.assertEqual((output["amount"], output["per_quantity"], output["quantity_unit"]),
                          ("20", 1000000, "token"))
+
+    def test_fallback_uses_catalog_display_name_then_sole_channel(self) -> None:
+        db = open_catalog()
+        display = db.execute("SELECT display_name FROM model"
+                             " WHERE model_id = 'claude-opus-5-5'").fetchone()[0]
+        by_name = fallback_query(model_search.find_names(db, display, AT))
+        self.assertEqual(by_name[1], {"label": "claude-opus-5-5"})
+        by_channel = fallback_query(
+            model_search.find_names(db, "anthropic/claude-sonnet-4.6", AT))
+        self.assertEqual(by_channel[1], {"channel_id": "openrouter"})
 
 
 if __name__ == "__main__":

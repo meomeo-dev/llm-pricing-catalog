@@ -11,7 +11,7 @@ EXPECTED_TABLES = {
     "organization", "region", "channel", "client", "label_namespace", "billing_unit",
     "meter", "source", "time_window",
     "model", "model_revision", "model_revision_modality", "model_revision_effort",
-    "client_revision", "model_alias", "offering", "offering_revision", "offering_route",
+    "client_revision", "model_identifier", "offering", "offering_revision", "offering_route",
     "plan", "plan_revision", "plan_revision_client", "plan_allowance",
     "unit_rate_series", "unit_rate", "pricing_rule", "pricing_rule_revision",
     "pricing_rule_scope_model", "pricing_rule_scope_meter",

@@ -66,16 +66,18 @@ knowledge_cutoff = "2021-09-01"
 input_modalities = ["text"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-3.5-turbo"
+kind = "api_id"
+identifier = "gpt-3.5-turbo"
 model_id = "gpt-3.5-turbo-0125"
 valid_from = "2024-02-01T00:00:00Z"
 date_basis = "inferred"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-3.5-turbo-completions"
+kind = "api_id"
+identifier = "gpt-3.5-turbo-completions"
 model_id = "gpt-3.5-turbo-0125"
 valid_from = "2024-02-01T00:00:00Z"
 date_basis = "inferred"
@@ -118,23 +120,26 @@ lifecycle = "deprecated"
 deprecated_on = "2026-04-22"
 retires_on = "2026-10-23"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4"
+kind = "api_id"
+identifier = "gpt-4"
 model_id = "gpt-4-0613"
 valid_from = "2026-09-25T00:00:00Z"
 date_basis = "first_observed"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4-0613-completions"
+kind = "api_id"
+identifier = "gpt-4-0613-completions"
 model_id = "gpt-4-0613"
 valid_from = "2026-09-25T00:00:00Z"
 date_basis = "first_observed"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4-completions"
+kind = "api_id"
+identifier = "gpt-4-completions"
 model_id = "gpt-4-0613"
 valid_from = "2026-09-25T00:00:00Z"
 date_basis = "first_observed"
@@ -151,16 +156,18 @@ released_on = "2024-04-09"
 deprecated_on = "2026-04-22"
 retires_on = "2026-10-23"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4-turbo"
+kind = "api_id"
+identifier = "gpt-4-turbo"
 model_id = "gpt-4-turbo-2024-04-09"
 valid_from = "2024-04-09T00:00:00Z"
 date_basis = "inferred"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4-turbo-completions"
+kind = "api_id"
+identifier = "gpt-4-turbo-completions"
 model_id = "gpt-4-turbo-2024-04-09"
 valid_from = "2024-04-09T00:00:00Z"
 date_basis = "inferred"
@@ -181,9 +188,10 @@ reasoning = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4.1"
+kind = "api_id"
+identifier = "gpt-4.1"
 model_id = "gpt-4.1-2025-04-14"
 valid_from = "2025-04-14T00:00:00Z"
 date_basis = "inferred"
@@ -204,9 +212,10 @@ reasoning = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4.1-mini"
+kind = "api_id"
+identifier = "gpt-4.1-mini"
 model_id = "gpt-4.1-mini-2025-04-14"
 valid_from = "2025-04-14T00:00:00Z"
 date_basis = "inferred"
@@ -229,9 +238,10 @@ reasoning = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4.1-nano"
+kind = "api_id"
+identifier = "gpt-4.1-nano"
 model_id = "gpt-4.1-nano-2025-04-14"
 valid_from = "2025-04-14T00:00:00Z"
 date_basis = "inferred"
@@ -252,9 +262,10 @@ knowledge_cutoff = "2023-10-01"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4o"
+kind = "api_id"
+identifier = "gpt-4o"
 model_id = "gpt-4o-2024-08-06"
 valid_from = "2024-08-06T00:00:00Z"
 date_basis = "inferred"
@@ -285,9 +296,10 @@ knowledge_cutoff = "2023-10-01"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-4o-mini"
+kind = "api_id"
+identifier = "gpt-4o-mini"
 model_id = "gpt-4o-mini-2024-07-18"
 valid_from = "2024-07-18T00:00:00Z"
 date_basis = "inferred"
@@ -313,9 +325,10 @@ efforts = ["minimal", "low", "medium", "high"]
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5"
+kind = "api_id"
+identifier = "gpt-5"
 model_id = "gpt-5-2025-08-07"
 valid_from = "2025-08-07T00:00:00Z"
 date_basis = "inferred"
@@ -340,9 +353,10 @@ reasoning = "optional"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5-mini"
+kind = "api_id"
+identifier = "gpt-5-mini"
 model_id = "gpt-5-mini-2025-08-07"
 valid_from = "2025-08-07T00:00:00Z"
 date_basis = "inferred"
@@ -367,9 +381,10 @@ reasoning = "optional"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5-nano"
+kind = "api_id"
+identifier = "gpt-5-nano"
 model_id = "gpt-5-nano-2025-08-07"
 valid_from = "2025-08-07T00:00:00Z"
 date_basis = "inferred"
@@ -394,9 +409,10 @@ default_effort = "high"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5-pro"
+kind = "api_id"
+identifier = "gpt-5-pro"
 model_id = "gpt-5-pro-2025-10-06"
 valid_from = "2025-10-06T00:00:00Z"
 date_basis = "inferred"
@@ -429,9 +445,10 @@ default_effort = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.1"
+kind = "api_id"
+identifier = "gpt-5.1"
 model_id = "gpt-5.1-2025-11-13"
 valid_from = "2025-11-13T00:00:00Z"
 date_basis = "inferred"
@@ -455,9 +472,10 @@ default_effort = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.2"
+kind = "api_id"
+identifier = "gpt-5.2"
 model_id = "gpt-5.2-2025-12-11"
 valid_from = "2025-12-11T00:00:00Z"
 date_basis = "inferred"
@@ -478,9 +496,10 @@ efforts = ["medium", "high", "xhigh"]
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.2-pro"
+kind = "api_id"
+identifier = "gpt-5.2-pro"
 model_id = "gpt-5.2-pro-2025-12-11"
 valid_from = "2026-09-25T00:00:00Z"
 date_basis = "first_observed"
@@ -521,9 +540,10 @@ default_effort = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.4"
+kind = "api_id"
+identifier = "gpt-5.4"
 model_id = "gpt-5.4-2026-03-05"
 valid_from = "2026-03-05T00:00:00Z"
 date_basis = "inferred"
@@ -547,9 +567,10 @@ default_effort = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.4-mini"
+kind = "api_id"
+identifier = "gpt-5.4-mini"
 model_id = "gpt-5.4-mini-2026-03-17"
 valid_from = "2026-03-17T00:00:00Z"
 date_basis = "inferred"
@@ -573,9 +594,10 @@ default_effort = "none"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.4-nano"
+kind = "api_id"
+identifier = "gpt-5.4-nano"
 model_id = "gpt-5.4-nano-2026-03-17"
 valid_from = "2026-03-17T00:00:00Z"
 date_basis = "inferred"
@@ -598,9 +620,10 @@ default_effort = "medium"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.4-pro"
+kind = "api_id"
+identifier = "gpt-5.4-pro"
 model_id = "gpt-5.4-pro-2026-03-05"
 valid_from = "2026-03-05T00:00:00Z"
 date_basis = "inferred"
@@ -623,9 +646,10 @@ default_effort = "medium"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.5"
+kind = "api_id"
+identifier = "gpt-5.5"
 model_id = "gpt-5.5-2026-04-23"
 valid_from = "2026-04-24T00:00:00Z"
 date_basis = "inferred"
@@ -657,9 +681,10 @@ default_effort = "high"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.5-pro"
+kind = "api_id"
+identifier = "gpt-5.5-pro"
 model_id = "gpt-5.5-pro-2026-04-23"
 valid_from = "2026-04-24T00:00:00Z"
 date_basis = "inferred"
@@ -719,9 +744,10 @@ default_effort = "medium"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "gpt-5.6"
+kind = "api_id"
+identifier = "gpt-5.6"
 model_id = "gpt-5.6-sol"
 valid_from = "2026-07-09T00:00:00Z"
 date_basis = "official_effective"
@@ -831,9 +857,10 @@ reasoning = "optional"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "o1"
+kind = "api_id"
+identifier = "o1"
 model_id = "o1-2024-12-17"
 valid_from = "2024-12-17T00:00:00Z"
 date_basis = "inferred"
@@ -856,9 +883,10 @@ knowledge_cutoff = "2023-10-01"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "o1-pro"
+kind = "api_id"
+identifier = "o1-pro"
 model_id = "o1-pro-2025-03-19"
 valid_from = "2025-03-19T00:00:00Z"
 date_basis = "inferred"
@@ -881,9 +909,10 @@ knowledge_cutoff = "2024-06-01"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "o3"
+kind = "api_id"
+identifier = "o3"
 model_id = "o3-2025-04-16"
 valid_from = "2025-04-16T00:00:00Z"
 date_basis = "inferred"
@@ -905,9 +934,10 @@ knowledge_cutoff = "2023-10-01"
 input_modalities = ["text"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "o3-mini"
+kind = "api_id"
+identifier = "o3-mini"
 model_id = "o3-mini-2025-01-31"
 valid_from = "2025-01-31T00:00:00Z"
 date_basis = "inferred"
@@ -930,9 +960,10 @@ knowledge_cutoff = "2024-06-01"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "o3-pro"
+kind = "api_id"
+identifier = "o3-pro"
 model_id = "o3-pro-2025-06-10"
 valid_from = "2025-06-10T00:00:00Z"
 date_basis = "inferred"
@@ -955,9 +986,10 @@ knowledge_cutoff = "2024-06-01"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openai-api"
-alias = "o4-mini"
+kind = "api_id"
+identifier = "o4-mini"
 model_id = "o4-mini-2025-04-16"
 valid_from = "2025-04-16T00:00:00Z"
 date_basis = "inferred"

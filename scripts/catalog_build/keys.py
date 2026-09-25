@@ -4,7 +4,7 @@ DURABLE_KEY_COLUMNS = {
     "price_card": ("price_series_id",),
     "model_revision": ("model_id",),
     "client_revision": ("client_id",),
-    "model_alias": ("namespace_id", "alias"),
+    "model_identifier": ("namespace_id", "kind", "identifier"),
     "offering_revision": ("offering_id",),
     "offering_route": ("offering_id", "upstream_offering_id"),
     "plan_revision": ("plan_id",),

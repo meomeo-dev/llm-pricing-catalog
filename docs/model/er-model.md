@@ -2,7 +2,7 @@
 
 价格目录回答一个问题：**某模型在某渠道、某时刻的单价是多少，出处是哪一页**。
 模型按数仓的缓慢变化维度第 2 型（SCD2）组织：价格、模型元信息、上架状态、上游路由、
-别名、套餐、单位价值、计价规则都是随时间变化的维度，每次变化新增一行，不覆盖旧行，
+模型名、套餐、单位价值、计价规则都是随时间变化的维度，每次变化新增一行，不覆盖旧行，
 因此任意历史时刻都能查到当时的取值。
 
 这些表是**时态参考数据**（费率维度），不是事实表。事实是消费方的用量：
@@ -42,7 +42,7 @@
 | | `client_revision` | 客户端的一个版本（参照渠道） | SCD2 |
 | 模型与供给 | `model` `offering` | 一个模型；渠道 × 模型 × 托管变体 | 身份表 |
 | | `model_revision` + `_modality` `_effort` | 模型的一个元信息版本及其多值子项 | SCD2 |
-| | `model_alias` | 命名空间内一个标签的一个版本 | SCD2 |
+| | `model_identifier` | 命名空间内一个名字的一个版本 | SCD2 |
 | | `offering_revision` `offering_route` | 供给的一个版本；一对上下游的一个版本 | SCD2 |
 | 商业条款 | `plan` `pricing_rule` `unit_rate_series` | 一个套餐；一条规则；一种单位价值口径 | 身份表 |
 | | `plan_revision` + `_client` `plan_allowance` | 套餐的一个版本及其子项 | SCD2 |
@@ -94,11 +94,34 @@ Claude 走 Bedrock（`sole`），OpenRouter 在多个上游之间分流（`load_
 对应的路由（`v_card_upstream_without_route`）。单次请求实际命中哪个上游，
 是用量侧的观测事实，不在目录里推断。
 
-**模型与别名分开。** `model_id` 取厂商规范 API ID，带日期的固定快照各算一个模型。
-浮动名、数字标签、把强度写进名字的标签都是 `model_alias`。渠道自己的路由伪模型
-（Auto、Poe `assistant`）是 `model.kind = 'router'` 的模型，只能在其所有者的渠道上供给。
-别名与价格缺口挂在**标签命名空间**（`label_namespace`）上，它是渠道与客户端的超类型，
-取代"渠道或客户端二选一"的排他弧。
+**模型与名字分开。** `model_id` 取厂商规范 API ID，是模型的持久键，带日期的固定快照各算
+一个模型。渠道自己的路由伪模型（如 Auto）是 `model.kind = 'router'` 的模型，只能在其所有者
+的渠道上供给。名字与价格缺口挂在**标签命名空间**（`label_namespace`）上，它是渠道与客户端
+的超类型，取代"渠道或客户端二选一"的排他弧。
+
+## 模型标识
+
+同一个模型在各处叫法不同，而且会变：渠道 API 用自己的写法（`anthropic.claude-opus-5-5`、
+`openai/gpt-5`、`claude-haiku-4-5@20251001`），订阅与工具的界面只显示名称（`Claude Opus 5`），
+客户端与用量日志又有自己的标签（`agy-model:1298`、`claude-opus-5[1m]`）。这些名字都存在
+`model_identifier`，这是名字唯一的存放处：一行是某命名空间里的一个名字在一段时间内
+指向哪个模型（渠道命名空间里还指向具体供给）。
+
+| `kind` | 含义 | 例 |
+|---|---|---|
+| `api_id` | 渠道 API 里可调用的模型 ID，含浮动名 | `anthropic.claude-opus-5-5`、`gpt-5` |
+| `display_name` | 渠道界面或文档里的显示名 | Copilot 的 `Claude Opus 5` |
+| `label` | 客户端或用量日志里的标签 | `agy-model:1298` |
+
+- **改名**：旧名字的行结束（`valid_to`），新名字的行开始；浮动名换指向同理。任意时刻
+  用当时的名字都能解析，改名前后的用量都能对上同一个模型。
+- **解析唯一**：同一命名空间里，同一个名字在同一时刻只能指向一个模型或供给
+  （`v_identifier_ambiguous`）；指向的供给必须属于该命名空间的渠道
+  （`v_identifier_offering_mismatch`）。
+- **精确解析，宽松搜索**：查价按名字原文精确解析；`identifier_key` 是宽松匹配键（小写，
+  空格、下划线与点号统一为连字符），只用于搜索候选，不参与查价。
+- 录入时，供给条目里的 `channel_model_id` / `channel_model_name` 展开为该供给的 `api_id` /
+  `display_name`；其余名字用 `[[model_identifier]]` 条目录入。
 
 ## 计价：单位、价目卡与规则
 
@@ -205,6 +228,8 @@ $3 / $15。
 | 相对倍率不能以法币计价 | 视图 `v_relative_rate_in_fiat` |
 | `primary` 佐证与卡的主来源一致 | 视图 `v_primary_evidence_mismatch` + 唯一索引 |
 | 路由伪模型只在所有者渠道上供给 | 视图 `v_router_outside_owner` |
+| 同一命名空间里同一名字同一时刻只指向一个模型或供给 | 视图 `v_identifier_ambiguous` |
+| 模型名指向的供给属于该命名空间的渠道 | 视图 `v_identifier_offering_mismatch` |
 | 供给、价格系列、单位价值系列的 ID 与各组成列一致 | 表级 CHECK |
 | 供给与套餐属于价格系列、规则、单位价值系列所在渠道 | 复合外键 `(…, channel_id)` |
 | 地域、来源发布方取自字典 | 外键 `region`、`organization` |
@@ -220,18 +245,40 @@ $3 / $15。
 
 ## 查询
 
-`price_at.sql`：按渠道（或客户端在该时刻的参照渠道）、模型标签、业务时刻查价。
-依次确定渠道 → 解析别名（客户端命名空间优先）→ 选价目卡（套餐专属系列优先）→
-选长上下文阶梯。
+`price_at.sql`：按渠道（或客户端在该时刻的参照渠道）、模型名、业务时刻查价。
+依次确定渠道 → 按 `model_identifier` 精确解析模型名（客户端命名空间优先）→ 选价目卡
+（套餐专属系列优先）→ 选长上下文阶梯。
 返回多张卡说明参数不足以唯一确定价格，调用方应补全参数。计价时段（如 DeepSeek 高峰）
 需要时区、星期与节假日历判定，由调用方完成后传入 `window_id`。
 
 `unit_value_at.sql`：把一个计费单位换算成另一个，列出全部路径与每跳口径。
 
+`10_query_views.sql`：`price_history` / `price_current` 是价格宽表，
+`model_identifier_lookup` / `model_identifier_current` 是模型名对照。
+`scripts/query_price.py` 封装 `price_at.sql`，`--search` 按宽松匹配键搜索模型名。
+
 **消费契约。** 消费方在装载用量时调用 `price_at.sql`，把返回的 `price_card_id`
 （与需要时的 `unit_rate_id`）存进用量事实行，这就是装载时的代理键查找。之后重算成本
 按该键取价，不再按时间重新解析；目录里后来的更正不会悄悄改变已结算的成本，
 需要重算时显式传 `known_at`。
+
+## 数仓视角
+
+目录是价格与模型的**一致性维度**（conformed dimensions），供各消费方的用量事实共用。
+
+| 数仓角色 | 本模型 | 说明 |
+|---|---|---|
+| 一致性维度 | `model`、`channel`、`offering`、`meter`、`region`、`billing_unit` | 持久键是自然键，跨消费方一致 |
+| 缓变维度 | 各 `*_revision`、`price_card`、`unit_rate`、`model_identifier` | SCD2，另带记录时间，可回放当时的认知 |
+| 键映射（key map） | `model_identifier`，视图 `model_identifier_lookup` | 外部名字 + 命名空间 + 时刻 → `model_id` / `offering_id` |
+| 费率（参考事实） | `price_rate`，粒度为卡 × 计价项 × 阶梯下界 | 单价不可加总 |
+| 宽表 | 视图 `price_history`、`price_current` | 价格与维度属性展开，供直接查询与导出 |
+
+用量装载的标准路径：用量行带着模型名、渠道或客户端、发生时刻；先按
+`model_identifier_lookup` 做时点查找（as-of lookup）得到 `model_id`，再调用 `price_at.sql`
+取 `price_card_id` 存入事实行。名字在目录里查不到时，登记 `price_gap`，不猜相近的模型。
+`model_identifier_lookup` 另含目录自身的名字（规范模型 ID 与展示名，`namespace_kind =
+'catalog'`），便于把只写了厂商展示名的数据对上模型。
 
 ## 暂不建模
 

@@ -2163,185 +2163,208 @@ valid_from = "2025-08-21T00:00:00Z"
 date_basis = "inferred"
 rates = { input = "0.55", output = "2.2", cache_read = "0.138" }
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "anthropic/claude-opus-4.8-fast"
+kind = "api_id"
+identifier = "anthropic/claude-opus-4.8-fast"
 model_id = "claude-opus-4-8"
 implied_variant = "fast"
 valid_from = "2026-05-28T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "anthropic/claude-opus-5-fast"
+kind = "api_id"
+identifier = "anthropic/claude-opus-5-fast"
 model_id = "claude-opus-5"
 implied_variant = "fast"
 valid_from = "2026-07-24T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "anthropic/claude-opus-5.5-fast"
+kind = "api_id"
+identifier = "anthropic/claude-opus-5.5-fast"
 model_id = "claude-opus-5-5"
 implied_variant = "fast"
 valid_from = "2026-09-22T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-4.1-fast"
+kind = "api_id"
+identifier = "openai/gpt-4.1-fast"
 model_id = "gpt-4.1-2025-04-14"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-4.1-mini-fast"
+kind = "api_id"
+identifier = "openai/gpt-4.1-mini-fast"
 model_id = "gpt-4.1-mini-2025-04-14"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-4.1-nano-fast"
+kind = "api_id"
+identifier = "openai/gpt-4.1-nano-fast"
 model_id = "gpt-4.1-nano-2025-04-14"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-4o-fast"
+kind = "api_id"
+identifier = "openai/gpt-4o-fast"
 model_id = "gpt-4o-2024-08-06"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-4o-mini-fast"
+kind = "api_id"
+identifier = "openai/gpt-4o-mini-fast"
 model_id = "gpt-4o-mini-2024-07-18"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5-fast"
+kind = "api_id"
+identifier = "openai/gpt-5-fast"
 model_id = "gpt-5-2025-08-07"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5-mini-fast"
+kind = "api_id"
+identifier = "openai/gpt-5-mini-fast"
 model_id = "gpt-5-mini-2025-08-07"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.2-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.2-fast"
 model_id = "gpt-5.2-2025-12-11"
 implied_variant = "fast"
 valid_from = "2025-12-11T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.3-codex-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.3-codex-fast"
 model_id = "gpt-5.3-codex"
 implied_variant = "fast"
 valid_from = "2026-02-05T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.4-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.4-fast"
 model_id = "gpt-5.4-2026-03-05"
 implied_variant = "fast"
 valid_from = "2026-03-05T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.4-mini-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.4-mini-fast"
 model_id = "gpt-5.4-mini-2026-03-17"
 implied_variant = "fast"
 valid_from = "2026-03-17T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.5-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.5-fast"
 model_id = "gpt-5.5-2026-04-23"
 implied_variant = "fast"
 valid_from = "2026-04-24T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.6-luna-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.6-luna-fast"
 model_id = "gpt-5.6-luna"
 implied_variant = "fast"
 valid_from = "2026-07-09T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.6-sol-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.6-sol-fast"
 model_id = "gpt-5.6-sol"
 implied_variant = "fast"
 valid_from = "2026-07-09T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-5.6-terra-fast"
+kind = "api_id"
+identifier = "openai/gpt-5.6-terra-fast"
 model_id = "gpt-5.6-terra"
 implied_variant = "fast"
 valid_from = "2026-07-09T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-6-astra-fast"
+kind = "api_id"
+identifier = "openai/gpt-6-astra-fast"
 model_id = "gpt-6-astra"
 implied_variant = "fast"
 valid_from = "2026-09-04T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-6-luna-fast"
+kind = "api_id"
+identifier = "openai/gpt-6-luna-fast"
 model_id = "gpt-6-luna"
 implied_variant = "fast"
 valid_from = "2026-09-22T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/gpt-6-sol-fast"
+kind = "api_id"
+identifier = "openai/gpt-6-sol-fast"
 model_id = "gpt-6-sol"
 implied_variant = "fast"
 valid_from = "2026-09-22T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/o3-fast"
+kind = "api_id"
+identifier = "openai/o3-fast"
 model_id = "o3-2025-04-16"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "vercel-ai-gateway"
-alias = "openai/o4-mini-fast"
+kind = "api_id"
+identifier = "openai/o4-mini-fast"
 model_id = "o4-mini-2025-04-16"
 implied_variant = "fast"
 valid_from = "2025-08-21T00:00:00Z"

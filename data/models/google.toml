@@ -48,9 +48,10 @@ model_id = "gemini-3.5-flash"
 lifecycle = "ga"
 released_on = "2026-05-19"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "gemini-api"
-alias = "gemini-flash-latest"
+kind = "api_id"
+identifier = "gemini-flash-latest"
 model_id = "gemini-3.5-flash"
 valid_from = "2026-05-19T00:00:00Z"
 date_basis = "official_effective"

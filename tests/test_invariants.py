@@ -8,6 +8,7 @@ INVARIANT_VIEWS = (
     "v_route_within_channel", "v_card_upstream_without_route",
     "v_derived_card_rule_mismatch", "v_relative_rate_in_fiat",
     "v_primary_evidence_mismatch", "v_router_outside_owner",
+    "v_identifier_offering_mismatch", "v_identifier_ambiguous",
 )
 OPUS_SERIES = "anthropic-api/claude-opus-5-5/standard/global/USD"
 OPUS_CARD = 101

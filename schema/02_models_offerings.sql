@@ -85,11 +85,26 @@ CREATE TABLE client_revision (
   CHECK ((superseded_at IS NULL) = (supersede_reason IS NULL))
 ) STRICT;
 
-CREATE TABLE model_alias (
-  model_alias_id   INTEGER PRIMARY KEY,
-  namespace_id     TEXT NOT NULL REFERENCES label_namespace,
-  alias            TEXT NOT NULL,
+CREATE TABLE offering (
+  offering_id      TEXT PRIMARY KEY,
+  channel_id       TEXT NOT NULL REFERENCES channel,
   model_id         TEXT NOT NULL REFERENCES model,
+  variant          TEXT NOT NULL DEFAULT '',
+  UNIQUE (channel_id, model_id, variant),
+  UNIQUE (offering_id, channel_id),
+  CHECK (offering_id = channel_id || '/' || model_id
+         || CASE WHEN variant = '' THEN '' ELSE '@' || variant END)
+) STRICT;
+
+CREATE TABLE model_identifier (
+  model_identifier_id INTEGER PRIMARY KEY,
+  namespace_id     TEXT NOT NULL REFERENCES label_namespace,
+  kind             TEXT NOT NULL CHECK (kind IN ('api_id', 'display_name', 'label')),
+  identifier       TEXT NOT NULL CHECK (identifier <> ''),
+  identifier_key   TEXT GENERATED ALWAYS AS (lower(replace(replace(replace(
+                     identifier, ' ', '-'), '_', '-'), '.', '-'))) VIRTUAL,
+  model_id         TEXT NOT NULL REFERENCES model,
+  offering_id      TEXT REFERENCES offering,
   implied_effort   TEXT,
   implied_variant  TEXT,
   valid_from       TEXT NOT NULL CHECK (valid_from GLOB
@@ -111,21 +126,9 @@ CREATE TABLE model_alias (
   CHECK ((superseded_at IS NULL) = (supersede_reason IS NULL))
 ) STRICT;
 
-CREATE TABLE offering (
-  offering_id      TEXT PRIMARY KEY,
-  channel_id       TEXT NOT NULL REFERENCES channel,
-  model_id         TEXT NOT NULL REFERENCES model,
-  variant          TEXT NOT NULL DEFAULT '',
-  UNIQUE (channel_id, model_id, variant),
-  UNIQUE (offering_id, channel_id),
-  CHECK (offering_id = channel_id || '/' || model_id
-         || CASE WHEN variant = '' THEN '' ELSE '@' || variant END)
-) STRICT;
-
 CREATE TABLE offering_revision (
   offering_revision_id INTEGER PRIMARY KEY,
   offering_id      TEXT NOT NULL REFERENCES offering,
-  channel_model_id TEXT NOT NULL,
   api_surface      TEXT,
   availability     TEXT NOT NULL CHECK (availability IN (
                      'available', 'limited', 'extended_access', 'retired')),

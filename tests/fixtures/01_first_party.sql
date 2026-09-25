@@ -80,9 +80,9 @@ INSERT INTO model_revision_effort (model_revision_id, effort) VALUES
   (101, 'none'), (101, 'low'), (101, 'medium'), (101, 'high'), (101, 'xhigh'),
   (101, 'max');
 
-INSERT INTO model_alias (namespace_id, alias, model_id, implied_effort, valid_from,
-  date_basis, recorded_at, source_id)
-VALUES ('client:agy', 'gemini-3.8-flash-high', 'gemini-3.8-flash', 'high',
+INSERT INTO model_identifier (namespace_id, kind, identifier, model_id, implied_effort,
+  valid_from, date_basis, recorded_at, source_id)
+VALUES ('client:agy', 'label', 'gemini-3.8-flash-high', 'gemini-3.8-flash', 'high',
   '2026-09-01T00:00:00Z', 'first_observed', '2026-09-24T00:00:00Z',
   'fixture-constructed');
 

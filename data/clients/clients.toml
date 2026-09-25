@@ -41,104 +41,124 @@ display_name = "Pi"
 [[client_revision]]
 client_id = "pi"
 
-[[model_alias]]
+[[model_identifier]]
 client = "claude-code"
-alias = "claude-opus-4-8[1m]"
+kind = "label"
+identifier = "claude-opus-4-8[1m]"
 model_id = "claude-opus-4-8"
 
-[[model_alias]]
+[[model_identifier]]
 client = "claude-code"
-alias = "claude-opus-4.8"
+kind = "label"
+identifier = "claude-opus-4.8"
 model_id = "claude-opus-4-8"
 
-[[model_alias]]
+[[model_identifier]]
 client = "claude-code"
-alias = "claude-opus-5[1m]"
+kind = "label"
+identifier = "claude-opus-5[1m]"
 model_id = "claude-opus-5"
 
-[[model_alias]]
+[[model_identifier]]
 client = "claude-code"
-alias = "claude-opus-5-thinking"
+kind = "label"
+identifier = "claude-opus-5-thinking"
 model_id = "claude-opus-5"
 
-[[model_alias]]
+[[model_identifier]]
 client = "opencode"
-alias = "claude-opus-4.8"
+kind = "label"
+identifier = "claude-opus-4.8"
 model_id = "claude-opus-4-8"
 
-[[model_alias]]
+[[model_identifier]]
 client = "opencode"
-alias = "gpt-5.6-pro"
+kind = "label"
+identifier = "gpt-5.6-pro"
 model_id = "gpt-5.6-sol"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "claude-opus-4-6-thinking"
+kind = "label"
+identifier = "claude-opus-4-6-thinking"
 model_id = "claude-opus-4-6"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.1-pro-low"
+kind = "label"
+identifier = "gemini-3.1-pro-low"
 model_id = "gemini-3.1-pro-preview"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.1-pro-high"
+kind = "label"
+identifier = "gemini-3.1-pro-high"
 model_id = "gemini-3.1-pro-preview"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.7-flash-low"
+kind = "label"
+identifier = "gemini-3.7-flash-low"
 model_id = "gemini-3.7-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.7-flash-medium"
+kind = "label"
+identifier = "gemini-3.7-flash-medium"
 model_id = "gemini-3.7-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.7-flash-high"
+kind = "label"
+identifier = "gemini-3.7-flash-high"
 model_id = "gemini-3.7-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.8-flash-low"
+kind = "label"
+identifier = "gemini-3.8-flash-low"
 model_id = "gemini-3.8-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "gemini-3.8-flash-high"
+kind = "label"
+identifier = "gemini-3.8-flash-high"
 model_id = "gemini-3.8-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "agy-model:1026"
+kind = "label"
+identifier = "agy-model:1026"
 model_id = "claude-opus-4-6"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "agy-model:1035"
+kind = "label"
+identifier = "agy-model:1035"
 model_id = "claude-sonnet-4-6"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "agy-model:1036"
+kind = "label"
+identifier = "agy-model:1036"
 model_id = "gemini-3.1-pro-preview"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "agy-model:1298"
+kind = "label"
+identifier = "agy-model:1298"
 model_id = "gemini-3.7-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "agy-model:1299"
+kind = "label"
+identifier = "agy-model:1299"
 model_id = "gemini-3.7-flash"
 
-[[model_alias]]
+[[model_identifier]]
 client = "agy"
-alias = "agy-model:1300"
+kind = "label"
+identifier = "agy-model:1300"
 model_id = "gemini-3.7-flash"
 
 [[price_gap]]

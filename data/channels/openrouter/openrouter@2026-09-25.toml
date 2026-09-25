@@ -870,16 +870,18 @@ billing_org_id = "openrouter"
 vendor_relationship = "disclosed_reseller"
 discloses_upstream = 1
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openrouter"
-alias = "openai/gpt-4o-2024-08-06"
+kind = "api_id"
+identifier = "openai/gpt-4o-2024-08-06"
 model_id = "gpt-4o-2024-08-06"
 valid_from = "2024-08-06T00:00:00Z"
 date_basis = "official_effective"
 
-[[model_alias]]
+[[model_identifier]]
 channel = "openrouter"
-alias = "openai/gpt-4o-mini-2024-07-18"
+kind = "api_id"
+identifier = "openai/gpt-4o-mini-2024-07-18"
 model_id = "gpt-4o-mini-2024-07-18"
 valid_from = "2024-07-18T00:00:00Z"
 date_basis = "official_effective"

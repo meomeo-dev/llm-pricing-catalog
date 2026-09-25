@@ -79,9 +79,10 @@ reasoning = "optional"
 input_modalities = ["text", "image"]
 output_modalities = ["text"]
 
-[[model_alias]]
+[[model_identifier]]
 channel = "anthropic-api"
-alias = "claude-haiku-4-5"
+kind = "api_id"
+identifier = "claude-haiku-4-5"
 model_id = "claude-haiku-4-5-20251001"
 valid_from = "2025-10-15T00:00:00Z"
 date_basis = "inferred"

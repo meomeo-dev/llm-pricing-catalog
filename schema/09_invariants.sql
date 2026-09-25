@@ -12,9 +12,10 @@ WITH spans AS (
          valid_from, valid_to, recorded_at, superseded_at
     FROM client_revision
   UNION ALL
-  SELECT 'model_alias', model_alias_id, namespace_id || '|' || alias,
+  SELECT 'model_identifier', model_identifier_id,
+         namespace_id || '|' || kind || '|' || identifier,
          valid_from, valid_to, recorded_at, superseded_at
-    FROM model_alias
+    FROM model_identifier
   UNION ALL
   SELECT 'offering_revision', offering_revision_id, offering_id,
          valid_from, valid_to, recorded_at, superseded_at
@@ -115,3 +116,23 @@ SELECT o.offering_id
   JOIN model m ON m.model_id = o.model_id
   JOIN channel ch ON ch.channel_id = o.channel_id
  WHERE m.kind = 'router' AND ch.owner_org_id <> m.vendor_org_id;
+
+CREATE VIEW v_identifier_offering_mismatch AS
+SELECT i.model_identifier_id, i.namespace_id, i.identifier, i.offering_id
+  FROM model_identifier i
+  JOIN label_namespace n ON n.namespace_id = i.namespace_id
+  JOIN offering o ON o.offering_id = i.offering_id
+ WHERE n.channel_id IS NULL OR o.channel_id <> n.channel_id OR o.model_id <> i.model_id;
+
+CREATE VIEW v_identifier_ambiguous AS
+SELECT a.namespace_id, a.identifier,
+       a.model_identifier_id AS first_row, b.model_identifier_id AS second_row
+  FROM model_identifier a
+  JOIN model_identifier b
+    ON b.namespace_id = a.namespace_id AND b.identifier = a.identifier
+   AND b.model_identifier_id > a.model_identifier_id
+ WHERE (a.model_id <> b.model_id OR a.offering_id IS NOT b.offering_id)
+   AND a.valid_from < coalesce(b.valid_to, '9999-12-31T00:00:00Z')
+   AND b.valid_from < coalesce(a.valid_to, '9999-12-31T00:00:00Z')
+   AND a.recorded_at < coalesce(b.superseded_at, '9999-12-31T00:00:00Z')
+   AND b.recorded_at < coalesce(a.superseded_at, '9999-12-31T00:00:00Z');

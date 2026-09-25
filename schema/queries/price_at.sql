@@ -15,17 +15,17 @@ requested AS (
 ),
 resolved AS (
   SELECT coalesce(
-    (SELECT a.model_id
-       FROM model_alias a
-       JOIN label_namespace n ON n.namespace_id = a.namespace_id, known, requested
-      WHERE a.alias = :label
+    (SELECT i.model_id
+       FROM model_identifier i
+       JOIN label_namespace n ON n.namespace_id = i.namespace_id, known, requested
+      WHERE i.identifier = :label
         AND (n.client_id = :client_id OR n.channel_id = requested.channel_id
              OR (requested.channel_id IS NULL
                  AND n.channel_id IN (SELECT channel_id FROM channel
                                        WHERE kind = 'first_party_api')))
-        AND a.valid_from <= :at AND (a.valid_to IS NULL OR :at < a.valid_to)
-        AND a.recorded_at <= known.t
-        AND (a.superseded_at IS NULL OR a.superseded_at > known.t)
+        AND i.valid_from <= :at AND (i.valid_to IS NULL OR :at < i.valid_to)
+        AND i.recorded_at <= known.t
+        AND (i.superseded_at IS NULL OR i.superseded_at > known.t)
       ORDER BY n.kind = 'channel'
       LIMIT 1),
     :label) AS model_id
