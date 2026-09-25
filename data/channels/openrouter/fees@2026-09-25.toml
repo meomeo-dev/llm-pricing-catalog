@@ -1,0 +1,20 @@
+[defaults]
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-09-25T00:00:00Z"
+source_id = "openrouter-faq@2026-09-25"
+
+[[unit_rate]]
+unit_id = "openrouter-credit"
+value_unit_id = "USD"
+rate_kind = "top_up"
+channel_id = "openrouter"
+value_amount = "1.055"
+
+[[pricing_rule]]
+rule_key = "openrouter/byok-fee"
+channel_id = "openrouter"
+kind = "byok_fee"
+factor = "0.05"
+free_allowance = "25000"
+source_id = "openrouter-byok@2026-09-25"

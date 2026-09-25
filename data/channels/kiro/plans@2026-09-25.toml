@@ -1,0 +1,518 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+
+[[plan]]
+plan_id = "kiro-free"
+channel_id = "kiro"
+display_name = "Kiro Free"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+allowances = [{ pool = "default", unit_id = "kiro-credit", refresh_window = "month", quantity = "50" }]
+
+[[plan]]
+plan_id = "kiro-pro"
+channel_id = "kiro"
+display_name = "Kiro Pro"
+price_amount = "20"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+allowances = [{ pool = "default", unit_id = "kiro-credit", refresh_window = "month", quantity = "1000" }]
+
+[[plan]]
+plan_id = "kiro-pro-plus"
+channel_id = "kiro"
+display_name = "Kiro Pro+"
+price_amount = "40"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+allowances = [{ pool = "default", unit_id = "kiro-credit", refresh_window = "month", quantity = "2000" }]
+
+[[plan]]
+plan_id = "kiro-pro-max"
+channel_id = "kiro"
+display_name = "Kiro Pro Max"
+price_amount = "100"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+allowances = [{ pool = "default", unit_id = "kiro-credit", refresh_window = "month", quantity = "5000" }]
+
+[[plan]]
+plan_id = "kiro-power"
+channel_id = "kiro"
+display_name = "Kiro Power"
+price_amount = "200"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+allowances = [{ pool = "default", unit_id = "kiro-credit", refresh_window = "month", quantity = "10000" }]
+
+[[unit_rate]]
+unit_id = "kiro-credit"
+value_unit_id = "USD"
+rate_kind = "top_up"
+channel_id = "kiro"
+value_amount = "0.04"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+
+[[unit_rate]]
+unit_id = "kiro-credit"
+value_unit_id = "USD"
+rate_kind = "overage"
+channel_id = "kiro"
+value_amount = "0.04"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+
+[[unit_rate]]
+unit_id = "kiro-credit"
+value_unit_id = "USD"
+rate_kind = "included"
+channel_id = "kiro"
+plan_id = "kiro-pro"
+value_amount = "0.02"
+derivation = "derived_from_plan"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+
+[[unit_rate]]
+unit_id = "kiro-credit"
+value_unit_id = "USD"
+rate_kind = "included"
+channel_id = "kiro"
+plan_id = "kiro-pro-plus"
+value_amount = "0.02"
+derivation = "derived_from_plan"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+
+[[unit_rate]]
+unit_id = "kiro-credit"
+value_unit_id = "USD"
+rate_kind = "included"
+channel_id = "kiro"
+plan_id = "kiro-pro-max"
+value_amount = "0.02"
+derivation = "derived_from_plan"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+
+[[unit_rate]]
+unit_id = "kiro-credit"
+value_unit_id = "USD"
+rate_kind = "included"
+channel_id = "kiro"
+plan_id = "kiro-power"
+value_amount = "0.02"
+derivation = "derived_from_plan"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-pricing@2026-09-25"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-fable-5-1"
+channel_model_id = "Claude Fable 5.1"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-haiku-4-5-20251001"
+channel_model_id = "Claude Haiku 4.5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-opus-4-5-20251101"
+channel_model_id = "Claude Opus 4.5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-opus-4-6"
+channel_model_id = "Claude Opus 4.6"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-opus-4-7"
+channel_model_id = "Claude Opus 4.7"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-opus-4-8"
+channel_model_id = "Claude Opus 4.8"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-opus-5"
+channel_model_id = "Claude Opus 5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-sonnet-4-20250514"
+channel_model_id = "Claude Sonnet 4.0"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-sonnet-4-5-20250929"
+channel_model_id = "Claude Sonnet 4.5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-sonnet-4-6"
+channel_model_id = "Claude Sonnet 4.6"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-sonnet-5"
+channel_model_id = "Claude Sonnet 5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "gpt-5.6-luna"
+channel_model_id = "GPT-5.6 Luna"
+availability = "available"
+valid_from = "2026-07-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "gpt-5.6-sol"
+channel_model_id = "GPT-5.6 Sol"
+availability = "available"
+valid_from = "2026-07-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "gpt-5.6-terra"
+channel_model_id = "GPT-5.6 Terra"
+availability = "available"
+valid_from = "2026-07-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-sol"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+context_tier_bound = "gt"
+rates = { relative_usage = "4.4" }
+tiers = [{ min_tokens = 272000, rates = { relative_usage = "8.8" } }]
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-terra"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+context_tier_bound = "gt"
+rates = { relative_usage = "2.2" }
+tiers = [{ min_tokens = 272000, rates = { relative_usage = "4.4" } }]
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+context_tier_bound = "gt"
+rates = { relative_usage = "1.1" }
+tiers = [{ min_tokens = 272000, rates = { relative_usage = "2.2" } }]
+
+[[price_card]]
+offering_id = "kiro/claude-fable-5-1"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "6" }
+
+[[price_card]]
+offering_id = "kiro/claude-opus-5"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "2.2" }
+
+[[price_card]]
+offering_id = "kiro/claude-opus-4-8"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "2.2" }
+
+[[price_card]]
+offering_id = "kiro/claude-opus-4-7"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "2.2" }
+
+[[price_card]]
+offering_id = "kiro/claude-opus-4-6"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "2.2" }
+
+[[price_card]]
+offering_id = "kiro/claude-opus-4-5-20251101"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "2.2" }
+
+[[price_card]]
+offering_id = "kiro/claude-sonnet-5"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "1.3" }
+
+[[price_card]]
+offering_id = "kiro/claude-sonnet-4-6"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "1.3" }
+
+[[price_card]]
+offering_id = "kiro/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "1.3" }
+
+[[price_card]]
+offering_id = "kiro/claude-sonnet-4-20250514"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "1.3" }
+
+[[price_card]]
+offering_id = "kiro/claude-haiku-4-5-20251001"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "kiro-models@2026-09-25"
+rates = { relative_usage = "0.4" }
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-sol"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-07-14T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-09-14T00:00:00Z"
+source_id = "kiro-changelog-models@2026-09-25"
+rates = { relative_usage = "2.4" }
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-terra"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-07-14T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-07-31T00:00:00Z"
+source_id = "kiro-changelog-models@2026-09-25"
+rates = { relative_usage = "1.2" }
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-07-14T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-07-31T00:00:00Z"
+source_id = "kiro-changelog-models@2026-09-25"
+rates = { relative_usage = "0.6" }
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-terra"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-07-31T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-09-14T00:00:00Z"
+source_id = "kiro-changelog-models@2026-09-25"
+rates = { relative_usage = "1.0" }
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-07-31T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-09-14T00:00:00Z"
+source_id = "kiro-changelog-models@2026-09-25"
+rates = { relative_usage = "0.1" }
+
+[[price_gap]]
+channel = "kiro"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "rate:credits-per-task"
+reason = "public_price_unavailable"
+source_id = "kiro-models@2026-09-25"
+
+[[price_gap]]
+channel = "kiro"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:enterprise"
+reason = "public_price_unavailable"
+source_id = "kiro-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "kiro"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:annual"
+reason = "public_price_unavailable"
+source_id = "kiro-pricing@2026-09-25"

@@ -1,0 +1,72 @@
+[defaults]
+recorded_at = "2026-09-25T04:00:00Z"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "standard"
+valid_from = "2026-07-21T00:00:00Z"
+valid_to = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260810"
+rates = { input = "1.50", output = "7.50", cache_read = "0.15", cache_storage = "1.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260813", stance = "supports" }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "batch"
+valid_from = "2026-07-21T00:00:00Z"
+valid_to = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260810"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260813", stance = "supports" }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "flex"
+valid_from = "2026-07-21T00:00:00Z"
+valid_to = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260810"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260813", stance = "supports" }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "priority"
+valid_from = "2026-07-21T00:00:00Z"
+valid_to = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260810"
+rates = { input = "2.70", output = "13.50", cache_read = "0.27", cache_storage = "1.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260813", stance = "supports" }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-preview"
+service_tier = "standard"
+valid_from = "2026-07-30T00:00:00Z"
+valid_to = "2026-09-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260907"
+rates = { input = "2.00", output = "10.00", cache_read = "0.20", cache_storage = "1.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260909", stance = "supports" }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-preview"
+service_tier = "batch"
+valid_from = "2026-07-30T00:00:00Z"
+valid_to = "2026-09-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260907"
+rates = { input = "1.00", output = "5.00", cache_read = "0.10", cache_storage = "1.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260909", stance = "supports" }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-streaming-preview"
+service_tier = "standard"
+valid_from = "2026-07-30T00:00:00Z"
+valid_to = "2026-09-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@wb20260907"
+rates = { input = "2.00", output = "10.00" }
+evidence = [{ source_id = "gemini-pricing@wb20260909", stance = "supports" }]

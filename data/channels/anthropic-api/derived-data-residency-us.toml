@@ -1,0 +1,338 @@
+[defaults]
+recorded_at = "2026-09-25T07:00:00Z"
+
+[[pricing_rule]]
+rule_key = "anthropic-api/data-residency-us"
+channel_id = "anthropic-api"
+kind = "markup"
+factor = "1.1"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+scope_models = ["claude-opus-4-6", "claude-sonnet-4-6", "claude-opus-4-7", "claude-opus-4-8", "claude-opus-5", "claude-opus-5-5", "claude-sonnet-5", "claude-fable-5", "claude-fable-5-1", "claude-mythos-5", "claude-mythos-5-1"]
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5", service_tier = "batch", valid_from = "2026-06-09T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5", service_tier = "standard", valid_from = "2026-06-09T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-1"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-1", service_tier = "batch", valid_from = "2026-09-01T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-1"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.275", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-1", service_tier = "standard", valid_from = "2026-09-01T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-mythos-5", service_tier = "batch", valid_from = "2026-06-09T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-mythos-5", service_tier = "standard", valid_from = "2026-06-09T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-1"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-mythos-5-1", service_tier = "batch", valid_from = "2026-09-01T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-1"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.275", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-mythos-5-1", service_tier = "standard", valid_from = "2026-09-01T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-6"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "2.75", output = "13.75" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-6", service_tier = "batch", valid_from = "2026-02-05T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-6"
+service_tier = "fast"
+region_id = "us"
+valid_from = "2026-02-07T00:00:00Z"
+valid_to = "2026-06-29T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "33", output = "165" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-6", service_tier = "fast", valid_from = "2026-02-07T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-6"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-6", service_tier = "standard", valid_from = "2026-02-05T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-7"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "2.75", output = "13.75" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-7", service_tier = "batch", valid_from = "2026-04-16T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-7"
+service_tier = "fast"
+region_id = "us"
+valid_from = "2026-05-12T00:00:00Z"
+valid_to = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "33", output = "165" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-7", service_tier = "fast", valid_from = "2026-05-12T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-7"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-7", service_tier = "standard", valid_from = "2026-04-16T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-8"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "2.75", output = "13.75" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-8", service_tier = "batch", valid_from = "2026-05-28T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-8"
+service_tier = "fast"
+region_id = "us"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "11", output = "55" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-8", service_tier = "fast", valid_from = "2026-05-28T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-8"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-8", service_tier = "standard", valid_from = "2026-05-28T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-5"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "2.75", output = "13.75" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5", service_tier = "batch", valid_from = "2026-07-24T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-5"
+service_tier = "fast"
+region_id = "us"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "11", output = "55" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5", service_tier = "fast", valid_from = "2026-07-24T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5", service_tier = "standard", valid_from = "2026-07-24T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-5-5"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "2.2", output = "11" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5-5", service_tier = "batch", valid_from = "2026-09-22T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-5-5"
+service_tier = "fast"
+region_id = "us"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "8.8", output = "44" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5-5", service_tier = "fast", valid_from = "2026-09-22T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-5-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5", input = "4.4", output = "22" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5-5", service_tier = "standard", valid_from = "2026-09-22T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-4-6"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "1.65", output = "8.25" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-4-6", service_tier = "batch", valid_from = "2026-02-17T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125", input = "3.3", output = "16.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-4-6", service_tier = "standard", valid_from = "2026-02-17T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "1.1", output = "5.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5", service_tier = "batch", valid_from = "2026-06-30T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5", service_tier = "standard", valid_from = "2026-06-30T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }

@@ -1,0 +1,311 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+
+[[plan]]
+plan_id = "cursor-hobby"
+channel_id = "cursor"
+display_name = "Hobby"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-pricing@2026-09-25"
+
+[[plan]]
+plan_id = "cursor-pro"
+channel_id = "cursor"
+display_name = "Pro"
+price_amount = "20"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[plan]]
+plan_id = "cursor-pro-plus"
+channel_id = "cursor"
+display_name = "Pro Plus"
+price_amount = "60"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[plan]]
+plan_id = "cursor-ultra"
+channel_id = "cursor"
+display_name = "Ultra"
+price_amount = "200"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[plan]]
+plan_id = "cursor-teams-standard"
+channel_id = "cursor"
+display_name = "Teams Standard"
+price_amount = "40"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[plan]]
+plan_id = "cursor-teams-premium"
+channel_id = "cursor"
+display_name = "Teams Premium"
+price_amount = "120"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "claude-fable-5-1"
+channel_model_id = "Claude Fable 5.1"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "claude-opus-5-5"
+channel_model_id = "Claude Opus 5.5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "claude-sonnet-5"
+channel_model_id = "Claude Sonnet 5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "gemini-3.1-pro-preview"
+channel_model_id = "Gemini 3.1 Pro"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "gemini-3.8-flash"
+channel_model_id = "Gemini 3.8 Flash"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "gpt-5.6-luna"
+channel_model_id = "GPT-5.6 Luna"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "gpt-5.6-sol"
+channel_model_id = "GPT-5.6 Sol"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "gpt-5.6-terra"
+channel_model_id = "GPT-5.6 Terra"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[price_card]]
+offering_id = "cursor/claude-fable-5-1"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "10", cache_write_5m = "12.5", cache_read = "0.25", output = "50" }
+
+[[price_card]]
+offering_id = "cursor/claude-opus-5-5"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "4", cache_write_5m = "5", cache_read = "0.2", output = "20" }
+
+[[price_card]]
+offering_id = "cursor/claude-sonnet-5"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "2", cache_write_5m = "2.5", cache_read = "0.2", output = "10" }
+
+[[price_card]]
+offering_id = "cursor/gemini-3.1-pro-preview"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "2", cache_read = "0.2", output = "12" }
+
+[[price_card]]
+offering_id = "cursor/gemini-3.8-flash"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "0.75", cache_read = "0.075", output = "3.5" }
+
+[[price_card]]
+offering_id = "cursor/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "0.2", cache_write = "0.25", cache_read = "0.02", output = "1.2" }
+
+[[price_card]]
+offering_id = "cursor/gpt-5.6-sol"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "4", cache_write = "5", cache_read = "0.4", output = "20" }
+
+[[price_card]]
+offering_id = "cursor/gpt-5.6-terra"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-09-25"
+rates = { input = "2", cache_write = "2.5", cache_read = "0.2", output = "12" }
+
+[[pricing_rule]]
+channel_id = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+rule_key = "cursor/token-rate-teams-standard"
+plan_id = "cursor-teams-standard"
+kind = "additive"
+addend = "0.25"
+addend_unit_id = "USD"
+addend_meter_id = "input"
+scope_meters = ["input", "output", "cache_read", "cache_write", "cache_write_5m"]
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[pricing_rule]]
+channel_id = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+rule_key = "cursor/token-rate-teams-premium"
+plan_id = "cursor-teams-premium"
+kind = "additive"
+addend = "0.25"
+addend_unit_id = "USD"
+addend_meter_id = "input"
+scope_meters = ["input", "output", "cache_read", "cache_write", "cache_write_5m"]
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[pricing_rule]]
+channel_id = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+rule_key = "cursor/data-residency"
+kind = "markup"
+factor = "1.1"
+source_id = "cursor-docs-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:included-usage"
+reason = "public_price_unavailable"
+source_id = "cursor-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:annual"
+reason = "public_price_unavailable"
+source_id = "cursor-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:enterprise"
+reason = "public_price_unavailable"
+source_id = "cursor-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "rate:collapsed-models"
+reason = "public_price_unavailable"
+source_id = "cursor-docs-pricing@2026-09-25"

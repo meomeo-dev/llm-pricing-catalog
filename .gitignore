@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# 构建产物：由 scripts/build_catalog.py 生成
+build/
+# ER 图的位图预览，仓库里以 svg 为准
+docs/model/er-model.png

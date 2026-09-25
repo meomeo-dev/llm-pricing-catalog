@@ -1,0 +1,834 @@
+[defaults]
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "aws-bedrock-price-list@2026-09-25"
+
+[[offering]]
+valid_from = "2024-11-04T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-3-5-haiku-20241022"
+channel_model_id = "anthropic.claude-3-5-haiku-20241022-v1:0"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-fable-5"
+channel_model_id = "anthropic.claude-fable-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-fable-5-1"
+channel_model_id = "anthropic.claude-fable-5-1"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-haiku-4-5-20251001"
+channel_model_id = "anthropic.claude-haiku-4-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-mythos-5"
+channel_model_id = "anthropic.claude-mythos-5"
+api_surface = "bedrock-mantle"
+availability = "limited"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-mythos-5-1"
+channel_model_id = "anthropic.claude-mythos-5-1"
+api_surface = "bedrock-mantle"
+availability = "limited"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-08-05T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-4-1-20250805"
+channel_model_id = "anthropic.claude-opus-4-1-20250805-v1:0"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-4-20250514"
+channel_model_id = "anthropic.claude-opus-4-20250514-v1:0"
+api_surface = "bedrock-runtime"
+availability = "retired"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-4-5-20251101"
+channel_model_id = "anthropic.claude-opus-4-5-20251101-v1:0"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-4-6"
+channel_model_id = "anthropic.claude-opus-4-6-v1"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-4-7"
+channel_model_id = "anthropic.claude-opus-4-7"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-4-8"
+channel_model_id = "anthropic.claude-opus-4-8"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-5"
+channel_model_id = "anthropic.claude-opus-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-opus-5-5"
+channel_model_id = "anthropic.claude-opus-5-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-sonnet-4-20250514"
+channel_model_id = "anthropic.claude-sonnet-4-20250514-v1:0"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-sonnet-4-5-20250929"
+channel_model_id = "anthropic.claude-sonnet-4-5-20250929-v1:0"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-sonnet-4-6"
+channel_model_id = "anthropic.claude-sonnet-4-6"
+api_surface = "bedrock-runtime"
+availability = "available"
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-sonnet-5"
+channel_model_id = "anthropic.claude-sonnet-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-3-5-haiku-20241022"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2024-11-04T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.4", output = "2" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-3-5-haiku-20241022"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2024-11-04T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.4", output = "2" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-3-5-haiku-20241022"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2024-11-04T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.08", cache_write_5m = "1", input = "0.8", output = "4" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-3-5-haiku-20241022"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2024-11-04T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.08", cache_write_5m = "1", input = "0.8", output = "4" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5"
+service_tier = "standard"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-1"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.275", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-1"
+service_tier = "standard"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-1"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.275", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.55", output = "2.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+service_tier = "batch"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.5", output = "2.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.55", output = "2.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375", input = "1.1", output = "5.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+service_tier = "standard"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25", input = "1", output = "5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375", input = "1.1", output = "5.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-1"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.275", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-1"
+service_tier = "standard"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-1"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.275", cache_write_1h = "22", cache_write_5m = "13.75", input = "11", output = "55" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-1-20250805"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2025-08-05T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.5", cache_write_5m = "18.75", input = "15", output = "75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-1-20250805"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-08-05T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.5", cache_write_5m = "18.75", input = "15", output = "75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-20250514"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "7.5", output = "37.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-20250514"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "7.5", output = "37.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-20250514"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.5", cache_write_5m = "18.75", input = "15", output = "75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-20250514"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "1.5", cache_write_5m = "18.75", input = "15", output = "75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+service_tier = "batch"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.5", output = "12.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+service_tier = "standard"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-6"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-6"
+service_tier = "batch"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.5", output = "12.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-6"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-6"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-6"
+service_tier = "standard"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-6"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-7"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-7"
+service_tier = "standard"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-7"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-8"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-8"
+service_tier = "standard"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-4-8"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5"
+service_tier = "batch"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.5", output = "12.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5"
+service_tier = "standard"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5", input = "4.4", output = "22" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5-5"
+service_tier = "standard"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5", input = "4", output = "20" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-opus-5-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5", input = "4.4", output = "22" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.5", output = "7.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+service_tier = "batch"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.5", output = "7.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.5", output = "7.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.3", cache_write_5m = "3.75", input = "3", output = "15" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+service_tier = "standard"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.3", cache_write_5m = "3.75", input = "3", output = "15" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.3", cache_write_5m = "3.75", input = "3", output = "15" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.65", output = "8.25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+service_tier = "batch"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.5", output = "7.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.65", output = "8.25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125", input = "3.3", output = "16.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75", input = "3", output = "15" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125", input = "3.3", output = "16.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-6"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.65", output = "8.25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-6"
+service_tier = "batch"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.5", output = "7.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-6"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.65", output = "8.25" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125", input = "3.3", output = "16.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-6"
+service_tier = "standard"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75", input = "3", output = "15" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125", input = "3.3", output = "16.5" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5"
+service_tier = "standard"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5", input = "2", output = "10" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }

@@ -1,0 +1,963 @@
+[defaults]
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "openai-models@2026-09-25"
+
+[[model]]
+model_id = "babbage-002"
+vendor_org_id = "openai"
+display_name = "babbage-002"
+
+[[model_revision]]
+model_id = "babbage-002"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+max_output_tokens = 16384
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "chat-latest"
+vendor_org_id = "openai"
+display_name = "Chat Latest"
+
+[[model_revision]]
+model_id = "chat-latest"
+lifecycle = "ga"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "davinci-002"
+vendor_org_id = "openai"
+display_name = "davinci-002"
+
+[[model_revision]]
+model_id = "davinci-002"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+max_output_tokens = 16384
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-3.5-turbo-0125"
+vendor_org_id = "openai"
+display_name = "GPT-3.5 Turbo"
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-0125"
+lifecycle = "deprecated"
+released_on = "2024-02-01"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+context_window = 16385
+max_output_tokens = 4096
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-3.5-turbo"
+model_id = "gpt-3.5-turbo-0125"
+valid_from = "2024-02-01T00:00:00Z"
+date_basis = "inferred"
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-3.5-turbo-completions"
+model_id = "gpt-3.5-turbo-0125"
+valid_from = "2024-02-01T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-3.5-turbo-1106"
+vendor_org_id = "openai"
+display_name = "gpt-3.5-turbo-1106"
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-1106"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+
+[[model]]
+model_id = "gpt-3.5-turbo-instruct"
+vendor_org_id = "openai"
+display_name = "gpt-3.5-turbo-instruct"
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-instruct"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+context_window = 4096
+max_output_tokens = 4096
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-4-0613"
+vendor_org_id = "openai"
+display_name = "GPT-4"
+
+[[model_revision]]
+model_id = "gpt-4-0613"
+lifecycle = "deprecated"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4"
+model_id = "gpt-4-0613"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4-0613-completions"
+model_id = "gpt-4-0613"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4-completions"
+model_id = "gpt-4-0613"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "gpt-4-turbo-2024-04-09"
+vendor_org_id = "openai"
+display_name = "GPT-4 Turbo"
+
+[[model_revision]]
+model_id = "gpt-4-turbo-2024-04-09"
+lifecycle = "deprecated"
+released_on = "2024-04-09"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4-turbo"
+model_id = "gpt-4-turbo-2024-04-09"
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "inferred"
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4-turbo-completions"
+model_id = "gpt-4-turbo-2024-04-09"
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-4.1-2025-04-14"
+vendor_org_id = "openai"
+display_name = "GPT-4.1"
+
+[[model_revision]]
+model_id = "gpt-4.1-2025-04-14"
+lifecycle = "ga"
+released_on = "2025-04-14"
+context_window = 1047576
+max_output_tokens = 32768
+knowledge_cutoff = "2024-06-01"
+reasoning = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4.1"
+model_id = "gpt-4.1-2025-04-14"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-4.1-mini-2025-04-14"
+vendor_org_id = "openai"
+display_name = "GPT-4.1 Mini"
+
+[[model_revision]]
+model_id = "gpt-4.1-mini-2025-04-14"
+lifecycle = "ga"
+released_on = "2025-04-14"
+context_window = 1047576
+max_output_tokens = 32768
+knowledge_cutoff = "2024-06-01"
+reasoning = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4.1-mini"
+model_id = "gpt-4.1-mini-2025-04-14"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-4.1-nano-2025-04-14"
+vendor_org_id = "openai"
+display_name = "GPT-4.1 nano"
+
+[[model_revision]]
+model_id = "gpt-4.1-nano-2025-04-14"
+lifecycle = "deprecated"
+released_on = "2025-04-14"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+context_window = 1047576
+max_output_tokens = 32768
+knowledge_cutoff = "2024-06-01"
+reasoning = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4.1-nano"
+model_id = "gpt-4.1-nano-2025-04-14"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-4o-2024-08-06"
+vendor_org_id = "openai"
+family = "gpt-4o"
+display_name = "GPT-4o"
+
+[[model_revision]]
+model_id = "gpt-4o-2024-08-06"
+lifecycle = "ga"
+released_on = "2024-08-06"
+context_window = 128000
+max_output_tokens = 16384
+knowledge_cutoff = "2023-10-01"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4o"
+model_id = "gpt-4o-2024-08-06"
+valid_from = "2024-08-06T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-4o-2024-05-13"
+vendor_org_id = "openai"
+display_name = "gpt-4o-2024-05-13"
+
+[[model_revision]]
+model_id = "gpt-4o-2024-05-13"
+lifecycle = "deprecated"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+
+[[model]]
+model_id = "gpt-4o-mini-2024-07-18"
+vendor_org_id = "openai"
+display_name = "GPT-4o Mini"
+
+[[model_revision]]
+model_id = "gpt-4o-mini-2024-07-18"
+lifecycle = "ga"
+released_on = "2024-07-18"
+context_window = 128000
+max_output_tokens = 16384
+knowledge_cutoff = "2023-10-01"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-4o-mini"
+model_id = "gpt-4o-mini-2024-07-18"
+valid_from = "2024-07-18T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5-2025-08-07"
+vendor_org_id = "openai"
+family = "gpt-5"
+display_name = "GPT-5"
+
+[[model_revision]]
+model_id = "gpt-5-2025-08-07"
+lifecycle = "deprecated"
+released_on = "2025-08-07"
+deprecated_on = "2026-06-11"
+retires_on = "2026-12-11"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2024-09-30"
+reasoning = "optional"
+efforts = ["minimal", "low", "medium", "high"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5"
+model_id = "gpt-5-2025-08-07"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5-mini-2025-08-07"
+vendor_org_id = "openai"
+family = "gpt-5"
+display_name = "GPT-5 Mini"
+
+[[model_revision]]
+model_id = "gpt-5-mini-2025-08-07"
+lifecycle = "deprecated"
+released_on = "2025-08-07"
+deprecated_on = "2026-06-11"
+retires_on = "2026-12-11"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2024-05-31"
+reasoning = "optional"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5-mini"
+model_id = "gpt-5-mini-2025-08-07"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5-nano-2025-08-07"
+vendor_org_id = "openai"
+family = "gpt-5"
+display_name = "GPT-5 nano"
+
+[[model_revision]]
+model_id = "gpt-5-nano-2025-08-07"
+lifecycle = "deprecated"
+released_on = "2025-08-07"
+deprecated_on = "2026-06-11"
+retires_on = "2026-12-11"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2024-05-31"
+reasoning = "optional"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5-nano"
+model_id = "gpt-5-nano-2025-08-07"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5-pro-2025-10-06"
+vendor_org_id = "openai"
+display_name = "GPT-5 Pro"
+
+[[model_revision]]
+model_id = "gpt-5-pro-2025-10-06"
+lifecycle = "deprecated"
+released_on = "2025-10-06"
+deprecated_on = "2026-06-11"
+retires_on = "2026-12-11"
+context_window = 400000
+max_output_tokens = 272000
+knowledge_cutoff = "2024-09-30"
+reasoning = "always"
+efforts = ["high"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5-pro"
+model_id = "gpt-5-pro-2025-10-06"
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5-search-api"
+vendor_org_id = "openai"
+display_name = "gpt-5-search-api"
+
+[[model_revision]]
+model_id = "gpt-5-search-api"
+lifecycle = "ga"
+
+[[model]]
+model_id = "gpt-5.1-2025-11-13"
+vendor_org_id = "openai"
+family = "gpt-5"
+display_name = "GPT-5.1"
+
+[[model_revision]]
+model_id = "gpt-5.1-2025-11-13"
+lifecycle = "ga"
+released_on = "2025-11-13"
+context_window = 400000
+max_output_tokens = 128000
+knowledge_cutoff = "2024-09-30"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.1"
+model_id = "gpt-5.1-2025-11-13"
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.2-2025-12-11"
+vendor_org_id = "openai"
+family = "gpt-5"
+display_name = "GPT-5.2"
+
+[[model_revision]]
+model_id = "gpt-5.2-2025-12-11"
+lifecycle = "ga"
+released_on = "2025-12-11"
+context_window = 400000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.2"
+model_id = "gpt-5.2-2025-12-11"
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.2-pro-2025-12-11"
+vendor_org_id = "openai"
+display_name = "GPT-5.2 Pro"
+
+[[model_revision]]
+model_id = "gpt-5.2-pro-2025-12-11"
+lifecycle = "ga"
+context_window = 400000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["medium", "high", "xhigh"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.2-pro"
+model_id = "gpt-5.2-pro-2025-12-11"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "gpt-5.3-codex"
+vendor_org_id = "openai"
+display_name = "GPT-5.3-Codex"
+
+[[model_revision]]
+model_id = "gpt-5.3-codex"
+lifecycle = "ga"
+released_on = "2026-02-24"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-5.4-2026-03-05"
+vendor_org_id = "openai"
+display_name = "GPT-5.4"
+
+[[model_revision]]
+model_id = "gpt-5.4-2026-03-05"
+lifecycle = "ga"
+released_on = "2026-03-05"
+context_window = 1050000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.4"
+model_id = "gpt-5.4-2026-03-05"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.4-mini-2026-03-17"
+vendor_org_id = "openai"
+display_name = "GPT-5.4 Mini"
+
+[[model_revision]]
+model_id = "gpt-5.4-mini-2026-03-17"
+lifecycle = "ga"
+released_on = "2026-03-17"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.4-mini"
+model_id = "gpt-5.4-mini-2026-03-17"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.4-nano-2026-03-17"
+vendor_org_id = "openai"
+display_name = "GPT-5.4 nano"
+
+[[model_revision]]
+model_id = "gpt-5.4-nano-2026-03-17"
+lifecycle = "ga"
+released_on = "2026-03-17"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.4-nano"
+model_id = "gpt-5.4-nano-2026-03-17"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.4-pro-2026-03-05"
+vendor_org_id = "openai"
+display_name = "GPT-5.4 Pro"
+
+[[model_revision]]
+model_id = "gpt-5.4-pro-2026-03-05"
+lifecycle = "ga"
+released_on = "2026-03-05"
+context_window = 1050000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["medium", "high", "xhigh"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.4-pro"
+model_id = "gpt-5.4-pro-2026-03-05"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.5-2026-04-23"
+vendor_org_id = "openai"
+display_name = "GPT-5.5"
+
+[[model_revision]]
+model_id = "gpt-5.5-2026-04-23"
+lifecycle = "ga"
+released_on = "2026-04-24"
+context_window = 1050000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-12-01"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.5"
+model_id = "gpt-5.5-2026-04-23"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.5-cyber"
+vendor_org_id = "openai"
+display_name = "gpt-5.5-cyber"
+
+[[model_revision]]
+model_id = "gpt-5.5-cyber"
+lifecycle = "limited"
+
+[[model]]
+model_id = "gpt-5.5-pro-2026-04-23"
+vendor_org_id = "openai"
+display_name = "GPT-5.5 Pro"
+
+[[model_revision]]
+model_id = "gpt-5.5-pro-2026-04-23"
+lifecycle = "ga"
+released_on = "2026-04-24"
+context_window = 1050000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-12-01"
+reasoning = "optional"
+efforts = ["medium", "high", "xhigh"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.5-pro"
+model_id = "gpt-5.5-pro-2026-04-23"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "gpt-5.6-cyber"
+vendor_org_id = "openai"
+display_name = "GPT-5.6 Cyber"
+
+[[model_revision]]
+model_id = "gpt-5.6-cyber"
+lifecycle = "limited"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-02-16"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-5.6-luna"
+vendor_org_id = "openai"
+family = "gpt-5.6"
+display_name = "GPT-5.6 Luna"
+
+[[model_revision]]
+model_id = "gpt-5.6-luna"
+lifecycle = "ga"
+released_on = "2026-07-09"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-02-16"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh", "max"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-5.6-sol"
+vendor_org_id = "openai"
+family = "gpt-5.6"
+display_name = "GPT-5.6 Sol"
+
+[[model_revision]]
+model_id = "gpt-5.6-sol"
+lifecycle = "ga"
+released_on = "2026-07-09"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-02-16"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh", "max"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "gpt-5.6"
+model_id = "gpt-5.6-sol"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[model]]
+model_id = "gpt-5.6-terra"
+vendor_org_id = "openai"
+family = "gpt-5.6"
+display_name = "GPT-5.6 Terra"
+
+[[model_revision]]
+model_id = "gpt-5.6-terra"
+lifecycle = "ga"
+released_on = "2026-07-09"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-02-16"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh", "max"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6-astra"
+vendor_org_id = "openai"
+display_name = "GPT-6 Astra"
+
+[[model_revision]]
+model_id = "gpt-6-astra"
+lifecycle = "ga"
+released_on = "2026-09-03"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-04-30"
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh", "max"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6-luna"
+vendor_org_id = "openai"
+display_name = "GPT-6 Luna"
+
+[[model_revision]]
+model_id = "gpt-6-luna"
+lifecycle = "ga"
+released_on = "2026-09-22"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-05-18"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh", "max"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6-sol"
+vendor_org_id = "openai"
+display_name = "GPT-6 Sol"
+
+[[model_revision]]
+model_id = "gpt-6-sol"
+lifecycle = "ga"
+released_on = "2026-09-22"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-04-20"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh", "max"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-rosalind-research"
+vendor_org_id = "openai"
+display_name = "GPT-Rosalind"
+
+[[model_revision]]
+model_id = "gpt-rosalind-research"
+lifecycle = "limited"
+released_on = "2026-09-08"
+
+[[model]]
+model_id = "o1-2024-12-17"
+vendor_org_id = "openai"
+family = "o1"
+display_name = "o1"
+
+[[model_revision]]
+model_id = "o1-2024-12-17"
+lifecycle = "deprecated"
+released_on = "2024-12-17"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+context_window = 200000
+max_output_tokens = 100000
+knowledge_cutoff = "2023-10-01"
+reasoning = "optional"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "o1"
+model_id = "o1-2024-12-17"
+valid_from = "2024-12-17T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "o1-pro-2025-03-19"
+vendor_org_id = "openai"
+family = "o1"
+display_name = "o1-pro"
+
+[[model_revision]]
+model_id = "o1-pro-2025-03-19"
+lifecycle = "deprecated"
+released_on = "2025-03-19"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+context_window = 200000
+max_output_tokens = 100000
+knowledge_cutoff = "2023-10-01"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "o1-pro"
+model_id = "o1-pro-2025-03-19"
+valid_from = "2025-03-19T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "o3-2025-04-16"
+vendor_org_id = "openai"
+family = "o-series"
+display_name = "o3"
+
+[[model_revision]]
+model_id = "o3-2025-04-16"
+lifecycle = "deprecated"
+released_on = "2025-04-16"
+deprecated_on = "2026-06-11"
+retires_on = "2026-12-11"
+context_window = 200000
+max_output_tokens = 100000
+knowledge_cutoff = "2024-06-01"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "o3"
+model_id = "o3-2025-04-16"
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "o3-mini-2025-01-31"
+vendor_org_id = "openai"
+display_name = "o3-mini"
+
+[[model_revision]]
+model_id = "o3-mini-2025-01-31"
+lifecycle = "deprecated"
+released_on = "2025-01-31"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+context_window = 200000
+max_output_tokens = 100000
+knowledge_cutoff = "2023-10-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "o3-mini"
+model_id = "o3-mini-2025-01-31"
+valid_from = "2025-01-31T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "o3-pro-2025-06-10"
+vendor_org_id = "openai"
+family = "o-series"
+display_name = "o3-pro"
+
+[[model_revision]]
+model_id = "o3-pro-2025-06-10"
+lifecycle = "deprecated"
+released_on = "2025-06-10"
+deprecated_on = "2026-06-11"
+retires_on = "2026-12-11"
+context_window = 200000
+max_output_tokens = 100000
+knowledge_cutoff = "2024-06-01"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "o3-pro"
+model_id = "o3-pro-2025-06-10"
+valid_from = "2025-06-10T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "o4-mini-2025-04-16"
+vendor_org_id = "openai"
+family = "o-series"
+display_name = "o4-mini"
+
+[[model_revision]]
+model_id = "o4-mini-2025-04-16"
+lifecycle = "deprecated"
+released_on = "2025-04-16"
+deprecated_on = "2026-04-22"
+retires_on = "2026-10-23"
+context_window = 200000
+max_output_tokens = 100000
+knowledge_cutoff = "2024-06-01"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "openai-api"
+alias = "o4-mini"
+model_id = "o4-mini-2025-04-16"
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"

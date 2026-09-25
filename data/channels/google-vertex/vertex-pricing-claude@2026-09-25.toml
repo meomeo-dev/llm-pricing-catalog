@@ -1,0 +1,570 @@
+[defaults]
+recorded_at = "2026-09-25T06:00:00Z"
+source_id = "vertex-pricing@2026-09-25"
+
+[[offering]]
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-fable-5"
+channel_model_id = "claude-fable-5"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-fable-5-1"
+channel_model_id = "claude-fable-5-1"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-haiku-4-5-20251001"
+channel_model_id = "claude-haiku-4-5@20251001"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-opus-4-5-20251101"
+channel_model_id = "claude-opus-4-5@20251101"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-opus-4-6"
+channel_model_id = "claude-opus-4-6"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-opus-4-7"
+channel_model_id = "claude-opus-4-7"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-opus-4-8"
+channel_model_id = "claude-opus-4-8"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-opus-5"
+channel_model_id = "claude-opus-5"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-opus-5-5"
+channel_model_id = "claude-opus-5-5"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-sonnet-4-5-20250929"
+channel_model_id = "claude-sonnet-4-5@20250929"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-sonnet-4-6"
+channel_model_id = "claude-sonnet-4-6"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-sonnet-5"
+channel_model_id = "claude-sonnet-5"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5"
+service_tier = "batch"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "11.00", cache_write_5m = "13.75", cache_write_1h = "22.00", cache_read = "1.10" }
+tiers = [{ min_tokens = 200000, rates = { input = "11.00", cache_write_5m = "13.75", cache_write_1h = "22.00", cache_read = "1.10" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5"
+service_tier = "standard"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "10.00", output = "50.00", cache_write_5m = "12.50", cache_write_1h = "20.00", cache_read = "1.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "10.00", output = "50.00", cache_write_5m = "12.50", cache_write_1h = "20.00", cache_read = "1.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5-1"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.1375" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5-1"
+service_tier = "batch"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.125" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5-1"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "11.00", output = "55.00", cache_write_5m = "13.75", cache_write_1h = "22.00", cache_read = "0.275" }
+tiers = [{ min_tokens = 200000, rates = { input = "11.00", output = "55.00", cache_write_5m = "13.75", cache_write_1h = "22.00", cache_read = "0.275" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-fable-5-1"
+service_tier = "standard"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "10.00", output = "50.00", cache_write_5m = "12.50", cache_write_1h = "20.00", cache_read = "0.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "10.00", output = "50.00", cache_write_5m = "12.50", cache_write_1h = "20.00", cache_read = "0.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-4-5-20251001"
+service_tier = "batch"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.50", output = "2.50", cache_read = "0.05", cache_write_5m = "0.625" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-4-5-20251001"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.55", output = "2.75", cache_write_5m = "0.688", cache_write_1h = "1.10", cache_read = "0.055" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-4-5-20251001"
+service_tier = "standard"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.00", output = "5.00", cache_write_5m = "1.25", cache_write_1h = "2.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.10", output = "5.50", cache_write_5m = "1.375", cache_write_1h = "2.20", cache_write = "1.375", cache_read = "0.11" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-5-20251101"
+service_tier = "batch"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.50", output = "12.50", cache_write_5m = "3.125", cache_write_1h = "5.00", cache_read = "0.25" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-5-20251101"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75", cache_write_5m = "3.438", cache_write_1h = "5.50", cache_read = "0.275" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-5-20251101"
+service_tier = "standard"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-5-20251101"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-6"
+service_tier = "batch"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.50", output = "12.50", cache_write_5m = "3.125", cache_write_1h = "5.00", cache_read = "0.25" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-6"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75", cache_write_5m = "3.438", cache_write_1h = "5.50", cache_read = "0.275" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-6"
+service_tier = "standard"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-6"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-7"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75", cache_write_5m = "3.438", cache_write_1h = "5.50", cache_read = "0.275" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-7"
+service_tier = "batch"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "2.50", output = "12.50", cache_write_5m = "3.125", cache_write_1h = "5.00", cache_read = "0.25" }
+tiers = [{ min_tokens = 200000, rates = { cache_write_1h = "5.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-7"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-7"
+service_tier = "standard"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-8"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75", cache_write_5m = "3.438", cache_write_1h = "5.50", cache_read = "0.275" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-8"
+service_tier = "batch"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.50", output = "12.50", cache_write_5m = "3.125", cache_write_1h = "5.00", cache_read = "0.25" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-8"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-4-8"
+service_tier = "standard"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.75", output = "13.75", cache_write_5m = "3.438", cache_write_1h = "5.50", cache_read = "0.275" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5"
+service_tier = "batch"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.50", output = "12.50", cache_write_5m = "3.125", cache_write_1h = "5.00", cache_read = "0.25" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.50", output = "27.50", cache_write_5m = "6.875", cache_write_1h = "11.00", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5"
+service_tier = "standard"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "5.00", output = "25.00", cache_write_5m = "6.25", cache_write_1h = "10.00", cache_read = "0.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "2.20", output = "11.00", cache_write_5m = "2.75", cache_write_1h = "4.40", cache_read = "0.11" }
+tiers = [{ min_tokens = 200000, rates = { cache_write_5m = "2.75", cache_write_1h = "4.40", cache_read = "0.11" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5-5"
+service_tier = "batch"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.50", output = "12.50", cache_write_5m = "2.50", cache_write_1h = "4.00", cache_read = "0.10" }
+evidence = [{ source_id = "anthropic-pricing@2026-09-25", stance = "contradicts" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "4.40", output = "22.00", cache_write_5m = "5.50", cache_write_1h = "8.80", cache_read = "0.22" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.40", output = "22.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-opus-5-5"
+service_tier = "standard"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "4.00", output = "20.00", cache_write_5m = "5.00", cache_write_1h = "8.00", cache_read = "0.20" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", output = "20.00", cache_write_5m = "5.00", cache_write_1h = "8.00", cache_read = "0.20" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+service_tier = "batch"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.50", output = "7.50", cache_write_5m = "1.88", cache_write_1h = "3.00", cache_read = "0.15" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.65", output = "8.25", cache_write_5m = "2.06", cache_read = "0.17" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "3.00", output = "15.00", cache_write_5m = "3.75", cache_write_1h = "6.00", cache_read = "0.30" }
+tiers = [{ min_tokens = 200000, rates = { input = "6.00", output = "22.50", cache_write_5m = "7.50", cache_write_1h = "12.00", cache_read = "0.60" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "3.30", output = "16.50", cache_write_5m = "4.13", cache_write_1h = "6.60", cache_read = "0.33" }
+tiers = [{ min_tokens = 200000, rates = { input = "6.60", output = "24.75", cache_write_5m = "8.25", cache_write_1h = "13.20", cache_read = "0.66" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-6"
+service_tier = "batch"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.50", output = "7.50", cache_write_5m = "1.88", cache_write_1h = "3.00", cache_read = "0.15" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-6"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.65", output = "8.25", cache_write_5m = "2.06", cache_write_1h = "3.30", cache_read = "0.17" }
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-6"
+service_tier = "standard"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "3.00", output = "15.00", cache_write_5m = "3.75", cache_write_1h = "6.00", cache_read = "0.30" }
+tiers = [{ min_tokens = 200000, rates = { input = "3.00", output = "15.00", cache_write_5m = "3.75", cache_write_1h = "6.00", cache_read = "0.30" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "3.30", output = "16.50", cache_write_5m = "4.13", cache_write_1h = "6.60", cache_read = "0.33" }
+tiers = [{ min_tokens = 200000, rates = { input = "3.30", output = "16.50", cache_write_5m = "4.13", cache_write_1h = "6.60", cache_read = "0.33" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "1.10", output = "5.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.10", output = "5.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5"
+service_tier = "batch"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "1.00", output = "5.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.00", output = "5.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "2.20", output = "11.00", cache_write_5m = "2.75", cache_write_1h = "4.40", cache_read = "0.22" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.20", output = "11.00", cache_write_5m = "2.75", cache_write_1h = "4.40", cache_read = "0.22" } }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5"
+service_tier = "standard"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "2.00", output = "10.00", cache_write_5m = "2.50", cache_write_1h = "4.00", cache_read = "0.20" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "10.00", cache_write_5m = "2.50", cache_write_1h = "4.00", cache_read = "0.20" } }]

@@ -1,0 +1,708 @@
+[defaults]
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "gemini-pricing@2026-09-25"
+
+[[offering]]
+valid_from = "2025-10-07T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+channel_model_id = "gemini-2.5-computer-use-preview-10-2025"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-2.5-flash"
+channel_model_id = "gemini-2.5-flash"
+availability = "limited"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-2.5-flash-lite"
+channel_model_id = "gemini-2.5-flash-lite"
+availability = "limited"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-2.5-pro"
+channel_model_id = "gemini-2.5-pro"
+availability = "limited"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-3-flash-preview"
+channel_model_id = "gemini-3-flash-preview"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-3.1-flash-lite"
+channel_model_id = "gemini-3.1-flash-lite"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-3.1-pro-preview"
+channel_model_id = "gemini-3.1-pro-preview"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+channel_id = "gemini-api"
+model_id = "gemini-3.1-pro-preview-customtools"
+channel_model_id = "gemini-3.1-pro-preview-customtools"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-3.5-flash"
+channel_model_id = "gemini-3.5-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-3.5-flash-lite"
+channel_model_id = "gemini-3.5-flash-lite"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-3.6-flash"
+channel_model_id = "gemini-3.6-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-3.7-flash"
+channel_model_id = "gemini-3.7-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-3.8-flash"
+channel_model_id = "gemini-3.8-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-robotics-er-2-preview"
+channel_model_id = "gemini-robotics-er-2-preview"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-robotics-er-2-streaming-preview"
+channel_model_id = "gemini-robotics-er-2-streaming-preview"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-computer-use-preview-10-2025"
+service_tier = "standard"
+valid_from = "2025-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.25", output = "10.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", output = "15.00" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash"
+service_tier = "batch"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.15", input_audio = "0.50", output = "1.25", cache_read = "0.03", cache_read_audio = "0.1", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash"
+service_tier = "flex"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.15", input_audio = "0.50", output = "1.25", cache_read = "0.03", cache_read_audio = "0.1", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash"
+service_tier = "priority"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.54", input_audio = "1.80", output = "4.50", cache_read = "0.054", cache_read_audio = "0.18", cache_storage = "1.80" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash"
+service_tier = "standard"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.30", input_audio = "1.00", output = "2.50", cache_read = "0.03", cache_read_audio = "0.1", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash-lite"
+service_tier = "batch"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.05", input_audio = "0.15", output = "0.20", cache_read = "0.01", cache_read_audio = "0.03", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash-lite"
+service_tier = "flex"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.05", input_audio = "0.15", output = "0.20", cache_read = "0.01", cache_read_audio = "0.03", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash-lite"
+service_tier = "priority"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.18", input_audio = "0.54", output = "0.72", cache_read = "0.018", cache_read_audio = "0.054", cache_storage = "1.80" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-flash-lite"
+service_tier = "standard"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.10", input_audio = "0.30", output = "0.40", cache_read = "0.01", cache_read_audio = "0.03", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-pro"
+service_tier = "batch"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.625", output = "5.00", cache_read = "0.125", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.25", output = "7.50", cache_read = "0.25" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-pro"
+service_tier = "flex"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.625", output = "5.00", cache_read = "0.125", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.25", output = "7.50", cache_read = "0.25" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-pro"
+service_tier = "priority"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.25", output = "18.00", cache_read = "0.225", cache_storage = "8.10" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.50", output = "27.00", cache_read = "0.45" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-2.5-pro"
+service_tier = "standard"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.25", output = "10.00", cache_read = "0.125", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", output = "15.00", cache_read = "0.25" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3-flash-preview"
+service_tier = "batch"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.25", input_audio = "0.50", output = "1.50", cache_read = "0.05", cache_read_audio = "0.10", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3-flash-preview"
+service_tier = "flex"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.25", input_audio = "0.50", output = "1.50", cache_read = "0.05", cache_read_audio = "0.10", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3-flash-preview"
+service_tier = "priority"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.90", input_audio = "1.80", output = "5.40", cache_read = "0.09", cache_read_audio = "0.18", cache_storage = "1.80" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3-flash-preview"
+service_tier = "standard"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.50", input_audio = "1.00", output = "3.00", cache_read = "0.05", cache_read_audio = "0.10", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-flash-lite"
+service_tier = "batch"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.125", input_audio = "0.25", output = "0.75", cache_read = "0.0125", cache_read_audio = "0.025", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-flash-lite"
+service_tier = "flex"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.125", input_audio = "0.25", output = "0.75", cache_read = "0.0125", cache_read_audio = "0.025", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-flash-lite"
+service_tier = "priority"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.45", input_audio = "0.90", output = "2.70", cache_read = "0.045", cache_read_audio = "0.09", cache_storage = "1.80" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-flash-lite"
+service_tier = "standard"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.25", input_audio = "0.50", output = "1.50", cache_read = "0.025", cache_read_audio = "0.05", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview"
+service_tier = "batch"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.00", output = "6.00", cache_read = "0.20", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "9.00", cache_read = "0.40" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview"
+service_tier = "flex"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.00", output = "6.00", cache_read = "0.20", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "9.00", cache_read = "0.40" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview"
+service_tier = "priority"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "3.60", output = "21.60", cache_read = "0.36", cache_storage = "8.10" }
+tiers = [{ min_tokens = 200000, rates = { input = "7.20", output = "32.40", cache_read = "0.72" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview"
+service_tier = "standard"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.00", output = "12.00", cache_read = "0.20", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", output = "18.00", cache_read = "0.40" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview-customtools"
+service_tier = "batch"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.00", output = "6.00", cache_read = "0.20", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "9.00", cache_read = "0.40" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview-customtools"
+service_tier = "flex"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.00", output = "6.00", cache_read = "0.20", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "9.00", cache_read = "0.40" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview-customtools"
+service_tier = "priority"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "3.60", output = "21.60", cache_read = "0.36", cache_storage = "8.10" }
+tiers = [{ min_tokens = 200000, rates = { input = "7.20", output = "32.40", cache_read = "0.72" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.1-pro-preview-customtools"
+service_tier = "standard"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.00", output = "12.00", cache_read = "0.20", cache_storage = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", output = "18.00", cache_read = "0.40" } }]
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash"
+service_tier = "batch"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.75", output = "4.50", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash"
+service_tier = "flex"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.75", output = "4.50", cache_read = "0.08", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash"
+service_tier = "priority"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "2.70", output = "16.20", cache_read = "0.27", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash"
+service_tier = "standard"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "1.50", output = "9.00", cache_read = "0.15", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash-lite"
+service_tier = "batch"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.15", output = "1.25", cache_read = "0.02", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash-lite"
+service_tier = "flex"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.15", output = "1.25", cache_read = "0.02", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash-lite"
+service_tier = "priority"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.54", output = "4.50", cache_read = "0.05", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.5-flash-lite"
+service_tier = "standard"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.30", output = "2.50", cache_read = "0.03", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "batch"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "flex"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "flex"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "priority"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.70", output = "13.50", cache_read = "0.27", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "priority"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "1.50", output = "7.50", cache_read = "0.15", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.6-flash"
+service_tier = "standard"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "batch"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "flex"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "flex"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "priority"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.70", output = "13.50", cache_read = "0.27", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "priority"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "1.50", output = "7.50", cache_read = "0.15", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.7-flash"
+service_tier = "standard"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "batch"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "flex"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "flex"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "priority"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.70", output = "13.50", cache_read = "0.27", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "priority"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "1.50", output = "7.50", cache_read = "0.15", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-3.8-flash"
+service_tier = "standard"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-preview"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "1.00", output = "5.00", cache_read = "0.10", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-preview"
+service_tier = "batch"
+valid_from = "2026-09-09T00:00:00Z"
+date_basis = "first_observed"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.50", output = "2.50", cache_read = "0.05", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-preview"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.00", output = "10.00", cache_read = "0.20", cache_storage = "1.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-preview"
+service_tier = "standard"
+valid_from = "2026-09-09T00:00:00Z"
+date_basis = "first_observed"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.00", output = "5.00", cache_read = "0.10", cache_storage = "0.50" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-streaming-preview"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.00", output = "10.00" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-robotics-er-2-streaming-preview"
+service_tier = "standard"
+valid_from = "2026-09-09T00:00:00Z"
+date_basis = "first_observed"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.00", output = "5.00" }

@@ -1,0 +1,1068 @@
+[defaults]
+recorded_at = "2026-09-25T06:00:00Z"
+source_id = "vertex-pricing@2026-09-25"
+
+[[offering]]
+valid_from = "2025-10-07T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+channel_model_id = "gemini-2.5-computer-use-preview-10-2025"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-2.5-flash"
+channel_model_id = "gemini-2.5-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-2.5-flash-lite"
+channel_model_id = "gemini-2.5-flash-lite"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-2.5-pro"
+channel_model_id = "gemini-2.5-pro"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3-flash-preview"
+channel_model_id = "gemini-3-flash-preview"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.1-flash-lite"
+channel_model_id = "gemini-3.1-flash-lite"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.1-pro-preview"
+channel_model_id = "gemini-3.1-pro-preview"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.5-flash"
+channel_model_id = "gemini-3.5-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.5-flash-lite"
+channel_model_id = "gemini-3.5-flash-lite"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.6-flash"
+channel_model_id = "gemini-3.6-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.7-flash"
+channel_model_id = "gemini-3.7-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "gemini-3.8-flash"
+channel_model_id = "gemini-3.8-flash"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-computer-use-preview-10-2025"
+service_tier = "standard"
+valid_from = "2025-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.25", output = "10.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", output = "15.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash"
+service_tier = "batch"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.15", input_audio = "0.50", output = "1.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.15", input_audio = "0.50", output = "1.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash"
+service_tier = "flex"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.15", input_audio = "0.50", output = "1.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.15", input_audio = "0.50", output = "1.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash"
+service_tier = "priority"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.54", cache_read = "0.054", input_audio = "1.80", cache_read_audio = "0.18", output = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.54", cache_read = "0.054", input_audio = "1.80", cache_read_audio = "0.18", output = "4.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash"
+service_tier = "standard"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.30", cache_read = "0.03", input_audio = "1.00", cache_read_audio = "0.10", output = "2.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.30", cache_read = "0.03", input_audio = "0.30", cache_read_audio = "0.10", output = "2.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash-lite"
+service_tier = "batch"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.05", input_audio = "0.05", output = "0.20" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.05", input_audio = "0.05", output = "0.20" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash-lite"
+service_tier = "flex"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.05", input_audio = "0.05", output = "0.20" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.05", input_audio = "0.05", output = "0.20" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash-lite"
+service_tier = "priority"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.18", cache_read = "0.018", input_audio = "0.54", cache_read_audio = "0.054", output = "0.72" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.18", cache_read = "0.018", input_audio = "0.54", cache_read_audio = "0.054", output = "0.72" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-flash-lite"
+service_tier = "standard"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.10", cache_read = "0.01", input_audio = "0.30", cache_read_audio = "0.03", output = "0.40" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.10", cache_read = "0.01", input_audio = "0.30", cache_read_audio = "0.03", output = "0.40" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-pro"
+service_tier = "batch"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.625", output = "5.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.25", output = "7.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-pro"
+service_tier = "flex"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.625", output = "5.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.25", output = "7.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-pro"
+service_tier = "priority"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.25", cache_read = "0.225", output = "18.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.50", cache_read = "0.45", output = "27.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-2.5-pro"
+service_tier = "standard"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.25", cache_read = "0.125", output = "10.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", cache_read = "0.25", output = "15.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3-flash-preview"
+service_tier = "batch"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.25", input_audio = "0.50", output = "1.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.25", input_audio = "0.50", output = "1.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3-flash-preview"
+service_tier = "flex"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.25", input_audio = "0.50", output = "1.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.25", input_audio = "0.50", output = "1.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3-flash-preview"
+service_tier = "priority"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.90", cache_read = "0.09", input_audio = "1.80", cache_read_audio = "0.18", output = "5.40" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.90", cache_read = "0.09", input_audio = "1.80", cache_read_audio = "0.18", output = "5.40" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3-flash-preview"
+service_tier = "standard"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.50", cache_read = "0.05", input_audio = "1.00", cache_read_audio = "0.10" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.50", cache_read = "0.05", input_audio = "1.00", cache_read_audio = "0.10" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "batch"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.125", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025", output = "0.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.125", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025", output = "0.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.1375", cache_read = "0.01375", input_audio = "0.275", cache_read_audio = "0.0275", output = "0.825" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.1375", cache_read = "0.01375", input_audio = "0.275", cache_read_audio = "0.0275", output = "0.825" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "flex"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.125", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025", output = "0.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.125", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025", output = "0.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.1375", cache_read = "0.01375", input_audio = "0.275", cache_read_audio = "0.0275", output = "0.825" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.1375", cache_read = "0.01375", input_audio = "0.275", cache_read_audio = "0.0275", output = "0.825" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "priority"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.45", cache_read = "0.045", input_audio = "0.90", cache_read_audio = "0.09", output = "2.70" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.45", cache_read = "0.045", input_audio = "0.90", cache_read_audio = "0.09", output = "2.70" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.495", cache_read = "0.0495", input_audio = "0.99", cache_read_audio = "0.099", output = "2.97" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.495", cache_read = "0.0495", input_audio = "0.99", cache_read_audio = "0.099", output = "2.97" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "standard"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.25", cache_read = "0.025", input_audio = "0.50", cache_read_audio = "0.05", output = "1.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.25", cache_read = "0.025", input_audio = "0.50", cache_read_audio = "0.05", output = "1.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-flash-lite"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.275", cache_read = "0.0275", input_audio = "0.55", cache_read_audio = "0.055", output = "1.65" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.275", cache_read = "0.0275", input_audio = "0.55", cache_read_audio = "0.055", output = "1.65" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-pro-preview"
+service_tier = "batch"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.00", output = "6.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "9.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-pro-preview"
+service_tier = "flex"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.00", output = "6.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "9.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-pro-preview"
+service_tier = "priority"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "3.60", cache_read = "0.36", output = "21.60" }
+tiers = [{ min_tokens = 200000, rates = { input = "7.20", cache_read = "0.72", output = "32.40" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.1-pro-preview"
+service_tier = "standard"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.00", cache_read = "0.20", output = "12.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", cache_read = "0.40", output = "18.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "batch"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "4.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.95" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.95" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "flex"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "4.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.95" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.95" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "priority"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.70", cache_read = "0.27", output = "16.20" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.70", cache_read = "0.27", output = "16.20" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "2.97", cache_read = "0.297", output = "17.82" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.97", cache_read = "0.297", output = "17.82" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "standard"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1.50", cache_read = "0.15", output = "9.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.50", cache_read = "0.15", output = "9.00" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "1.65", cache_read = "0.165", output = "9.90" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.65", cache_read = "0.165", output = "9.90" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "batch"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.15", cache_read = "0.015", output = "1.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.15", cache_read = "0.015", output = "1.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.165", cache_read = "0.0165", output = "1.375" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.165", cache_read = "0.0165", output = "1.375" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "flex"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.15", cache_read = "0.015", output = "1.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.15", cache_read = "0.015", output = "1.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.165", cache_read = "0.0165", output = "1.375" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.165", cache_read = "0.0165", output = "1.375" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "priority"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.54", cache_read = "0.054", output = "4.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.54", cache_read = "0.054", output = "4.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.594", cache_read = "0.0594", output = "4.95" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.594", cache_read = "0.0594", output = "4.95" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "standard"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.30", cache_read = "0.03", output = "2.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.30", cache_read = "0.03", output = "2.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.5-flash-lite"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.33", cache_read = "0.033", output = "2.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.33", cache_read = "0.033", output = "2.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "batch"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.375", cache_read = "0.0375", output = "1.875" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.375", cache_read = "0.0375", output = "1.875" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "flex"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "flex"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.375", cache_read = "0.0375", output = "1.875" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.375", cache_read = "0.0375", output = "1.875" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "priority"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "2.70", cache_read = "0.27", output = "13.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.70", cache_read = "0.27", output = "13.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "priority"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "1.35", cache_read = "0.135", output = "6.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.35", cache_read = "0.135", output = "6.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "2.97", cache_read = "0.297", output = "14.85" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.97", cache_read = "0.297", output = "14.85" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "1.485", cache_read = "0.1485", output = "7.425" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.485", cache_read = "0.1485", output = "7.425" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "1.50", cache_read = "0.15", output = "7.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.50", cache_read = "0.15", output = "7.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "standard"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "1.65", cache_read = "0.165", output = "8.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.65", cache_read = "0.165", output = "8.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.6-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "batch"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.375", cache_read = "0.0375", output = "1.875" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.375", cache_read = "0.0375", output = "1.875" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "flex"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "flex"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.375", cache_read = "0.0375", output = "1.875" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.375", cache_read = "0.0375", output = "1.875" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "priority"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "2.70", cache_read = "0.27", output = "13.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.70", cache_read = "0.27", output = "13.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "priority"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "1.35", cache_read = "0.135", output = "6.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.35", cache_read = "0.135", output = "6.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "2.97", cache_read = "0.297", output = "14.85" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.97", cache_read = "0.297", output = "14.85" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "1.485", cache_read = "0.1485", output = "7.425" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.485", cache_read = "0.1485", output = "7.425" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "1.50", cache_read = "0.15", output = "7.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.50", cache_read = "0.15", output = "7.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "standard"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "1.65", cache_read = "0.165", output = "8.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.65", cache_read = "0.165", output = "8.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.7-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "batch"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "batch"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.375", cache_read = "0.0375", output = "1.875" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.375", cache_read = "0.0375", output = "1.875" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "batch"
+region_id = "regional"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "flex"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "flex"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.375", cache_read = "0.0375", output = "1.875" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.375", cache_read = "0.0375", output = "1.875" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "flex"
+region_id = "regional"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.4125", cache_read = "0.04125", output = "2.0625" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "priority"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "2.70", cache_read = "0.27", output = "13.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.70", cache_read = "0.27", output = "13.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "priority"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "1.35", cache_read = "0.135", output = "6.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.35", cache_read = "0.135", output = "6.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "2.97", cache_read = "0.297", output = "14.85" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.97", cache_read = "0.297", output = "14.85" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "priority"
+region_id = "regional"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "1.485", cache_read = "0.1485", output = "7.425" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.485", cache_read = "0.1485", output = "7.425" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "standard"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "1.50", cache_read = "0.15", output = "7.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.50", cache_read = "0.15", output = "7.50" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "standard"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.75", cache_read = "0.075", output = "3.75" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2027-01-01T00:00:00Z"
+date_basis = "official_announced"
+context_tier_bound = "gt"
+rates = { input = "1.65", cache_read = "0.165", output = "8.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "1.65", cache_read = "0.165", output = "8.25" } }]
+
+[[price_card]]
+offering_id = "google-vertex/gemini-3.8-flash"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+context_tier_bound = "gt"
+rates = { input = "0.825", cache_read = "0.0825", output = "4.125" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.825", cache_read = "0.0825", output = "4.125" } }]

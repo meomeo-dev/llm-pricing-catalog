@@ -1,0 +1,281 @@
+[defaults]
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "anthropic-models@2026-09-25"
+
+[[model]]
+model_id = "claude-fable-5-1"
+vendor_org_id = "anthropic"
+family = "claude-fable"
+display_name = "Claude Fable 5.1"
+
+[[model_revision]]
+model_id = "claude-fable-5-1"
+lifecycle = "ga"
+released_on = "2026-09-01"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06"
+training_cutoff = "2026-06"
+reasoning = "always"
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "claude-opus-5-5"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 5.5"
+
+[[model_revision]]
+model_id = "claude-opus-5-5"
+lifecycle = "ga"
+released_on = "2026-09-22"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06"
+training_cutoff = "2026-06"
+reasoning = "always"
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "claude-sonnet-5"
+vendor_org_id = "anthropic"
+family = "claude-sonnet"
+display_name = "Claude Sonnet 5"
+
+[[model_revision]]
+model_id = "claude-sonnet-5"
+lifecycle = "ga"
+released_on = "2026-06-30"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-01"
+training_cutoff = "2026-01"
+reasoning = "optional"
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "claude-haiku-4-5-20251001"
+vendor_org_id = "anthropic"
+family = "claude-haiku"
+display_name = "Claude Haiku 4.5"
+
+[[model_revision]]
+model_id = "claude-haiku-4-5-20251001"
+lifecycle = "ga"
+released_on = "2025-10-15"
+context_window = 200000
+max_output_tokens = 64000
+knowledge_cutoff = "2025-02"
+training_cutoff = "2025-07"
+reasoning = "optional"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_alias]]
+channel = "anthropic-api"
+alias = "claude-haiku-4-5"
+model_id = "claude-haiku-4-5-20251001"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "claude-mythos-5-1"
+vendor_org_id = "anthropic"
+family = "claude-mythos"
+display_name = "Claude Mythos 5.1"
+
+[[model_revision]]
+model_id = "claude-mythos-5-1"
+lifecycle = "limited"
+released_on = "2026-09-01"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "always"
+
+[[model]]
+model_id = "claude-fable-5"
+vendor_org_id = "anthropic"
+family = "claude-fable"
+display_name = "Claude Fable 5"
+
+[[model_revision]]
+model_id = "claude-fable-5"
+lifecycle = "ga"
+released_on = "2026-06-09"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "always"
+
+[[model]]
+model_id = "claude-mythos-5"
+vendor_org_id = "anthropic"
+family = "claude-mythos"
+display_name = "Claude Mythos 5"
+
+[[model_revision]]
+model_id = "claude-mythos-5"
+lifecycle = "limited"
+released_on = "2026-06-09"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "always"
+
+[[model]]
+model_id = "claude-opus-5"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 5"
+
+[[model_revision]]
+model_id = "claude-opus-5"
+lifecycle = "ga"
+released_on = "2026-07-24"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh", "max"]
+
+[[model]]
+model_id = "claude-opus-4-8"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 4.8"
+
+[[model_revision]]
+model_id = "claude-opus-4-8"
+lifecycle = "ga"
+released_on = "2026-05-28"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "optional"
+default_effort = "high"
+input_modalities = ["text", "image"]
+
+[[model]]
+model_id = "claude-opus-4-7"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 4.7"
+
+[[model_revision]]
+model_id = "claude-opus-4-7"
+lifecycle = "ga"
+released_on = "2026-04-16"
+context_window = 1000000
+reasoning = "optional"
+input_modalities = ["text", "image"]
+
+[[model]]
+model_id = "claude-opus-4-6"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 4.6"
+
+[[model_revision]]
+model_id = "claude-opus-4-6"
+lifecycle = "ga"
+released_on = "2026-02-05"
+context_window = 1000000
+reasoning = "optional"
+
+[[model]]
+model_id = "claude-opus-4-5-20251101"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 4.5"
+
+[[model_revision]]
+model_id = "claude-opus-4-5-20251101"
+lifecycle = "ga"
+released_on = "2025-11-24"
+reasoning = "optional"
+
+[[model]]
+model_id = "claude-opus-4-1-20250805"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 4.1"
+
+[[model_revision]]
+model_id = "claude-opus-4-1-20250805"
+lifecycle = "retired"
+released_on = "2025-08-05"
+deprecated_on = "2026-06-05"
+retires_on = "2026-08-05"
+
+[[model]]
+model_id = "claude-opus-4-20250514"
+vendor_org_id = "anthropic"
+family = "claude-opus"
+display_name = "Claude Opus 4"
+
+[[model_revision]]
+model_id = "claude-opus-4-20250514"
+lifecycle = "retired"
+released_on = "2025-05-22"
+deprecated_on = "2026-04-14"
+retires_on = "2026-06-15"
+reasoning = "optional"
+
+[[model]]
+model_id = "claude-sonnet-4-6"
+vendor_org_id = "anthropic"
+family = "claude-sonnet"
+display_name = "Claude Sonnet 4.6"
+
+[[model_revision]]
+model_id = "claude-sonnet-4-6"
+lifecycle = "ga"
+released_on = "2026-02-17"
+context_window = 1000000
+reasoning = "optional"
+
+[[model]]
+model_id = "claude-sonnet-4-5-20250929"
+vendor_org_id = "anthropic"
+family = "claude-sonnet"
+display_name = "Claude Sonnet 4.5"
+
+[[model_revision]]
+model_id = "claude-sonnet-4-5-20250929"
+lifecycle = "ga"
+released_on = "2025-09-29"
+context_window = 200000
+
+[[model]]
+model_id = "claude-sonnet-4-20250514"
+vendor_org_id = "anthropic"
+family = "claude-sonnet"
+display_name = "Claude Sonnet 4"
+
+[[model_revision]]
+model_id = "claude-sonnet-4-20250514"
+lifecycle = "retired"
+released_on = "2025-05-22"
+deprecated_on = "2026-04-14"
+retires_on = "2026-06-15"
+context_window = 200000
+reasoning = "optional"
+
+[[model]]
+model_id = "claude-3-5-haiku-20241022"
+vendor_org_id = "anthropic"
+family = "claude-haiku"
+display_name = "Claude Haiku 3.5"
+
+[[model_revision]]
+model_id = "claude-3-5-haiku-20241022"
+lifecycle = "retired"
+released_on = "2024-11-04"
+deprecated_on = "2025-12-19"
+retires_on = "2026-02-19"
+input_modalities = ["text"]
+output_modalities = ["text"]

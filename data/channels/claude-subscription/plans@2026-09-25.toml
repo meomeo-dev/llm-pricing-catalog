@@ -1,0 +1,91 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+
+[[plan]]
+plan_id = "claude-free"
+channel_id = "claude-subscription"
+display_name = "Free"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "claude-pricing@2026-09-25"
+
+[[plan]]
+plan_id = "claude-pro"
+channel_id = "claude-subscription"
+display_name = "Pro"
+price_amount = "20"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "claude-pricing@2026-09-25"
+clients = ["claude-code"]
+
+[[plan]]
+plan_id = "claude-pro-annual"
+channel_id = "claude-subscription"
+display_name = "Pro（年付）"
+price_amount = "200"
+price_unit_id = "USD"
+billing_period = "year"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "claude-pricing@2026-09-25"
+clients = ["claude-code"]
+
+[[plan]]
+plan_id = "claude-max-5x"
+channel_id = "claude-subscription"
+display_name = "Max 5x"
+price_amount = "100"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "claude-pricing@2026-09-25"
+clients = ["claude-code"]
+
+[[pricing_rule]]
+channel_id = "claude-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+rule_key = "claude-subscription/usage-credits-at-api-rates"
+kind = "markup"
+reference_channel_id = "anthropic-api"
+factor = "1"
+source_id = "claude-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "claude-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:max-20x"
+reason = "public_price_unavailable"
+source_id = "claude-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "claude-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:session-and-weekly"
+reason = "public_price_unavailable"
+source_id = "claude-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "claude-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:per-model"
+reason = "public_price_unavailable"
+source_id = "claude-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "claude-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "unit-value:usage-credits"
+reason = "public_price_unavailable"
+source_id = "claude-pricing@2026-09-25"

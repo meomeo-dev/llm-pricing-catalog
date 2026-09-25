@@ -1,0 +1,89 @@
+[[source]]
+source_id = "openai-pricing@wb20260728"
+url = "https://web.archive.org/web/20260728103058id_/https://developers.openai.com/api/docs/pricing"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:08:03Z"
+content_sha256 = "71e1d1b9523b479773cc9c568946cb6934f65a37ae442ec56c0ba58b697e16cb"
+
+[[source]]
+source_id = "openai-pricing@wb20260804"
+url = "https://web.archive.org/web/20260804103050id_/https://developers.openai.com/api/docs/pricing"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:07:37Z"
+content_sha256 = "261651519ba566432f4a7b49eff586669ae1351ff4deaa2b98250ce10c64890d"
+
+[[source]]
+source_id = "openai-pricing@wb20260811"
+url = "https://web.archive.org/web/20260811103033id_/https://developers.openai.com/api/docs/pricing"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:07:43Z"
+content_sha256 = "983cbc4ccbae303d32d91f73d377e4408b68e01b26b77597fc5b2302ca37a120"
+
+[[source]]
+source_id = "gemini-pricing@wb20260810"
+url = "https://web.archive.org/web/20260810215930id_/https://ai.google.dev/gemini-api/docs/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:16:26Z"
+content_sha256 = "e97d8e56d05abcef0300584961a446d8d50c3d60278e6743b8893a7d56bf5141"
+
+[[source]]
+source_id = "gemini-pricing@wb20260813"
+url = "https://web.archive.org/web/20260813181124id_/https://ai.google.dev/gemini-api/docs/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:15:35Z"
+content_sha256 = "4359f5020dc4dd344b32788f776c752577c2f5bece7e21735c5caf7ece5cc332"
+
+[[source]]
+source_id = "gemini-pricing@wb20260907"
+url = "https://web.archive.org/web/20260907184131id_/https://ai.google.dev/gemini-api/docs/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:15:47Z"
+content_sha256 = "2e9e7f24666b9e62e461fbe1b4f44c2cc214bd60ff0f933f201d53e5ff1837cf"
+
+[[source]]
+source_id = "gemini-pricing@wb20260909"
+url = "https://web.archive.org/web/20260909032251id_/https://ai.google.dev/gemini-api/docs/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:15:53Z"
+content_sha256 = "c46014c6c62b33fc714725acabc1fa6f79f0b34414230acfc4db3ce5a369c6de"
+
+[[source]]
+source_id = "anthropic-pricing@wb20260601"
+url = "https://web.archive.org/web/20260601063217id_/https://platform.claude.com/docs/en/about-claude/pricing"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:18:48Z"
+content_sha256 = "9c13098fed757a0cdaa9bd54a3b0211cd7a3b01566c717a20f9959f9bea036e0"
+
+[[source]]
+source_id = "anthropic-pricing@wb20260706"
+url = "https://web.archive.org/web/20260706072158id_/https://platform.claude.com/docs/en/about-claude/pricing"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:18:53Z"
+content_sha256 = "45b8e96567ddf5e20a6618d536cf0800f182efc352f4b76b9045ce8085033282"
+
+[[source]]
+source_id = "anthropic-pricing@wb20260818"
+url = "https://web.archive.org/web/20260818035125id_/https://platform.claude.com/docs/en/about-claude/pricing"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:18:58Z"
+content_sha256 = "39f258ff7cc495b73c8ccc93a32e02b0adde7c5fa51c7615186592d9232d05e0"

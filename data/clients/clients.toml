@@ -1,0 +1,176 @@
+[defaults]
+valid_from = "2026-01-01T00:00:00Z"
+date_basis = "inferred"
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "client-labels@2026-09-25"
+
+[[client]]
+client_id = "claude-code"
+display_name = "Claude Code"
+
+[[client_revision]]
+client_id = "claude-code"
+reference_channel_id = "anthropic-api"
+
+[[client]]
+client_id = "codex"
+display_name = "Codex CLI"
+
+[[client_revision]]
+client_id = "codex"
+reference_channel_id = "openai-api"
+
+[[client]]
+client_id = "agy"
+display_name = "Antigravity CLI"
+
+[[client_revision]]
+client_id = "agy"
+
+[[client]]
+client_id = "opencode"
+display_name = "OpenCode"
+
+[[client_revision]]
+client_id = "opencode"
+
+[[client]]
+client_id = "pi"
+display_name = "Pi"
+
+[[client_revision]]
+client_id = "pi"
+
+[[model_alias]]
+client = "claude-code"
+alias = "claude-opus-4-8[1m]"
+model_id = "claude-opus-4-8"
+
+[[model_alias]]
+client = "claude-code"
+alias = "claude-opus-4.8"
+model_id = "claude-opus-4-8"
+
+[[model_alias]]
+client = "claude-code"
+alias = "claude-opus-5[1m]"
+model_id = "claude-opus-5"
+
+[[model_alias]]
+client = "claude-code"
+alias = "claude-opus-5-thinking"
+model_id = "claude-opus-5"
+
+[[model_alias]]
+client = "opencode"
+alias = "claude-opus-4.8"
+model_id = "claude-opus-4-8"
+
+[[model_alias]]
+client = "opencode"
+alias = "gpt-5.6-pro"
+model_id = "gpt-5.6-sol"
+
+[[model_alias]]
+client = "agy"
+alias = "claude-opus-4-6-thinking"
+model_id = "claude-opus-4-6"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.1-pro-low"
+model_id = "gemini-3.1-pro-preview"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.1-pro-high"
+model_id = "gemini-3.1-pro-preview"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.7-flash-low"
+model_id = "gemini-3.7-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.7-flash-medium"
+model_id = "gemini-3.7-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.7-flash-high"
+model_id = "gemini-3.7-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.8-flash-low"
+model_id = "gemini-3.8-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "gemini-3.8-flash-high"
+model_id = "gemini-3.8-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "agy-model:1026"
+model_id = "claude-opus-4-6"
+
+[[model_alias]]
+client = "agy"
+alias = "agy-model:1035"
+model_id = "claude-sonnet-4-6"
+
+[[model_alias]]
+client = "agy"
+alias = "agy-model:1036"
+model_id = "gemini-3.1-pro-preview"
+
+[[model_alias]]
+client = "agy"
+alias = "agy-model:1298"
+model_id = "gemini-3.7-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "agy-model:1299"
+model_id = "gemini-3.7-flash"
+
+[[model_alias]]
+client = "agy"
+alias = "agy-model:1300"
+model_id = "gemini-3.7-flash"
+
+[[price_gap]]
+client = "agy"
+label = "gemini-flash-lite"
+reason = "model_unknown"
+
+[[price_gap]]
+client = "agy"
+label = "agy-model:1050"
+reason = "legacy_label"
+
+[[price_gap]]
+client = "codex"
+label = "gpt-5.3-codex-spark"
+reason = "public_price_unavailable"
+
+[[price_gap]]
+client = "codex"
+reason = "model_unknown"
+
+[[price_gap]]
+client = "codex"
+label = "unknown"
+reason = "model_unknown"
+
+[[price_gap]]
+client = "pi"
+label = "unknown"
+reason = "model_unknown"
+
+[[price_gap]]
+client = "claude-code"
+label = "<synthetic>"
+reason = "synthetic_model"

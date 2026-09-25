@@ -1,0 +1,294 @@
+[[organization]]
+org_id = "anthropic"
+display_name = "Anthropic"
+homepage_url = "https://www.anthropic.com"
+
+[[organization]]
+org_id = "openai"
+display_name = "OpenAI"
+homepage_url = "https://openai.com"
+
+[[organization]]
+org_id = "google"
+display_name = "Google"
+homepage_url = "https://ai.google.dev"
+
+[[organization]]
+org_id = "aws"
+display_name = "Amazon Web Services"
+homepage_url = "https://aws.amazon.com"
+
+[[organization]]
+org_id = "microsoft"
+display_name = "Microsoft"
+homepage_url = "https://azure.microsoft.com"
+
+[[organization]]
+org_id = "github"
+display_name = "GitHub"
+homepage_url = "https://github.com"
+
+[[organization]]
+org_id = "openrouter"
+display_name = "OpenRouter"
+homepage_url = "https://openrouter.ai"
+
+[[organization]]
+org_id = "vercel"
+display_name = "Vercel"
+homepage_url = "https://vercel.com"
+
+[[organization]]
+org_id = "anysphere"
+display_name = "Anysphere（Cursor）"
+homepage_url = "https://cursor.com"
+
+[[organization]]
+org_id = "litellm"
+display_name = "LiteLLM（BerriAI）"
+homepage_url = "https://github.com/BerriAI/litellm"
+
+[[organization]]
+org_id = "models-dev"
+display_name = "models.dev"
+homepage_url = "https://models.dev"
+
+[[organization]]
+org_id = "pydantic"
+display_name = "Pydantic（genai-prices）"
+homepage_url = "https://github.com/pydantic/genai-prices"
+
+[[organization]]
+org_id = "local-observation"
+display_name = "本地客户端观测"
+
+[[region]]
+region_id = "us"
+kind = "data_zone"
+description = "仅在美国境内推理（Anthropic inference_geo = us、OpenAI 美国数据驻留、Azure US Data Zone）"
+
+[[region]]
+region_id = "eu"
+kind = "data_zone"
+description = "仅在欧盟境内推理（数据驻留、Azure EU Data Zone）"
+
+[[region]]
+region_id = "geo"
+kind = "geo"
+description = "按地理区路由（Bedrock geo 端点、Vertex 多区域端点）"
+
+[[region]]
+region_id = "regional"
+kind = "single_region"
+description = "单一云区域端点（Bedrock 区域端点、Vertex 区域端点、Azure Regional）"
+
+[[channel]]
+channel_id = "anthropic-api"
+owner_org_id = "anthropic"
+kind = "first_party_api"
+display_name = "Claude API"
+pricing_url = "https://platform.claude.com/docs/en/about-claude/pricing"
+
+[[channel]]
+channel_id = "openai-api"
+owner_org_id = "openai"
+kind = "first_party_api"
+display_name = "OpenAI API"
+pricing_url = "https://developers.openai.com/api/docs/pricing"
+
+[[channel]]
+channel_id = "gemini-api"
+owner_org_id = "google"
+kind = "first_party_api"
+display_name = "Gemini Developer API"
+pricing_url = "https://ai.google.dev/gemini-api/docs/pricing"
+
+[[channel]]
+channel_id = "aws-bedrock"
+owner_org_id = "aws"
+kind = "cloud_partner"
+display_name = "Amazon Bedrock"
+pricing_url = "https://aws.amazon.com/bedrock/pricing/"
+
+[[channel]]
+channel_id = "google-vertex"
+owner_org_id = "google"
+kind = "cloud_partner"
+display_name = "Vertex AI"
+pricing_url = "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+
+[[channel]]
+channel_id = "azure-foundry"
+owner_org_id = "microsoft"
+kind = "cloud_partner"
+display_name = "Microsoft Foundry"
+pricing_url = "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
+
+[[channel]]
+channel_id = "openrouter"
+owner_org_id = "openrouter"
+kind = "aggregator"
+display_name = "OpenRouter"
+pricing_url = "https://openrouter.ai/models"
+
+[[channel]]
+channel_id = "vercel-ai-gateway"
+owner_org_id = "vercel"
+kind = "aggregator"
+display_name = "Vercel AI Gateway"
+pricing_url = "https://vercel.com/docs/ai-gateway/pricing"
+
+[[channel]]
+channel_id = "claude-subscription"
+owner_org_id = "anthropic"
+kind = "first_party_subscription"
+display_name = "Claude Pro / Max"
+pricing_url = "https://claude.com/pricing"
+
+[[channel]]
+channel_id = "chatgpt-subscription"
+owner_org_id = "openai"
+kind = "first_party_subscription"
+display_name = "ChatGPT / Codex 订阅"
+pricing_url = "https://chatgpt.com/pricing"
+
+[[channel]]
+channel_id = "google-ai-subscription"
+owner_org_id = "google"
+kind = "first_party_subscription"
+display_name = "Google AI Pro / Ultra（含 Antigravity）"
+pricing_url = "https://antigravity.google/pricing"
+
+[[channel]]
+channel_id = "github-copilot"
+owner_org_id = "github"
+kind = "tool_bundle"
+display_name = "GitHub Copilot"
+pricing_url = "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing"
+
+[[channel]]
+channel_id = "kiro"
+owner_org_id = "aws"
+kind = "tool_bundle"
+display_name = "Kiro"
+pricing_url = "https://kiro.dev/pricing/"
+
+[[channel]]
+channel_id = "cursor"
+owner_org_id = "anysphere"
+kind = "tool_bundle"
+display_name = "Cursor"
+pricing_url = "https://cursor.com/docs/account/pricing"
+
+[[billing_unit]]
+unit_id = "USD"
+kind = "fiat"
+description = "美元"
+
+[[billing_unit]]
+unit_id = "openrouter-credit"
+kind = "platform_credit"
+issuer_org_id = "openrouter"
+description = "OpenRouter 额度：按美元面值扣减推理费用，购买时另收手续费"
+
+[[billing_unit]]
+unit_id = "vercel-ai-gateway-credit"
+kind = "platform_credit"
+issuer_org_id = "vercel"
+description = "Vercel AI Gateway 额度：按美元面值扣减推理费用"
+
+[[billing_unit]]
+unit_id = "copilot-ai-credit"
+kind = "tool_credit"
+issuer_org_id = "github"
+description = "GitHub Copilot AI credit：按 token 标价折算的用量单位，1 AI credit = 0.01 USD"
+
+[[billing_unit]]
+unit_id = "copilot-premium-request"
+kind = "request"
+issuer_org_id = "github"
+description = "GitHub Copilot premium request：年付旧制按请求 × 模型倍率扣减"
+
+[[billing_unit]]
+unit_id = "kiro-credit"
+kind = "tool_credit"
+issuer_org_id = "aws"
+description = "Kiro credit：按相对 Auto 的模型倍率扣减"
+
+[[billing_unit]]
+unit_id = "openai-codex-credit"
+kind = "platform_credit"
+issuer_org_id = "openai"
+description = "ChatGPT / Codex credits：按模型的 credits / 百万 token 扣减"
+
+[[billing_unit]]
+unit_id = "anthropic-ccu"
+kind = "platform_credit"
+issuer_org_id = "anthropic"
+description = "Claude Consumption Unit：经云市场（Azure Marketplace、AWS Marketplace）开票的计量单位，100 CCU = 1 USD"
+
+[[meter]]
+meter_id = "input"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "输入 token（未命中缓存）；区分模态时指文本、图像、视频输入"
+
+[[meter]]
+meter_id = "input_audio"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "音频输入 token"
+
+[[meter]]
+meter_id = "output"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "输出 token，含推理 token"
+
+[[meter]]
+meter_id = "cache_read"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "缓存命中读取"
+
+[[meter]]
+meter_id = "cache_read_audio"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "音频的缓存命中读取"
+
+[[meter]]
+meter_id = "cache_write_5m"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "缓存写入，5 分钟 TTL"
+
+[[meter]]
+meter_id = "cache_write_1h"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "缓存写入，1 小时 TTL"
+
+[[meter]]
+meter_id = "cache_write"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "缓存写入，页面未区分 TTL"
+
+[[meter]]
+meter_id = "cache_storage"
+quantity_unit = "token_hour"
+per_quantity = 1000000
+description = "缓存存储，每百万 token 每小时"
+
+[[meter]]
+meter_id = "request"
+quantity_unit = "request"
+per_quantity = 1
+description = "按请求计；金额为每次请求扣减的单位数（如 premium request 倍率）"
+
+[[meter]]
+meter_id = "relative_usage"
+quantity_unit = "relative"
+per_quantity = 1
+description = "相对渠道基准用量的倍率（Kiro 以 Auto 为 1x）；基准用量不公开，只能在渠道内横比"

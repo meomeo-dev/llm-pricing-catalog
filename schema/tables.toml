@@ -1,0 +1,140 @@
+[organization]
+title = "组织"
+grain = "一个组织"
+type1 = ["display_name", "homepage_url"]
+
+[region]
+title = "地域范围"
+grain = "一个地域范围"
+type1 = ["description"]
+
+[channel]
+title = "渠道"
+grain = "一个渠道"
+type1 = ["display_name", "pricing_url"]
+
+[client]
+title = "客户端"
+grain = "一个客户端"
+type1 = ["display_name", "notes"]
+
+[label_namespace]
+title = "标签命名空间"
+grain = "一个渠道或一个客户端的标签空间"
+
+[billing_unit]
+title = "计费单位"
+grain = "一个计费单位"
+type1 = ["description"]
+
+[meter]
+title = "计价项"
+grain = "一个计价项"
+type1 = ["description"]
+
+[source]
+title = "来源"
+grain = "一次抓取"
+
+[time_window]
+title = "计价时段"
+grain = "一个计价时段定义"
+type1 = ["description"]
+
+[model]
+title = "模型"
+grain = "一个模型"
+type1 = ["family", "display_name"]
+
+[model_revision]
+title = "模型元信息版本"
+grain = "一个模型的一个元信息版本"
+
+[model_revision_modality]
+title = "模型模态"
+grain = "一个元信息版本 × 方向 × 模态"
+
+[model_revision_effort]
+title = "模型强度档"
+grain = "一个元信息版本 × 一个强度档；每个版本至多一个默认档"
+
+[client_revision]
+title = "客户端版本"
+grain = "一个客户端的一个版本"
+
+[model_alias]
+title = "别名"
+grain = "一个命名空间里一个标签的一个版本；持久键为 (namespace_id, alias)"
+
+[offering]
+title = "供给"
+grain = "一个渠道 × 模型 × 托管变体"
+
+[offering_revision]
+title = "供给版本"
+grain = "一个供给的一个版本"
+
+[offering_route]
+title = "上游路由"
+grain = "一对（供给, 上游供给）的一个版本"
+
+[plan]
+title = "套餐"
+grain = "一个套餐"
+type1 = ["display_name"]
+
+[plan_revision]
+title = "套餐版本"
+grain = "一个套餐的一个版本"
+
+[plan_revision_client]
+title = "套餐包含的客户端"
+grain = "一个套餐版本 × 一个客户端"
+
+[plan_allowance]
+title = "套餐额度"
+grain = "一个套餐版本 × 额度池 × 计费单位 × 刷新窗口"
+
+[unit_rate_series]
+title = "单位价值系列"
+grain = "一个单位 × 目标单位 × 口径 × 地域 × 渠道 × 套餐 × 门槛"
+
+[unit_rate]
+title = "单位价值"
+grain = "一个单位价值系列的一个版本"
+
+[pricing_rule]
+title = "计价规则"
+grain = "一条规则"
+
+[pricing_rule_revision]
+title = "计价规则版本"
+grain = "一条规则的一个版本"
+
+[pricing_rule_scope_model]
+title = "规则适用的模型"
+grain = "一个规则版本 × 一个模型"
+
+[pricing_rule_scope_meter]
+title = "规则适用的计价项"
+grain = "一个规则版本 × 一个计价项"
+
+[price_series]
+title = "价格系列"
+grain = "一个价格系列"
+
+[price_card]
+title = "价目卡"
+grain = "一个价格系列的一个版本"
+
+[price_rate]
+title = "费率项"
+grain = "一张价目卡 × 计价项 × 阶梯下界"
+
+[price_evidence]
+title = "价格佐证"
+grain = "一张价目卡 × 一个来源"
+
+[price_gap]
+title = "价格缺口"
+grain = "一个命名空间里一个标签的一个缺口版本；label 为 NULL 表示用量里没有模型标签"

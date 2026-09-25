@@ -1,0 +1,21 @@
+[defaults]
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "anthropic-pricing@wb20260601"
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-6"
+service_tier = "fast"
+valid_from = "2026-02-07T00:00:00Z"
+valid_to = "2026-06-29T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "30", output = "150" }
+evidence = [{ source_id = "anthropic-release-notes@2026-09-25", stance = "supports" }]
+
+[[price_card]]
+offering_id = "anthropic-api/claude-opus-4-7"
+service_tier = "fast"
+valid_from = "2026-05-12T00:00:00Z"
+valid_to = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "30", output = "150" }
+evidence = [{ source_id = "anthropic-release-notes@2026-09-25", stance = "supports" }]

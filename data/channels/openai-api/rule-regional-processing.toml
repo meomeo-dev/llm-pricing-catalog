@@ -1,0 +1,11 @@
+[defaults]
+recorded_at = "2026-09-25T07:00:00Z"
+
+[[pricing_rule]]
+rule_key = "openai-api/regional-processing"
+channel_id = "openai-api"
+kind = "markup"
+factor = "1.1"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openai-pricing@2026-09-25"

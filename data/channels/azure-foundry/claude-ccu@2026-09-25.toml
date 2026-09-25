@@ -1,0 +1,12 @@
+[defaults]
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-09-25T07:00:00Z"
+source_id = "anthropic-pricing@2026-09-25"
+
+[[unit_rate]]
+unit_id = "anthropic-ccu"
+value_unit_id = "USD"
+rate_kind = "list"
+channel_id = "azure-foundry"
+value_amount = "0.01"

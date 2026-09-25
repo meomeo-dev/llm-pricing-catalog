@@ -1,0 +1,780 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+source_id = "copilot-models-and-pricing-yaml@2026-09-25"
+
+[[plan]]
+plan_id = "copilot-pro-annual-legacy"
+channel_id = "github-copilot"
+display_name = "Copilot Pro 年付旧制（premium request）"
+
+[[plan]]
+plan_id = "copilot-pro-plus-annual-legacy"
+channel_id = "github-copilot"
+display_name = "Copilot Pro+ 年付旧制（premium request）"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-fable-5"
+channel_model_id = "Claude Fable 5"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-fable-5-1"
+channel_model_id = "Claude Fable 5.1"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-haiku-4-5-20251001"
+channel_model_id = "Claude Haiku 4.5"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-opus-4-7"
+channel_model_id = "Claude Opus 4.7"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-opus-4-8"
+channel_model_id = "Claude Opus 4.8"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-opus-5"
+channel_model_id = "Claude Opus 5"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-opus-5-5"
+channel_model_id = "Claude Opus 5.5"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-sonnet-4-20250514"
+channel_model_id = "Claude Sonnet 4"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-sonnet-4-6"
+channel_model_id = "Claude Sonnet 4.6"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-sonnet-5"
+channel_model_id = "Claude Sonnet 5"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.5-flash"
+channel_model_id = "Gemini 3.5 Flash"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.6-flash"
+channel_model_id = "Gemini 3.6 Flash"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.7-flash"
+channel_model_id = "Gemini 3.7 Flash"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.8-flash"
+channel_model_id = "Gemini 3.8 Flash"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-4o-2024-08-06"
+channel_model_id = "GPT-4o"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-4o-mini-2024-07-18"
+channel_model_id = "GPT-4o mini"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5-mini-2025-08-07"
+channel_model_id = "GPT-5 mini"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.1-2025-11-13"
+channel_model_id = "GPT-5.1"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.3-codex"
+channel_model_id = "GPT-5.3-Codex"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.4-2026-03-05"
+channel_model_id = "GPT-5.4"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.4-mini-2026-03-17"
+channel_model_id = "GPT-5.4 mini"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.4-nano-2026-03-17"
+channel_model_id = "GPT-5.4 nano"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.5-2026-04-23"
+channel_model_id = "GPT-5.5"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.6-luna"
+channel_model_id = "GPT-5.6 Luna"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.6-sol"
+channel_model_id = "GPT-5.6 Sol"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-5.6-terra"
+channel_model_id = "GPT-5.6 Terra"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6-astra"
+channel_model_id = "GPT-6 Astra"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6-luna"
+channel_model_id = "GPT-6 Luna"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6-sol"
+channel_model_id = "GPT-6 Sol"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "github-copilot/claude-fable-5"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "10.00", cache_read = "1.00", output = "50.00", cache_write_5m = "12.50" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-fable-5-1"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "10.00", cache_read = "0.25", output = "50.00", cache_write_5m = "12.50" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-haiku-4-5-20251001"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.00", cache_read = "0.10", output = "5.00", cache_write_5m = "1.25" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-7"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.00", cache_read = "0.50", output = "25.00", cache_write_5m = "6.25" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-8"
+service_tier = "fast"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "10.00", cache_read = "1.00", output = "50.00", cache_write_5m = "12.50" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-8"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.00", cache_read = "0.50", output = "25.00", cache_write_5m = "6.25" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-5"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "5.00", cache_read = "0.50", output = "25.00", cache_write_5m = "6.25" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-5-5"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "4.00", cache_read = "0.20", output = "20.00", cache_write_5m = "5.00" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-4-20250514"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "3.00", cache_read = "0.30", output = "15.00", cache_write_5m = "3.75" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-4-6"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "3.00", cache_read = "0.30", output = "15.00", cache_write_5m = "3.75" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-5"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.00", cache_read = "0.20", output = "10.00", cache_write_5m = "2.50" }
+
+[[price_card]]
+offering_id = "github-copilot/gemini-3.5-flash"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.50", cache_read = "0.15", output = "9.00" }
+
+[[price_card]]
+offering_id = "github-copilot/gemini-3.6-flash"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+
+[[price_card]]
+offering_id = "github-copilot/gemini-3.7-flash"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+
+[[price_card]]
+offering_id = "github-copilot/gemini-3.8-flash"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2027-01-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "0.75", cache_read = "0.075", output = "3.75" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5-mini-2025-08-07"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.25", cache_read = "0.025", output = "2.00" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.3-codex"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.75", cache_read = "0.175", output = "14.00" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-2026-03-05"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.50", cache_read = "0.25", output = "15.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "5.00", cache_read = "0.50", output = "22.50" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-mini-2026-03-17"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.75", cache_read = "0.075", output = "4.50" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-nano-2026-03-17"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.20", cache_read = "0.02", output = "1.25" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.5-2026-04-23"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "5.00", cache_read = "0.50", output = "30.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "10.00", cache_read = "1.00", output = "45.00" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.6-luna"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "0.20", cache_read = "0.02", output = "1.20", cache_write = "0.25" }
+tiers = [{ min_tokens = 200000, rates = { input = "0.40", cache_read = "0.04", output = "1.80", cache_write = "0.50" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.6-sol"
+valid_from = "2026-08-21T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "4.00", cache_read = "0.40", output = "20.00", cache_write = "5.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "8.00", cache_read = "0.80", output = "30.00", cache_write = "10.00" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.6-terra"
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.00", cache_read = "0.20", output = "12.00", cache_write = "2.50" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", cache_read = "0.40", output = "18.00", cache_write = "5.00" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6-astra"
+valid_from = "2026-09-03T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "10.00", cache_read = "1.00", output = "50.00", cache_write = "12.50" }
+tiers = [{ min_tokens = 272000, rates = { input = "20.00", cache_read = "2.00", output = "75.00", cache_write = "25.00" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6-luna"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.10", cache_read = "0.01", output = "0.50", cache_write = "0.125" }
+tiers = [{ min_tokens = 272000, rates = { input = "0.20", cache_read = "0.02", output = "0.75", cache_write = "0.25" } }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6-sol"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.00", cache_read = "0.20", output = "10.00", cache_write = "2.50" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", cache_read = "0.40", output = "15.00", cache_write = "5.00" } }]
+
+[[price_card]]
+offering_id = "github-copilot/claude-haiku-4-5-20251001"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-haiku-4-5-20251001"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-7"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "27" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-7"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "27" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-8"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "27" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-opus-4-8"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "27" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-4-6"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "9" }
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-4-6"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "9" }
+
+[[price_card]]
+offering_id = "github-copilot/gemini-3.5-flash"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "14" }
+
+[[price_card]]
+offering_id = "github-copilot/gemini-3.5-flash"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "14" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-4o-2024-08-06"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-4o-2024-08-06"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-4o-mini-2024-07-18"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-4o-mini-2024-07-18"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.1-2025-11-13"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "3" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.1-2025-11-13"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "3" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.3-codex"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "6" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.3-codex"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "6" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-2026-03-05"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "6" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-2026-03-05"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "6" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-mini-2026-03-17"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "6" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.4-mini-2026-03-17"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "6" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.5-2026-04-23"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "57" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5.5-2026-04-23"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "57" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5-mini-2025-08-07"
+plan_id = "copilot-pro-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }
+
+[[price_card]]
+offering_id = "github-copilot/gpt-5-mini-2025-08-07"
+plan_id = "copilot-pro-plus-annual-legacy"
+price_unit_id = "copilot-premium-request"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+rates = { request = "0.33" }

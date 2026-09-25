@@ -1,0 +1,420 @@
+[defaults]
+recorded_at = "2026-09-25T07:00:00Z"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-fable-5-1"
+channel_model_id = "claude-fable-5-1"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-mythos-5-1"
+channel_model_id = "claude-mythos-5-1"
+availability = "limited"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-fable-5"
+channel_model_id = "claude-fable-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-mythos-5"
+channel_model_id = "claude-mythos-5"
+availability = "limited"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-opus-5-5"
+channel_model_id = "claude-opus-5-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-opus-5"
+channel_model_id = "claude-opus-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-opus-4-8"
+channel_model_id = "claude-opus-4-8"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-opus-4-7"
+channel_model_id = "claude-opus-4-7"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-opus-4-6"
+channel_model_id = "claude-opus-4-6"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-opus-4-5-20251101"
+channel_model_id = "claude-opus-4-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-sonnet-5"
+channel_model_id = "claude-sonnet-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-sonnet-4-6"
+channel_model_id = "claude-sonnet-4-6"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-sonnet-4-5-20250929"
+channel_model_id = "claude-sonnet-4-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-haiku-4-5-20251001"
+channel_model_id = "claude-haiku-4-5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+
+[[pricing_rule]]
+rule_key = "azure-foundry/claude-global-standard"
+channel_id = "azure-foundry"
+kind = "markup"
+reference_channel_id = "anthropic-api"
+factor = "1"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+scope_models = ["claude-fable-5-1", "claude-mythos-5-1", "claude-fable-5", "claude-mythos-5", "claude-opus-5-5", "claude-opus-5", "claude-opus-4-8", "claude-opus-4-7", "claude-opus-4-6", "claude-opus-4-5-20251101", "claude-sonnet-5", "claude-sonnet-4-6", "claude-sonnet-4-5-20250929", "claude-haiku-4-5-20251001"]
+
+[[price_card]]
+offering_id = "azure-foundry/claude-fable-5"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5", service_tier = "standard", valid_from = "2026-06-09T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-fable-5-1"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-1", service_tier = "standard", valid_from = "2026-09-01T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-haiku-4-5-20251001"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25", input = "1", output = "5" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-haiku-4-5-20251001", service_tier = "standard", valid_from = "2025-10-15T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-mythos-5"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-mythos-5", service_tier = "standard", valid_from = "2026-06-09T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-mythos-5-1"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5", input = "10", output = "50" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-mythos-5-1", service_tier = "standard", valid_from = "2026-09-01T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-4-5-20251101"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-5-20251101", service_tier = "standard", valid_from = "2025-11-24T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-4-6"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-6", service_tier = "standard", valid_from = "2026-02-05T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-4-7"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-7", service_tier = "standard", valid_from = "2026-04-16T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-4-8"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-8", service_tier = "standard", valid_from = "2026-05-28T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-5"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25", input = "5", output = "25" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5", service_tier = "standard", valid_from = "2026-07-24T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-5-5"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5", input = "4", output = "20" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5-5", service_tier = "standard", valid_from = "2026-09-22T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75", input = "3", output = "15" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-4-5-20250929", service_tier = "standard", valid_from = "2025-09-29T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-sonnet-4-6"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75", input = "3", output = "15" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-4-6", service_tier = "standard", valid_from = "2026-02-17T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-sonnet-5"
+service_tier = "standard"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5", input = "2", output = "10" }
+derived_from_rule = { rule_key = "azure-foundry/claude-global-standard", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5", service_tier = "standard", valid_from = "2026-06-30T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[pricing_rule]]
+rule_key = "azure-foundry/claude-us-data-zone"
+channel_id = "azure-foundry"
+kind = "markup"
+reference_channel_id = "anthropic-api"
+factor = "1.1"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+scope_models = ["claude-opus-5-5", "claude-opus-5", "claude-opus-4-8", "claude-sonnet-5", "claude-haiku-4-5-20251001"]
+
+[[price_card]]
+offering_id = "azure-foundry/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375", input = "1.1", output = "5.5" }
+derived_from_rule = { rule_key = "azure-foundry/claude-us-data-zone", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-haiku-4-5-20251001", service_tier = "standard", valid_from = "2025-10-15T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-4-8"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "azure-foundry/claude-us-data-zone", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-4-8", service_tier = "standard", valid_from = "2026-05-28T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875", input = "5.5", output = "27.5" }
+derived_from_rule = { rule_key = "azure-foundry/claude-us-data-zone", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5", service_tier = "standard", valid_from = "2026-07-24T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-opus-5-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5", input = "4.4", output = "22" }
+derived_from_rule = { rule_key = "azure-foundry/claude-us-data-zone", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-opus-5-5", service_tier = "standard", valid_from = "2026-09-22T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-sonnet-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
+derived_from_rule = { rule_key = "azure-foundry/claude-us-data-zone", valid_from = "2026-09-25T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5", service_tier = "standard", valid_from = "2026-06-30T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }

@@ -1,0 +1,129 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+
+[[plan]]
+plan_id = "google-ai-free"
+channel_id = "google-ai-subscription"
+display_name = "Free"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-subscriptions@2026-09-25"
+
+[[plan]]
+plan_id = "google-ai-plus"
+channel_id = "google-ai-subscription"
+display_name = "Google AI Plus"
+price_amount = "4.99"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-subscriptions@2026-09-25"
+clients = ["agy"]
+
+[[plan]]
+plan_id = "google-ai-pro"
+channel_id = "google-ai-subscription"
+display_name = "Google AI Pro"
+price_amount = "19.99"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-subscriptions@2026-09-25"
+allowances = [{ pool = "google_cloud", unit_id = "USD", refresh_window = "month", quantity = "10" }]
+clients = ["agy"]
+
+[[plan]]
+plan_id = "google-ai-pro-annual"
+channel_id = "google-ai-subscription"
+display_name = "Google AI Pro（年付）"
+price_amount = "199.99"
+price_unit_id = "USD"
+billing_period = "year"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "google-ai-plans@2026-09-25"
+allowances = [{ pool = "google_cloud", unit_id = "USD", refresh_window = "month", quantity = "10" }]
+clients = ["agy"]
+
+[[plan]]
+plan_id = "google-ai-ultra-5x"
+channel_id = "google-ai-subscription"
+display_name = "Google AI Ultra 5x"
+price_amount = "99.99"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-subscriptions@2026-09-25"
+allowances = [{ pool = "google_cloud", unit_id = "USD", refresh_window = "month", quantity = "40" }]
+clients = ["agy"]
+
+[[plan]]
+plan_id = "google-ai-ultra-20x"
+channel_id = "google-ai-subscription"
+display_name = "Google AI Ultra 20x"
+price_amount = "199.99"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-subscriptions@2026-09-25"
+allowances = [{ pool = "google_cloud", unit_id = "USD", refresh_window = "month", quantity = "100" }]
+clients = ["agy"]
+
+[[plan]]
+plan_id = "antigravity-individual"
+channel_id = "google-ai-subscription"
+display_name = "Antigravity For Individuals"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "antigravity-pricing@2026-09-25"
+clients = ["agy"]
+
+[[price_gap]]
+channel = "google-ai-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "unit-value:ai-credits"
+reason = "public_price_unavailable"
+source_id = "gemini-subscriptions@2026-09-25"
+
+[[price_gap]]
+channel = "google-ai-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:gemini-app"
+reason = "public_price_unavailable"
+source_id = "gemini-subscriptions@2026-09-25"
+
+[[price_gap]]
+channel = "google-ai-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:antigravity"
+reason = "public_price_unavailable"
+source_id = "antigravity-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "google-ai-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:plus-annual"
+reason = "public_price_unavailable"
+source_id = "gemini-subscriptions@2026-09-25"
+
+[[price_gap]]
+channel = "google-ai-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:antigravity-organization"
+reason = "public_price_unavailable"
+source_id = "antigravity-pricing@2026-09-25"

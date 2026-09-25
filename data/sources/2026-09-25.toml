@@ -1,0 +1,440 @@
+[[source]]
+source_id = "anthropic-pricing@2026-09-25"
+url = "https://platform.claude.com/docs/en/about-claude/pricing.md"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:46:49Z"
+content_sha256 = "cd36fcc6d6d9e17ac2a8643a3f769e42ec6cf33a8becdbfd98bc3ba8832f1aee"
+
+[[source]]
+source_id = "openai-pricing@2026-09-25"
+url = "https://developers.openai.com/api/docs/pricing.md"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:46:52Z"
+content_sha256 = "b4a757457257583c3c0e72844c4004c6c320158ad94ef94000b4797828f55595"
+
+[[source]]
+source_id = "gemini-pricing@2026-09-25"
+url = "https://ai.google.dev/gemini-api/docs/pricing.md.txt"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:46:54Z"
+content_sha256 = "d316bc4b2e4c427e412e74efdd239dd019092c8479c9a6a20ad35c9e59545ed5"
+
+[[source]]
+source_id = "anthropic-models@2026-09-25"
+url = "https://platform.claude.com/docs/en/about-claude/models/overview.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:34Z"
+content_sha256 = "404372e69b13defcb4598bb8a8cfbc359c0c31384d809daf53d75c3ca9316bc3"
+
+[[source]]
+source_id = "anthropic-deprecations@2026-09-25"
+url = "https://platform.claude.com/docs/en/about-claude/model-deprecations.md"
+publisher_org_id = "anthropic"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:38Z"
+content_sha256 = "06e5ac128a2aadb162902a8adb0640648087211d90558b981b85e1ce8eb91fdc"
+
+[[source]]
+source_id = "anthropic-release-notes@2026-09-25"
+url = "https://platform.claude.com/docs/en/release-notes/overview.md"
+publisher_org_id = "anthropic"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:41Z"
+content_sha256 = "62f890350b58e6da475adcc09e72e9a16dbad42f99c96e39f3d2543575c3423c"
+
+[[source]]
+source_id = "openai-models@2026-09-25"
+url = "https://developers.openai.com/api/docs/models.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:44Z"
+content_sha256 = "ad6adde919a6b4f2e92b03acb891366d2ded0e078229f406a519722c71a406c3"
+
+[[source]]
+source_id = "openai-deprecations@2026-09-25"
+url = "https://developers.openai.com/api/docs/deprecations.md"
+publisher_org_id = "openai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:45Z"
+content_sha256 = "77169628ee2d68133612799d2934559b40efae3bd815190138ff9a4607f18c3d"
+
+[[source]]
+source_id = "openai-changelog@2026-09-25"
+url = "https://developers.openai.com/api/docs/changelog.md"
+publisher_org_id = "openai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:47Z"
+content_sha256 = "4ecc3d91b56a59feaab6de6b0ff2a3b5e6689dbab95ab0f27d621093f4fd60ef"
+
+[[source]]
+source_id = "gemini-models@2026-09-25"
+url = "https://ai.google.dev/gemini-api/docs/models.md.txt"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:49Z"
+content_sha256 = "86c8684329aaed6d82a52f6e44754e7c7ded45af738eb574601185d75d6634ca"
+
+[[source]]
+source_id = "gemini-deprecations@2026-09-25"
+url = "https://ai.google.dev/gemini-api/docs/deprecations.md.txt"
+publisher_org_id = "google"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:51Z"
+content_sha256 = "682807fa9a550f7ee7e065d055c687f31ed285c3d96056b9021c6c371f5e9936"
+
+[[source]]
+source_id = "gemini-changelog@2026-09-25"
+url = "https://ai.google.dev/gemini-api/docs/changelog.md.txt"
+publisher_org_id = "google"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:52Z"
+content_sha256 = "0d999a0f58f3951c62b632221671ae12b34d51327b22c08713f0316990fa583e"
+
+[[source]]
+source_id = "openai-model-babbage-002@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/babbage-002.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:55Z"
+content_sha256 = "3c3ffd469f0cbef132e1682477f30da6785689b0cd95cbac6963b6b7007996d6"
+
+[[source]]
+source_id = "openai-model-chat-latest@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/chat-latest.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:56Z"
+content_sha256 = "b6b9dc5e8a6c720641cfc8ada231e311d66ebbf2ba5ac14d7d480535679079cc"
+
+[[source]]
+source_id = "openai-model-davinci-002@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/davinci-002.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:51:59Z"
+content_sha256 = "505f28d2ed01dc34048d771bd25f31730076fbeb349977c192cb008a88c5c62b"
+
+[[source]]
+source_id = "openai-model-gpt-3.5-turbo@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-3.5-turbo.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:00Z"
+content_sha256 = "b60a7c8d28140cc069586bce75b6b49313637670614c656f2dc3a830af7a610a"
+
+[[source]]
+source_id = "openai-model-gpt-3.5-turbo-instruct@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-instruct.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:06Z"
+content_sha256 = "8594fccd51c94acfc79ab3860f13c5f8a0e13685290859fdfd22b1bc13c95a05"
+
+[[source]]
+source_id = "openai-model-gpt-4.1@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-4.1.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:11Z"
+content_sha256 = "14b53095d54acc36d1346302259bc4d21e9f9de71f3859c11f1405087fa0da74"
+
+[[source]]
+source_id = "openai-model-gpt-4.1-mini@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-4.1-mini.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:13Z"
+content_sha256 = "e0c12fb617705a1f88e6dc3e5c1f1a32970e9bcd30c43adc4739232f4bfcf6eb"
+
+[[source]]
+source_id = "openai-model-gpt-4.1-nano@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-4.1-nano.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:15Z"
+content_sha256 = "b7bd756c48509d7eaa8187100fc682537c78eec6c3ff099ad6d3e28ace1a86eb"
+
+[[source]]
+source_id = "openai-model-gpt-4o@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-4o.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:16Z"
+content_sha256 = "c90025dc613e12e76583d997c33c0fa8d63412b70d90bfc9e04153e9b8c4ba13"
+
+[[source]]
+source_id = "openai-model-gpt-4o-mini@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-4o-mini.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:20Z"
+content_sha256 = "20d4047a067750279b96f24debe3b8e1d6316e90caa1d6aae25b11dd4ab49bdf"
+
+[[source]]
+source_id = "openai-model-gpt-5@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:21Z"
+content_sha256 = "05de1e96f42e9bcdf1f2fc9b8bba47f0263f99974b61027413d01e2a6f7331fa"
+
+[[source]]
+source_id = "openai-model-gpt-5-mini@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5-mini.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:23Z"
+content_sha256 = "3f3228b22ff8f4d6235158bb70ce1206a521724beb2b0dd814f0f38d0d897800"
+
+[[source]]
+source_id = "openai-model-gpt-5-nano@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5-nano.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:25Z"
+content_sha256 = "81508b2800ec4c9da22cf057ad4d6c2ba9237d98ec6a3915b5bc1df0ce45d131"
+
+[[source]]
+source_id = "openai-model-gpt-5-pro@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5-pro.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:26Z"
+content_sha256 = "c8d1fdb4e218de05be24d572e38df6451d0692f01adbca181f00fa461d6a8fda"
+
+[[source]]
+source_id = "openai-model-gpt-5.1@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.1.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:30Z"
+content_sha256 = "7cf672ec607b598612e26e0d6b80648983bb24bd7541e43273c9130f14b38b5c"
+
+[[source]]
+source_id = "openai-model-gpt-5.2@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.2.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:32Z"
+content_sha256 = "6171f4e1534915bdfd2386e1cf5c7e5de4c357d4a2c0bf9dbf1dd26ad3eb9282"
+
+[[source]]
+source_id = "openai-model-gpt-5.2-pro@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.2-pro.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:34Z"
+content_sha256 = "d11ff93b2c0ab2ef9ba94db8f89c33d9739b835ae1669c99a4e079d4789a3d0b"
+
+[[source]]
+source_id = "openai-model-gpt-5.3-codex@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.3-codex.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:35Z"
+content_sha256 = "6d228a9894bf1b4c38e029cb283e3bb85d410d8100c262f35c7e7ee4fb3d0b22"
+
+[[source]]
+source_id = "openai-model-gpt-5.4@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.4.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:37Z"
+content_sha256 = "c30e86b38bc6ceacb3d6db269aa6ba4a09c3c5e1322bfaf90f924fddce4013a5"
+
+[[source]]
+source_id = "openai-model-gpt-5.4-mini@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.4-mini.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:39Z"
+content_sha256 = "97dbda29af4009ed275112e92037a5b46f313caf0d1232ff9b54b899b4fb65a7"
+
+[[source]]
+source_id = "openai-model-gpt-5.4-nano@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.4-nano.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:40Z"
+content_sha256 = "3dd20e2c95f09f3efb19c6255387a4e07d4d7c213367cca0a015e162a8f5b4e0"
+
+[[source]]
+source_id = "openai-model-gpt-5.4-pro@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.4-pro.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:42Z"
+content_sha256 = "7d4e6f56440cf9cebd56c7384118be317d30d3d2f0c33e1254c4b906fb972e22"
+
+[[source]]
+source_id = "openai-model-gpt-5.5@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.5.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:44Z"
+content_sha256 = "fdb0fc8fe9ea7f276716c2a5b49b902e7e676ff262bb8adfdf2d5b8911bad3ba"
+
+[[source]]
+source_id = "openai-model-gpt-5.5-pro@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.5-pro.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:47Z"
+content_sha256 = "a61a55e1d58cfbbf56fa075936c77fbfd59e41df4463f41056f9c6a7461f1b57"
+
+[[source]]
+source_id = "openai-model-gpt-5.6-cyber@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.6-cyber.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:49Z"
+content_sha256 = "fca3d2272bb2bf23971d5bb67bed7d9862242314c5bcf996db8fc1429658e669"
+
+[[source]]
+source_id = "openai-model-gpt-5.6-luna@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.6-luna.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:51Z"
+content_sha256 = "1f425d8f2a93f8418702ac7acbb62b26850b98fe20680f82205bed5fce38fed0"
+
+[[source]]
+source_id = "openai-model-gpt-5.6-sol@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.6-sol.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:52Z"
+content_sha256 = "23f4ff2c236486d42145e21693f450bfcac272c37ee839a5ee6f9455cd1d8b7b"
+
+[[source]]
+source_id = "openai-model-gpt-5.6-terra@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-5.6-terra.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:54Z"
+content_sha256 = "359b9ad58c0c7f2339273fff8627ff3225acb9bca0f1d9c5edcee41701808209"
+
+[[source]]
+source_id = "openai-model-gpt-6-astra@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-6-astra.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:56Z"
+content_sha256 = "f45ae813c3f69708e2576328056de14cdf71fec174c875f4b81d236105545625"
+
+[[source]]
+source_id = "openai-model-gpt-6-luna@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-6-luna.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:52:58Z"
+content_sha256 = "561a86af72eced9a76a4e3a96c45ae7fff7782732514a8429b55ebddb4404945"
+
+[[source]]
+source_id = "openai-model-gpt-6-sol@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/gpt-6-sol.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:00Z"
+content_sha256 = "5566589803b6f0ac79c00125a7c1af9291e46d5724c1c414f932d36ab92a8ad0"
+
+[[source]]
+source_id = "openai-model-o1@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/o1.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:04Z"
+content_sha256 = "36b3428a41e8b9cbeee41f2dc9ab734ba876274543ee0bbc5380394f456d6b89"
+
+[[source]]
+source_id = "openai-model-o1-pro@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/o1-pro.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:06Z"
+content_sha256 = "28c725c01a25087e79a0230fb5fc3a60aa736794a2d298ef677714ef03475397"
+
+[[source]]
+source_id = "openai-model-o3@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/o3.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:08Z"
+content_sha256 = "a0772d56014efc4553a315ff49cca153bcb17e90d0657b276d14a76895a547de"
+
+[[source]]
+source_id = "openai-model-o3-mini@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/o3-mini.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:10Z"
+content_sha256 = "d2fee3aa4ed7d8fadde35570035459f133165334f73118dbc0f81c28a56e5f8f"
+
+[[source]]
+source_id = "openai-model-o3-pro@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/o3-pro.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:12Z"
+content_sha256 = "2e31f39d04324c3f744028eccb9931541372e31f82e8c54d01913434c6faf1c5"
+
+[[source]]
+source_id = "openai-model-o4-mini@2026-09-25"
+url = "https://developers.openai.com/api/docs/models/o4-mini.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T02:53:22Z"
+content_sha256 = "06f644cd52700497dc59769a0f77c8822aa585d30d0158fb0cb3d3d4cd997b12"

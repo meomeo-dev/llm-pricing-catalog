@@ -1,0 +1,8 @@
+[[source]]
+source_id = "client-labels@2026-09-25"
+url = "local:client-observation"
+publisher_org_id = "local-observation"
+kind = "client_observed"
+machine_readable = 1
+retrieved_at = "2026-09-25T03:22:29Z"
+content_sha256 = "d8318ec6a291a18156865a155a653664e99ea8ac5d08b243e397775243137c87"

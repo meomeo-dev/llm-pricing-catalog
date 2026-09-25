@@ -1,0 +1,78 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+
+[[plan]]
+plan_id = "copilot-pro-annual-legacy"
+channel_id = "github-copilot"
+display_name = "Copilot Pro 年付旧制（premium request）"
+price_amount = "10"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "copilot-requests@2026-09-25"
+allowances = [{ pool = "premium_requests", unit_id = "copilot-premium-request", refresh_window = "month", quantity = "300" }]
+
+[[plan]]
+plan_id = "copilot-pro-plus-annual-legacy"
+channel_id = "github-copilot"
+display_name = "Copilot Pro+ 年付旧制（premium request）"
+price_amount = "39"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "copilot-requests@2026-09-25"
+allowances = [{ pool = "premium_requests", unit_id = "copilot-premium-request", refresh_window = "month", quantity = "1500" }]
+
+[[unit_rate]]
+unit_id = "copilot-premium-request"
+value_unit_id = "USD"
+rate_kind = "overage"
+channel_id = "github-copilot"
+value_amount = "0.04"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "copilot-requests@2026-09-25"
+
+[[unit_rate]]
+unit_id = "copilot-ai-credit"
+value_unit_id = "USD"
+rate_kind = "list"
+channel_id = "github-copilot"
+value_amount = "0.01"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "copilot-models-and-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "github-copilot"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:current"
+reason = "public_price_unavailable"
+source_id = "copilot-models-and-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "github-copilot"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:ai-credits"
+reason = "public_price_unavailable"
+source_id = "copilot-models-and-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "github-copilot"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "rule:auto-discount"
+reason = "public_price_unavailable"
+source_id = "copilot-models-and-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "github-copilot"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "rate:code-review"
+reason = "public_price_unavailable"
+source_id = "copilot-models-and-pricing@2026-09-25"

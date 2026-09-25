@@ -1,0 +1,125 @@
+[[source]]
+source_id = "claude-pricing@2026-09-25"
+url = "https://claude.com/pricing"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:50Z"
+content_sha256 = "c4ab2db5394b9e6e75d0f3fb011134913f8d9957919722a6d57bcbcd79f432ca"
+
+[[source]]
+source_id = "chatgpt-codex-pricing@2026-09-25"
+url = "https://learn.chatgpt.com/docs/pricing"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:50Z"
+content_sha256 = "ee5ed0b3e353d82a20fcc6c01402d586c805cc4e016533c01c2382ca7b05b6af"
+
+[[source]]
+source_id = "gemini-subscriptions@2026-09-25"
+url = "https://gemini.google/subscriptions/"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:50Z"
+content_sha256 = "080364601f0720f40edc8c74d25711d9a3d95c47ab1a797d697c3ea6a7ed5597"
+
+[[source]]
+source_id = "google-ai-plans@2026-09-25"
+url = "https://one.google.com/about/google-ai-plans/"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:50Z"
+content_sha256 = "21da01b3d76c646d19ad1a1b326b20f7b2d25a9721ada1231b1e2182b57218ef"
+
+[[source]]
+source_id = "antigravity-pricing@2026-09-25"
+url = "https://antigravity.google/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:50Z"
+content_sha256 = "7a1b7af01bc98a7ff4aeb2df59b152fae682fb49084f7d00f74454f33cafe07f"
+
+[[source]]
+source_id = "copilot-models-and-pricing-yaml@2026-09-25"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:51Z"
+content_sha256 = "300a358efde42a86853c098777d408ae0cdfcaa2eac99cbb3122cc1a8a4984bf"
+
+[[source]]
+source_id = "copilot-annual-multipliers-yaml@2026-09-25"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/annual-subscriber-model-multipliers.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:51Z"
+content_sha256 = "457500b3eddf44163f1c650be77c7d8303a98a5184ebdb43d9010f320291207a"
+
+[[source]]
+source_id = "copilot-models-and-pricing@2026-09-25"
+url = "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing"
+publisher_org_id = "github"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:51Z"
+content_sha256 = "2618f45a2a2e75e6bbabb5cfa1230e2575f27234bd3a23880263aabfdc82d0a1"
+
+[[source]]
+source_id = "copilot-requests@2026-09-25"
+url = "https://docs.github.com/en/copilot/concepts/billing/copilot-requests"
+publisher_org_id = "github"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:51Z"
+content_sha256 = "9bcba6c1e363f5f06464a17ee893bf48195d34dbc42d538f705bae0621a0943d"
+
+[[source]]
+source_id = "kiro-pricing@2026-09-25"
+url = "https://kiro.dev/pricing"
+publisher_org_id = "aws"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:51Z"
+content_sha256 = "ee43c52209d5681680eafc9543615c6cfbb4510202a4ea5c1ab42d79e3d020c3"
+
+[[source]]
+source_id = "kiro-models@2026-09-25"
+url = "https://kiro.dev/docs/models/"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:51Z"
+content_sha256 = "487c761055c4f653689b84d510424c4de33f5d257617b2ed5c62b113ac9fa2ed"
+
+[[source]]
+source_id = "kiro-changelog-models@2026-09-25"
+url = "https://kiro.dev/changelog/models/"
+publisher_org_id = "aws"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:52Z"
+content_sha256 = "2f1df76e9bd02fb915d04d9e859f124529e6cf0207fb1fd1aed4b98e952c31b9"
+
+[[source]]
+source_id = "cursor-pricing@2026-09-25"
+url = "https://cursor.com/pricing"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:52Z"
+content_sha256 = "1dcd24d99cba818838ddfca4b3f66ad77209e5556efc60fe73c759a36ff248bd"
+
+[[source]]
+source_id = "cursor-docs-pricing@2026-09-25"
+url = "https://cursor.com/docs/account/pricing"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:14:52Z"
+content_sha256 = "0521852aeb1194711387128d38b74f7675820f357b63b557c40b84a9900d34a8"

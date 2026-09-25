@@ -1,0 +1,53 @@
+[[source]]
+source_id = "openrouter-models@2026-09-25"
+url = "https://openrouter.ai/api/v1/models"
+publisher_org_id = "openrouter"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-09-25T04:02:22Z"
+content_sha256 = "2b3c3f1ca882cf111d9d9dccfd96fc9ad71f32a49ee4197bc4a44d547d56cd04"
+
+[[source]]
+source_id = "openrouter-endpoints@2026-09-25"
+url = "https://openrouter.ai/api/v1/models/{id}/endpoints"
+publisher_org_id = "openrouter"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-09-25T04:02:23Z"
+content_sha256 = "2440b48f6b21904555dca6c3e94ce31804fe96e8d36b46d75f4e6f29b782886d"
+
+[[source]]
+source_id = "openrouter-faq@2026-09-25"
+url = "https://openrouter.ai/docs/faq.md"
+publisher_org_id = "openrouter"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:02:23Z"
+content_sha256 = "93fe45ea6c0f2c028b2dab068baf1481330bbecf65bedf55ed508f4dc6806181"
+
+[[source]]
+source_id = "openrouter-byok@2026-09-25"
+url = "https://openrouter.ai/docs/guides/overview/auth/byok.md"
+publisher_org_id = "openrouter"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:02:23Z"
+content_sha256 = "e818834b83fb6cbae5bc8c12a15cbaccbde7620378acf957ca86bd2a88de51ba"
+
+[[source]]
+source_id = "vercel-ai-gateway-models@2026-09-25"
+url = "https://ai-gateway.vercel.sh/v1/models"
+publisher_org_id = "vercel"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-09-25T04:02:23Z"
+content_sha256 = "f4fcc49400da7b096ec49e392adfde90886924fa90a7374493009f3d74993056"
+
+[[source]]
+source_id = "vercel-ai-gateway-pricing@2026-09-25"
+url = "https://vercel.com/docs/ai-gateway/pricing"
+publisher_org_id = "vercel"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T04:02:23Z"
+content_sha256 = "ff0b2ea712ab345ec7046743c12ca4b9e93d9df8145305e6a60582152633e732"

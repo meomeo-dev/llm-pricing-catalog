@@ -1,0 +1,344 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+
+[[plan]]
+plan_id = "chatgpt-free"
+channel_id = "chatgpt-subscription"
+display_name = "Free"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+clients = ["codex"]
+
+[[plan]]
+plan_id = "chatgpt-go"
+channel_id = "chatgpt-subscription"
+display_name = "Go"
+price_amount = "8"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+clients = ["codex"]
+
+[[plan]]
+plan_id = "chatgpt-plus"
+channel_id = "chatgpt-subscription"
+display_name = "Plus"
+price_amount = "20"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+clients = ["codex"]
+
+[[plan]]
+plan_id = "chatgpt-pro"
+channel_id = "chatgpt-subscription"
+display_name = "Pro"
+price_amount = "100"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+clients = ["codex"]
+
+[[plan]]
+plan_id = "chatgpt-business-annual"
+channel_id = "chatgpt-subscription"
+display_name = "Business（年付合约，按用户每月计价）"
+price_amount = "20"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+clients = ["codex"]
+
+[[plan]]
+plan_id = "chatgpt-business"
+channel_id = "chatgpt-subscription"
+display_name = "Business"
+price_amount = "25"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+clients = ["codex"]
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.4-2026-03-05"
+channel_model_id = "GPT-5.4"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.4-mini-2026-03-17"
+channel_model_id = "GPT-5.4 mini"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.5-2026-04-23"
+channel_model_id = "GPT-5.5"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.6-luna"
+channel_model_id = "GPT-5.6 Luna"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.6-sol"
+channel_model_id = "GPT-5.6 Sol"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.6-terra"
+channel_model_id = "GPT-5.6 Terra"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-6-astra"
+channel_model_id = "GPT-6 Astra"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-6-luna"
+channel_model_id = "GPT-6 Luna"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-6-sol"
+channel_model_id = "GPT-6 Sol"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-rosalind-research"
+channel_model_id = "GPT-Rosalind-Research"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-6-astra"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "250", cache_read = "25", output = "1250" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-6-sol"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "50", cache_read = "5", output = "250" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-6-luna"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "2.5", cache_read = "0.25", output = "12.5" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-5.6-sol"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "100", cache_read = "10", output = "500" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-5.6-terra"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "50", cache_read = "5", output = "300" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "5", cache_read = "0.5", output = "30" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-rosalind-research"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "125", cache_read = "12.5", output = "625" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-5.5-2026-04-23"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "125", cache_read = "12.50", output = "750" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-5.4-2026-03-05"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "62.50", cache_read = "6.250", output = "375" }
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-5.4-mini-2026-03-17"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+rates = { input = "18.75", cache_read = "1.875", output = "113" }
+
+[[pricing_rule]]
+channel_id = "chatgpt-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+rule_key = "chatgpt-subscription/codex-fast-mode"
+kind = "markup"
+factor = "2.5"
+scope_models = ["gpt-6-astra", "gpt-6-sol", "gpt-6-luna"]
+source_id = "chatgpt-codex-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "chatgpt-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "unit-value:codex-credit"
+reason = "public_price_unavailable"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "chatgpt-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:pro-20x"
+reason = "public_price_unavailable"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "chatgpt-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:enterprise-edu"
+reason = "public_price_unavailable"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "chatgpt-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:per-model"
+reason = "public_price_unavailable"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+
+[[price_gap]]
+channel = "chatgpt-subscription"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+label = "rate:fast-other-models"
+reason = "public_price_unavailable"
+source_id = "chatgpt-codex-pricing@2026-09-25"

@@ -1,0 +1,114 @@
+[[source]]
+source_id = "aws-cross-region-inference@2026-09-25"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html"
+publisher_org_id = "aws"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:12Z"
+content_sha256 = "53a1135efa0f20bb5d0a216415731269bf27ca6cc80f614fadb4225b2f3aa46e"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-55@2026-09-25"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:13Z"
+content_sha256 = "e6026a9a41c4551f1029b109a5ebf494611d677e2b3c6c6b2ebd4cade76af831"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-54@2026-09-25"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:14Z"
+content_sha256 = "843348ddfc37971f5405a756af0dcfb77dbe28ca11d631ee4487eaf9c8fbb00e"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-56-luna@2026-09-25"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:15Z"
+content_sha256 = "1897f8cf07e791983200543ebc4dc92262c92ca537b41cc31298dd058e7e9376"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-56-terra@2026-09-25"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:17Z"
+content_sha256 = "dad5c2ccc54fc5cc0ff035430189147c01f58269837334578382e30b947df8ab"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-56-sol@2026-09-25"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-sol.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:18Z"
+content_sha256 = "af5a668b9086d40901b7a6503e15502c227dd02802742ee7d3d0345338c67b47"
+
+[[source]]
+source_id = "vertex-pricing@2026-09-25"
+url = "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:19Z"
+content_sha256 = "0af9909298be102efa3d1cd4b70c109980a8a6a208386c0273e780519e5dc34d"
+
+[[source]]
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-09-25"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:47Z"
+content_sha256 = "34445d4ad744c9e778871a3c2b1c78ef6de97675a327c426d7124715c366b9ac"
+
+[[source]]
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-09-25"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:52Z"
+content_sha256 = "dd1f45028a3ecfbf6b926bb4cef3f58be60e371c6e1874bfc77054f34a03faaf"
+
+[[source]]
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-09-25"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:31:54Z"
+content_sha256 = "1fcb5c119b02db8ddbdbeaa2081638f48aa9f5d8d122a91038c56b5cc4899701"
+
+[[source]]
+source_id = "aws-bedrock-price-list@2026-09-25"
+url = "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+publisher_org_id = "aws"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-09-25T03:32:11Z"
+content_sha256 = "14ae96b6ede2f596c74f166d02ac51b341cfe1be9603622de7f5a0758f462244"
+[[source]]
+source_id = "azure-retail-prices-gpt@2026-09-25"
+url = "https://prices.azure.com/api/retail/prices?%24filter=serviceName+eq+%27Foundry+Models%27+and+priceType+eq+%27Consumption%27+and+%28productName+eq+%27Azure+OpenAI+GPT6%27+or+productName+eq+%27Azure+OpenAI+GPT5%27%29"
+publisher_org_id = "microsoft"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-09-25T03:32:37Z"
+content_sha256 = "83d4014d22c35338f3f5cb8fb6fdd6dd2351b60ab9b01b7e65fef7e4784f9dbf"
+[[source]]
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-09-25"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-25T03:35:37Z"
+content_sha256 = "17d17a056d50554172699c6f484c0b9ee75f46df298d85c48cb184ba5c5d8bf5"

@@ -1,0 +1,5216 @@
+[defaults]
+recorded_at = "2026-09-25T00:00:00Z"
+source_id = "openrouter-models@2026-09-25"
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "o1-2024-12-17"
+channel_model_id = "openai/o1"
+availability = "available"
+valid_from = "2024-12-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "o3-2025-04-16"
+channel_model_id = "openai/o3"
+availability = "available"
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4-0613"
+channel_model_id = "openai/gpt-4"
+availability = "available"
+valid_from = "2023-05-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5-2025-08-07"
+channel_model_id = "openai/gpt-5"
+availability = "available"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4o-2024-08-06"
+channel_model_id = "openai/gpt-4o"
+availability = "available"
+valid_from = "2024-05-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "o1-pro-2025-03-19"
+channel_model_id = "openai/o1-pro"
+availability = "available"
+valid_from = "2025-03-19T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "o3-pro-2025-06-10"
+channel_model_id = "openai/o3-pro"
+availability = "available"
+valid_from = "2025-06-10T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4.1-2025-04-14"
+channel_model_id = "openai/gpt-4.1"
+availability = "available"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.1-2025-11-13"
+channel_model_id = "openai/gpt-5.1"
+availability = "available"
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.2-2025-12-11"
+channel_model_id = "openai/gpt-5.2"
+availability = "available"
+valid_from = "2025-12-10T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.4-2026-03-05"
+channel_model_id = "openai/gpt-5.4"
+availability = "available"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.5-2026-04-23"
+channel_model_id = "openai/gpt-5.5"
+availability = "available"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "o3-mini-2025-01-31"
+channel_model_id = "openai/o3-mini"
+availability = "available"
+valid_from = "2025-01-31T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "o4-mini-2025-04-16"
+channel_model_id = "openai/o4-mini"
+availability = "available"
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5-pro-2025-10-06"
+channel_model_id = "openai/gpt-5-pro"
+availability = "available"
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6-sol"
+channel_model_id = "openai/gpt-6-sol"
+availability = "available"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5-mini-2025-08-07"
+channel_model_id = "openai/gpt-5-mini"
+availability = "available"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5-nano-2025-08-07"
+channel_model_id = "openai/gpt-5-nano"
+availability = "available"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6-luna"
+channel_model_id = "openai/gpt-6-luna"
+availability = "available"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4-turbo-2024-04-09"
+channel_model_id = "openai/gpt-4-turbo"
+availability = "available"
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4o-mini-2024-07-18"
+channel_model_id = "openai/gpt-4o-mini"
+availability = "available"
+valid_from = "2024-07-18T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.2-pro-2025-12-11"
+channel_model_id = "openai/gpt-5.2-pro"
+availability = "available"
+valid_from = "2025-12-10T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.4-pro-2026-03-05"
+channel_model_id = "openai/gpt-5.4-pro"
+availability = "available"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.5-pro-2026-04-23"
+channel_model_id = "openai/gpt-5.5-pro"
+availability = "available"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.6-sol"
+channel_model_id = "openai/gpt-5.6-sol"
+availability = "available"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6-astra"
+channel_model_id = "openai/gpt-6-astra"
+availability = "available"
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4.1-mini-2025-04-14"
+channel_model_id = "openai/gpt-4.1-mini"
+availability = "available"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4.1-nano-2025-04-14"
+channel_model_id = "openai/gpt-4.1-nano"
+availability = "available"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.4-mini-2026-03-17"
+channel_model_id = "openai/gpt-5.4-mini"
+availability = "available"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.4-nano-2026-03-17"
+channel_model_id = "openai/gpt-5.4-nano"
+availability = "available"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.6-luna"
+channel_model_id = "openai/gpt-5.6-luna"
+availability = "available"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-3.5-turbo-0125"
+channel_model_id = "openai/gpt-3.5-turbo"
+availability = "available"
+valid_from = "2023-05-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.3-codex"
+channel_model_id = "openai/gpt-5.3-codex"
+availability = "available"
+valid_from = "2026-02-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-5.6-terra"
+channel_model_id = "openai/gpt-5.6-terra"
+availability = "available"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-pro"
+channel_model_id = "google/gemini-2.5-pro"
+availability = "available"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-5"
+channel_model_id = "anthropic/claude-opus-5"
+availability = "available"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-flash"
+channel_model_id = "google/gemini-2.5-flash"
+availability = "available"
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.5-flash"
+channel_model_id = "google/gemini-3.5-flash"
+availability = "available"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.6-flash"
+channel_model_id = "google/gemini-3.6-flash"
+availability = "available"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.7-flash"
+channel_model_id = "google/gemini-3.7-flash"
+availability = "available"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.8-flash"
+channel_model_id = "google/gemini-3.8-flash"
+availability = "available"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-fable-5"
+channel_model_id = "anthropic/claude-fable-5"
+availability = "available"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-4o-2024-05-13"
+channel_model_id = "openai/gpt-4o-2024-05-13"
+availability = "available"
+valid_from = "2024-05-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-4-1-20250805"
+channel_model_id = "anthropic/claude-opus-4.1"
+availability = "available"
+valid_from = "2025-08-05T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-4-5-20251101"
+channel_model_id = "anthropic/claude-opus-4.5"
+availability = "available"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-4-6"
+channel_model_id = "anthropic/claude-opus-4.6"
+availability = "available"
+valid_from = "2026-02-04T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-4-7"
+channel_model_id = "anthropic/claude-opus-4.7"
+availability = "available"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-4-8"
+channel_model_id = "anthropic/claude-opus-4.8"
+availability = "available"
+valid_from = "2026-05-27T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-opus-5-5"
+channel_model_id = "anthropic/claude-opus-5.5"
+availability = "available"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-sonnet-4-20250514"
+channel_model_id = "anthropic/claude-sonnet-4"
+availability = "available"
+valid_from = "2025-05-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-sonnet-5"
+channel_model_id = "anthropic/claude-sonnet-5"
+availability = "available"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-fable-5-1"
+channel_model_id = "anthropic/claude-fable-5.1"
+availability = "available"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-haiku-4-5-20251001"
+channel_model_id = "anthropic/claude-haiku-4.5"
+availability = "available"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-sonnet-4-5-20250929"
+channel_model_id = "anthropic/claude-sonnet-4.5"
+availability = "available"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-sonnet-4-6"
+channel_model_id = "anthropic/claude-sonnet-4.6"
+availability = "available"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-flash-lite"
+channel_model_id = "google/gemini-2.5-flash-lite"
+availability = "available"
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.1-flash-lite"
+channel_model_id = "google/gemini-3.1-flash-lite"
+availability = "available"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.5-flash-lite"
+channel_model_id = "google/gemini-3.5-flash-lite"
+availability = "available"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3-flash-preview"
+channel_model_id = "google/gemini-3-flash-preview"
+availability = "available"
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.1-pro-preview"
+channel_model_id = "google/gemini-3.1-pro-preview"
+availability = "available"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-3.5-turbo-instruct"
+channel_model_id = "openai/gpt-3.5-turbo-instruct"
+availability = "available"
+valid_from = "2023-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-3.1-pro-preview-customtools"
+channel_model_id = "google/gemini-3.1-pro-preview-customtools"
+availability = "available"
+valid_from = "2026-02-25T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[model_alias]]
+channel = "openrouter"
+alias = "openai/gpt-4o-2024-08-06"
+model_id = "gpt-4o-2024-08-06"
+valid_from = "2024-08-06T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_alias]]
+channel = "openrouter"
+alias = "openai/gpt-4o-mini-2024-07-18"
+model_id = "gpt-4o-mini-2024-07-18"
+valid_from = "2024-07-18T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/o1-2024-12-17"
+service_tier = "standard"
+rates = { input = "15", output = "60", cache_read = "7.5" }
+valid_from = "2024-12-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o3-2025-04-16"
+service_tier = "standard"
+rates = { input = "2", output = "8", cache_read = "0.5" }
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4-0613"
+service_tier = "standard"
+rates = { input = "30", output = "60" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-2025-08-07"
+service_tier = "standard"
+rates = { input = "1.25", output = "10", cache_read = "0.125" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-2024-08-06"
+service_tier = "standard"
+rates = { input = "2.5", output = "10", cache_read = "1.25" }
+valid_from = "2024-08-06T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o1-pro-2025-03-19"
+service_tier = "standard"
+rates = { input = "150", output = "600" }
+valid_from = "2025-03-19T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o3-pro-2025-06-10"
+service_tier = "standard"
+rates = { input = "20", output = "80" }
+valid_from = "2025-06-10T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-2025-04-14"
+service_tier = "standard"
+rates = { input = "2", output = "8", cache_read = "0.5" }
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.1-2025-11-13"
+service_tier = "standard"
+rates = { input = "1.25", output = "10", cache_read = "0.125" }
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-2025-12-11"
+service_tier = "standard"
+rates = { input = "1.75", output = "14", cache_read = "0.175" }
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "standard"
+rates = { input = "2.5", output = "15", cache_read = "0.25" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5", output = "22.5", cache_read = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "standard"
+rates = { input = "5", output = "30", cache_read = "0.5" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "10", output = "45", cache_read = "1" } }]
+
+[[price_card]]
+offering_id = "openrouter/o3-mini-2025-01-31"
+service_tier = "standard"
+rates = { input = "1.1", output = "4.4", cache_read = "0.55" }
+valid_from = "2025-01-31T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o4-mini-2025-04-16"
+service_tier = "standard"
+rates = { input = "1.1", output = "4.4", cache_read = "0.275" }
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o3-2025-04-16"
+service_tier = "batch"
+rates = { input = "1", output = "4", cache_read = "0.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-pro-2025-10-06"
+service_tier = "standard"
+rates = { input = "15", output = "120" }
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "standard"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-mini-2025-08-07"
+service_tier = "standard"
+rates = { input = "0.25", output = "2", cache_read = "0.025" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-nano-2025-08-07"
+service_tier = "standard"
+rates = { input = "0.05", output = "0.4", cache_read = "0.005" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "standard"
+rates = { input = "0.1", output = "0.5", cache_read = "0.01", cache_write = "0.125" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.2", output = "0.75", cache_read = "0.02", cache_write = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-4-turbo-2024-04-09"
+service_tier = "standard"
+rates = { input = "10", output = "30" }
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-mini-2024-07-18"
+service_tier = "standard"
+rates = { input = "0.15", output = "0.6", cache_read = "0.075" }
+valid_from = "2024-07-18T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-pro-2025-12-11"
+service_tier = "standard"
+rates = { input = "21", output = "168" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+service_tier = "standard"
+rates = { input = "30", output = "180" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "60", output = "270" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-pro-2026-04-23"
+service_tier = "standard"
+rates = { input = "30", output = "180" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "60", output = "270" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "standard"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-2025-08-07"
+service_tier = "batch"
+rates = { input = "0.625", output = "5", cache_read = "0.0625" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "standard"
+rates = { input = "10", output = "50", cache_read = "1", cache_write = "12.5" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "20", output = "75", cache_read = "2", cache_write = "25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-mini-2025-04-14"
+service_tier = "standard"
+rates = { input = "0.4", output = "1.6", cache_read = "0.1" }
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-nano-2025-04-14"
+service_tier = "standard"
+rates = { input = "0.1", output = "0.4", cache_read = "0.025" }
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-2024-08-06"
+service_tier = "batch"
+rates = { input = "1.25", output = "5", cache_read = "0.625" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "standard"
+rates = { input = "0.75", output = "4.5", cache_read = "0.075" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+service_tier = "standard"
+rates = { input = "0.2", output = "1.25", cache_read = "0.02" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "standard"
+rates = { input = "0.2", output = "1.2", cache_read = "0.02", cache_write = "0.25" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.4", output = "1.8", cache_read = "0.04", cache_write = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-3.5-turbo-0125"
+service_tier = "standard"
+rates = { input = "0.5", output = "1.5" }
+valid_from = "2024-02-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-2025-04-14"
+service_tier = "batch"
+rates = { input = "1", output = "4", cache_read = "0.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.1-2025-11-13"
+service_tier = "batch"
+rates = { input = "0.625", output = "5", cache_read = "0.0625" }
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-2025-12-11"
+service_tier = "batch"
+rates = { input = "0.875", output = "7", cache_read = "0.0875" }
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.3-codex"
+service_tier = "standard"
+rates = { input = "1.75", output = "14", cache_read = "0.175" }
+valid_from = "2026-02-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "batch"
+rates = { input = "1.25", output = "7.5", cache_read = "0.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2.5", output = "11.25", cache_read = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "batch"
+rates = { input = "2.5", output = "15", cache_read = "0.25" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5", output = "22.5", cache_read = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "standard"
+rates = { input = "2", output = "12", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "18", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/o3-mini-2025-01-31"
+service_tier = "batch"
+rates = { input = "0.55", output = "2.2", cache_read = "0.275" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/o4-mini-2025-04-16"
+service_tier = "batch"
+rates = { input = "0.55", output = "2.2", cache_read = "0.1375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "standard"
+rates = { input = "1.25", output = "10", cache_read = "0.125", input_audio = "1.25", cache_read_audio = "0.125", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2.5", output = "15", cache_read = "0.25", input_audio = "2.5", cache_read_audio = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-pro-2025-10-06"
+service_tier = "batch"
+rates = { input = "7.5", output = "60" }
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "batch"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write = "1.25" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.2", cache_write = "2.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "standard"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "standard"
+rates = { input = "1.5", output = "9", cache_read = "0.15", input_audio = "3", cache_read_audio = "0.3", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "standard"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "standard"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "standard"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-mini-2025-08-07"
+service_tier = "batch"
+rates = { input = "0.125", output = "1", cache_read = "0.0125" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-nano-2025-08-07"
+service_tier = "batch"
+rates = { input = "0.025", output = "0.2", cache_read = "0.0025" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "batch"
+rates = { input = "0.05", output = "0.25", cache_read = "0.005", cache_write = "0.0625" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.1", output = "0.375", cache_read = "0.01", cache_write = "0.125" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "standard"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4-turbo-2024-04-09"
+service_tier = "batch"
+rates = { input = "5", output = "15" }
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-2024-05-13"
+service_tier = "standard"
+rates = { input = "5", output = "15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-mini-2024-07-18"
+service_tier = "batch"
+rates = { input = "0.075", output = "0.3", cache_read = "0.0375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-pro-2025-12-11"
+service_tier = "batch"
+rates = { input = "10.5", output = "84" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+service_tier = "batch"
+rates = { input = "15", output = "90" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "30", output = "135" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-pro-2026-04-23"
+service_tier = "batch"
+rates = { input = "15", output = "90" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "30", output = "135" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "batch"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write = "1.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.2", cache_write = "2.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "batch"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write = "6.25" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "10", output = "37.5", cache_read = "1", cache_write = "12.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-1-20250805"
+service_tier = "standard"
+rates = { input = "15", output = "75", cache_read = "1.5", cache_write_1h = "30", cache_write_5m = "18.75" }
+valid_from = "2025-08-05T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "standard"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "standard"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-20250514"
+service_tier = "standard"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5" }
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-mini-2025-04-14"
+service_tier = "batch"
+rates = { input = "0.2", output = "0.8", cache_read = "0.05" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-nano-2025-04-14"
+service_tier = "batch"
+rates = { input = "0.05", output = "0.2", cache_read = "0.0125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "batch"
+rates = { input = "0.375", output = "2.25", cache_read = "0.0375" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+service_tier = "batch"
+rates = { input = "0.1", output = "0.625", cache_read = "0.01" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "batch"
+rates = { input = "0.1", output = "0.6", cache_read = "0.01" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.2", output = "0.9", cache_read = "0.02" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-1"
+service_tier = "standard"
+rates = { input = "10", output = "50", cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-3.5-turbo-0125"
+service_tier = "batch"
+rates = { input = "0.25", output = "0.75" }
+valid_from = "2024-02-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "batch"
+rates = { input = "1", output = "6", cache_read = "0.1" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "9", cache_read = "0.2" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "batch"
+rates = { input = "0.625", output = "5", cache_read = "0.125", input_audio = "0.625", cache_read_audio = "0.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "1.25", output = "7.5", cache_read = "0.25", input_audio = "1.25", cache_read_audio = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "standard"
+rates = { input = "0.1", output = "0.4", cache_read = "0.01", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "standard"
+rates = { input = "0.25", output = "1.5", cache_read = "0.025", input_audio = "0.5", cache_read_audio = "0.05", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "standard"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "batch"
+rates = { input = "2.5", output = "12.5", cache_read = "0.25", cache_write_1h = "5", cache_write_5m = "3.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "batch"
+rates = { input = "0.15", output = "1.25", cache_read = "0.03", input_audio = "0.5", cache_read_audio = "0.1" }
+valid_from = "2025-06-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "standard"
+rates = { input = "0.5", output = "3", cache_read = "0.05", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "standard"
+rates = { input = "2", output = "12", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4", output = "18", cache_read = "0.4", input_audio = "4", cache_read_audio = "0.4" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "batch"
+rates = { input = "0.75", output = "4.5", cache_read = "0.075", input_audio = "1.5", cache_read_audio = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "batch"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "batch"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "batch"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-3.5-turbo-instruct"
+service_tier = "standard"
+rates = { input = "1.5", output = "2" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "batch"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-1-20250805"
+service_tier = "batch"
+rates = { input = "7.5", output = "37.5", cache_read = "0.75", cache_write_1h = "15", cache_write_5m = "9.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "batch"
+rates = { input = "2.5", output = "12.5", cache_read = "0.25", cache_write_1h = "5", cache_write_5m = "3.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "batch"
+rates = { input = "2.5", output = "12.5", cache_read = "0.25", cache_write_1h = "5", cache_write_5m = "3.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "batch"
+rates = { input = "2.5", output = "12.5", cache_read = "0.25", cache_write_1h = "5", cache_write_5m = "3.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "batch"
+rates = { input = "2.5", output = "12.5", cache_read = "0.25", cache_write_1h = "5", cache_write_5m = "3.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "batch"
+rates = { input = "2", output = "10", cache_read = "0.1", cache_write_1h = "4", cache_write_5m = "2.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "batch"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-1"
+service_tier = "batch"
+rates = { input = "5", output = "25", cache_read = "0.125", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "batch"
+rates = { input = "0.5", output = "2.5", cache_read = "0.05", cache_write_1h = "1", cache_write_5m = "0.625" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "batch"
+rates = { input = "1.5", output = "7.5", cache_read = "0.15", cache_write_1h = "3", cache_write_5m = "1.875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "3", output = "11.25", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "batch"
+rates = { input = "1.5", output = "7.5", cache_read = "0.15", cache_write_1h = "3", cache_write_5m = "1.875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "batch"
+rates = { input = "0.05", output = "0.2", cache_read = "0.01", input_audio = "0.15", cache_read_audio = "0.03" }
+valid_from = "2025-07-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "batch"
+rates = { input = "0.125", output = "0.75", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025" }
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "batch"
+rates = { input = "0.15", output = "1.25", cache_read = "0.015", input_audio = "0.15", cache_read_audio = "0.015" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "batch"
+rates = { input = "0.25", output = "1.5", input_audio = "0.5" }
+valid_from = "2025-12-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "batch"
+rates = { input = "1", output = "6", input_audio = "1" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2", output = "9", input_audio = "2" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview-customtools"
+service_tier = "standard"
+rates = { input = "2", output = "12", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4", output = "18", cache_read = "0.4", input_audio = "4", cache_read_audio = "0.4" } }]
+
+[[price_card]]
+offering_id = "openrouter/o1-2024-12-17"
+service_tier = "standard"
+upstream_offering_id = "openai-api/o1-2024-12-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "15", output = "60", cache_read = "7.5" }
+valid_from = "2024-12-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o3-2025-04-16"
+service_tier = "standard"
+upstream_offering_id = "openai-api/o3-2025-04-16"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "8", cache_read = "0.5" }
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4-0613"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4-0613"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "30", output = "60" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-2025-08-07"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5-2025-08-07"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.25", output = "10", cache_read = "0.125" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-2024-08-06"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4o-2024-08-06"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.5", output = "10", cache_read = "1.25" }
+valid_from = "2024-08-06T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o1-pro-2025-03-19"
+service_tier = "standard"
+upstream_offering_id = "openai-api/o1-pro-2025-03-19"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "150", output = "600" }
+valid_from = "2025-03-19T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o3-pro-2025-06-10"
+service_tier = "standard"
+upstream_offering_id = "openai-api/o3-pro-2025-06-10"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "20", output = "80" }
+valid_from = "2025-06-10T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-2025-04-14"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4.1-2025-04-14"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "8", cache_read = "0.5" }
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.1-2025-11-13"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.1-2025-11-13"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.625", output = "5", cache_read = "0.0625" }
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.1-2025-11-13"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.1-2025-11-13"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.25", output = "10", cache_read = "0.125" }
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.1-2025-11-13"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.1-2025-11-13"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.5", output = "20", cache_read = "0.25" }
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-2025-12-11"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.2-2025-12-11"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.875", output = "7", cache_read = "0.0875" }
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-2025-12-11"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.2-2025-12-11"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.75", output = "14", cache_read = "0.175" }
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-2025-12-11"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.2-2025-12-11"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.5", output = "28", cache_read = "0.35" }
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.25", output = "7.5", cache_read = "0.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2.5", output = "11.25", cache_read = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.5", output = "15", cache_read = "0.25" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5", output = "22.5", cache_read = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.5", output = "15", cache_read = "0.25" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5", output = "22.5", cache_read = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.75", output = "16.5", cache_read = "0.275" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5.5", output = "24.75", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.75", output = "16.5", cache_read = "0.275" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5.5", output = "24.75", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.75", output = "16.5", cache_read = "0.275" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5.5", output = "24.75", cache_read = "0.55" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.4-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "30", cache_read = "0.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "10", output = "45", cache_read = "1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.5", output = "15", cache_read = "0.25" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "5", output = "22.5", cache_read = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "30", cache_read = "0.5" }
+valid_from = "2026-05-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "10", output = "45", cache_read = "1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "30", cache_read = "0.5" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "10", output = "45", cache_read = "1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "33", cache_read = "0.55" }
+valid_from = "2026-05-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "11", output = "49.5", cache_read = "1.1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "33", cache_read = "0.55" }
+valid_from = "2026-05-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "11", output = "49.5", cache_read = "1.1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "33", cache_read = "0.55" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "11", output = "49.5", cache_read = "1.1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.5-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "12.5", output = "75", cache_read = "1.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "25", output = "112.5", cache_read = "2.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/o3-mini-2025-01-31"
+service_tier = "standard"
+upstream_offering_id = "openai-api/o3-mini-2025-01-31"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.1", output = "4.4", cache_read = "0.55" }
+valid_from = "2025-01-31T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/o4-mini-2025-04-16"
+service_tier = "standard"
+upstream_offering_id = "openai-api/o4-mini-2025-04-16"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.1", output = "4.4", cache_read = "0.275" }
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-pro-2025-10-06"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5-pro-2025-10-06"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "15", output = "120" }
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write = "1.25" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.2", cache_write = "2.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "11", cache_read = "0.22", cache_write = "2.75" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "16.5", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "11", cache_read = "0.22", cache_write = "2.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "16.5", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-sol"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.4", cache_write = "5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "30", cache_read = "0.8", cache_write = "10" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-mini-2025-08-07"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5-mini-2025-08-07"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.125", output = "1", cache_read = "0.0125" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-mini-2025-08-07"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5-mini-2025-08-07"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.25", output = "2", cache_read = "0.025" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-nano-2025-08-07"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5-nano-2025-08-07"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.025", output = "0.2", cache_read = "0.0025" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5-nano-2025-08-07"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5-nano-2025-08-07"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.05", output = "0.4", cache_read = "0.005" }
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.05", output = "0.25", cache_read = "0.005", cache_write = "0.0625" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.1", output = "0.375", cache_read = "0.01", cache_write = "0.125" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.5", cache_read = "0.01", cache_write = "0.125" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.2", output = "0.75", cache_read = "0.02", cache_write = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.5", cache_read = "0.01", cache_write = "0.125" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.2", output = "0.75", cache_read = "0.02", cache_write = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.11", output = "0.55", cache_read = "0.011", cache_write = "0.1375" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.22", output = "0.825", cache_read = "0.022", cache_write = "0.275" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.11", output = "0.55", cache_read = "0.011", cache_write = "0.1375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.22", output = "0.825", cache_read = "0.022", cache_write = "0.275" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-luna"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.2", output = "1", cache_read = "0.02", cache_write = "0.25" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.4", output = "1.5", cache_read = "0.04", cache_write = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-4-turbo-2024-04-09"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4-turbo-2024-04-09"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "30" }
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-mini-2024-07-18"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4o-mini-2024-07-18"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.15", output = "0.6", cache_read = "0.075" }
+valid_from = "2024-07-18T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.2-pro-2025-12-11"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.2-pro-2025-12-11"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "21", output = "168" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.4-pro-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "15", output = "90" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "30", output = "135" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.4-pro-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "30", output = "180" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "60", output = "270" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.4-pro-2026-03-05"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "30", output = "180" }
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "60", output = "270" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-pro-2026-04-23"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.5-pro-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "15", output = "90" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "30", output = "135" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.5-pro-2026-04-23"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.5-pro-2026-04-23"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "30", output = "180" }
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "60", output = "270" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write = "1.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.2", cache_write = "2.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.4", cache_write = "5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "30", cache_read = "0.8", cache_write = "10" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.4", cache_write = "5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "30", cache_read = "0.8", cache_write = "10" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4.4", output = "22", cache_read = "0.44", cache_write = "5.5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8.8", output = "33", cache_read = "0.88", cache_write = "11" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4.4", output = "22", cache_read = "0.44", cache_write = "5.5" }
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8.8", output = "33", cache_read = "0.88", cache_write = "11" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-sol"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-5.6-sol"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4.4", output = "22", cache_read = "0.44", cache_write = "5.5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8.8", output = "33", cache_read = "0.88", cache_write = "11" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-6-astra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write = "6.25" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "10", output = "37.5", cache_read = "1", cache_write = "12.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-6-astra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write = "12.5" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "20", output = "75", cache_read = "2", cache_write = "25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-6-astra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write = "12.5" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "20", output = "75", cache_read = "2", cache_write = "25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-6-astra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "11", output = "55", cache_read = "1.1", cache_write = "13.75" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "22", output = "82.5", cache_read = "2.2", cache_write = "27.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-6-astra"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-6-astra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "20", output = "100", cache_read = "2", cache_write = "25" }
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "40", output = "150", cache_read = "4", cache_write = "50" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-mini-2025-04-14"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4.1-mini-2025-04-14"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.4", output = "1.6", cache_read = "0.1" }
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4.1-nano-2025-04-14"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4.1-nano-2025-04-14"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.4", cache_read = "0.025" }
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.4-mini-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "2.25", cache_read = "0.0375" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.4-mini-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "4.5", cache_read = "0.075" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.4-mini-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "4.5", cache_read = "0.075" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.4-mini-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.825", output = "4.95", cache_read = "0.0825" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.4-mini-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.5", output = "9", cache_read = "0.15" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.4-nano-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.625", cache_read = "0.01" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.4-nano-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.2", output = "1.25", cache_read = "0.02" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.4-nano-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.2", output = "1.25", cache_read = "0.02" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.4-nano-2026-03-17"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.22", output = "1.375", cache_read = "0.022" }
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.6", cache_read = "0.01", cache_write = "0.125" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.2", output = "0.9", cache_read = "0.02", cache_write = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.2", output = "1.2", cache_read = "0.02", cache_write = "0.25" }
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.4", output = "1.8", cache_read = "0.04", cache_write = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.2", output = "1.2", cache_read = "0.02", cache_write = "0.25" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.4", output = "1.8", cache_read = "0.04", cache_write = "0.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.22", output = "1.32", cache_read = "0.022", cache_write = "0.275" }
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.44", output = "1.98", cache_read = "0.044", cache_write = "0.55" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.22", output = "1.32", cache_read = "0.022", cache_write = "0.275" }
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.44", output = "1.98", cache_read = "0.044", cache_write = "0.55" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.22", output = "1.32", cache_read = "0.022", cache_write = "0.275" }
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.44", output = "1.98", cache_read = "0.044", cache_write = "0.55" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-luna"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.6-luna"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.4", output = "2.4", cache_read = "0.04", cache_write = "0.5" }
+valid_from = "2026-08-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "0.8", output = "3.6", cache_read = "0.08", cache_write = "1" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-3.5-turbo-0125"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-3.5-turbo-0125"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.5", output = "1.5" }
+valid_from = "2024-02-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.3-codex"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.3-codex"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.75", output = "14", cache_read = "0.175" }
+valid_from = "2026-03-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.3-codex"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.3-codex"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.75", output = "14", cache_read = "0.175" }
+valid_from = "2026-02-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.3-codex"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.3-codex"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.5", output = "28", cache_read = "0.35" }
+valid_from = "2026-02-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "flex"
+upstream_offering_id = "openai-api/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "6", cache_read = "0.1", cache_write = "1.25" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "9", cache_read = "0.2", cache_write = "2.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "12", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "18", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "12", cache_read = "0.2", cache_write = "2.5" }
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "18", cache_read = "0.4", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "13.2", cache_read = "0.22", cache_write = "2.75" }
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "19.8", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "13.2", cache_read = "0.22", cache_write = "2.75" }
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "19.8", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "standard"
+region_id = "eu"
+upstream_offering_id = "azure-foundry/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "13.2", cache_read = "0.22", cache_write = "2.75" }
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "19.8", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-5.6-terra"
+service_tier = "fast"
+upstream_offering_id = "openai-api/gpt-5.6-terra"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "24", cache_read = "0.4", cache_write = "5" }
+valid_from = "2026-08-05T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "36", cache_read = "0.8", cache_write = "10" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-2.5-pro"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.25", output = "10", cache_read = "0.125", input_audio = "1.25", cache_read_audio = "0.125", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2.5", output = "15", cache_read = "0.25", input_audio = "2.5", cache_read_audio = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-2.5-pro"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.25", output = "18", cache_read = "0.225", input_audio = "2.25", cache_read_audio = "0.225", cache_write = "0.675" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4.5", output = "27", cache_read = "0.45", input_audio = "4.5", cache_read_audio = "0.45" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-2.5-pro"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.625", output = "5", cache_read = "0.0625", input_audio = "0.625", cache_read_audio = "0.0625", cache_write = "0.1875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "1.25", output = "7.5", cache_read = "0.125", input_audio = "1.25", cache_read_audio = "0.125" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-2.5-pro"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.25", output = "10", cache_read = "0.125", input_audio = "1.25", cache_read_audio = "0.125", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2.5", output = "15", cache_read = "0.25", input_audio = "2.5", cache_read_audio = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-2.5-pro"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.25", output = "10", cache_read = "0.125", input_audio = "1.25", cache_read_audio = "0.125", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2.5", output = "15", cache_read = "0.25", input_audio = "2.5", cache_read_audio = "0.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-pro"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-2.5-pro"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.25", output = "18", cache_read = "0.225", input_audio = "2.25", cache_read_audio = "0.225", cache_write = "0.675" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4.5", output = "27", cache_read = "0.45", input_audio = "4.5", cache_read_audio = "0.45" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5"
+service_tier = "fast"
+upstream_offering_id = "anthropic-api/claude-opus-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-2.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-2.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-2.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.54", output = "4.5", cache_read = "0.054", input_audio = "1.8", cache_read_audio = "0.18", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-2.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.15", output = "1.25", cache_read = "0.015", input_audio = "0.5", cache_read_audio = "0.05", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-2.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-2.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.54", output = "4.5", cache_read = "0.054", input_audio = "1.8", cache_read_audio = "0.18", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "4.5", cache_read = "0.075", input_audio = "1.5", cache_read_audio = "0.15", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "4.5", cache_read = "0.075", input_audio = "1.5", cache_read_audio = "0.15", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.5", output = "9", cache_read = "0.15", input_audio = "3", cache_read_audio = "0.3", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.5", output = "9", cache_read = "0.15", input_audio = "3", cache_read_audio = "0.3", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.65", output = "9.9", cache_read = "0.165", input_audio = "3.3", cache_read_audio = "0.33", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.7", output = "16.2", cache_read = "0.27", input_audio = "5.4", cache_read_audio = "0.54", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.5-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.7", output = "16.2", cache_read = "0.27", input_audio = "5.4", cache_read_audio = "0.54", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0208333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0208333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", input_audio = "1.35", cache_read_audio = "0.135", cache_write = "0.075" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", input_audio = "1.35", cache_read_audio = "0.135", cache_write = "0.075" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.6-flash"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-3.6-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.825", output = "4.125", cache_read = "0.0825", input_audio = "0.825", cache_read_audio = "0.0825", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.7-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0208333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.7-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0208333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.7-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.7-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.7-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", input_audio = "1.35", cache_read_audio = "0.135", cache_write = "0.075" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.7-flash"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.7-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", input_audio = "1.35", cache_read_audio = "0.135", cache_write = "0.075" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.8-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0208333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.8-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.375", output = "1.875", cache_read = "0.0375", input_audio = "0.375", cache_read_audio = "0.0375", cache_write = "0.0208333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.8-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.8-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.75", output = "3.75", cache_read = "0.075", input_audio = "0.75", cache_read_audio = "0.075", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.8-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", input_audio = "1.35", cache_read_audio = "0.135", cache_write = "0.075" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.8-flash"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.8-flash"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.35", output = "6.75", cache_read = "0.135", input_audio = "1.35", cache_read_audio = "0.135", cache_write = "0.075" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-fable-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-fable-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-fable-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-fable-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-fable-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "11", output = "55", cache_read = "1.1", cache_write_1h = "22", cache_write_5m = "13.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gpt-4o-2024-05-13"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-4o-2024-05-13"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-1-20250805"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-4-1-20250805"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "15", output = "75", cache_read = "1.5", cache_write_1h = "30", cache_write_5m = "18.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-opus-4-5-20251101"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-opus-4-5-20251101"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-opus-4-5-20251101"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-opus-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-opus-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-opus-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-6"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-opus-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-opus-4-7"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-opus-4-7"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-4-7"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-opus-4-7"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-opus-4-7"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-7"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-opus-4-7"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5", output = "25", cache_read = "0.5", cache_write_1h = "10", cache_write_5m = "6.25" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "aws-bedrock/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "5.5", output = "27.5", cache_read = "0.55", cache_write_1h = "11", cache_write_5m = "6.875" }
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-4-8"
+service_tier = "fast"
+upstream_offering_id = "anthropic-api/claude-opus-4-8"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "1", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write_1h = "8", cache_write_5m = "5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4.4", output = "22", cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4.4", output = "22", cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "4.4", output = "22", cache_read = "0.22", cache_write_1h = "8.8", cache_write_5m = "5.5" }
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-opus-5-5"
+service_tier = "fast"
+upstream_offering_id = "anthropic-api/claude-opus-5-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "8", output = "40", cache_read = "0.4", cache_write_1h = "16", cache_write_5m = "10" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-20250514"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-20250514"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5" }
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5" }
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "10", cache_read = "0.2", cache_write_1h = "4", cache_write_5m = "2.5" }
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "11", cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75" }
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+region_id = "us"
+upstream_offering_id = "azure-foundry/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "11", cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-5"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-sonnet-5"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2.2", output = "11", cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75" }
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-1"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-fable-5-1"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-1"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-fable-5-1"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-1"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-fable-5-1"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-1"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-fable-5-1"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "10", output = "50", cache_read = "0.25", cache_write_1h = "20", cache_write_5m = "12.5" }
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "5", cache_read = "0.1", cache_write_1h = "2", cache_write_5m = "1.25" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.1", output = "5.5", cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "google-vertex/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.1", output = "5.5", cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.1", output = "5.5", cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375" }
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-haiku-4-5-20251001"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.1", output = "5.5", cache_read = "0.11", cache_write_1h = "2.2", cache_write_5m = "1.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-sonnet-4-5-20250929"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-sonnet-4-5-20250929"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6", output = "22.5", cache_read = "0.6", cache_write_1h = "12", cache_write_5m = "7.5" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.3", output = "16.5", cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6.6", output = "24.75", cache_read = "0.66", cache_write_1h = "13.2", cache_write_5m = "8.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.3", output = "16.5", cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "6.6", output = "24.75", cache_read = "0.66", cache_write_1h = "13.2", cache_write_5m = "8.25" } }]
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+upstream_offering_id = "azure-foundry/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+upstream_offering_id = "anthropic-api/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3", output = "15", cache_read = "0.3", cache_write_1h = "6", cache_write_5m = "3.75" }
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.3", output = "16.5", cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125" }
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.3", output = "16.5", cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125" }
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.3", output = "16.5", cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/claude-sonnet-4-6"
+service_tier = "standard"
+region_id = "regional"
+upstream_offering_id = "google-vertex/claude-sonnet-4-6"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.3", output = "16.5", cache_read = "0.33", cache_write_1h = "6.6", cache_write_5m = "4.125" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-2.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.4", cache_read = "0.01", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-2.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.4", cache_read = "0.01", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-2.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.05", output = "0.2", cache_read = "0.005", input_audio = "0.15", cache_read_audio = "0.015", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-2.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.1", output = "0.4", cache_read = "0.01", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-2.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.18", output = "0.72", cache_read = "0.018", input_audio = "0.54", cache_read_audio = "0.054", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.125", output = "0.75", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.125", output = "0.75", cache_read = "0.0125", input_audio = "0.25", cache_read_audio = "0.025", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.25", output = "1.5", cache_read = "0.025", input_audio = "0.5", cache_read_audio = "0.05", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.25", output = "1.5", cache_read = "0.025", input_audio = "0.5", cache_read_audio = "0.05", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.275", output = "1.65", cache_read = "0.0275", input_audio = "0.55", cache_read_audio = "0.055", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.45", output = "2.7", cache_read = "0.045", input_audio = "0.9", cache_read_audio = "0.09", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.1-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.45", output = "2.7", cache_read = "0.045", input_audio = "0.9", cache_read_audio = "0.09", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.15", output = "1.25", cache_read = "0.015", input_audio = "0.15", cache_read_audio = "0.015", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.15", output = "1.25", cache_read = "0.015", input_audio = "0.15", cache_read_audio = "0.015", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.3", output = "2.5", cache_read = "0.03", input_audio = "0.3", cache_read_audio = "0.03", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "standard"
+region_id = "geo"
+upstream_offering_id = "google-vertex/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.33", output = "2.75", cache_read = "0.033", input_audio = "0.33", cache_read_audio = "0.033", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.54", output = "4.5", cache_read = "0.054", input_audio = "0.54", cache_read_audio = "0.054", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.5-flash-lite"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.54", output = "4.5", cache_read = "0.054", input_audio = "0.54", cache_read_audio = "0.054", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3-flash-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.25", output = "1.5", cache_read = "0.025", input_audio = "0.5", cache_read_audio = "0.05", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3-flash-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.25", output = "1.5", cache_read = "0.025", input_audio = "0.5", cache_read_audio = "0.05", cache_write = "0.0416666666666667" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3-flash-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.5", output = "3", cache_read = "0.05", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3-flash-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.5", output = "3", cache_read = "0.05", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.0833333333333333" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3-flash-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.9", output = "5.4", cache_read = "0.09", input_audio = "1.8", cache_read_audio = "0.18", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3-flash-preview"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3-flash-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "0.9", output = "5.4", cache_read = "0.09", input_audio = "1.8", cache_read_audio = "0.18", cache_write = "0.15" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "flex"
+upstream_offering_id = "google-vertex/gemini-3.1-pro-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "6", cache_read = "0.1", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.1875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2", output = "9", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "flex"
+upstream_offering_id = "gemini-api/gemini-3.1-pro-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1", output = "6", cache_read = "0.1", input_audio = "1", cache_read_audio = "0.1", cache_write = "0.1875" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "2", output = "9", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "standard"
+upstream_offering_id = "google-vertex/gemini-3.1-pro-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "12", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4", output = "18", cache_read = "0.4", input_audio = "4", cache_read_audio = "0.4" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.1-pro-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "12", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4", output = "18", cache_read = "0.4", input_audio = "4", cache_read_audio = "0.4" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "priority"
+upstream_offering_id = "google-vertex/gemini-3.1-pro-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.6", output = "21.6", cache_read = "0.36", input_audio = "3.6", cache_read_audio = "0.36", cache_write = "0.675" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "7.2", output = "32.4", cache_read = "0.72", input_audio = "7.2", cache_read_audio = "0.72" } }]
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+service_tier = "priority"
+upstream_offering_id = "gemini-api/gemini-3.1-pro-preview"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "3.6", output = "21.6", cache_read = "0.36", input_audio = "3.6", cache_read_audio = "0.36", cache_write = "0.675" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "7.2", output = "32.4", cache_read = "0.72", input_audio = "7.2", cache_read_audio = "0.72" } }]
+
+[[price_card]]
+offering_id = "openrouter/gpt-3.5-turbo-instruct"
+service_tier = "standard"
+upstream_offering_id = "openai-api/gpt-3.5-turbo-instruct"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "1.5", output = "2" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+
+[[price_card]]
+offering_id = "openrouter/gemini-3.1-pro-preview-customtools"
+service_tier = "standard"
+upstream_offering_id = "gemini-api/gemini-3.1-pro-preview-customtools"
+source_id = "openrouter-endpoints@2026-09-25"
+rates = { input = "2", output = "12", cache_read = "0.2", input_audio = "2", cache_read_audio = "0.2", cache_write = "0.375" }
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+tiers = [{ min_tokens = 200000, rates = { input = "4", output = "18", cache_read = "0.4", input_audio = "4", cache_read_audio = "0.4" } }]
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5"
+upstream_offering_id = "anthropic-api/claude-fable-5"
+routing = "load_balanced"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5"
+upstream_offering_id = "aws-bedrock/claude-fable-5"
+routing = "load_balanced"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5"
+upstream_offering_id = "azure-foundry/claude-fable-5"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5"
+upstream_offering_id = "google-vertex/claude-fable-5"
+routing = "load_balanced"
+valid_from = "2026-06-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5-1"
+upstream_offering_id = "anthropic-api/claude-fable-5-1"
+routing = "load_balanced"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5-1"
+upstream_offering_id = "aws-bedrock/claude-fable-5-1"
+routing = "load_balanced"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5-1"
+upstream_offering_id = "azure-foundry/claude-fable-5-1"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-fable-5-1"
+upstream_offering_id = "google-vertex/claude-fable-5-1"
+routing = "load_balanced"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+upstream_offering_id = "anthropic-api/claude-haiku-4-5-20251001"
+routing = "load_balanced"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+upstream_offering_id = "aws-bedrock/claude-haiku-4-5-20251001"
+routing = "load_balanced"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+upstream_offering_id = "azure-foundry/claude-haiku-4-5-20251001"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-haiku-4-5-20251001"
+upstream_offering_id = "google-vertex/claude-haiku-4-5-20251001"
+routing = "load_balanced"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-1-20250805"
+upstream_offering_id = "aws-bedrock/claude-opus-4-1-20250805"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+upstream_offering_id = "anthropic-api/claude-opus-4-5-20251101"
+routing = "load_balanced"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+upstream_offering_id = "aws-bedrock/claude-opus-4-5-20251101"
+routing = "load_balanced"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+upstream_offering_id = "azure-foundry/claude-opus-4-5-20251101"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-5-20251101"
+upstream_offering_id = "google-vertex/claude-opus-4-5-20251101"
+routing = "load_balanced"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-6"
+upstream_offering_id = "anthropic-api/claude-opus-4-6"
+routing = "load_balanced"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-6"
+upstream_offering_id = "aws-bedrock/claude-opus-4-6"
+routing = "load_balanced"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-6"
+upstream_offering_id = "azure-foundry/claude-opus-4-6"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-6"
+upstream_offering_id = "google-vertex/claude-opus-4-6"
+routing = "load_balanced"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-7"
+upstream_offering_id = "anthropic-api/claude-opus-4-7"
+routing = "load_balanced"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-7"
+upstream_offering_id = "aws-bedrock/claude-opus-4-7"
+routing = "load_balanced"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-7"
+upstream_offering_id = "azure-foundry/claude-opus-4-7"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-7"
+upstream_offering_id = "google-vertex/claude-opus-4-7"
+routing = "load_balanced"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-8"
+upstream_offering_id = "anthropic-api/claude-opus-4-8"
+routing = "load_balanced"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-8"
+upstream_offering_id = "aws-bedrock/claude-opus-4-8"
+routing = "load_balanced"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-8"
+upstream_offering_id = "azure-foundry/claude-opus-4-8"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-4-8"
+upstream_offering_id = "google-vertex/claude-opus-4-8"
+routing = "load_balanced"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5"
+upstream_offering_id = "anthropic-api/claude-opus-5"
+routing = "load_balanced"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5"
+upstream_offering_id = "aws-bedrock/claude-opus-5"
+routing = "load_balanced"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5"
+upstream_offering_id = "azure-foundry/claude-opus-5"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5"
+upstream_offering_id = "google-vertex/claude-opus-5"
+routing = "load_balanced"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5-5"
+upstream_offering_id = "anthropic-api/claude-opus-5-5"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5-5"
+upstream_offering_id = "aws-bedrock/claude-opus-5-5"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5-5"
+upstream_offering_id = "azure-foundry/claude-opus-5-5"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-opus-5-5"
+upstream_offering_id = "google-vertex/claude-opus-5-5"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-20250514"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-20250514"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+upstream_offering_id = "anthropic-api/claude-sonnet-4-5-20250929"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-5-20250929"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+upstream_offering_id = "azure-foundry/claude-sonnet-4-5-20250929"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-5-20250929"
+upstream_offering_id = "google-vertex/claude-sonnet-4-5-20250929"
+routing = "load_balanced"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-6"
+upstream_offering_id = "anthropic-api/claude-sonnet-4-6"
+routing = "load_balanced"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-6"
+upstream_offering_id = "aws-bedrock/claude-sonnet-4-6"
+routing = "load_balanced"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-6"
+upstream_offering_id = "azure-foundry/claude-sonnet-4-6"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-4-6"
+upstream_offering_id = "google-vertex/claude-sonnet-4-6"
+routing = "load_balanced"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-5"
+upstream_offering_id = "anthropic-api/claude-sonnet-5"
+routing = "load_balanced"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-5"
+upstream_offering_id = "aws-bedrock/claude-sonnet-5"
+routing = "load_balanced"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-5"
+upstream_offering_id = "azure-foundry/claude-sonnet-5"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/claude-sonnet-5"
+upstream_offering_id = "google-vertex/claude-sonnet-5"
+routing = "load_balanced"
+valid_from = "2026-06-30T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-2.5-flash"
+upstream_offering_id = "gemini-api/gemini-2.5-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-2.5-flash"
+upstream_offering_id = "google-vertex/gemini-2.5-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+upstream_offering_id = "gemini-api/gemini-2.5-flash-lite"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-2.5-flash-lite"
+upstream_offering_id = "google-vertex/gemini-2.5-flash-lite"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-2.5-pro"
+upstream_offering_id = "gemini-api/gemini-2.5-pro"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-2.5-pro"
+upstream_offering_id = "google-vertex/gemini-2.5-pro"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3-flash-preview"
+upstream_offering_id = "gemini-api/gemini-3-flash-preview"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3-flash-preview"
+upstream_offering_id = "google-vertex/gemini-3-flash-preview"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+upstream_offering_id = "gemini-api/gemini-3.1-flash-lite"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.1-flash-lite"
+upstream_offering_id = "google-vertex/gemini-3.1-flash-lite"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+upstream_offering_id = "gemini-api/gemini-3.1-pro-preview"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.1-pro-preview"
+upstream_offering_id = "google-vertex/gemini-3.1-pro-preview"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.1-pro-preview-customtools"
+upstream_offering_id = "gemini-api/gemini-3.1-pro-preview-customtools"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.5-flash"
+upstream_offering_id = "gemini-api/gemini-3.5-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.5-flash"
+upstream_offering_id = "google-vertex/gemini-3.5-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+upstream_offering_id = "gemini-api/gemini-3.5-flash-lite"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.5-flash-lite"
+upstream_offering_id = "google-vertex/gemini-3.5-flash-lite"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.6-flash"
+upstream_offering_id = "gemini-api/gemini-3.6-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.6-flash"
+upstream_offering_id = "google-vertex/gemini-3.6-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.7-flash"
+upstream_offering_id = "gemini-api/gemini-3.7-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.7-flash"
+upstream_offering_id = "google-vertex/gemini-3.7-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.8-flash"
+upstream_offering_id = "gemini-api/gemini-3.8-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gemini-3.8-flash"
+upstream_offering_id = "google-vertex/gemini-3.8-flash"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-3.5-turbo-0125"
+upstream_offering_id = "openai-api/gpt-3.5-turbo-0125"
+routing = "load_balanced"
+valid_from = "2024-02-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-3.5-turbo-instruct"
+upstream_offering_id = "openai-api/gpt-3.5-turbo-instruct"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4-0613"
+upstream_offering_id = "openai-api/gpt-4-0613"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4-turbo-2024-04-09"
+upstream_offering_id = "openai-api/gpt-4-turbo-2024-04-09"
+routing = "load_balanced"
+valid_from = "2024-04-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4.1-2025-04-14"
+upstream_offering_id = "openai-api/gpt-4.1-2025-04-14"
+routing = "load_balanced"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4.1-mini-2025-04-14"
+upstream_offering_id = "openai-api/gpt-4.1-mini-2025-04-14"
+routing = "load_balanced"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4.1-nano-2025-04-14"
+upstream_offering_id = "openai-api/gpt-4.1-nano-2025-04-14"
+routing = "load_balanced"
+valid_from = "2025-04-14T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4o-2024-05-13"
+upstream_offering_id = "openai-api/gpt-4o-2024-05-13"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4o-2024-08-06"
+upstream_offering_id = "openai-api/gpt-4o-2024-08-06"
+routing = "load_balanced"
+valid_from = "2024-08-06T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-4o-mini-2024-07-18"
+upstream_offering_id = "openai-api/gpt-4o-mini-2024-07-18"
+routing = "load_balanced"
+valid_from = "2024-07-18T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5-2025-08-07"
+upstream_offering_id = "openai-api/gpt-5-2025-08-07"
+routing = "load_balanced"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5-mini-2025-08-07"
+upstream_offering_id = "openai-api/gpt-5-mini-2025-08-07"
+routing = "load_balanced"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5-nano-2025-08-07"
+upstream_offering_id = "openai-api/gpt-5-nano-2025-08-07"
+routing = "load_balanced"
+valid_from = "2025-08-07T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5-pro-2025-10-06"
+upstream_offering_id = "openai-api/gpt-5-pro-2025-10-06"
+routing = "load_balanced"
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.1-2025-11-13"
+upstream_offering_id = "openai-api/gpt-5.1-2025-11-13"
+routing = "load_balanced"
+valid_from = "2025-11-13T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.2-2025-12-11"
+upstream_offering_id = "openai-api/gpt-5.2-2025-12-11"
+routing = "load_balanced"
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.2-pro-2025-12-11"
+upstream_offering_id = "openai-api/gpt-5.2-pro-2025-12-11"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.3-codex"
+upstream_offering_id = "azure-foundry/gpt-5.3-codex"
+routing = "load_balanced"
+valid_from = "2026-03-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.3-codex"
+upstream_offering_id = "openai-api/gpt-5.3-codex"
+routing = "load_balanced"
+valid_from = "2026-02-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+upstream_offering_id = "aws-bedrock/gpt-5.4-2026-03-05"
+routing = "load_balanced"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+upstream_offering_id = "azure-foundry/gpt-5.4-2026-03-05"
+routing = "load_balanced"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-2026-03-05"
+upstream_offering_id = "openai-api/gpt-5.4-2026-03-05"
+routing = "load_balanced"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+upstream_offering_id = "azure-foundry/gpt-5.4-mini-2026-03-17"
+routing = "load_balanced"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-mini-2026-03-17"
+upstream_offering_id = "openai-api/gpt-5.4-mini-2026-03-17"
+routing = "load_balanced"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+upstream_offering_id = "azure-foundry/gpt-5.4-nano-2026-03-17"
+routing = "load_balanced"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-nano-2026-03-17"
+upstream_offering_id = "openai-api/gpt-5.4-nano-2026-03-17"
+routing = "load_balanced"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+upstream_offering_id = "azure-foundry/gpt-5.4-pro-2026-03-05"
+routing = "load_balanced"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.4-pro-2026-03-05"
+upstream_offering_id = "openai-api/gpt-5.4-pro-2026-03-05"
+routing = "load_balanced"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+upstream_offering_id = "aws-bedrock/gpt-5.5-2026-04-23"
+routing = "load_balanced"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+upstream_offering_id = "azure-foundry/gpt-5.5-2026-04-23"
+routing = "load_balanced"
+valid_from = "2026-05-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.5-2026-04-23"
+upstream_offering_id = "openai-api/gpt-5.5-2026-04-23"
+routing = "load_balanced"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.5-pro-2026-04-23"
+upstream_offering_id = "openai-api/gpt-5.5-pro-2026-04-23"
+routing = "load_balanced"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-luna"
+upstream_offering_id = "aws-bedrock/gpt-5.6-luna"
+routing = "load_balanced"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-luna"
+upstream_offering_id = "azure-foundry/gpt-5.6-luna"
+routing = "load_balanced"
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-luna"
+upstream_offering_id = "openai-api/gpt-5.6-luna"
+routing = "load_balanced"
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-sol"
+upstream_offering_id = "aws-bedrock/gpt-5.6-sol"
+routing = "load_balanced"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-sol"
+upstream_offering_id = "azure-foundry/gpt-5.6-sol"
+routing = "load_balanced"
+valid_from = "2026-09-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-sol"
+upstream_offering_id = "openai-api/gpt-5.6-sol"
+routing = "load_balanced"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-terra"
+upstream_offering_id = "aws-bedrock/gpt-5.6-terra"
+routing = "load_balanced"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-terra"
+upstream_offering_id = "azure-foundry/gpt-5.6-terra"
+routing = "load_balanced"
+valid_from = "2026-08-01T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-5.6-terra"
+upstream_offering_id = "openai-api/gpt-5.6-terra"
+routing = "load_balanced"
+valid_from = "2026-07-30T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-6-astra"
+upstream_offering_id = "azure-foundry/gpt-6-astra"
+routing = "load_balanced"
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-6-astra"
+upstream_offering_id = "openai-api/gpt-6-astra"
+routing = "load_balanced"
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-6-luna"
+upstream_offering_id = "azure-foundry/gpt-6-luna"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-6-luna"
+upstream_offering_id = "openai-api/gpt-6-luna"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-6-sol"
+upstream_offering_id = "azure-foundry/gpt-6-sol"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/gpt-6-sol"
+upstream_offering_id = "openai-api/gpt-6-sol"
+routing = "load_balanced"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/o1-2024-12-17"
+upstream_offering_id = "openai-api/o1-2024-12-17"
+routing = "load_balanced"
+valid_from = "2024-12-17T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/o1-pro-2025-03-19"
+upstream_offering_id = "openai-api/o1-pro-2025-03-19"
+routing = "load_balanced"
+valid_from = "2025-03-19T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/o3-2025-04-16"
+upstream_offering_id = "openai-api/o3-2025-04-16"
+routing = "load_balanced"
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/o3-mini-2025-01-31"
+upstream_offering_id = "openai-api/o3-mini-2025-01-31"
+routing = "load_balanced"
+valid_from = "2025-01-31T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/o3-pro-2025-06-10"
+upstream_offering_id = "openai-api/o3-pro-2025-06-10"
+routing = "load_balanced"
+valid_from = "2025-06-10T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"
+
+[[offering_route]]
+offering_id = "openrouter/o4-mini-2025-04-16"
+upstream_offering_id = "openai-api/o4-mini-2025-04-16"
+routing = "load_balanced"
+valid_from = "2025-04-16T00:00:00Z"
+date_basis = "inferred"
+source_id = "openrouter-endpoints@2026-09-25"

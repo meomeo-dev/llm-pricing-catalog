@@ -1,0 +1,181 @@
+[defaults]
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-09-25T04:00:00Z"
+source_id = "gemini-models@2026-09-25"
+
+[[model]]
+model_id = "gemini-3.8-flash"
+vendor_org_id = "google"
+family = "gemini-flash"
+display_name = "Gemini 3.8 Flash"
+
+[[model_revision]]
+model_id = "gemini-3.8-flash"
+lifecycle = "ga"
+released_on = "2026-09-02"
+
+[[model]]
+model_id = "gemini-3.7-flash"
+vendor_org_id = "google"
+family = "gemini-flash"
+display_name = "Gemini 3.7 Flash"
+
+[[model_revision]]
+model_id = "gemini-3.7-flash"
+lifecycle = "ga"
+released_on = "2026-08-13"
+
+[[model]]
+model_id = "gemini-3.6-flash"
+vendor_org_id = "google"
+family = "gemini-flash"
+display_name = "Gemini 3.6 Flash"
+
+[[model_revision]]
+model_id = "gemini-3.6-flash"
+lifecycle = "ga"
+released_on = "2026-07-21"
+
+[[model]]
+model_id = "gemini-3.5-flash"
+vendor_org_id = "google"
+family = "gemini-flash"
+display_name = "Gemini 3.5 Flash"
+
+[[model_revision]]
+model_id = "gemini-3.5-flash"
+lifecycle = "ga"
+released_on = "2026-05-19"
+
+[[model_alias]]
+channel = "gemini-api"
+alias = "gemini-flash-latest"
+model_id = "gemini-3.5-flash"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+
+[[model]]
+model_id = "gemini-3.5-flash-lite"
+vendor_org_id = "google"
+family = "gemini-flash-lite"
+display_name = "Gemini 3.5 Flash-Lite"
+
+[[model_revision]]
+model_id = "gemini-3.5-flash-lite"
+lifecycle = "ga"
+released_on = "2026-07-21"
+
+[[model]]
+model_id = "gemini-3.1-flash-lite"
+vendor_org_id = "google"
+family = "gemini-flash-lite"
+display_name = "Gemini 3.1 Flash-Lite"
+
+[[model_revision]]
+model_id = "gemini-3.1-flash-lite"
+lifecycle = "ga"
+released_on = "2026-05-07"
+retires_on = "2027-05-07"
+
+[[model]]
+model_id = "gemini-3.1-pro-preview"
+vendor_org_id = "google"
+family = "gemini-pro"
+display_name = "Gemini 3.1 Pro"
+
+[[model_revision]]
+model_id = "gemini-3.1-pro-preview"
+lifecycle = "preview"
+released_on = "2026-02-19"
+
+[[model]]
+model_id = "gemini-3.1-pro-preview-customtools"
+vendor_org_id = "google"
+family = "gemini-pro"
+display_name = "gemini-3.1-pro-preview-customtools"
+
+[[model_revision]]
+model_id = "gemini-3.1-pro-preview-customtools"
+lifecycle = "preview"
+released_on = "2026-02-19"
+
+[[model]]
+model_id = "gemini-3-flash-preview"
+vendor_org_id = "google"
+family = "gemini-flash"
+display_name = "Gemini 3 Flash"
+
+[[model_revision]]
+model_id = "gemini-3-flash-preview"
+lifecycle = "preview"
+released_on = "2025-12-17"
+
+[[model]]
+model_id = "gemini-2.5-pro"
+vendor_org_id = "google"
+family = "gemini-pro"
+display_name = "Gemini 2.5 Pro"
+
+[[model_revision]]
+model_id = "gemini-2.5-pro"
+lifecycle = "limited"
+released_on = "2025-06-17"
+
+[[model]]
+model_id = "gemini-2.5-flash"
+vendor_org_id = "google"
+family = "gemini-flash"
+display_name = "Gemini 2.5 Flash"
+
+[[model_revision]]
+model_id = "gemini-2.5-flash"
+lifecycle = "limited"
+released_on = "2025-06-17"
+
+[[model]]
+model_id = "gemini-2.5-flash-lite"
+vendor_org_id = "google"
+family = "gemini-flash-lite"
+display_name = "Gemini 2.5 Flash-Lite"
+
+[[model_revision]]
+model_id = "gemini-2.5-flash-lite"
+lifecycle = "limited"
+released_on = "2025-07-22"
+
+[[model]]
+model_id = "gemini-robotics-er-2-preview"
+vendor_org_id = "google"
+family = "gemini-robotics-er"
+display_name = "Gemini Robotics ER 2"
+
+[[model_revision]]
+model_id = "gemini-robotics-er-2-preview"
+lifecycle = "preview"
+released_on = "2026-07-30"
+input_modalities = ["text", "image", "video", "audio"]
+
+[[model]]
+model_id = "gemini-robotics-er-2-streaming-preview"
+vendor_org_id = "google"
+family = "gemini-robotics-er"
+display_name = "Gemini Robotics ER 2 Streaming"
+
+[[model_revision]]
+model_id = "gemini-robotics-er-2-streaming-preview"
+lifecycle = "preview"
+released_on = "2026-07-30"
+input_modalities = ["text", "image", "video", "audio"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+vendor_org_id = "google"
+family = "gemini-computer-use"
+display_name = "Gemini 2.5 Computer Use Preview"
+
+[[model_revision]]
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+lifecycle = "preview"
+released_on = "2025-10-07"

@@ -1,0 +1,20 @@
+CC0 1.0 Universal (CC0-1.0)
+
+To the extent possible under law, meomeo-dev has waived all copyright and
+related or neighboring rights, including database rights, to the data and
+documentation in this repository:
+
+  data/
+  docs/
+
+Full legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Scope notes:
+
+- Prices, model metadata and source records are facts collected from public
+  pages. Each record names its source in data/sources/ (URL, retrieval time,
+  SHA-256 of the retrieved content).
+- Verbatim text from vendor pages is not included in this repository.
+- Product names and trademarks belong to their respective owners.
+- Source code (schema/, scripts/, tests/) is licensed separately under the
+  MIT License; see LICENSE.
