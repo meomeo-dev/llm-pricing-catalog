@@ -20,12 +20,14 @@ LLM 调用价格的历史目录。能回答"某模型在某渠道、某时刻的
 | `schema/08_append_only.sql` | 只增不改触发器，由 `scripts/gen_append_only.py` 从 DDL 与 `tables.toml` 生成 |
 | `schema/queries/price_at.sql` | 按时点查价 |
 | `schema/queries/unit_value_at.sql` | 计费单位换算（积分、平台货币、中转站额度 → 法币） |
+| `schema/10_price_views.sql` | 查价视图：`price_current`（当前单价）、`price_history`（全部版本） |
 | `docs/model/er-model.md` | 实体、时间语义、不变量与查价规则 |
 | `docs/model/er-model.svg` | ER 图，由 `scripts/render_er.py` 从 DDL 生成 |
 | `data/reference/` `data/models/` `data/clients/` | 参与方与字典、模型元信息、消费端客户端与其标签 |
 | `data/channels/<渠道>/` | 各渠道的供给、价目卡、规则、套餐与缺口 |
 | `data/sources/` | 来源登记：URL、抓取时间、sha256 |
 | `scripts/build_catalog.py` | 由 `schema/` 与 `data/` 构建 SQLite 目录库并校验不变量 |
+| `scripts/query_price.py` | 按时点查价的命令行，封装 `price_at.sql` |
 | `tests/` | 用场景数据验收模型 |
 
 ## 使用
@@ -55,6 +57,47 @@ python3 scripts/gen_append_only.py
 ```bash
 python3 scripts/render_er.py
 ```
+
+## 查价
+
+**直接下载**：[Releases](https://github.com/meomeo-dev/llm-pricing-catalog/releases) 提供预构建的
+`catalog.sqlite` 与 `prices.csv`（`price_history` 视图导出），不需要 Python。
+
+**命令行**：先运行 `python3 scripts/build_catalog.py` 构建目录库，再查询：
+
+```bash
+python3 scripts/query_price.py claude-opus-5-5
+python3 scripts/query_price.py claude-opus-5-5 --channel aws-bedrock --region geo
+python3 scripts/query_price.py gpt-5 --tier batch --at 2026-06-01 --json
+```
+
+模型可以写规范 ID 或别名；不指定渠道时查厂商自己的 API；`--at` 查历史时点。查不到时
+列出该模型当前的（渠道, 服务档, 地域, 计价单位）组合。`--help` 列出全部参数。
+
+**SQL**：`price_current` 是当前生效的单价，`price_history` 是全部历史版本；每行是一个计价项
+的单价，按 `per_quantity` 个 `quantity_unit` 计（token 类计价项为每百万 token），并附来源 URL。
+
+```bash
+sqlite3 -header -column build/catalog.sqlite "
+  SELECT channel_id, region_id, meter_id, amount, price_unit_id
+    FROM price_current
+   WHERE model_id = 'claude-opus-5-5' AND service_tier = 'standard'
+   ORDER BY channel_id, region_id, meter_id"
+```
+
+某一时刻的价格：
+
+```sql
+SELECT meter_id, amount, source_url
+  FROM price_history
+ WHERE model_id = 'claude-opus-5-5' AND channel_id = 'anthropic-api'
+   AND service_tier = 'standard' AND region_id = 'global'
+   AND valid_from <= '2026-10-01T00:00:00Z'
+   AND (valid_to IS NULL OR '2026-10-01T00:00:00Z' < valid_to);
+```
+
+需要别名解析、客户端参考渠道、长上下文阶梯或回放某时刻的已知数据时，用
+`schema/queries/price_at.sql`（命名参数见文件；`scripts/query_price.py` 是它的封装）。
 
 ## 数据来源
 

@@ -86,7 +86,8 @@ def apply_supersedes(connection: sqlite3.Connection, supersedes: list[Row]) -> N
 
 def violations(connection: sqlite3.Connection) -> dict[str, list[tuple]]:
     views = [row[0] for row in connection.execute(
-        "SELECT name FROM sqlite_master WHERE type = 'view' ORDER BY name")]
+        "SELECT name FROM sqlite_master WHERE type = 'view'"
+        " AND name LIKE 'v\\_%' ESCAPE '\\' ORDER BY name")]
     found = {view: [tuple(r) for r in connection.execute(f"SELECT * FROM {view}")]
              for view in views}
     return {view: rows for view, rows in found.items() if rows}

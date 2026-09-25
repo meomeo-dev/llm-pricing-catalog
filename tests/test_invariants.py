@@ -27,7 +27,8 @@ class InvariantViews(unittest.TestCase):
 
     def test_every_invariant_view_is_listed(self) -> None:
         views = {row[0] for row in self.db.execute(
-            "SELECT name FROM sqlite_master WHERE type = 'view'")}
+            "SELECT name FROM sqlite_master WHERE type = 'view'"
+            " AND name LIKE 'v\\_%' ESCAPE '\\'")}
         self.assertEqual(views, set(INVARIANT_VIEWS))
 
     def test_overlapping_current_cards_are_reported(self) -> None:

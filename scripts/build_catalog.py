@@ -64,7 +64,9 @@ def main() -> int:
         return 1
     temporary.replace(args.target)
     counts = {t: len(rows) for t, rows in by_table.items()}
-    print(f"已写入 {args.target.relative_to(ROOT)}：{counts}")
+    shown = (args.target.relative_to(ROOT) if args.target.resolve().is_relative_to(ROOT)
+             else args.target)
+    print(f"已写入 {shown}：{counts}")
     return 0
 
 
