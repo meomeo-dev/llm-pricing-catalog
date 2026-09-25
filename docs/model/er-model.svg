@@ -452,44 +452,46 @@
 <!-- model_identifier -->
 <g id="node14" class="node">
 <title>model_identifier</title>
-<polygon fill="#37b24d" stroke="none" points="975.47,-1239.38 975.47,-1261.12 1279.22,-1261.12 1279.22,-1239.38 975.47,-1239.38"/>
-<text xml:space="preserve" text-anchor="start" x="1056.84" y="-1248.67" font-family="PingFang SC" font-weight="bold" font-size="11.00" fill="white">model_identifier</text>
-<text xml:space="preserve" text-anchor="start" x="1145.34" y="-1248.67" font-family="PingFang SC" font-size="11.00" fill="white"> &#160;模型标识</text>
-<text xml:space="preserve" text-anchor="start" x="978.47" y="-1224.38" font-family="PingFang SC" font-size="11.00" fill="#c92a2a">PK</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1224.38" font-family="PingFang SC" font-size="11.00">model_identifier_id</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1224.38" font-family="PingFang SC" font-size="11.00" fill="#868e96">integer</text>
-<text xml:space="preserve" text-anchor="start" x="978.47" y="-1202.62" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1202.62" font-family="PingFang SC" font-size="11.00">namespace_id</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1202.62" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1180.88" font-family="PingFang SC" font-size="11.00">kind</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1180.88" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1159.12" font-family="PingFang SC" font-size="11.00">identifier</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1159.12" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="978.47" y="-1137.38" font-family="PingFang SC" font-size="11.00" fill="#868e96">GEN</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1137.38" font-family="PingFang SC" font-size="11.00">identifier_key?</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1137.38" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="978.47" y="-1115.62" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1115.62" font-family="PingFang SC" font-size="11.00">model_id</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1115.62" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="978.47" y="-1093.88" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1093.88" font-family="PingFang SC" font-size="11.00">offering_id?</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1093.88" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1072.12" font-family="PingFang SC" font-size="11.00">implied_effort?</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1072.12" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1050.38" font-family="PingFang SC" font-size="11.00">implied_variant?</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1050.38" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="978.47" y="-1028.62" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1028.62" font-family="PingFang SC" font-size="11.00">source_id</text>
-<text xml:space="preserve" text-anchor="start" x="1177.59" y="-1028.62" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1009.42" font-family="PingFang SC" font-style="italic" font-size="11.00" fill="#2b8a3e">SCD2：valid_from · valid_to · date_basis</text>
-<text xml:space="preserve" text-anchor="start" x="1008.47" y="-998.42" font-family="PingFang SC" font-style="italic" font-size="11.00" fill="#2b8a3e">recorded_at · superseded_at · supersede_reason</text>
+<polygon fill="#37b24d" stroke="none" points="975.47,-1250.25 975.47,-1272 1279.22,-1272 1279.22,-1250.25 975.47,-1250.25"/>
+<text xml:space="preserve" text-anchor="start" x="1056.84" y="-1259.55" font-family="PingFang SC" font-weight="bold" font-size="11.00" fill="white">model_identifier</text>
+<text xml:space="preserve" text-anchor="start" x="1145.34" y="-1259.55" font-family="PingFang SC" font-size="11.00" fill="white"> &#160;模型标识</text>
+<text xml:space="preserve" text-anchor="start" x="978.47" y="-1235.25" font-family="PingFang SC" font-size="11.00" fill="#c92a2a">PK</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1235.25" font-family="PingFang SC" font-size="11.00">model_identifier_id</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1235.25" font-family="PingFang SC" font-size="11.00" fill="#868e96">integer</text>
+<text xml:space="preserve" text-anchor="start" x="978.47" y="-1213.5" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1213.5" font-family="PingFang SC" font-size="11.00">namespace_id</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1213.5" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1191.75" font-family="PingFang SC" font-size="11.00">kind</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1191.75" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1170" font-family="PingFang SC" font-size="11.00">identifier</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1170" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="978.47" y="-1148.25" font-family="PingFang SC" font-size="11.00" fill="#868e96">GEN</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1148.25" font-family="PingFang SC" font-size="11.00">identifier_key?</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1148.25" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="978.47" y="-1126.5" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1126.5" font-family="PingFang SC" font-size="11.00">model_id</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1126.5" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="978.47" y="-1104.75" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1104.75" font-family="PingFang SC" font-size="11.00">offering_id?</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1104.75" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1083" font-family="PingFang SC" font-size="11.00">implied_effort?</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1083" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1061.25" font-family="PingFang SC" font-size="11.00">implied_service_tier?</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1061.25" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1039.5" font-family="PingFang SC" font-size="11.00">implied_variant?</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1039.5" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="978.47" y="-1017.75" font-family="PingFang SC" font-size="11.00" fill="#1971c2">FK</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-1017.75" font-family="PingFang SC" font-size="11.00">source_id</text>
+<text xml:space="preserve" text-anchor="start" x="1182.09" y="-1017.75" font-family="PingFang SC" font-size="11.00" fill="#868e96">text</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-998.55" font-family="PingFang SC" font-style="italic" font-size="11.00" fill="#2b8a3e">SCD2：valid_from · valid_to · date_basis</text>
+<text xml:space="preserve" text-anchor="start" x="1008.47" y="-987.55" font-family="PingFang SC" font-style="italic" font-size="11.00" fill="#2b8a3e">recorded_at · superseded_at · supersede_reason</text>
 </g>
 <!-- model_identifier&#45;&gt;label_namespace -->
 <g id="edge16" class="edge">
 <title>model_identifier&#45;&gt;label_namespace</title>
-<path fill="none" stroke="#495057" d="M1257.58,-983.63C1270.27,-974.92 1283.57,-967.26 1297.34,-961.25 1426.43,-904.89 1792.91,-959.13 1930.34,-928.25 1947.45,-924.41 1949.66,-916.76 1966.84,-913.25 2033.86,-899.55 4370.4,-914.96 4429.34,-880.25 4475.37,-853.15 4503.34,-798.1 4519.08,-754.71"/>
-<polygon fill="#495057" stroke="#495057" points="1251.07,-988.39 1241.41,-990.42 1247.17,-991.24 1244.07,-993.49 1244.07,-993.49 1244.07,-993.49 1247.17,-991.24 1246.19,-996.96 1251.07,-988.39"/>
-<ellipse fill="none" stroke="#495057" cx="1255.37" cy="-985.25" rx="3.6" ry="3.6"/>
+<path fill="none" stroke="#495057" d="M1273.22,-973.65C1281.07,-969.01 1289.12,-964.84 1297.34,-961.25 1426.43,-904.89 1792.91,-959.13 1930.34,-928.25 1947.45,-924.41 1949.66,-916.76 1966.84,-913.25 2033.86,-899.55 4370.4,-914.96 4429.34,-880.25 4475.37,-853.15 4503.34,-798.1 4519.08,-754.71"/>
+<polygon fill="#495057" stroke="#495057" points="1266.25,-978.08 1256.48,-979.5 1262.17,-980.68 1258.94,-982.73 1258.94,-982.73 1258.94,-982.73 1262.17,-980.68 1260.83,-986.33 1266.25,-978.08"/>
+<ellipse fill="none" stroke="#495057" cx="1270.74" cy="-975.23" rx="3.6" ry="3.6"/>
 <polygon fill="#495057" stroke="#495057" points="4517.42,-745.83 4525.92,-748.82 4525.32,-750.52 4516.83,-747.53 4517.42,-745.83"/>
 <polyline fill="none" stroke="#495057" points="4521.97,-746.48 4520.48,-750.72"/>
 <polygon fill="#495057" stroke="#495057" points="4515.93,-750.08 4524.42,-753.06 4523.83,-754.76 4515.34,-751.78 4515.93,-750.08"/>
@@ -499,9 +501,9 @@
 <!-- model_identifier&#45;&gt;model -->
 <g id="edge15" class="edge">
 <title>model_identifier&#45;&gt;model</title>
-<path fill="none" stroke="#495057" d="M1098.14,-977.07C1092.87,-945.23 1088.05,-911.71 1084.84,-880.25 1066.51,-700.29 1064.85,-487.21 1065.45,-377.69"/>
-<polygon fill="#495057" stroke="#495057" points="1099.45,-984.85 1096.96,-994.4 1100.26,-989.62 1100.9,-993.39 1100.9,-993.39 1100.9,-993.39 1100.26,-989.62 1104.95,-993.05 1099.45,-984.85"/>
-<ellipse fill="none" stroke="#495057" cx="1098.57" cy="-979.61" rx="3.6" ry="3.6"/>
+<path fill="none" stroke="#495057" d="M1096.33,-965.98C1091.78,-937.51 1087.68,-908.08 1084.84,-880.25 1066.51,-700.29 1064.85,-487.21 1065.45,-377.69"/>
+<polygon fill="#495057" stroke="#495057" points="1097.63,-973.87 1095.09,-983.4 1098.41,-978.64 1099.03,-982.42 1099.03,-982.42 1099.03,-982.42 1098.41,-978.64 1103.08,-982.09 1097.63,-973.87"/>
+<ellipse fill="none" stroke="#495057" cx="1096.77" cy="-968.62" rx="3.6" ry="3.6"/>
 <polygon fill="#495057" stroke="#495057" points="1061,-369.58 1070,-369.63 1069.99,-371.43 1060.99,-371.38 1061,-369.58"/>
 <polyline fill="none" stroke="#495057" points="1065.51,-368.7 1065.48,-373.2"/>
 <polygon fill="#495057" stroke="#495057" points="1060.97,-374.08 1069.97,-374.13 1069.96,-375.93 1060.96,-375.88 1060.97,-374.08"/>
@@ -529,9 +531,9 @@
 <!-- model_identifier&#45;&gt;offering -->
 <g id="edge14" class="edge">
 <title>model_identifier&#45;&gt;offering</title>
-<path fill="none" stroke="#495057" d="M1099.69,-976.68C1099.18,-955.28 1100.53,-933.62 1104.84,-913.25 1104.95,-912.73 1144.89,-822.69 1173.61,-757.97"/>
-<polygon fill="#495057" stroke="#495057" points="1100.08,-984.83 1096.46,-994.01 1100.31,-989.66 1100.49,-993.49 1100.49,-993.49 1100.49,-993.49 1100.31,-989.66 1104.55,-993.63 1100.08,-984.83"/>
-<ellipse fill="none" stroke="#495057" cx="1099.83" cy="-979.52" rx="3.6" ry="3.6"/>
+<path fill="none" stroke="#495057" d="M1099.6,-965.67C1099.73,-947.9 1101.27,-930.14 1104.84,-913.25 1104.95,-912.73 1144.89,-822.69 1173.61,-757.97"/>
+<polygon fill="#495057" stroke="#495057" points="1099.74,-973.71 1095.85,-982.78 1099.82,-978.55 1099.89,-982.38 1099.89,-982.38 1099.89,-982.38 1099.82,-978.55 1103.95,-982.64 1099.74,-973.71"/>
+<ellipse fill="none" stroke="#495057" cx="1099.65" cy="-968.4" rx="3.6" ry="3.6"/>
 <polygon fill="#495057" stroke="#495057" points="1174.17,-745.61 1182.4,-749.26 1181.67,-750.91 1173.44,-747.26 1174.17,-745.61"/>
 <polyline fill="none" stroke="#495057" points="1178.65,-746.61 1176.83,-750.73"/>
 <ellipse fill="none" stroke="#495057" cx="1175.16" cy="-754.48" rx="3.6" ry="3.6"/>
@@ -540,9 +542,9 @@
 <!-- model_identifier&#45;&gt;source -->
 <g id="edge13" class="edge">
 <title>model_identifier&#45;&gt;source</title>
-<path fill="none" stroke="#be4bdb" stroke-dasharray="5,2" stroke-opacity="0.501961" d="M1256.15,-983.83C1269.24,-974.92 1283.03,-967.17 1297.34,-961.25 1364.22,-933.61 3851.5,-979.74 3902.34,-928.25 3907.03,-923.51 3907.01,-918.01 3902.34,-913.25 3842.68,-852.29 2430.25,-937.85 2367.34,-880.25 2297.46,-816.27 2255.76,-523.67 2322.34,-456.25 2372.66,-405.3 4781.72,-453.45 4957.72,-421.82"/>
-<polygon fill="#be4bdb" fill-opacity="0.501961" stroke="#be4bdb" stroke-opacity="0.501961" points="1249.78,-988.45 1240.11,-990.46 1245.86,-991.29 1242.76,-993.54 1242.76,-993.54 1242.76,-993.54 1245.86,-991.29 1244.87,-997.01 1249.78,-988.45"/>
-<ellipse fill="none" stroke="#be4bdb" stroke-opacity="0.501961" cx="1254.08" cy="-985.33" rx="3.6" ry="3.6"/>
+<path fill="none" stroke="#be4bdb" stroke-dasharray="5,2" stroke-opacity="0.501961" d="M1272.24,-973.7C1280.4,-968.99 1288.77,-964.79 1297.34,-961.25 1364.22,-933.61 3851.5,-979.74 3902.34,-928.25 3907.03,-923.51 3907.01,-918.01 3902.34,-913.25 3842.68,-852.29 2430.25,-937.85 2367.34,-880.25 2297.46,-816.27 2255.76,-523.67 2322.34,-456.25 2372.66,-405.3 4781.72,-453.45 4957.72,-421.82"/>
+<polygon fill="#be4bdb" fill-opacity="0.501961" stroke="#be4bdb" stroke-opacity="0.501961" points="1265.25,-978.08 1255.47,-979.42 1261.15,-980.64 1257.91,-982.67 1257.91,-982.67 1257.91,-982.67 1261.15,-980.64 1259.77,-986.28 1265.25,-978.08"/>
+<ellipse fill="none" stroke="#be4bdb" stroke-opacity="0.501961" cx="1269.76" cy="-975.25" rx="3.6" ry="3.6"/>
 <polygon fill="#be4bdb" fill-opacity="0.501961" stroke="#be4bdb" stroke-opacity="0.501961" points="4964.21,-415.4 4966.56,-424.09 4964.82,-424.56 4962.47,-415.87 4964.21,-415.4"/>
 <polyline fill="none" stroke="#be4bdb" stroke-opacity="0.501961" points="4966.26,-419.51 4961.91,-420.68"/>
 <polygon fill="#be4bdb" fill-opacity="0.501961" stroke="#be4bdb" stroke-opacity="0.501961" points="4959.87,-416.57 4962.22,-425.26 4960.48,-425.73 4958.13,-417.04 4959.87,-416.57"/>

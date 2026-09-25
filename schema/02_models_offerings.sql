@@ -106,6 +106,9 @@ CREATE TABLE model_identifier (
   model_id         TEXT NOT NULL REFERENCES model,
   offering_id      TEXT REFERENCES offering,
   implied_effort   TEXT,
+  implied_service_tier TEXT CHECK (implied_service_tier IN (
+                     'free', 'standard', 'batch', 'flex', 'priority', 'fast',
+                     'provisioned', 'reserved')),
   implied_variant  TEXT,
   valid_from       TEXT NOT NULL CHECK (valid_from GLOB
                      '[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]Z'),

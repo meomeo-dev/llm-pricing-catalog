@@ -121,7 +121,8 @@ def replay(connection: sqlite3.Connection, by_table: dict, supersedes: list,
         stored = stored_keys(connection, table)
         deleted = stored - set(current) - seeded.get(table, set())
         if deleted:
-            raise BuildError(f"{table} 的历史行被删除：{sorted(deleted)[:5]}")
+            raise BuildError(f"{table} 的历史行被删除，共 {len(deleted)} 行，"
+                             f"前 5 行：{sorted(deleted)[:5]}")
         for key, row in current.items():
             if key in stored:
                 overwrite(connection, row, pk_columns, key)

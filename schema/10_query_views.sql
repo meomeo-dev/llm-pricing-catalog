@@ -47,20 +47,21 @@ SELECT *
 CREATE VIEW model_identifier_lookup AS
 SELECT i.identifier, i.identifier_key, i.kind, i.namespace_id, n.kind AS namespace_kind,
        n.channel_id, n.client_id, i.model_id, i.offering_id, i.implied_effort,
-       i.implied_variant, i.valid_from, i.valid_to, i.date_basis, i.source_id
+       i.implied_service_tier, i.implied_variant, i.valid_from, i.valid_to, i.date_basis,
+       i.source_id
   FROM model_identifier i
   JOIN label_namespace n ON n.namespace_id = i.namespace_id
  WHERE i.superseded_at IS NULL
 UNION ALL
 SELECT m.model_id,
        lower(replace(replace(replace(m.model_id, ' ', '-'), '_', '-'), '.', '-')),
-       'model_id', NULL, 'catalog', NULL, NULL, m.model_id, NULL, NULL, NULL,
+       'model_id', NULL, 'catalog', NULL, NULL, m.model_id, NULL, NULL, NULL, NULL,
        NULL, NULL, NULL, NULL
   FROM model m
 UNION ALL
 SELECT m.display_name,
        lower(replace(replace(replace(m.display_name, ' ', '-'), '_', '-'), '.', '-')),
-       'display_name', NULL, 'catalog', NULL, NULL, m.model_id, NULL, NULL, NULL,
+       'display_name', NULL, 'catalog', NULL, NULL, m.model_id, NULL, NULL, NULL, NULL,
        NULL, NULL, NULL, NULL
   FROM model m;
 

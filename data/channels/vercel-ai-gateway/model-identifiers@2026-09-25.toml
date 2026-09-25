@@ -1,0 +1,889 @@
+[defaults]
+recorded_at = "2026-09-25T14:40:00Z"
+source_id = "vercel-ai-gateway-models@2026-09-25"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|anthropic/claude-opus-4.8-fast"
+valid_from = "2026-05-28T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "anthropic/claude-opus-4.8-fast"
+model_id = "claude-opus-4-8"
+implied_service_tier = "fast"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|anthropic/claude-opus-5-fast"
+valid_from = "2026-07-24T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "anthropic/claude-opus-5-fast"
+model_id = "claude-opus-5"
+implied_service_tier = "fast"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|anthropic/claude-opus-5.5-fast"
+valid_from = "2026-09-22T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "anthropic/claude-opus-5.5-fast"
+model_id = "claude-opus-5-5"
+implied_service_tier = "fast"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-4.1-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-4.1-fast"
+model_id = "gpt-4.1-2025-04-14"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-4.1-mini-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-4.1-mini-fast"
+model_id = "gpt-4.1-mini-2025-04-14"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-4.1-nano-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-4.1-nano-fast"
+model_id = "gpt-4.1-nano-2025-04-14"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-4o-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-4o-fast"
+model_id = "gpt-4o-2024-08-06"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-4o-mini-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-4o-mini-fast"
+model_id = "gpt-4o-mini-2024-07-18"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5-fast"
+model_id = "gpt-5-2025-08-07"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5-mini-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5-mini-fast"
+model_id = "gpt-5-mini-2025-08-07"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.2-fast"
+valid_from = "2025-12-11T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.2-fast"
+model_id = "gpt-5.2-2025-12-11"
+implied_service_tier = "fast"
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.3-codex-fast"
+valid_from = "2026-02-05T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.3-codex-fast"
+model_id = "gpt-5.3-codex"
+implied_service_tier = "fast"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.4-fast"
+valid_from = "2026-03-05T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.4-fast"
+model_id = "gpt-5.4-2026-03-05"
+implied_service_tier = "fast"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.4-mini-fast"
+valid_from = "2026-03-17T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.4-mini-fast"
+model_id = "gpt-5.4-mini-2026-03-17"
+implied_service_tier = "fast"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.5-fast"
+valid_from = "2026-04-24T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.5-fast"
+model_id = "gpt-5.5-2026-04-23"
+implied_service_tier = "fast"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.6-luna-fast"
+valid_from = "2026-07-09T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.6-luna-fast"
+model_id = "gpt-5.6-luna"
+implied_service_tier = "fast"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.6-sol-fast"
+valid_from = "2026-07-09T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.6-sol-fast"
+model_id = "gpt-5.6-sol"
+implied_service_tier = "fast"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-5.6-terra-fast"
+valid_from = "2026-07-09T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-5.6-terra-fast"
+model_id = "gpt-5.6-terra"
+implied_service_tier = "fast"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-6-astra-fast"
+valid_from = "2026-09-04T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-6-astra-fast"
+model_id = "gpt-6-astra"
+implied_service_tier = "fast"
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-6-luna-fast"
+valid_from = "2026-09-22T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-6-luna-fast"
+model_id = "gpt-6-luna"
+implied_service_tier = "fast"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/gpt-6-sol-fast"
+valid_from = "2026-09-22T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-6-sol-fast"
+model_id = "gpt-6-sol"
+implied_service_tier = "fast"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/o3-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/o3-fast"
+model_id = "o3-2025-04-16"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:vercel-ai-gateway|api_id|openai/o4-mini-fast"
+valid_from = "2025-08-21T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-09-25T14:40:00Z"
+reason = "correction"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/o4-mini-fast"
+model_id = "o4-mini-2025-04-16"
+implied_service_tier = "fast"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Fable 5"
+model_id = "claude-fable-5"
+offering_id = "vercel-ai-gateway/claude-fable-5"
+valid_from = "2026-07-01T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Fable 5.1"
+model_id = "claude-fable-5-1"
+offering_id = "vercel-ai-gateway/claude-fable-5-1"
+valid_from = "2026-08-31T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Haiku 4.5"
+model_id = "claude-haiku-4-5-20251001"
+offering_id = "vercel-ai-gateway/claude-haiku-4-5-20251001"
+valid_from = "2025-10-15T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 4"
+model_id = "claude-opus-4-20250514"
+offering_id = "vercel-ai-gateway/claude-opus-4-20250514"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 4.5"
+model_id = "claude-opus-4-5-20251101"
+offering_id = "vercel-ai-gateway/claude-opus-4-5-20251101"
+valid_from = "2025-11-24T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 4.6"
+model_id = "claude-opus-4-6"
+offering_id = "vercel-ai-gateway/claude-opus-4-6"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 4.7"
+model_id = "claude-opus-4-7"
+offering_id = "vercel-ai-gateway/claude-opus-4-7"
+valid_from = "2026-04-16T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 4.8"
+model_id = "claude-opus-4-8"
+offering_id = "vercel-ai-gateway/claude-opus-4-8"
+valid_from = "2026-05-28T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 5"
+model_id = "claude-opus-5"
+offering_id = "vercel-ai-gateway/claude-opus-5"
+valid_from = "2026-07-24T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Opus 5.5"
+model_id = "claude-opus-5-5"
+offering_id = "vercel-ai-gateway/claude-opus-5-5"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Sonnet 4"
+model_id = "claude-sonnet-4-20250514"
+offering_id = "vercel-ai-gateway/claude-sonnet-4-20250514"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Sonnet 4.5"
+model_id = "claude-sonnet-4-5-20250929"
+offering_id = "vercel-ai-gateway/claude-sonnet-4-5-20250929"
+valid_from = "2025-09-29T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Sonnet 4.6"
+model_id = "claude-sonnet-4-6"
+offering_id = "vercel-ai-gateway/claude-sonnet-4-6"
+valid_from = "2026-02-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Claude Sonnet 5"
+model_id = "claude-sonnet-5"
+offering_id = "vercel-ai-gateway/claude-sonnet-5"
+valid_from = "2026-06-29T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 2.5 Flash"
+model_id = "gemini-2.5-flash"
+offering_id = "vercel-ai-gateway/gemini-2.5-flash"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 2.5 Flash Lite"
+model_id = "gemini-2.5-flash-lite"
+offering_id = "vercel-ai-gateway/gemini-2.5-flash-lite"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 2.5 Pro"
+model_id = "gemini-2.5-pro"
+offering_id = "vercel-ai-gateway/gemini-2.5-pro"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.1 Flash Lite"
+model_id = "gemini-3.1-flash-lite"
+offering_id = "vercel-ai-gateway/gemini-3.1-flash-lite"
+valid_from = "2026-05-07T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.1 Pro Preview"
+model_id = "gemini-3.1-pro-preview"
+offering_id = "vercel-ai-gateway/gemini-3.1-pro-preview"
+valid_from = "2026-02-19T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.5 Flash"
+model_id = "gemini-3.5-flash"
+offering_id = "vercel-ai-gateway/gemini-3.5-flash"
+valid_from = "2026-05-19T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.5 Flash Lite"
+model_id = "gemini-3.5-flash-lite"
+offering_id = "vercel-ai-gateway/gemini-3.5-flash-lite"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.6 Flash"
+model_id = "gemini-3.6-flash"
+offering_id = "vercel-ai-gateway/gemini-3.6-flash"
+valid_from = "2026-07-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.7 Flash"
+model_id = "gemini-3.7-flash"
+offering_id = "vercel-ai-gateway/gemini-3.7-flash"
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "Gemini 3.8 Flash"
+model_id = "gemini-3.8-flash"
+offering_id = "vercel-ai-gateway/gemini-3.8-flash"
+valid_from = "2026-09-02T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-3.5 Turbo"
+model_id = "gpt-3.5-turbo-0125"
+offering_id = "vercel-ai-gateway/gpt-3.5-turbo-0125"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-4 Turbo"
+model_id = "gpt-4-turbo-2024-04-09"
+offering_id = "vercel-ai-gateway/gpt-4-turbo-2024-04-09"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-4.1"
+model_id = "gpt-4.1-2025-04-14"
+offering_id = "vercel-ai-gateway/gpt-4.1-2025-04-14"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-4.1 mini"
+model_id = "gpt-4.1-mini-2025-04-14"
+offering_id = "vercel-ai-gateway/gpt-4.1-mini-2025-04-14"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-4.1 nano"
+model_id = "gpt-4.1-nano-2025-04-14"
+offering_id = "vercel-ai-gateway/gpt-4.1-nano-2025-04-14"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-4o"
+model_id = "gpt-4o-2024-08-06"
+offering_id = "vercel-ai-gateway/gpt-4o-2024-08-06"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-4o mini"
+model_id = "gpt-4o-mini-2024-07-18"
+offering_id = "vercel-ai-gateway/gpt-4o-mini-2024-07-18"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-5"
+model_id = "gpt-5-2025-08-07"
+offering_id = "vercel-ai-gateway/gpt-5-2025-08-07"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-5 mini"
+model_id = "gpt-5-mini-2025-08-07"
+offering_id = "vercel-ai-gateway/gpt-5-mini-2025-08-07"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-5 nano"
+model_id = "gpt-5-nano-2025-08-07"
+offering_id = "vercel-ai-gateway/gpt-5-nano-2025-08-07"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-5 pro"
+model_id = "gpt-5-pro-2025-10-06"
+offering_id = "vercel-ai-gateway/gpt-5-pro-2025-10-06"
+valid_from = "2025-10-06T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.2"
+model_id = "gpt-5.2-2025-12-11"
+offering_id = "vercel-ai-gateway/gpt-5.2-2025-12-11"
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.2 "
+model_id = "gpt-5.2-pro-2025-12-11"
+offering_id = "vercel-ai-gateway/gpt-5.2-pro-2025-12-11"
+valid_from = "2025-12-11T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.3 Codex"
+model_id = "gpt-5.3-codex"
+offering_id = "vercel-ai-gateway/gpt-5.3-codex"
+valid_from = "2026-02-05T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.4"
+model_id = "gpt-5.4-2026-03-05"
+offering_id = "vercel-ai-gateway/gpt-5.4-2026-03-05"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.4 Mini"
+model_id = "gpt-5.4-mini-2026-03-17"
+offering_id = "vercel-ai-gateway/gpt-5.4-mini-2026-03-17"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.4 Nano"
+model_id = "gpt-5.4-nano-2026-03-17"
+offering_id = "vercel-ai-gateway/gpt-5.4-nano-2026-03-17"
+valid_from = "2026-03-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.4 Pro"
+model_id = "gpt-5.4-pro-2026-03-05"
+offering_id = "vercel-ai-gateway/gpt-5.4-pro-2026-03-05"
+valid_from = "2026-03-05T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.5"
+model_id = "gpt-5.5-2026-04-23"
+offering_id = "vercel-ai-gateway/gpt-5.5-2026-04-23"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.5 Pro"
+model_id = "gpt-5.5-pro-2026-04-23"
+offering_id = "vercel-ai-gateway/gpt-5.5-pro-2026-04-23"
+valid_from = "2026-04-24T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.6 Luna"
+model_id = "gpt-5.6-luna"
+offering_id = "vercel-ai-gateway/gpt-5.6-luna"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.6 Sol"
+model_id = "gpt-5.6-sol"
+offering_id = "vercel-ai-gateway/gpt-5.6-sol"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT 5.6 Terra"
+model_id = "gpt-5.6-terra"
+offering_id = "vercel-ai-gateway/gpt-5.6-terra"
+valid_from = "2026-07-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-6 Astra"
+model_id = "gpt-6-astra"
+offering_id = "vercel-ai-gateway/gpt-6-astra"
+valid_from = "2026-09-04T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-6 Luna"
+model_id = "gpt-6-luna"
+offering_id = "vercel-ai-gateway/gpt-6-luna"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "GPT-6 Sol"
+model_id = "gpt-6-sol"
+offering_id = "vercel-ai-gateway/gpt-6-sol"
+valid_from = "2026-09-22T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "o1"
+model_id = "o1-2024-12-17"
+offering_id = "vercel-ai-gateway/o1-2024-12-17"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "o3"
+model_id = "o3-2025-04-16"
+offering_id = "vercel-ai-gateway/o3-2025-04-16"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "o3-mini"
+model_id = "o3-mini-2025-01-31"
+offering_id = "vercel-ai-gateway/o3-mini-2025-01-31"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "o3 Pro"
+model_id = "o3-pro-2025-06-10"
+offering_id = "vercel-ai-gateway/o3-pro-2025-06-10"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "display_name"
+identifier = "o4-mini"
+model_id = "o4-mini-2025-04-16"
+offering_id = "vercel-ai-gateway/o4-mini-2025-04-16"
+valid_from = "2025-08-21T00:00:00Z"
+date_basis = "official_effective"

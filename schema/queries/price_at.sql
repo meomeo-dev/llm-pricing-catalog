@@ -13,26 +13,40 @@ requested AS (
                       AND (v.superseded_at IS NULL OR v.superseded_at > known.t)))
            AS channel_id
 ),
+matched AS (
+  SELECT i.model_id, i.implied_service_tier, n.kind = 'client' AS from_client
+    FROM model_identifier i
+    JOIN label_namespace n ON n.namespace_id = i.namespace_id, known, requested
+   WHERE i.identifier = :label
+     AND (n.client_id = :client_id OR n.channel_id = requested.channel_id
+          OR (requested.channel_id IS NULL
+              AND n.channel_id IN (SELECT channel_id FROM channel
+                                    WHERE kind = 'first_party_api')))
+     AND i.valid_from <= :at AND (i.valid_to IS NULL OR :at < i.valid_to)
+     AND i.recorded_at <= known.t
+     AND (i.superseded_at IS NULL OR i.superseded_at > known.t)
+),
+preferred AS (
+  SELECT * FROM matched
+   WHERE from_client = (SELECT max(from_client) FROM matched)
+),
+resolution AS (
+  SELECT count(*) AS hits,
+         count(DISTINCT model_id) AS models,
+         count(DISTINCT coalesce(implied_service_tier, '')) AS tiers,
+         max(model_id) AS model_id,
+         max(implied_service_tier) AS implied_service_tier
+    FROM preferred
+),
 resolved AS (
-  SELECT coalesce(
-    (SELECT i.model_id
-       FROM model_identifier i
-       JOIN label_namespace n ON n.namespace_id = i.namespace_id, known, requested
-      WHERE i.identifier = :label
-        AND (n.client_id = :client_id OR n.channel_id = requested.channel_id
-             OR (requested.channel_id IS NULL
-                 AND n.channel_id IN (SELECT channel_id FROM channel
-                                       WHERE kind = 'first_party_api')))
-        AND i.valid_from <= :at AND (i.valid_to IS NULL OR :at < i.valid_to)
-        AND i.recorded_at <= known.t
-        AND (i.superseded_at IS NULL OR i.superseded_at > known.t)
-      ORDER BY n.kind = 'channel'
-      LIMIT 1),
-    :label) AS model_id
+  SELECT CASE WHEN hits = 0 THEN :label
+              WHEN models = 1 AND tiers = 1 THEN model_id END AS model_id,
+         coalesce(:service_tier, implied_service_tier, 'standard') AS service_tier
+    FROM resolution
 ),
 target AS (
   SELECT coalesce(requested.channel_id,
-                  (SELECT ch.channel_id
+                  (SELECT CASE WHEN count(*) = 1 THEN max(ch.channel_id) END
                      FROM channel ch JOIN model m ON m.vendor_org_id = ch.owner_org_id
                     WHERE m.model_id = resolved.model_id
                       AND ch.kind = 'first_party_api')) AS channel_id
@@ -48,7 +62,7 @@ candidate AS (
     JOIN target ON o.channel_id = target.channel_id
     JOIN known
    WHERE o.variant = coalesce(:variant, '')
-     AND s.service_tier = :service_tier
+     AND s.service_tier = resolved.service_tier
      AND s.region_id = :region_id
      AND (:price_unit_id IS NULL OR s.price_unit_id = :price_unit_id)
      AND (s.plan_id IS NULL OR s.plan_id IS :plan_id)
@@ -66,6 +80,7 @@ SELECT card.price_card_id,
        card.price_series_id,
        card.offering_id,
        resolved.model_id,
+       resolved.service_tier,
        r.meter_id,
        r.context_min_tokens,
        r.amount,

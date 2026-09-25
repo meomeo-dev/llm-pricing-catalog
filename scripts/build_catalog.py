@@ -57,7 +57,8 @@ def main() -> int:
         return 1
     found = database.violations(connection)
     for view, rows in found.items():
-        print(f"不变量 {view} 非空：{rows[:5]}", file=sys.stderr)
+        print(f"不变量 {view} 非空，共 {len(rows)} 行，前 5 行：{rows[:5]}",
+              file=sys.stderr)
     connection.commit()
     connection.close()
     if found:

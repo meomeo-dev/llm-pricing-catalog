@@ -118,8 +118,13 @@ Claude 走 Bedrock（`sole`），OpenRouter 在多个上游之间分流（`load_
 - **解析唯一**：同一命名空间里，同一个名字在同一时刻只能指向一个模型或供给
   （`v_identifier_ambiguous`）；指向的供给必须属于该命名空间的渠道
   （`v_identifier_offering_mismatch`）。
-- **精确解析，宽松搜索**：查价按名字原文精确解析；`identifier_key` 是宽松匹配键（小写，
-  空格、下划线与点号统一为连字符），只用于搜索候选，不参与查价。
+- **名字隐含的限定**：`implied_service_tier`（Vercel 的 `openai/gpt-5-mini-fast` → fast 档）、
+  `implied_effort`、`implied_variant`。查价没有显式指定服务档时采用名字隐含的服务档；
+  隐含限定只在名字所属的命名空间生效，不带到别的渠道。
+- **精确解析，宽松搜索**：查价按名字原文精确解析；同一优先级里名字指向多个模型或多个
+  隐含服务档时视为歧义，不返回价格。`identifier_key` 是宽松匹配键（小写，空格、下划线与
+  点号统一为连字符）。命令行在原文查不到时，匹配键相同且只对应一个模型的名字按该名字
+  查价（写法归一不改变名字指的是哪个模型）；去掉前缀或包含匹配只列为候选。
 - 录入时，供给条目里的 `channel_model_id` / `channel_model_name` 展开为该供给的 `api_id` /
   `display_name`；其余名字用 `[[model_identifier]]` 条目录入。
 

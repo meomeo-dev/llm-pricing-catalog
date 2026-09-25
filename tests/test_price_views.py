@@ -1,3 +1,4 @@
+import argparse
 import sys
 import unittest
 from datetime import datetime, timezone
@@ -6,8 +7,8 @@ from catalog_harness import PRICE_AT_DEFAULTS, ROOT, open_catalog, price_at
 
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from query_price import fallback_query, lookup
 import model_search
+from query_price import available_series, lookup, lookup_resolved
 
 OPUS_QUERY = {"channel_id": "anthropic-api", "label": "claude-opus-5-5"}
 AT = "2026-09-24T12:00:00Z"
@@ -52,15 +53,28 @@ class QueryPrice(unittest.TestCase):
         self.assertEqual((output["amount"], output["per_quantity"], output["quantity_unit"]),
                          ("20", 1000000, "token"))
 
-    def test_fallback_uses_catalog_display_name_then_sole_channel(self) -> None:
+    def test_catalog_display_name_is_priced_as_its_model(self) -> None:
         db = open_catalog()
         display = db.execute("SELECT display_name FROM model"
                              " WHERE model_id = 'claude-opus-5-5'").fetchone()[0]
-        by_name = fallback_query(model_search.find_names(db, display, AT))
-        self.assertEqual(by_name[1], {"label": "claude-opus-5-5"})
-        by_channel = fallback_query(
-            model_search.find_names(db, "anthropic/claude-sonnet-4.6", AT))
-        self.assertEqual(by_channel[1], {"channel_id": "openrouter"})
+        parameters = {**PRICE_AT_DEFAULTS, "label": display, "at": AT}
+        args = argparse.Namespace(label=display, channel=None, client=None)
+        cards, channels = lookup_resolved(
+            db, parameters, model_search.find_names(db, display, AT), args)
+        self.assertEqual([(card["model_id"], card["channel_id"]) for card in cards],
+                         [("claude-opus-5-5", "anthropic-api")])
+        self.assertEqual(channels, [])
+
+    def test_suggested_series_are_those_in_effect_at_the_queried_time(self) -> None:
+        db = open_catalog()
+        opus = ("claude-opus-5-5", "anthropic-api", "standard", "global", "USD", "")
+
+        def series(at: str) -> list:
+            return available_series(db, ["claude-opus-5-5"], ["anthropic-api"],
+                                    {"at": at, "known_at": None})
+
+        self.assertIn(opus, series(AT))
+        self.assertNotIn(opus, series("2026-09-01T00:00:00Z"))
 
 
 if __name__ == "__main__":

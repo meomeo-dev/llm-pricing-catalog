@@ -73,13 +73,18 @@ python3 scripts/query_price.py claude-opus-5-5 --channel aws-bedrock --region ge
 python3 scripts/query_price.py gpt-5 --tier batch --at 2026-06-01 --json
 python3 scripts/query_price.py "anthropic.claude-sonnet-4-5-20250929-v1:0" --region geo
 python3 scripts/query_price.py "Claude Opus 5" --channel github-copilot
+python3 scripts/query_price.py anthropic/claude-opus-5.5
 python3 scripts/query_price.py claude-sonnet-4.6 --search
 ```
 
-模型名可以写规范 ID、厂商展示名、渠道自己的模型 ID 或显示名、客户端标签；不指定渠道时
-查厂商自己的 API，名字只属于某一个渠道时按该渠道查；`--at` 查历史时点，改过名的模型用
-当时的名字也能查到。查不到时列出候选模型与可用的（渠道, 服务档, 地域, 计价单位）组合。
-`--search` 只搜索模型名：大小写、空格、点号与连字符的写法差异以及渠道前缀都不影响命中。
+模型名可以写规范 ID、厂商展示名、渠道自己的模型 ID 或显示名、客户端标签，大小写与空格、
+点号、下划线的写法不限。不指定渠道时查厂商自己的 API；名字只是某些渠道的模型名时到这些
+渠道查，多个渠道同名时（如 OpenRouter 与 Vercel 的 `anthropic/claude-opus-5.5`）并列列出。
+名字隐含服务档时按该档查（Vercel 的 `openai/gpt-5-mini-fast` → fast），`--tier` 可覆盖；
+`--unit` 缺省接受渠道唯一的计价单位。`--at` 查历史时点，改过名的模型用当时的名字也能查到。
+名字不能确定是哪个模型时不查价：省掉了渠道前缀的列出完整名字，更笼统的列出候选模型；
+查不到价格时列出所查时点可用的全部组合。`--search` 只搜索模型名并列出全部命中：大小写、
+空格、点号与连字符的写法差异以及渠道前缀都不影响命中。
 `--help` 列出全部参数。
 
 **SQL**：`price_current` 是当前生效的单价，`price_history` 是全部历史版本；每行是一个计价项

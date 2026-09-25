@@ -1,7 +1,9 @@
 import argparse
 import json
+import shlex
 import sqlite3
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -19,9 +21,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--client", help="客户端 ID：按客户端的别名与参考渠道解析")
     parser.add_argument("--at", help="时点，YYYY-MM-DD 或 YYYY-MM-DDTHH:MM:SSZ；缺省为现在")
     parser.add_argument("--known-at", help="只看该时刻已录入的数据，用于回放当时的认知")
-    parser.add_argument("--tier", default="standard", help="服务档，如 standard、batch")
-    parser.add_argument("--region", default="global", help="地域范围，如 global、us")
-    parser.add_argument("--unit", default="USD", help="计价单位，如 USD、credit")
+    parser.add_argument("--tier", help="服务档，如 standard、batch、fast；缺省取名字隐含的服务档，"
+                        "没有则为 standard")
+    parser.add_argument("--region", default="global", help="地域范围，如 global、us；"
+                        "缺省为 global")
+    parser.add_argument("--unit", help="计价单位，如 USD、kiro-credit；缺省接受渠道唯一的"
+                        "计价单位")
     parser.add_argument("--plan", help="套餐 ID")
     parser.add_argument("--variant", help="托管变体")
     parser.add_argument("--window", help="计价时段 ID")
@@ -57,7 +62,7 @@ def query_parameters(args: argparse.Namespace) -> dict:
 
 
 CARD_DETAIL = """
-SELECT o.model_id, o.channel_id, c.valid_from, c.valid_to, c.date_basis,
+SELECT c.price_card_id, o.model_id, o.channel_id, c.valid_from, c.valid_to, c.date_basis,
        s.service_tier, s.region_id, s.price_unit_id, src.url AS source_url
   FROM price_card c
   JOIN price_series s ON s.price_series_id = c.price_series_id
@@ -84,20 +89,65 @@ def lookup(connection: sqlite3.Connection, parameters: dict) -> list[dict]:
 
 
 SERIES_OF_MODELS = """
-SELECT DISTINCT model_id, channel_id, service_tier, region_id, price_unit_id
-  FROM price_current
- WHERE model_id IN (SELECT value FROM json_each(:models))
-   AND (:channel IS NULL OR channel_id = :channel)
- ORDER BY 1, 2, 3, 4, 5
+SELECT DISTINCT o.model_id, o.channel_id, s.service_tier, s.region_id, s.price_unit_id,
+       o.variant, s.plan_id, s.upstream_offering_id, s.window_id, s.commitment_term
+  FROM price_card c
+  JOIN price_series s ON s.price_series_id = c.price_series_id
+  JOIN offering o ON o.offering_id = s.offering_id
+ WHERE o.model_id IN (SELECT value FROM json_each(:models))
+   AND (json_array_length(:channels) = 0
+        OR o.channel_id IN (SELECT value FROM json_each(:channels)))
+   AND c.valid_from <= :at AND (c.valid_to IS NULL OR :at < c.valid_to)
+   AND c.recorded_at <= coalesce(:known_at, '9999-12-31T00:00:00Z')
+   AND (c.superseded_at IS NULL
+        OR c.superseded_at > coalesce(:known_at, '9999-12-31T00:00:00Z'))
+ ORDER BY 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 """
-SUGGESTION_LIMIT = 15
+SERIES_HEADER = ("模型", "渠道", "服务档", "地域", "计价单位", "其他参数")
+EXTRA_OPTIONS = (("variant", "--variant"), ("plan_id", "--plan"),
+                 ("upstream_offering_id", "--upstream"), ("window_id", "--window"),
+                 ("commitment_term", "--commitment"))
 
 
-def available_series(connection: sqlite3.Connection, names: list[dict],
-                     channel: str | None) -> list[tuple]:
-    models = sorted({name["model_id"] for name in names if name["match_level"] <= 3})
-    return connection.execute(SERIES_OF_MODELS, {"models": json.dumps(models),
-                                                 "channel": channel}).fetchall()
+def available_series(connection: sqlite3.Connection, models: list[str],
+                     channels: list[str], parameters: dict) -> list[tuple]:
+    rows = connection.execute(SERIES_OF_MODELS, {
+        "models": json.dumps(models), "channels": json.dumps(channels),
+        "at": parameters["at"], "known_at": parameters["known_at"]})
+    series = []
+    for row in rows:
+        extra = " ".join(f"{flag} {row[column]}" for column, flag in EXTRA_OPTIONS
+                         if row[column])
+        series.append((row["model_id"], row["channel_id"], row["service_tier"],
+                       row["region_id"], row["price_unit_id"], extra))
+    return series
+
+
+def display_width(text: str) -> int:
+    return sum(2 if unicodedata.east_asian_width(char) in "WF" else 1 for char in text)
+
+
+def print_table(rows: list[tuple]) -> None:
+    widths = [max(display_width(str(cell)) for cell in column)
+              for column in zip(SERIES_HEADER, *rows)]
+    for row in (SERIES_HEADER, *rows):
+        cells = [str(cell) + " " * (width - display_width(str(cell)))
+                 for cell, width in zip(row, widths)]
+        print("  " + "  ".join(cells).rstrip(), file=sys.stderr)
+
+
+def example_command(row: tuple, series: list[tuple]) -> str:
+    model, channel, tier, region, unit, extra = row
+    flags = []
+    if tier != "standard":
+        flags.append(f"--tier {tier}")
+    if region != "global":
+        flags.append(f"--region {region}")
+    units = {other[4] for other in series if other[:4] == row[:4] and other[5] == extra}
+    if len(units) > 1:
+        flags.append(f"--unit {unit}")
+    return " ".join(["python3 scripts/query_price.py", model, "--channel", channel,
+                     *flags, extra]).rstrip()
 
 
 def describe_name(name: dict) -> str:
@@ -108,19 +158,44 @@ def describe_name(name: dict) -> str:
 
 
 def print_suggestions(connection: sqlite3.Connection, names: list[dict],
-                      channel: str | None) -> None:
-    series = available_series(connection, names, channel)
-    if series:
-        print("可用的（模型, 渠道, 服务档, 地域, 计价单位）组合，按其中的渠道与规范 ID 查询：",
-              file=sys.stderr)
-        for row in series:
-            print(f"  {tuple(row)}", file=sys.stderr)
-    elif names:
-        print("相近的模型名：", file=sys.stderr)
-        for name in names[:SUGGESTION_LIMIT]:
-            print(f"  {describe_name(name)}", file=sys.stderr)
-    else:
+                      channels: list[str], parameters: dict) -> None:
+    print("没有命中的价目卡。", file=sys.stderr)
+    models = sorted({name["model_id"] for name in model_search.priceable_matches(names)})
+    if not models:
+        print_candidates(names)
+        return
+    series = available_series(connection, models, channels, parameters)
+    if not series and channels:
+        series = available_series(connection, models, [], parameters)
+        if series:
+            print(f"{'、'.join(models)} 在 {'、'.join(channels)} 没有 {parameters['at']}"
+                  " 时的价格；其他渠道有：", file=sys.stderr)
+    if not series:
+        print(f"{'、'.join(models)} 在 {parameters['at']} 没有任何价格。", file=sys.stderr)
+        return
+    print("可查的组合：", file=sys.stderr)
+    print_table(series)
+    print(f"例：{example_command(series[0], series)}", file=sys.stderr)
+
+
+def print_candidates(names: list[dict]) -> None:
+    closest = model_search.closest_matches(names)
+    if not closest:
         print("目录里没有相近的模型名。", file=sys.stderr)
+        return
+    if closest[0]["match_level"] == model_search.STRIPPED_PREFIX_LEVEL:
+        print("没有与它相同的模型名；省掉前缀后相同的有：", file=sys.stderr)
+        for name in closest:
+            print(f"  {describe_name(name)}", file=sys.stderr)
+        example = shlex.quote(closest[0]["identifier"])
+    else:
+        models = model_search.candidate_models(names)
+        print("名字不能确定是哪个模型，包含它的有（--search 看各渠道的写法）：",
+              file=sys.stderr)
+        for model in models:
+            print(f"  {model}", file=sys.stderr)
+        example = models[0]
+    print(f"例：python3 scripts/query_price.py {example}", file=sys.stderr)
 
 
 def print_cards(cards: list[dict]) -> None:
@@ -144,19 +219,16 @@ def main() -> int:
     connection = sqlite3.connect(args.db)
     connection.row_factory = sqlite3.Row
     parameters = query_parameters(args)
-    names = model_search.find_names(connection, args.label, parameters["at"], args.channel)
     if args.search:
-        return print_names(names, args.json)
+        return print_names(model_search.find_names(
+            connection, args.label, parameters["at"], args.channel), args.json)
     cards = lookup(connection, parameters)
-    fallback = None if args.channel or args.client else fallback_query(names)
-    if not cards and fallback:
-        note, overrides = fallback
-        print(note, file=sys.stderr)
-        cards = lookup(connection, {**parameters, **overrides})
     if not cards:
-        print("没有命中的价目卡。", file=sys.stderr)
-        print_suggestions(connection, names, args.channel)
-        return 1
+        names = model_search.find_names(connection, args.label, parameters["at"])
+        cards, channels = lookup_resolved(connection, parameters, names, args)
+        if not cards:
+            print_suggestions(connection, names, channels, parameters)
+            return 1
     if args.json:
         print(json.dumps(cards, ensure_ascii=False, indent=2))
     else:
@@ -164,16 +236,18 @@ def main() -> int:
     return 0
 
 
-def fallback_query(names: list[dict]) -> tuple[str, dict] | None:
-    catalog = {name["model_id"] for name in names
-               if name["match_level"] == 1 and name["namespace_kind"] == "catalog"}
-    if len(catalog) == 1:
-        model_id = next(iter(catalog))
-        return f"按目录展示名解析为 {model_id}", {"label": model_id}
-    channel = model_search.sole_channel(names)
-    if channel:
-        return f"按渠道 {channel} 的模型名解析", {"channel_id": channel}
-    return None
+def lookup_resolved(connection: sqlite3.Connection, parameters: dict, names: list[dict],
+                    args: argparse.Namespace) -> tuple[list[dict], list[str]]:
+    targets, note = model_search.resolve_targets(names, args.label, args.channel,
+                                                 args.client)
+    if note:
+        print(note, file=sys.stderr)
+    cards: dict[int, dict] = {}
+    for target in targets:
+        for card in lookup(connection, {**parameters, **target}):
+            cards.setdefault(card["price_card_id"], card)
+    channels = sorted({target["channel_id"] for target in targets if target.get("channel_id")})
+    return list(cards.values()), channels or ([args.channel] if args.channel else [])
 
 
 def print_names(names: list[dict], as_json: bool) -> int:

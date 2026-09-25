@@ -180,6 +180,7 @@ CREATE TRIGGER model_identifier_no_update BEFORE UPDATE ON model_identifier
      OR OLD.model_id IS NOT NEW.model_id
      OR OLD.offering_id IS NOT NEW.offering_id
      OR OLD.implied_effort IS NOT NEW.implied_effort
+     OR OLD.implied_service_tier IS NOT NEW.implied_service_tier
      OR OLD.implied_variant IS NOT NEW.implied_variant
      OR OLD.valid_from IS NOT NEW.valid_from
      OR OLD.valid_to IS NOT NEW.valid_to
