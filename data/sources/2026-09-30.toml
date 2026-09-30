@@ -69,3 +69,12 @@ kind = "official_announcement"
 machine_readable = 0
 retrieved_at = "2026-09-30T00:21:55Z"
 content_sha256 = "0a999632c44ad01e8e4c77852cc61ed1226cce8a58e79f4211aceab0bf92c41c"
+
+[[source]]
+source_id = "openai-model-gpt-6-astra@2026-09-30"
+url = "https://developers.openai.com/api/docs/models/gpt-6-astra.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:34:06Z"
+content_sha256 = "290905c5491e594376583ae22c7d21b3b6f5469074c9a7de0189bd3ae54b290a"

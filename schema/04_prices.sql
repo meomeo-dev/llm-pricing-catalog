@@ -4,7 +4,7 @@ CREATE TABLE price_series (
   offering_id      TEXT NOT NULL,
   service_tier     TEXT NOT NULL DEFAULT 'standard' CHECK (service_tier IN (
                      'free', 'standard', 'batch', 'flex', 'priority', 'fast',
-                     'provisioned', 'reserved')),
+                     'ultrafast', 'provisioned', 'reserved')),
   region_id        TEXT NOT NULL DEFAULT 'global' REFERENCES region,
   price_unit_id    TEXT NOT NULL REFERENCES billing_unit,
   window_id        TEXT REFERENCES time_window,

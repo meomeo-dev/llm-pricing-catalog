@@ -1,0 +1,13 @@
+[defaults]
+recorded_at = "2026-09-30T03:00:00Z"
+source_id = "openai-pricing@2026-09-30"
+
+[[price_card]]
+offering_id = "openai-api/gpt-6-astra"
+service_tier = "ultrafast"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "60.00", cache_read = "6.00", cache_write = "75.00", output = "300.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "120.00", cache_read = "12.00", cache_write = "150.00", output = "450.00" } }]
+evidence = [{ source_id = "openai-model-gpt-6-astra@2026-09-30", stance = "supports" }, { source_id = "openai-changelog@2026-09-30", stance = "supports" }]
