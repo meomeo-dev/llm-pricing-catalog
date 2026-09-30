@@ -9,7 +9,7 @@ factor = "1.1"
 valid_from = "2026-02-05T00:00:00Z"
 date_basis = "inferred"
 source_id = "anthropic-pricing@2026-09-25"
-scope_models = ["claude-opus-4-6", "claude-sonnet-4-6", "claude-opus-4-7", "claude-opus-4-8", "claude-opus-5", "claude-opus-5-5", "claude-sonnet-5", "claude-fable-5", "claude-fable-5-1", "claude-mythos-5", "claude-mythos-5-1"]
+scope_models = ["claude-opus-4-6", "claude-sonnet-4-6", "claude-opus-4-7", "claude-opus-4-8", "claude-opus-5", "claude-opus-5-5", "claude-sonnet-5", "claude-fable-5", "claude-fable-5-1", "claude-mythos-5", "claude-mythos-5-1", "claude-sonnet-5-5"]
 
 [[price_card]]
 offering_id = "anthropic-api/claude-fable-5"
@@ -336,3 +336,29 @@ derivation = "computed_from_rule"
 rates = { cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
 derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
 derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5", service_tier = "standard", valid_from = "2026-06-30T00:00:00Z", recorded_at = "2026-09-25T04:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5-5"
+service_tier = "batch"
+region_id = "us"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+recorded_at = "2026-09-30T02:00:00Z"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { input = "1.1", output = "5.5" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5-5", service_tier = "batch", valid_from = "2026-09-28T00:00:00Z", recorded_at = "2026-09-30T01:00:00Z" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+recorded_at = "2026-09-30T02:00:00Z"
+source_id = "anthropic-pricing@2026-09-25"
+derivation = "computed_from_rule"
+rates = { cache_read = "0.22", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
+derived_from_rule = { rule_key = "anthropic-api/data-residency-us", valid_from = "2026-02-05T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-sonnet-5-5", service_tier = "standard", valid_from = "2026-09-28T00:00:00Z", recorded_at = "2026-09-30T01:00:00Z" }

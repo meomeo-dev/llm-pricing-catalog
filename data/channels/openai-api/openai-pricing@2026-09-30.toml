@@ -1,0 +1,55 @@
+[defaults]
+recorded_at = "2026-09-30T01:00:00Z"
+source_id = "openai-pricing@2026-09-30"
+
+[[offering]]
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "openai-api"
+model_id = "gpt-6.1-sol"
+channel_model_id = "gpt-6.1-sol"
+availability = "available"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-sol"
+service_tier = "batch"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "1.00", cache_read = "0.05", cache_write = "1.25", output = "5.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", cache_read = "0.10", cache_write = "2.50", output = "7.50" } }]
+evidence = [{ source_id = "openai-model-gpt-6.1-sol@2026-09-30", stance = "supports" }]
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-sol"
+service_tier = "fast"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "4.00", cache_read = "0.20", cache_write = "5.00", output = "20.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "8.00", cache_read = "0.40", cache_write = "10.00", output = "30.00" } }]
+evidence = [{ source_id = "openai-model-gpt-6.1-sol@2026-09-30", stance = "supports" }]
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-sol"
+service_tier = "flex"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "1.00", cache_read = "0.05", cache_write = "1.25", output = "5.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", cache_read = "0.10", cache_write = "2.50", output = "7.50" } }]
+evidence = [{ source_id = "openai-model-gpt-6.1-sol@2026-09-30", stance = "supports" }]
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-sol"
+service_tier = "standard"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "2.00", cache_read = "0.10", cache_write = "2.50", output = "10.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", cache_read = "0.20", cache_write = "5.00", output = "15.00" } }]
+evidence = [{ source_id = "openai-model-gpt-6.1-sol@2026-09-30", stance = "supports" }]

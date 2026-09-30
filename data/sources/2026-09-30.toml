@@ -1,0 +1,71 @@
+[[source]]
+source_id = "anthropic-pricing@2026-09-30"
+url = "https://platform.claude.com/docs/en/about-claude/pricing.md"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:33Z"
+content_sha256 = "245b5d0472659075015551126902de479990475fa61deb58c5fc20ef5e51a909"
+
+[[source]]
+source_id = "anthropic-models@2026-09-30"
+url = "https://platform.claude.com/docs/en/about-claude/models/overview.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:35Z"
+content_sha256 = "938b1c3789c869b6f62adf59f72e8296b51c69bfb0fc53f1e33d518153840281"
+
+[[source]]
+source_id = "anthropic-release-notes@2026-09-30"
+url = "https://platform.claude.com/docs/en/release-notes/overview.md"
+publisher_org_id = "anthropic"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:38Z"
+content_sha256 = "7a37f7394a8e3b1df1b7b76bcbe1fa587ac9dec6ea16d91fbcc61995b18f1f12"
+
+[[source]]
+source_id = "openai-pricing@2026-09-30"
+url = "https://developers.openai.com/api/docs/pricing.md"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:40Z"
+content_sha256 = "b271bf08244492bcaa2a169a86c1c486ea8f4b1713ee990ce05b49435cd8c510"
+
+[[source]]
+source_id = "openai-models@2026-09-30"
+url = "https://developers.openai.com/api/docs/models.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:42Z"
+content_sha256 = "150ad20e855e44ccb861e945a1d55ecc9746d615205810160b5790bad2d02344"
+
+[[source]]
+source_id = "openai-changelog@2026-09-30"
+url = "https://developers.openai.com/api/docs/changelog.md"
+publisher_org_id = "openai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:44Z"
+content_sha256 = "2720a98f3bb17da4a5571abf7cc0e98d9edcd5c7dde2f77a48f6d5a0bf415d30"
+
+[[source]]
+source_id = "openai-model-gpt-6.1-sol@2026-09-30"
+url = "https://developers.openai.com/api/docs/models/gpt-6.1-sol.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:19:46Z"
+content_sha256 = "972f4265295eea723d5332016dc22cde03f46173fafcbcba5c23b24c8cee90c6"
+
+[[source]]
+source_id = "anthropic-deprecations@2026-09-30"
+url = "https://platform.claude.com/docs/en/about-claude/model-deprecations.md"
+publisher_org_id = "anthropic"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-09-30T00:21:55Z"
+content_sha256 = "0a999632c44ad01e8e4c77852cc61ed1226cce8a58e79f4211aceab0bf92c41c"

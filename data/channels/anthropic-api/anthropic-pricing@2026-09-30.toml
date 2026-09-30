@@ -1,0 +1,29 @@
+[defaults]
+recorded_at = "2026-09-30T01:00:00Z"
+source_id = "anthropic-pricing@2026-09-30"
+
+[[offering]]
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "anthropic-api"
+model_id = "claude-sonnet-5-5"
+channel_model_id = "claude-sonnet-5-5"
+availability = "available"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "anthropic"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5-5"
+service_tier = "batch"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "1", output = "5" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5-5"
+service_tier = "standard"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "2", cache_write_5m = "2.50", cache_write_1h = "4", cache_read = "0.20", output = "10" }

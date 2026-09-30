@@ -1,0 +1,24 @@
+[defaults]
+valid_from = "2026-09-30T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-09-30T01:00:00Z"
+source_id = "anthropic-models@2026-09-30"
+
+[[model]]
+model_id = "claude-sonnet-5-5"
+vendor_org_id = "anthropic"
+family = "claude-sonnet"
+display_name = "Claude Sonnet 5.5"
+
+[[model_revision]]
+model_id = "claude-sonnet-5-5"
+lifecycle = "ga"
+released_on = "2026-09-28"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06"
+training_cutoff = "2026-06"
+reasoning = "optional"
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
