@@ -1,0 +1,59 @@
+[defaults]
+recorded_at = "2026-10-13T07:00:00Z"
+source_id = "chatgpt-codex-speed@2026-10-13"
+
+[[supersede]]
+table = "pricing_rule_revision"
+key = "chatgpt-subscription/codex-fast-mode"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T07:00:00Z"
+reason = "restated"
+
+[[pricing_rule]]
+rule_key = "chatgpt-subscription/codex-fast-mode"
+channel_id = "chatgpt-subscription"
+kind = "markup"
+factor = "2.5"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+scope_models = ["gpt-6-astra", "gpt-6-sol", "gpt-6-luna"]
+
+[[pricing_rule]]
+rule_key = "chatgpt-subscription/codex-fast-mode"
+channel_id = "chatgpt-subscription"
+kind = "markup"
+factor = "2.5"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+scope_models = ["gpt-6.1-sol", "gpt-6-astra", "gpt-6-sol", "gpt-6-luna", "gpt-5.6-sol", "gpt-5.6-terra", "gpt-5.6-luna", "gpt-5.5-2026-04-23"]
+
+[[pricing_rule]]
+rule_key = "chatgpt-subscription/codex-fast-mode-credits"
+channel_id = "chatgpt-subscription"
+kind = "markup"
+factor = "2"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+scope_models = ["gpt-6.1-sol", "gpt-6-astra", "gpt-6-sol", "gpt-6-luna", "gpt-5.6-sol", "gpt-5.6-terra", "gpt-5.6-luna", "gpt-5.5-2026-04-23"]
+
+[[pricing_rule]]
+rule_key = "chatgpt-subscription/codex-ultrafast-mode"
+channel_id = "chatgpt-subscription"
+plan_id = "chatgpt-pro-500"
+kind = "markup"
+factor = "8"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+scope_models = ["gpt-6-astra", "gpt-6.1-sol"]
+
+[[pricing_rule]]
+rule_key = "chatgpt-subscription/codex-ultrafast-mode-credits"
+channel_id = "chatgpt-subscription"
+kind = "markup"
+factor = "6"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+scope_models = ["gpt-6-astra", "gpt-6.1-sol"]

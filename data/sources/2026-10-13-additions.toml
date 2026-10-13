@@ -1,0 +1,17 @@
+[[source]]
+source_id = "chatgpt-codex-speed@2026-10-13"
+url = "https://learn.chatgpt.com/docs/agent-configuration/speed.md"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T06:26:28Z"
+content_sha256 = "8fc743d64ac1e880d42e0fe679005dbb5d550ab178552c025d27f841e7c89539"
+
+[[source]]
+source_id = "anthropic-doc-claude-platform-on-aws@2026-10-13"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T06:25:34Z"
+content_sha256 = "8af2eefef81bf7bdb266673f0d708935437056d8cde279c536337e60e0f882b4"
