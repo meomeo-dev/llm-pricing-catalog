@@ -1,0 +1,14 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "openai-pricing@2026-10-13"
+
+[[model]]
+model_id = "gpt-rosalind-discovery"
+vendor_org_id = "openai"
+display_name = "gpt-rosalind-discovery"
+
+[[model_revision]]
+model_id = "gpt-rosalind-discovery"
+lifecycle = "limited"

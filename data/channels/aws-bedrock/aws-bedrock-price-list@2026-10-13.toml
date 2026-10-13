@@ -1,0 +1,89 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "aws-bedrock-price-list@2026-10-13"
+
+[[offering]]
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-haiku-5-5"
+channel_model_id = "anthropic.claude-haiku-5-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-10-13"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "inferred"
+channel_id = "aws-bedrock"
+model_id = "claude-sonnet-5-5"
+channel_model_id = "anthropic.claude-sonnet-5-5"
+api_surface = "bedrock-mantle"
+availability = "available"
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-10-13"
+operator_org_id = "aws"
+seller_org_id = "anthropic"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { cache_read = "0.011", cache_write_1h = "0.22", cache_write_5m = "0.1375", input = "0.11", output = "0.55" }
+tiers = [{ min_tokens = 100000, rates = { cache_read = "0.055", cache_write_1h = "1.1", cache_write_5m = "0.6875", input = "0.55", output = "2.75" } }]
+evidence = [{ source_id = "aws-model-card-anthropic-claude-haiku-5-5@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { cache_read = "0.01", cache_write_1h = "0.2", cache_write_5m = "0.125", input = "0.1", output = "0.5" }
+tiers = [{ min_tokens = 100000, rates = { cache_read = "0.05", cache_write_1h = "1", cache_write_5m = "0.625", input = "0.5", output = "2.5" } }]
+evidence = [{ source_id = "aws-model-card-anthropic-claude-haiku-5-5@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-haiku-5-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { cache_read = "0.011", cache_write_1h = "0.22", cache_write_5m = "0.1375", input = "0.11", output = "0.55" }
+tiers = [{ min_tokens = 100000, rates = { cache_read = "0.055", cache_write_1h = "1.1", cache_write_5m = "0.6875", input = "0.55", output = "2.75" } }]
+evidence = [{ source_id = "aws-model-card-anthropic-claude-haiku-5-5@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.11", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.1", cache_write_1h = "4", cache_write_5m = "2.5", input = "2", output = "10" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.11", cache_write_1h = "4.4", cache_write_5m = "2.75", input = "2.2", output = "11" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]

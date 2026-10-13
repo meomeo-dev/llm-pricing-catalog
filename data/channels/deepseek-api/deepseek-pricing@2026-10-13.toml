@@ -1,0 +1,61 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "deepseek-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-08-13T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "deepseek-api"
+model_id = "deepseek-v4-pro"
+channel_model_id = "deepseek-v4-pro"
+availability = "available"
+operator_org_id = "deepseek"
+seller_org_id = "deepseek"
+billing_org_id = "deepseek"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+channel_id = "deepseek-api"
+model_id = "deepseek-v4.1-flash"
+channel_model_id = "deepseek-flash"
+availability = "available"
+operator_org_id = "deepseek"
+seller_org_id = "deepseek"
+billing_org_id = "deepseek"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4-pro"
+service_tier = "standard"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.022", input = "0.66", output = "1.98" }
+evidence = [{ source_id = "deepseek-updates@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4-pro"
+service_tier = "standard"
+window_id = "deepseek-peak"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "inferred"
+rates = { cache_read = "0.044", input = "1.32", output = "3.96" }
+evidence = [{ source_id = "deepseek-updates@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4.1-flash"
+service_tier = "standard"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+rates = { cache_read = "0.003", input = "0.15", output = "0.6" }
+evidence = [{ source_id = "deepseek-news260910@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4.1-flash"
+service_tier = "standard"
+window_id = "deepseek-peak"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+rates = { cache_read = "0.006", input = "0.3", output = "1.2" }
+evidence = [{ source_id = "deepseek-news260910@2026-10-13", stance = "supports" }]

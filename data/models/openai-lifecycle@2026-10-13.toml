@@ -1,0 +1,268 @@
+[defaults]
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "openai-deprecations@2026-10-13"
+
+[[supersede]]
+table = "model_revision"
+key = "gpt-3.5-turbo-instruct"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-instruct"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-09-28T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+context_window = 4096
+max_output_tokens = 4096
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-instruct"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "retired"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+context_window = 4096
+max_output_tokens = 4096
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[supersede]]
+table = "model_revision"
+key = "babbage-002"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "babbage-002"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-09-28T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+max_output_tokens = 16384
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model_revision]]
+model_id = "babbage-002"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "retired"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+max_output_tokens = 16384
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[supersede]]
+table = "model_revision"
+key = "davinci-002"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "davinci-002"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-09-28T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+max_output_tokens = 16384
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model_revision]]
+model_id = "davinci-002"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "retired"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+max_output_tokens = 16384
+knowledge_cutoff = "2021-09-01"
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[supersede]]
+table = "model_revision"
+key = "gpt-3.5-turbo-1106"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-1106"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-09-28T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "deprecated"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+
+[[model_revision]]
+model_id = "gpt-3.5-turbo-1106"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "retired"
+deprecated_on = "2025-09-26"
+retires_on = "2026-09-28"
+
+[[supersede]]
+table = "model_revision"
+key = "gpt-5.3-codex"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gpt-5.3-codex"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-01T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "ga"
+released_on = "2026-02-24"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_revision]]
+model_id = "gpt-5.3-codex"
+valid_from = "2026-10-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "deprecated"
+released_on = "2026-02-24"
+deprecated_on = "2026-10-01"
+retires_on = "2027-04-01"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[supersede]]
+table = "model_revision"
+key = "gpt-5.4-nano-2026-03-17"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gpt-5.4-nano-2026-03-17"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-01T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "ga"
+released_on = "2026-03-17"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_revision]]
+model_id = "gpt-5.4-nano-2026-03-17"
+valid_from = "2026-10-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "deprecated"
+released_on = "2026-03-17"
+deprecated_on = "2026-10-01"
+retires_on = "2027-04-01"
+context_window = 400000
+max_input_tokens = 272000
+max_output_tokens = 128000
+knowledge_cutoff = "2025-08-31"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[supersede]]
+table = "model_revision"
+key = "gpt-5.1-2025-11-13"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gpt-5.1-2025-11-13"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-01T00:00:00Z"
+date_basis = "first_observed"
+source_id = "openai-models@2026-09-25"
+lifecycle = "ga"
+released_on = "2025-11-13"
+context_window = 400000
+max_output_tokens = 128000
+knowledge_cutoff = "2024-09-30"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_revision]]
+model_id = "gpt-5.1-2025-11-13"
+valid_from = "2026-10-01T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openai-deprecations@2026-10-13"
+lifecycle = "deprecated"
+released_on = "2025-11-13"
+deprecated_on = "2026-10-01"
+retires_on = "2027-04-01"
+context_window = 400000
+max_output_tokens = 128000
+knowledge_cutoff = "2024-09-30"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high"]
+default_effort = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]

@@ -1,0 +1,94 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "zai-pricing@2026-10-13"
+
+[[model]]
+model_id = "glm-5.3"
+vendor_org_id = "zai"
+family = "glm"
+display_name = "GLM-5.3"
+
+[[model_revision]]
+model_id = "glm-5.3"
+lifecycle = "ga"
+released_on = "2026-08-18"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "always"
+efforts = ["low", "high", "max"]
+default_effort = "max"
+input_modalities = ["text"]
+
+[[model]]
+model_id = "glm-5.3-flash"
+vendor_org_id = "zai"
+family = "glm"
+display_name = "GLM-5.3-Flash"
+
+[[model_revision]]
+model_id = "glm-5.3-flash"
+lifecycle = "ga"
+released_on = "2026-08-26"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "always"
+efforts = ["low", "high", "max"]
+default_effort = "max"
+input_modalities = ["text", "image", "video", "file"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "glm-5.3-flashx"
+vendor_org_id = "zai"
+family = "glm"
+display_name = "GLM-5.3-FlashX"
+
+[[model_revision]]
+model_id = "glm-5.3-flashx"
+lifecycle = "ga"
+context_window = 1000000
+max_output_tokens = 128000
+reasoning = "always"
+efforts = ["low", "high", "max"]
+default_effort = "max"
+input_modalities = ["text", "image", "video", "file"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "glm-5.2"
+vendor_org_id = "zai"
+family = "glm"
+display_name = "GLM-5.2"
+
+[[model_revision]]
+model_id = "glm-5.2"
+lifecycle = "ga"
+released_on = "2026-06-16"
+context_window = 1000000
+max_output_tokens = 128000
+input_modalities = ["text"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "glm-5.1"
+vendor_org_id = "zai"
+family = "glm"
+display_name = "GLM-5.1"
+
+[[model_revision]]
+model_id = "glm-5.1"
+lifecycle = "ga"
+released_on = "2026-04-07"
+
+[[model]]
+model_id = "glm-5"
+vendor_org_id = "zai"
+family = "glm"
+display_name = "GLM-5"
+
+[[model_revision]]
+model_id = "glm-5"
+lifecycle = "ga"
+released_on = "2026-02-12"

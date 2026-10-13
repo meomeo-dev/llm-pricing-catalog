@@ -1,0 +1,407 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "xai-pricing@2026-10-13"
+
+[[model]]
+model_id = "grok-4.7"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.7"
+
+[[model_revision]]
+model_id = "grok-4.7"
+lifecycle = "ga"
+released_on = "2026-09-21"
+context_window = 500000
+reasoning = "always"
+efforts = ["low", "medium", "high", "xhigh"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "grok-4.6"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.6"
+
+[[model_revision]]
+model_id = "grok-4.6"
+lifecycle = "ga"
+context_window = 500000
+reasoning = "always"
+efforts = ["low", "medium", "high", "xhigh"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "grok-4.5"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.5"
+
+[[model_revision]]
+model_id = "grok-4.5"
+lifecycle = "ga"
+context_window = 500000
+reasoning = "always"
+efforts = ["low", "medium", "high"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.5-latest"
+model_id = "grok-4.5"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-build-latest"
+model_id = "grok-4.5"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "grok-4.3"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.3"
+
+[[model_revision]]
+model_id = "grok-4.3"
+lifecycle = "ga"
+context_window = 1000000
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh"]
+default_effort = "low"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.3-latest"
+model_id = "grok-4.3"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "grok-4.20-0309-reasoning"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.20"
+
+[[model_revision]]
+model_id = "grok-4.20-0309-reasoning"
+lifecycle = "ga"
+context_window = 1000000
+reasoning = "always"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-reasoning-latest"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-reasoning"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-0309"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-0309-reasoning"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-0309"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-latest"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-latest-reasoning"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-reasoning"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-experimental-beta-0304-reasoning"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-experimental-beta-0304"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-experimental-beta-reasoning-latest"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-experimental-beta-latest"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-reasoning-gv2"
+model_id = "grok-4.20-0309-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "grok-4.20-0309-non-reasoning"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.20 (Non-Reasoning)"
+
+[[model_revision]]
+model_id = "grok-4.20-0309-non-reasoning"
+lifecycle = "ga"
+context_window = 1000000
+reasoning = "none"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-non-reasoning"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-non-reasoning-latest"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-non-reasoning"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-latest-non-reasoning"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-experimental-beta-0304-non-reasoning"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-experimental-beta-non-reasoning-latest"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-beta-0309-non-reasoning"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-non-reasoning-gv2"
+model_id = "grok-4.20-0309-non-reasoning"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "grok-4.20-multi-agent-0309"
+vendor_org_id = "xai"
+family = "grok"
+display_name = "Grok 4.20 Multi-Agent Beta"
+
+[[model_revision]]
+model_id = "grok-4.20-multi-agent-0309"
+lifecycle = "preview"
+context_window = 1000000
+reasoning = "always"
+efforts = ["low", "medium", "high", "xhigh"]
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-multi-agent"
+model_id = "grok-4.20-multi-agent-0309"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-multi-agent-latest"
+model_id = "grok-4.20-multi-agent-0309"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-multi-agent-beta-latest"
+model_id = "grok-4.20-multi-agent-0309"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-multi-agent-experimental-beta-0304"
+model_id = "grok-4.20-multi-agent-0309"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-multi-agent-experimental-beta-latest"
+model_id = "grok-4.20-multi-agent-0309"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-4.20-multi-agent-beta-0309"
+model_id = "grok-4.20-multi-agent-0309"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "grok-build-0.1"
+vendor_org_id = "xai"
+family = "grok-build"
+display_name = "Grok Build 0.1"
+
+[[model_revision]]
+model_id = "grok-build-0.1"
+lifecycle = "preview"
+context_window = 256000
+reasoning = "always"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-code-fast-1"
+model_id = "grok-build-0.1"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-code-fast"
+model_id = "grok-build-0.1"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "xai-api"
+kind = "api_id"
+identifier = "grok-code-fast-1-0825"
+model_id = "grok-build-0.1"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"

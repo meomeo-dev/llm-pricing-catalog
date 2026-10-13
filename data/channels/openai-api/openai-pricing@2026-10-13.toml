@@ -1,0 +1,32 @@
+[defaults]
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "openai-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "openai-api"
+model_id = "gpt-rosalind-discovery"
+channel_model_id = "gpt-rosalind-discovery"
+availability = "limited"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-sol"
+service_tier = "ultrafast"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "12.00", cache_read = "0.60", cache_write = "15.00", output = "60.00" }
+tiers = [{ min_tokens = 272000, rates = { input = "24.00", cache_read = "1.20", cache_write = "30.00", output = "90.00" } }]
+evidence = [{ source_id = "openai-model-gpt-6.1-sol@2026-10-13", stance = "supports" }, { source_id = "openai-changelog@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "openai-api/gpt-rosalind-discovery"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "5.00", cache_read = "0.50", output = "25.00" }

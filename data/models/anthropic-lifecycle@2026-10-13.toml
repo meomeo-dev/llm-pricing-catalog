@@ -1,0 +1,32 @@
+[defaults]
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "anthropic-deprecations@2026-10-13"
+
+[[supersede]]
+table = "model_revision"
+key = "claude-sonnet-4-5-20250929"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "claude-sonnet-4-5-20250929"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-09-30T00:00:00Z"
+date_basis = "first_observed"
+source_id = "anthropic-models@2026-09-25"
+lifecycle = "ga"
+released_on = "2025-09-29"
+context_window = 200000
+
+[[model_revision]]
+model_id = "claude-sonnet-4-5-20250929"
+valid_from = "2026-09-30T00:00:00Z"
+date_basis = "official_effective"
+source_id = "anthropic-deprecations@2026-10-13"
+lifecycle = "deprecated"
+released_on = "2025-09-29"
+deprecated_on = "2026-09-30"
+retires_on = "2026-11-30"
+context_window = 200000

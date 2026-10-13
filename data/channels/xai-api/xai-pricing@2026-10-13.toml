@@ -1,0 +1,181 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "xai-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-4.20-0309-non-reasoning"
+channel_model_id = "grok-4.20-0309-non-reasoning"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-4.20-0309-reasoning"
+channel_model_id = "grok-4.20-0309-reasoning"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-4.20-multi-agent-0309"
+channel_model_id = "grok-4.20-multi-agent-0309"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-4.3"
+channel_model_id = "grok-4.3"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-4.5"
+channel_model_id = "grok-4.5"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-4.6"
+channel_model_id = "grok-4.6"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-09-21T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "xai-api"
+model_id = "grok-4.7"
+channel_model_id = "grok-4.7"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "xai-api"
+model_id = "grok-build-0.1"
+channel_model_id = "grok-build-0.1"
+availability = "available"
+operator_org_id = "xai"
+seller_org_id = "xai"
+billing_org_id = "xai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "xai-api/grok-4.20-0309-non-reasoning"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "1.25", cache_read = "0.20", output = "2.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", cache_read = "0.40", output = "5.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.20-0309-reasoning"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "1.25", cache_read = "0.20", output = "2.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", cache_read = "0.40", output = "5.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.20-multi-agent-0309"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "1.25", cache_read = "0.20", output = "2.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", cache_read = "0.40", output = "5.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.3"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "1.25", cache_read = "0.20", output = "2.50" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.50", cache_read = "0.40", output = "5.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.5"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "2.00", cache_read = "0.30", output = "6.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", cache_read = "0.60", output = "12.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.6"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "2.00", cache_read = "0.50", output = "6.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", cache_read = "1.00", output = "12.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.7"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "2.00", cache_read = "0.50", output = "6.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.00", cache_read = "1.00", output = "12.00" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-4.7"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "2.20", cache_read = "0.55", output = "6.60" }
+tiers = [{ min_tokens = 200000, rates = { input = "4.40", cache_read = "1.10", output = "13.20" } }]
+
+[[price_card]]
+offering_id = "xai-api/grok-build-0.1"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "1.00", cache_read = "0.20", output = "2.00" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", cache_read = "0.40", output = "4.00" } }]

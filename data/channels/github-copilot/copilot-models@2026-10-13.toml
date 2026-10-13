@@ -1,0 +1,76 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "copilot-models-and-pricing-yaml@2026-10-13"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-sonnet-5-5"
+channel_model_name = "Claude Sonnet 5.5"
+availability = "available"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-changelog-claude-sonnet-5-5@2026-10-13"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6.1-sol"
+channel_model_name = "GPT-6.1 Sol"
+availability = "available"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-changelog-gpt-6-1-sol@2026-10-13"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-haiku-5-5"
+channel_model_name = "Claude Haiku 5.5"
+availability = "available"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+source_id = "copilot-changelog-claude-haiku-5-5@2026-10-13"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-5-5"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2026-10-07T00:00:00Z"
+source_id = "copilot-models-and-pricing-yaml-9c7da1a@2026-10-13"
+rates = { input = "2.00", cache_read = "0.20", output = "10.00", cache_write_5m = "2.50" }
+evidence = [{ source_id = "copilot-models-and-pricing@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "github-copilot/claude-sonnet-5-5"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.00", cache_read = "0.10", output = "10.00", cache_write_5m = "2.50" }
+evidence = [{ source_id = "copilot-models-and-pricing@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6.1-sol"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2.00", cache_read = "0.10", output = "10.00", cache_write = "2.50" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", cache_read = "0.20", output = "15.00", cache_write = "5.00" } }]
+evidence = [{ source_id = "copilot-models-and-pricing@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "github-copilot/claude-haiku-5-5"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.10", cache_read = "0.01", output = "0.50", cache_write_5m = "0.125" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.50", cache_read = "0.05", output = "2.50", cache_write_5m = "0.625" } }]
+evidence = [{ source_id = "copilot-models-and-pricing@2026-10-13", stance = "supports" }]

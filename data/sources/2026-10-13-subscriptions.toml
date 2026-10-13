@@ -1,0 +1,251 @@
+[[source]]
+source_id = "copilot-models-and-pricing-yaml@2026-10-13"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:20Z"
+content_sha256 = "d1c7540b412c58b347dcf349b5cd0ca5f46a5015b5ffccbfdc8623f2079e0a28"
+
+[[source]]
+source_id = "copilot-annual-multipliers-yaml@2026-10-13"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/annual-subscriber-model-multipliers.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:20Z"
+content_sha256 = "d8ddb6f9758516d9294a204f83ebe4eb2d840a565c5695059966f18c7b5dc79a"
+
+[[source]]
+source_id = "copilot-models-and-pricing-yaml-9c7da1a@2026-10-13"
+url = "https://raw.githubusercontent.com/github/docs/9c7da1a58938cb45da17789618a85b7d9d26eb43/data/tables/copilot/models-and-pricing.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:21Z"
+content_sha256 = "eaab874e5781f974bf6c943ffcbd0686738c426dd511f913bc384d9ec551d69d"
+
+[[source]]
+source_id = "copilot-model-deprecation-history-yaml@2026-10-13"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/model-deprecation-history.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:21Z"
+content_sha256 = "97e039649fe092d0953bc2f3111fbd2dbf51d43a50b06ae3416310a93d7190cd"
+
+[[source]]
+source_id = "copilot-models-and-pricing@2026-10-13"
+url = "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing"
+publisher_org_id = "github"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:21Z"
+content_sha256 = "fd61d5da92703effd0b2180d7e1a0d514cec740d65e636fc41428e7573fce003"
+
+[[source]]
+source_id = "copilot-requests@2026-10-13"
+url = "https://docs.github.com/en/copilot/concepts/billing/copilot-requests"
+publisher_org_id = "github"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:22Z"
+content_sha256 = "8b9809dca484acfd9791bf133837245f1937cc630fc80e141bf5917f7106fcc3"
+
+[[source]]
+source_id = "copilot-changelog-claude-sonnet-5-5@2026-10-13"
+url = "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot"
+publisher_org_id = "github"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:23Z"
+content_sha256 = "18fc0c61efa8bb4778a153f2412cd8a5478a4325e26a494733cc3e9524a0940e"
+
+[[source]]
+source_id = "copilot-changelog-gpt-6-1-sol@2026-10-13"
+url = "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"
+publisher_org_id = "github"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:24Z"
+content_sha256 = "cfe32a0b4ae638a2d5f53e8025cc533c54a14f5868330af5f9ed59dc67178853"
+
+[[source]]
+source_id = "copilot-changelog-claude-haiku-5-5@2026-10-13"
+url = "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot"
+publisher_org_id = "github"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:25Z"
+content_sha256 = "1b1c1a23761a14e28625773c4891e894785db867ab611943e6dd78b4a23cbae1"
+
+[[source]]
+source_id = "copilot-changelog-models-deprecated@2026-10-13"
+url = "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"
+publisher_org_id = "github"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:25Z"
+content_sha256 = "800cf5dc46b6e10a93ba41bebe92cc9a055227534ce89402defc3ffd9682039b"
+
+[[source]]
+source_id = "kiro-pricing@2026-10-13"
+url = "https://kiro.dev/pricing"
+publisher_org_id = "aws"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:26Z"
+content_sha256 = "101bbbc135cb913fd80ff0fbcef8a72dd59635d33019ba2ac97850d4f05c596a"
+
+[[source]]
+source_id = "kiro-models@2026-10-13"
+url = "https://kiro.dev/docs/models/"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:27Z"
+content_sha256 = "47cd440550e24f5a163ff31851089c9062273ab90b22448220631e9a063823d8"
+
+[[source]]
+source_id = "kiro-changelog-models@2026-10-13"
+url = "https://kiro.dev/changelog/models/"
+publisher_org_id = "aws"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:27Z"
+content_sha256 = "8090fdf7b2517a0d1d6a4435c1d46d8e8bf3ab7d5190bc72d1ed0865b6d3bf12"
+
+[[source]]
+source_id = "cursor-pricing@2026-10-13"
+url = "https://cursor.com/pricing"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:27Z"
+content_sha256 = "75fe867f5b2eb494fd937f296226cd184c1fe2befeb64c1d2d5f4e6a1cec8009"
+
+[[source]]
+source_id = "cursor-docs-pricing@2026-10-13"
+url = "https://cursor.com/docs/account/pricing"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:28Z"
+content_sha256 = "ddd8689d27f3c9ed5bde52be4c14ccfc44db4b19906d9ce07f1db5c5a95b62c3"
+
+[[source]]
+source_id = "cursor-release-notes@2026-10-13"
+url = "https://cursor.com/docs/release-notes.md"
+publisher_org_id = "anysphere"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:29Z"
+content_sha256 = "d3bf6765a683f1905730de829bb3b8386e0400e037057983c891898c6f4a97ee"
+
+[[source]]
+source_id = "cursor-help-pricing@2026-10-13"
+url = "https://cursor.com/help/account-and-billing/pricing.md"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:30Z"
+content_sha256 = "cd0d483b4d599d2845e393bfdfa19a531c137c7271085ee6525322a6ab32e0db"
+
+[[source]]
+source_id = "cursor-x-subscription@2026-10-13"
+url = "https://cursor.com/help/the-x-subscription/overview.md"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:30Z"
+content_sha256 = "285ee3b02eb3cf932338ccb1de959b0c089b9c27116229d02d63c48e5c461ef6"
+
+[[source]]
+source_id = "claude-pricing@2026-10-13"
+url = "https://claude.com/pricing"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:30Z"
+content_sha256 = "c37fe662034ac7f8d9787ee6b24e3413f3facc6a86dd7971aea903219c23b885"
+
+[[source]]
+source_id = "anthropic-api-credits-for-subscribers@2026-10-13"
+url = "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers.md"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:31Z"
+content_sha256 = "07c1932bafc1cedd45c42add79392729b367215d5413826a4bc73d63ff3473a5"
+
+[[source]]
+source_id = "chatgpt-codex-pricing@2026-10-13"
+url = "https://learn.chatgpt.com/docs/pricing"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:31Z"
+content_sha256 = "8d408f2767836492553baa5dc675caec965ec16e4f57158fc0e30052dfa91adc"
+
+[[source]]
+source_id = "chatgpt-codex-pricing-md@2026-10-13"
+url = "https://learn.chatgpt.com/docs/pricing.md"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:32Z"
+content_sha256 = "ba8c33371b328b339a478553d6cc9d2ea4d62c6d0347f00ca02215c2ce1316f2"
+
+[[source]]
+source_id = "codex-changelog@2026-10-13"
+url = "https://learn.chatgpt.com/codex/changelog"
+publisher_org_id = "openai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:32Z"
+content_sha256 = "68dc90fd1a5ef7e624efea4449ceb3154c030476b64d7af18233bb07dd0203ca"
+
+[[source]]
+source_id = "codex-models@2026-10-13"
+url = "https://learn.chatgpt.com/codex/models.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:33Z"
+content_sha256 = "54242416afab5d85506f8b9a24c77eb480d85d4e10285b67450ce66a61eb9fee"
+
+[[source]]
+source_id = "gemini-subscriptions@2026-10-13"
+url = "https://gemini.google/subscriptions/"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:33Z"
+content_sha256 = "b1eadff37b2ca4cad6520547de1c8139d76d6a325631e171f45f92028b0e715d"
+
+[[source]]
+source_id = "google-ai-plans@2026-10-13"
+url = "https://one.google.com/about/google-ai-plans/"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:34Z"
+content_sha256 = "4e441a5cc1e7371262f6d108ea657fd5848ed4ec796eceed95f448ba421a95e9"
+
+[[source]]
+source_id = "antigravity-pricing@2026-10-13"
+url = "https://antigravity.google/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:34Z"
+content_sha256 = "d20d6ae97fe1e8c1ca7497fcb21a09ea24371263dba92ffe4de11785150e34d9"
+
+[[source]]
+source_id = "cursor-docs-pricing-md@2026-10-13"
+url = "https://cursor.com/docs/models-and-pricing.md"
+publisher_org_id = "anysphere"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:37Z"
+content_sha256 = "bb6ceef2705dfbe0b2b1e716a83c7fecb26e3ddeb4e441eda35c7bfc0bb2a8fb"

@@ -1,0 +1,22 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "mistral-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "mistral-api"
+model_id = "glm-5.3"
+channel_model_id = "zai-glm-5-3"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "mistral-api/glm-5.3"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "1.4", cache_read = "0.14", output = "4.4" }

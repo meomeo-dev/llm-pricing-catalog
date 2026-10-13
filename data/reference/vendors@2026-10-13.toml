@@ -1,0 +1,97 @@
+[[organization]]
+org_id = "deepseek"
+display_name = "DeepSeek"
+homepage_url = "https://www.deepseek.com"
+
+[[organization]]
+org_id = "xai"
+display_name = "xAI"
+homepage_url = "https://x.ai"
+
+[[organization]]
+org_id = "mistral"
+display_name = "Mistral AI"
+homepage_url = "https://mistral.ai"
+
+[[organization]]
+org_id = "alibaba"
+display_name = "阿里云（Qwen）"
+homepage_url = "https://www.alibabacloud.com"
+
+[[organization]]
+org_id = "moonshot"
+display_name = "月之暗面（Kimi）"
+homepage_url = "https://platform.kimi.ai"
+
+[[organization]]
+org_id = "zai"
+display_name = "Z.ai（智谱）"
+homepage_url = "https://z.ai"
+
+[[organization]]
+org_id = "minimax"
+display_name = "MiniMax"
+homepage_url = "https://www.minimax.io"
+
+[[channel]]
+channel_id = "deepseek-api"
+owner_org_id = "deepseek"
+kind = "first_party_api"
+display_name = "DeepSeek API"
+pricing_url = "https://api-docs.deepseek.com/quick_start/pricing"
+
+[[channel]]
+channel_id = "xai-api"
+owner_org_id = "xai"
+kind = "first_party_api"
+display_name = "xAI API"
+pricing_url = "https://docs.x.ai/developers/pricing"
+
+[[channel]]
+channel_id = "mistral-api"
+owner_org_id = "mistral"
+kind = "first_party_api"
+display_name = "Mistral AI API"
+pricing_url = "https://docs.mistral.ai/inference/pricing"
+
+[[channel]]
+channel_id = "alibaba-model-studio"
+owner_org_id = "alibaba"
+kind = "first_party_api"
+display_name = "Alibaba Cloud Model Studio（国际站）"
+pricing_url = "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+
+[[channel]]
+channel_id = "moonshot-api"
+owner_org_id = "moonshot"
+kind = "first_party_api"
+display_name = "Kimi API Platform"
+pricing_url = "https://platform.kimi.ai/docs/pricing/chat"
+
+[[channel]]
+channel_id = "zai-api"
+owner_org_id = "zai"
+kind = "first_party_api"
+display_name = "Z.ai API"
+pricing_url = "https://docs.z.ai/guides/overview/pricing"
+
+[[channel]]
+channel_id = "minimax-api"
+owner_org_id = "minimax"
+kind = "first_party_api"
+display_name = "MiniMax API"
+pricing_url = "https://platform.minimax.io/docs/guides/pricing-paygo"
+
+[[meter]]
+meter_id = "cache_read_explicit"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "显式缓存命中读取：页面把显式缓存与隐式缓存分开计价时用（如 Qwen）；隐式命中记 cache_read"
+
+[[time_window]]
+window_id = "deepseek-peak"
+time_zone = "UTC"
+iso_weekdays = "[1,2,3,4,5]"
+ranges = "[[\"01:00\",\"04:00\"],[\"06:00\",\"10:00\"]]"
+holiday_calendar = "CN"
+description = "DeepSeek 高峰时段：工作日 UTC 01:00–04:00、06:00–10:00，中国法定节假日不属于高峰"

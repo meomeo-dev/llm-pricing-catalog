@@ -1,0 +1,35 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "chatgpt-codex-pricing@2026-10-13"
+
+[[supersede]]
+table = "offering_revision"
+key = "chatgpt-subscription/gpt-5.5-2026-04-23"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.5-2026-04-23"
+availability = "available"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-14T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-09-25"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-5.5-2026-04-23"
+availability = "retired"
+valid_from = "2026-10-14T00:00:00Z"
+date_basis = "official_announced"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"

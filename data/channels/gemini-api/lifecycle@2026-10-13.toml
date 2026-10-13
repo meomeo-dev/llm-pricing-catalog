@@ -1,0 +1,158 @@
+[defaults]
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "gemini-changelog@2026-10-13"
+
+[[supersede]]
+table = "offering_revision"
+key = "gemini-api/gemini-3.7-flash"
+valid_from = "2026-08-13T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-3.7-flash"
+channel_id = "gemini-api"
+valid_from = "2026-08-13T00:00:00Z"
+valid_to = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-3.7-flash"
+channel_id = "gemini-api"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-changelog@2026-10-13"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:gemini-api|api_id|gemini-3.7-flash"
+valid_from = "2026-08-13T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_identifier]]
+channel = "gemini-api"
+kind = "api_id"
+identifier = "gemini-3.7-flash"
+model_id = "gemini-3.7-flash"
+offering_id = "gemini-api/gemini-3.7-flash"
+valid_from = "2026-08-13T00:00:00Z"
+valid_to = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@2026-09-25"
+
+[[model_identifier]]
+channel = "gemini-api"
+kind = "api_id"
+identifier = "gemini-3.7-flash"
+model_id = "gemini-3.8-flash"
+offering_id = "gemini-api/gemini-3.8-flash"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "offering_revision"
+key = "gemini-api/gemini-3.5-flash"
+valid_from = "2026-05-19T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-3.5-flash"
+channel_id = "gemini-api"
+valid_from = "2026-05-19T00:00:00Z"
+valid_to = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-3.5-flash"
+channel_id = "gemini-api"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-changelog@2026-10-13"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:gemini-api|api_id|gemini-3.5-flash"
+valid_from = "2026-05-19T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_identifier]]
+channel = "gemini-api"
+kind = "api_id"
+identifier = "gemini-3.5-flash"
+model_id = "gemini-3.5-flash"
+offering_id = "gemini-api/gemini-3.5-flash"
+valid_from = "2026-05-19T00:00:00Z"
+valid_to = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-pricing@2026-09-25"
+
+[[model_identifier]]
+channel = "gemini-api"
+kind = "api_id"
+identifier = "gemini-3.5-flash"
+model_id = "gemini-3.6-flash"
+offering_id = "gemini-api/gemini-3.6-flash"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+
+[[supersede]]
+table = "offering_revision"
+key = "gemini-api/gemini-2.5-computer-use-preview-10-2025"
+valid_from = "2025-10-07T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "correction"
+
+[[offering]]
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+channel_id = "gemini-api"
+valid_from = "2025-10-07T00:00:00Z"
+valid_to = "2026-07-28T00:00:00Z"
+date_basis = "inferred"
+source_id = "gemini-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+channel_id = "gemini-api"
+valid_from = "2026-07-28T00:00:00Z"
+date_basis = "inferred"
+source_id = "gemini-deprecations@2026-10-13"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"

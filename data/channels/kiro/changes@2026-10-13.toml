@@ -1,0 +1,35 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "kiro-models@2026-10-13"
+
+[[supersede]]
+table = "price_card"
+offering_id = "kiro/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-14T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-14T00:00:00Z"
+valid_to = "2026-10-13T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-models@2026-09-25"
+context_tier_bound = "gt"
+rates = { relative_usage = "1.1" }
+tiers = [{ min_tokens = 272000, rates = { relative_usage = "2.2" } }]
+
+[[price_card]]
+offering_id = "kiro/gpt-5.6-luna"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { relative_usage = "0.6" }
+tiers = [{ min_tokens = 272000, rates = { relative_usage = "1.2" } }]

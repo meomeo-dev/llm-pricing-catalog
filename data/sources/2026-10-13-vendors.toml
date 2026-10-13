@@ -1,0 +1,422 @@
+[[source]]
+source_id = "deepseek-pricing@2026-10-13"
+url = "https://api-docs.deepseek.com/quick_start/pricing"
+publisher_org_id = "deepseek"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:33Z"
+content_sha256 = "210f102275ccf1a6542f08a3bc9e4b4c7c83278cb74b35217bffa112df6363b2"
+
+[[source]]
+source_id = "deepseek-updates@2026-10-13"
+url = "https://api-docs.deepseek.com/updates"
+publisher_org_id = "deepseek"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:35Z"
+content_sha256 = "2922113bc4e0e970fa6d3c4065c3cff3ec661a4db03d671cc2310545c5b5bb71"
+
+[[source]]
+source_id = "deepseek-news260910@2026-10-13"
+url = "https://api-docs.deepseek.com/news/news260910"
+publisher_org_id = "deepseek"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:37Z"
+content_sha256 = "f18dc22d37393381b31c9069996138f45aa7b02b08442d43af7c6c57f587bdce"
+
+[[source]]
+source_id = "deepseek-news260813@2026-10-13"
+url = "https://api-docs.deepseek.com/news/news260813"
+publisher_org_id = "deepseek"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:38Z"
+content_sha256 = "21b3990c7f2442ad162eec01537b11746fee739894119548b1d131afd6535a75"
+
+[[source]]
+source_id = "deepseek-thinking-mode@2026-10-13"
+url = "https://api-docs.deepseek.com/guides/thinking_mode"
+publisher_org_id = "deepseek"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:39Z"
+content_sha256 = "35350389e59872d3733f7b7f99f5485c6cbc95f1bc2a71a47ba3ecf30bd7a060"
+
+[[source]]
+source_id = "deepseek-vision@2026-10-13"
+url = "https://api-docs.deepseek.com/guides/vision"
+publisher_org_id = "deepseek"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:40Z"
+content_sha256 = "5654a198302edd80aea443fb123d14b14d675ccc76730959dd55414d9baee1e2"
+
+[[source]]
+source_id = "xai-pricing@2026-10-13"
+url = "https://docs.x.ai/developers/pricing.md"
+publisher_org_id = "xai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:42Z"
+content_sha256 = "158287eee7f181e065291a0a4ff02682ca78f5abbc0f2173736fd72ae395bdac"
+
+[[source]]
+source_id = "xai-release-notes@2026-10-13"
+url = "https://docs.x.ai/developers/release-notes.md"
+publisher_org_id = "xai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:42Z"
+content_sha256 = "194acb02225a6f82e981b2e6c8e0efc6fc79c7da1b9158235a02a01aa45adaa1"
+
+[[source]]
+source_id = "xai-reasoning@2026-10-13"
+url = "https://docs.x.ai/developers/model-capabilities/text/reasoning.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:42Z"
+content_sha256 = "a2e64d53f9053b2eb08073b8ff47b47b76188080e0a788e1c983e76c5448394d"
+
+[[source]]
+source_id = "xai-model-grok-4.7@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.7.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:43Z"
+content_sha256 = "e205dc35969df31ea1bd3e6942098a7d72e56256239b0ff86017b63bfd467fb2"
+
+[[source]]
+source_id = "xai-model-grok-4.6@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.6.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:43Z"
+content_sha256 = "8979a9f555100af0709c6f9bc6cec139a56af828cdd74049d9fc43b86b9ca35a"
+
+[[source]]
+source_id = "xai-model-grok-4.5@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.5.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:43Z"
+content_sha256 = "a1ea0d3456735d34bf21637dca20f414ef1bb768e733e7c4d74c32870d2e67ab"
+
+[[source]]
+source_id = "xai-model-grok-4.3@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.3.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:44Z"
+content_sha256 = "9bcd456b37a6fa5bb1b1fed6acd53a2d8128e8f1b60d3eea76f44e3badc4ebc2"
+
+[[source]]
+source_id = "xai-model-grok-4.20-0309-reasoning@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:44Z"
+content_sha256 = "99057608aeb1a4e6ace5d87bf6c4b27b3bff4af5248babad475500da31fdc2e3"
+
+[[source]]
+source_id = "xai-model-grok-4.20-0309-non-reasoning@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:44Z"
+content_sha256 = "4077bae7964e9b5942763b4d95958234879f82720a3eb5ed37b83347ee1024a8"
+
+[[source]]
+source_id = "xai-model-grok-4.20-multi-agent-0309@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:44Z"
+content_sha256 = "6de12a68529773f220cb4bde47f13c452fa6df66fa5171e834b5a0ff52a87ee2"
+
+[[source]]
+source_id = "xai-model-grok-build-0.1@2026-10-13"
+url = "https://docs.x.ai/developers/models/grok-build-0.1.md"
+publisher_org_id = "xai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:45Z"
+content_sha256 = "fdb284a41474282ad2e2e24b86d2616f27b5802a42f7ee4616fa84baca3de5ee"
+
+[[source]]
+source_id = "xai-news-grok-4-7@2026-10-13"
+url = "https://x.ai/news/grok-4-7"
+publisher_org_id = "xai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:45Z"
+content_sha256 = "fed4e9a0d6504adf157baa72bbc91eba15deb06b9a3ed334575598ba0bd71de0"
+
+[[source]]
+source_id = "mistral-pricing@2026-10-13"
+url = "https://docs.mistral.ai/inference/pricing.md"
+publisher_org_id = "mistral"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:45Z"
+content_sha256 = "9696ca9793ea5755212611846d807ad625ed9a68b1bcca76ea3f5bc92228067c"
+
+[[source]]
+source_id = "mistral-models@2026-10-13"
+url = "https://docs.mistral.ai/models.md"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:46Z"
+content_sha256 = "16be392cc9b4a809b65ebd2fc6516784e4507bd679121f893bf51f92fa7aa437"
+
+[[source]]
+source_id = "mistral-changelog@2026-10-13"
+url = "https://docs.mistral.ai/getting-started/changelog/"
+publisher_org_id = "mistral"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:46Z"
+content_sha256 = "9db2d1825955b2bfdac626f937a4d8ed279c8a0a675ae4c7922f52011cac2fea"
+
+[[source]]
+source_id = "mistral-site-pricing@2026-10-13"
+url = "https://mistral.ai/pricing"
+publisher_org_id = "mistral"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:47Z"
+content_sha256 = "4c6fe583d9fdd4e348fbce195062047e0af5ef5f4386feafcf7db59157abc847"
+
+[[source]]
+source_id = "mistral-model-large-4-0@2026-10-13"
+url = "https://docs.mistral.ai/models/mistral-large-4-0.md"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:48Z"
+content_sha256 = "3ce66dabd77adf831c77042f46afaa73b7c2bfd412e04208da6263bd999408f5"
+
+[[source]]
+source_id = "mistral-model-medium-3-5@2026-10-13"
+url = "https://docs.mistral.ai/models/mistral-medium-3-5-26-04.md"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:48Z"
+content_sha256 = "3f079ce044cca552abae5e9299ae525ad0ec7c467ffbed8a63ad35fca791baa8"
+
+[[source]]
+source_id = "mistral-model-small-4-0@2026-10-13"
+url = "https://docs.mistral.ai/models/mistral-small-4-0-26-03.md"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:48Z"
+content_sha256 = "50a7c2c6d5a74da1994d46e55f02da57320d87cb619bc6503529c0950fefb489"
+
+[[source]]
+source_id = "mistral-model-large-3@2026-10-13"
+url = "https://docs.mistral.ai/models/mistral-large-3-25-12.md"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:49Z"
+content_sha256 = "f2968757f6f50fb101d3599fc8077f65b6c1d2cc8a56fd28fe7fa805d9662d2d"
+
+[[source]]
+source_id = "mistral-model-zai-glm-5-3@2026-10-13"
+url = "https://docs.mistral.ai/models/zai-glm-5-3.md"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:49Z"
+content_sha256 = "15887b401f718e470ae0e306830318adb27d08542086198d3cefdaf5ee3ee90f"
+
+[[source]]
+source_id = "alibaba-model-qwen3-8-max@2026-10-13"
+url = "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max"
+publisher_org_id = "alibaba"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:30Z"
+content_sha256 = "7f8427c8660ed2af5d20116b15ae97abe13d7ca39013df5088c6e8a7c3ebac08"
+
+[[source]]
+source_id = "alibaba-model-qwen3-7-plus@2026-10-13"
+url = "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-plus"
+publisher_org_id = "alibaba"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:02:58Z"
+content_sha256 = "9d3c6e8ac16a988ef2487820d1963b6608eeb4595a7980b07df74aaf2726a197"
+
+[[source]]
+source_id = "alibaba-model-qwen3-8-flash@2026-10-13"
+url = "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-flash"
+publisher_org_id = "alibaba"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:01Z"
+content_sha256 = "bcab7059fb5fe49c5c84e7bea0c6a9841d042d56024a78fa4e3bc19ebe7e6d12"
+
+[[source]]
+source_id = "alibaba-newly-released-models@2026-10-13"
+url = "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+publisher_org_id = "alibaba"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:04Z"
+content_sha256 = "f34239e726abe4bf7fc32bb1cd8d48356625ac37f928a6c617638186da84c9a6"
+
+[[source]]
+source_id = "alibaba-model-pricing@2026-10-13"
+url = "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+publisher_org_id = "alibaba"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:07Z"
+content_sha256 = "f7fd82dd3f647ed044488a55c16c195f909f2384cfb1964ab837cf3834438e6d"
+
+[[source]]
+source_id = "moonshot-pricing-chat@2026-10-13"
+url = "https://platform.kimi.ai/docs/pricing/chat.md"
+publisher_org_id = "moonshot"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:12Z"
+content_sha256 = "76361351b3e3f3184cbd89f262f4bd8ed212b4d481dd0d527f34221a35a4d079"
+
+[[source]]
+source_id = "moonshot-pricing-batch@2026-10-13"
+url = "https://platform.kimi.ai/docs/pricing/batch.md"
+publisher_org_id = "moonshot"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:13Z"
+content_sha256 = "6bde62235d73213830948fdb7f3fee9d51703e99c325545c9d4e354c57d8aca0"
+
+[[source]]
+source_id = "moonshot-models@2026-10-13"
+url = "https://platform.kimi.ai/docs/models.md"
+publisher_org_id = "moonshot"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:14Z"
+content_sha256 = "1d7822731345b9501d669e4464b93eff933c17ad11c6b2598c5a3abc3d56f310"
+
+[[source]]
+source_id = "moonshot-models-overview@2026-10-13"
+url = "https://platform.kimi.ai/docs/api/models-overview.md"
+publisher_org_id = "moonshot"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:15Z"
+content_sha256 = "87dfe4ffabba91102ac1f820051dbd3d5c7c4402ef43575616691ab93c3a9c01"
+
+[[source]]
+source_id = "moonshot-changelog@2026-10-13"
+url = "https://platform.kimi.ai/docs/platform-changelog.md"
+publisher_org_id = "moonshot"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:16Z"
+content_sha256 = "0632ea8e27f5c7625f9d67571cf1d8ee1d412c6c95165957b763e15b6121ffee"
+
+[[source]]
+source_id = "moonshot-kimi-k3-quickstart@2026-10-13"
+url = "https://platform.kimi.ai/docs/guide/kimi-k3-quickstart.md"
+publisher_org_id = "moonshot"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:16Z"
+content_sha256 = "84dff32b6bcf4ea35c4d03bf4ef5fec660d38c3efe86a238737a4414106ed077"
+
+[[source]]
+source_id = "zai-pricing@2026-10-13"
+url = "https://docs.z.ai/guides/overview/pricing.md"
+publisher_org_id = "zai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:17Z"
+content_sha256 = "e78c0fce9c3f9a7213d3a36aa99303d4b428f0776f05e154654d5d00447b9cfb"
+
+[[source]]
+source_id = "zai-release-notes@2026-10-13"
+url = "https://docs.z.ai/release-notes/new-released.md"
+publisher_org_id = "zai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:18Z"
+content_sha256 = "5b3ab8df117c6845f092a98f7fe4315df660b95d955f4bf416784655bb7dc401"
+
+[[source]]
+source_id = "zai-model-glm-5.3@2026-10-13"
+url = "https://docs.z.ai/guides/llm/glm-5.3.md"
+publisher_org_id = "zai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:19Z"
+content_sha256 = "c95f746c248f1da9a6aa576cee0122a51fdfcdf3a4921f4b7ad3a7dfc2da5f48"
+
+[[source]]
+source_id = "zai-model-glm-5.3-flash@2026-10-13"
+url = "https://docs.z.ai/guides/vlm/glm-5.3-flash.md"
+publisher_org_id = "zai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:19Z"
+content_sha256 = "501bc6e9ec19580973cbdb1190fbf2847252fd8439483c8740c014ee6b215d91"
+
+[[source]]
+source_id = "zai-model-glm-5.2@2026-10-13"
+url = "https://docs.z.ai/guides/llm/glm-5.2.md"
+publisher_org_id = "zai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:20Z"
+content_sha256 = "e6a622589e7517331da3ac72c70af4c8f651f28dc06db917518814c8d57fe221"
+
+[[source]]
+source_id = "minimax-pricing-paygo@2026-10-13"
+url = "https://platform.minimax.io/docs/guides/pricing-paygo.md"
+publisher_org_id = "minimax"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:20Z"
+content_sha256 = "f51660c6905bb0559e3b5e58b54d4263eda77df3dee04e6165ce8d73d3211f7d"
+
+[[source]]
+source_id = "minimax-release-notes@2026-10-13"
+url = "https://platform.minimax.io/docs/release-notes/models.md"
+publisher_org_id = "minimax"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:21Z"
+content_sha256 = "7ac9c4a6f234aa2da3267d633ad55188e40041f74b7ec3354f31d136eb392c9e"
+
+[[source]]
+source_id = "minimax-text-generation@2026-10-13"
+url = "https://platform.minimax.io/docs/guides/text-generation.md"
+publisher_org_id = "minimax"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:21Z"
+content_sha256 = "9c655c4f4a7e6dbd8144c37219dd67ab3d3008132a3bfde7487a851231ccbac7"
+
+[[source]]
+source_id = "minimax-models@2026-10-13"
+url = "https://platform.minimax.io/docs/faq/models.md"
+publisher_org_id = "minimax"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T05:03:22Z"
+content_sha256 = "ad8e6f2d22970fae722124357932fe41edf2c7d5eeeccbeb47ed7943cd5f3c51"

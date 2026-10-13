@@ -1,0 +1,55 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "deepseek-pricing@2026-10-13"
+
+[[model]]
+model_id = "deepseek-v4.1-flash"
+vendor_org_id = "deepseek"
+family = "deepseek-v4"
+display_name = "DeepSeek-V4.1-Flash"
+
+[[model_revision]]
+model_id = "deepseek-v4.1-flash"
+lifecycle = "ga"
+released_on = "2026-09-10"
+context_window = 1000000
+max_output_tokens = 384000
+reasoning = "optional"
+efforts = ["low", "high", "max"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+
+[[model_identifier]]
+channel = "deepseek-api"
+kind = "api_id"
+identifier = "deepseek-v4-flash"
+model_id = "deepseek-v4.1-flash"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "deepseek-api"
+kind = "api_id"
+identifier = "deepseek-v4-flash-vision-exp"
+model_id = "deepseek-v4.1-flash"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+
+[[model]]
+model_id = "deepseek-v4-pro"
+vendor_org_id = "deepseek"
+family = "deepseek-v4"
+display_name = "DeepSeek-V4-Pro"
+
+[[model_revision]]
+model_id = "deepseek-v4-pro"
+lifecycle = "ga"
+released_on = "2026-08-13"
+context_window = 1000000
+max_output_tokens = 384000
+reasoning = "optional"
+efforts = ["low", "high", "max"]
+default_effort = "high"
+input_modalities = ["text"]

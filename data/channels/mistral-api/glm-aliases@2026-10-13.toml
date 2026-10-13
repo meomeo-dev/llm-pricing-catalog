@@ -1,0 +1,21 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "mistral-model-zai-glm-5-3@2026-10-13"
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "zai-glm-5"
+model_id = "glm-5.3"
+offering_id = "mistral-api/glm-5.3"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "zai-glm-latest"
+model_id = "glm-5.3"
+offering_id = "mistral-api/glm-5.3"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"

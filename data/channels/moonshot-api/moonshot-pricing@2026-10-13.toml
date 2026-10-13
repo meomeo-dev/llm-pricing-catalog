@@ -1,0 +1,102 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "moonshot-api"
+model_id = "kimi-k2.6"
+channel_model_id = "kimi-k2.6"
+availability = "available"
+source_id = "moonshot-pricing-chat@2026-10-13"
+operator_org_id = "moonshot"
+seller_org_id = "moonshot"
+billing_org_id = "moonshot"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "moonshot-api"
+model_id = "kimi-k2.7-code"
+channel_model_id = "kimi-k2.7-code"
+availability = "available"
+source_id = "moonshot-pricing-chat@2026-10-13"
+operator_org_id = "moonshot"
+seller_org_id = "moonshot"
+billing_org_id = "moonshot"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "moonshot-api"
+model_id = "kimi-k2.7-code-highspeed"
+channel_model_id = "kimi-k2.7-code-highspeed"
+availability = "available"
+source_id = "moonshot-pricing-chat@2026-10-13"
+operator_org_id = "moonshot"
+seller_org_id = "moonshot"
+billing_org_id = "moonshot"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "moonshot-api"
+model_id = "kimi-k3"
+channel_model_id = "kimi-k3"
+availability = "available"
+source_id = "moonshot-pricing-chat@2026-10-13"
+operator_org_id = "moonshot"
+seller_org_id = "moonshot"
+billing_org_id = "moonshot"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k2.6"
+service_tier = "batch"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "moonshot-pricing-batch@2026-10-13"
+rates = { cache_read = "0.10", input = "0.57", output = "2.40" }
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k2.6"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "moonshot-pricing-chat@2026-10-13"
+rates = { cache_read = "0.16", input = "0.95", output = "4.00" }
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k2.7-code"
+service_tier = "batch"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "moonshot-pricing-batch@2026-10-13"
+rates = { cache_read = "0.114", input = "0.57", output = "2.40" }
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k2.7-code"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "moonshot-pricing-chat@2026-10-13"
+rates = { cache_read = "0.19", input = "0.95", output = "4.00" }
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k2.7-code-highspeed"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "moonshot-pricing-chat@2026-10-13"
+rates = { cache_read = "0.38", input = "1.90", output = "8.00" }
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k3"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "moonshot-pricing-chat@2026-10-13"
+rates = { cache_write_5m = "3.00", cache_write_1h = "6.00", cache_read = "0.30", input = "3.00", output = "15.00" }

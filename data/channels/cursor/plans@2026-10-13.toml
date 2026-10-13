@@ -1,0 +1,127 @@
+[defaults]
+recorded_at = "2026-10-13T00:00:00Z"
+
+[[plan]]
+plan_id = "cursor-x-free"
+channel_id = "cursor"
+display_name = "Free（The X Subscription）"
+price_amount = "0"
+price_unit_id = "USD"
+billing_period = "none"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-pricing@2026-10-13"
+
+[[plan]]
+plan_id = "cursor-x-plus"
+channel_id = "cursor"
+display_name = "Plus（The X Subscription）"
+price_amount = "8"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-pricing@2026-10-13"
+
+[[plan]]
+plan_id = "cursor-x-premium"
+channel_id = "cursor"
+display_name = "Premium（The X Subscription）"
+price_amount = "30"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-pricing@2026-10-13"
+
+[[plan]]
+plan_id = "cursor-x-super"
+channel_id = "cursor"
+display_name = "Super（The X Subscription）"
+price_amount = "100"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-pricing@2026-10-13"
+
+[[plan]]
+plan_id = "cursor-x-ultra"
+channel_id = "cursor"
+display_name = "Ultra（The X Subscription）"
+price_amount = "200"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-pricing@2026-10-13"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "claude-haiku-5-5"
+channel_model_name = "Claude Haiku 5.5"
+availability = "available"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing-md@2026-10-13"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[offering]]
+channel_id = "cursor"
+model_id = "claude-sonnet-5-5"
+channel_model_name = "Claude Sonnet 5.5"
+availability = "available"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-10-13"
+operator_org_id = "anysphere"
+seller_org_id = "anysphere"
+billing_org_id = "anysphere"
+vendor_relationship = "disclosed_reseller"
+
+[[price_card]]
+offering_id = "cursor/claude-sonnet-5-5"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing@2026-10-13"
+rates = { input = "2", cache_write_5m = "2.5", cache_read = "0.1", output = "10" }
+
+[[price_card]]
+offering_id = "cursor/claude-haiku-5-5"
+service_tier = "standard"
+price_unit_id = "USD"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "cursor-docs-pricing-md@2026-10-13"
+context_tier_bound = "gt"
+rates = { input = "0.1", cache_write_5m = "0.125", cache_read = "0.01", output = "0.5" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.50", cache_write_5m = "0.625", cache_read = "0.05", output = "2.50" } }]
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+label = "allowance:x-subscription"
+reason = "public_price_unavailable"
+source_id = "cursor-pricing@2026-10-13"
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+label = "plan-price:x-subscription-teams"
+reason = "public_price_unavailable"
+source_id = "cursor-pricing@2026-10-13"
+
+[[price_gap]]
+channel = "cursor"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+label = "unit-rate:x-subscription-top-off"
+reason = "public_price_unavailable"
+source_id = "cursor-pricing@2026-10-13"

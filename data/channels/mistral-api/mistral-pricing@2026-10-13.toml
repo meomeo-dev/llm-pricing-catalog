@@ -1,0 +1,136 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "mistral-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2025-07-30T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "codestral-2508"
+channel_model_id = "codestral-2508"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-12-02T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "ministral-14b-2512"
+channel_model_id = "ministral-14b-2512"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-12-02T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "ministral-3b-2512"
+channel_model_id = "ministral-3b-2512"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-12-02T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "ministral-8b-2512"
+channel_model_id = "ministral-8b-2512"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2025-12-02T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "mistral-large-2512"
+channel_model_id = "mistral-large-2512"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-04-28T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "mistral-medium-3-5"
+channel_model_id = "mistral-medium-3-5"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-03-16T00:00:00Z"
+date_basis = "inferred"
+channel_id = "mistral-api"
+model_id = "mistral-small-2603"
+channel_model_id = "mistral-small-2603"
+availability = "available"
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "mistral-api/codestral-2508"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.3", output = "0.9" }
+
+[[price_card]]
+offering_id = "mistral-api/ministral-14b-2512"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.2", output = "0.2" }
+
+[[price_card]]
+offering_id = "mistral-api/ministral-3b-2512"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.1", output = "0.1" }
+
+[[price_card]]
+offering_id = "mistral-api/ministral-8b-2512"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.15", output = "0.15" }
+
+[[price_card]]
+offering_id = "mistral-api/mistral-large-2512"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.5", output = "1.5" }
+
+[[price_card]]
+offering_id = "mistral-api/mistral-medium-3-5"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "1.5", output = "7.5" }
+
+[[price_card]]
+offering_id = "mistral-api/mistral-small-2603"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.15", output = "0.6" }

@@ -1,0 +1,154 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "mistral-models@2026-10-13"
+
+[[model]]
+model_id = "mistral-large-4"
+vendor_org_id = "mistral"
+family = "mistral-large"
+display_name = "Mistral Large 4"
+
+[[model_revision]]
+model_id = "mistral-large-4"
+lifecycle = "preview"
+released_on = "2026-10-06"
+context_window = 1000000
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "mistral-large-4-0"
+model_id = "mistral-large-4"
+valid_from = "2026-10-06T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "mistral-large-2512"
+vendor_org_id = "mistral"
+family = "mistral-large"
+display_name = "Mistral Large 3"
+
+[[model_revision]]
+model_id = "mistral-large-2512"
+lifecycle = "ga"
+released_on = "2025-12-02"
+context_window = 256000
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "mistral-large-latest"
+model_id = "mistral-large-2512"
+valid_from = "2025-12-02T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "mistral-medium-3-5"
+vendor_org_id = "mistral"
+family = "mistral-medium"
+display_name = "Mistral Medium 3.5"
+
+[[model_revision]]
+model_id = "mistral-medium-3-5"
+lifecycle = "ga"
+released_on = "2026-04-28"
+context_window = 256000
+reasoning = "optional"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "mistral-medium-3"
+model_id = "mistral-medium-3-5"
+valid_from = "2026-04-28T00:00:00Z"
+date_basis = "inferred"
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "mistral-medium-latest"
+model_id = "mistral-medium-3-5"
+valid_from = "2026-04-28T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "mistral-small-2603"
+vendor_org_id = "mistral"
+family = "mistral-small"
+display_name = "Mistral Small 4"
+
+[[model_revision]]
+model_id = "mistral-small-2603"
+lifecycle = "ga"
+released_on = "2026-03-16"
+context_window = 256000
+reasoning = "optional"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "mistral-api"
+kind = "api_id"
+identifier = "mistral-small-latest"
+model_id = "mistral-small-2603"
+valid_from = "2026-03-16T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "ministral-14b-2512"
+vendor_org_id = "mistral"
+family = "ministral"
+display_name = "Ministral 3 14B"
+
+[[model_revision]]
+model_id = "ministral-14b-2512"
+lifecycle = "ga"
+released_on = "2025-12-02"
+context_window = 256000
+input_modalities = ["text", "image"]
+
+[[model]]
+model_id = "ministral-8b-2512"
+vendor_org_id = "mistral"
+family = "ministral"
+display_name = "Ministral 3 8B"
+
+[[model_revision]]
+model_id = "ministral-8b-2512"
+lifecycle = "ga"
+released_on = "2025-12-02"
+context_window = 256000
+input_modalities = ["text", "image"]
+
+[[model]]
+model_id = "ministral-3b-2512"
+vendor_org_id = "mistral"
+family = "ministral"
+display_name = "Ministral 3 3B"
+
+[[model_revision]]
+model_id = "ministral-3b-2512"
+lifecycle = "ga"
+released_on = "2025-12-02"
+context_window = 256000
+input_modalities = ["text", "image"]
+
+[[model]]
+model_id = "codestral-2508"
+vendor_org_id = "mistral"
+family = "codestral"
+display_name = "Codestral"
+
+[[model_revision]]
+model_id = "codestral-2508"
+lifecycle = "ga"
+released_on = "2025-07-30"
+context_window = 128000
