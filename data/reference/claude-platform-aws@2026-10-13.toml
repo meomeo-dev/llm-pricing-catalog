@@ -1,0 +1,6 @@
+[[channel]]
+channel_id = "claude-platform-aws"
+owner_org_id = "anthropic"
+kind = "cloud_partner"
+display_name = "Claude Platform on AWS"
+pricing_url = "https://platform.claude.com/docs/en/about-claude/pricing#claude-platform-on-aws-pricing"
