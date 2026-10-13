@@ -1,0 +1,90 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "minimax-pricing-paygo@2026-10-13"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "minimax-api"
+model_id = "MiniMax-M2.5"
+channel_model_id = "MiniMax-M2.5"
+availability = "available"
+operator_org_id = "minimax"
+seller_org_id = "minimax"
+billing_org_id = "minimax"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-03-18T00:00:00Z"
+date_basis = "inferred"
+channel_id = "minimax-api"
+model_id = "MiniMax-M2.7"
+channel_model_id = "MiniMax-M2.7"
+availability = "available"
+operator_org_id = "minimax"
+seller_org_id = "minimax"
+billing_org_id = "minimax"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-03-18T00:00:00Z"
+date_basis = "inferred"
+channel_id = "minimax-api"
+model_id = "MiniMax-M2.7-highspeed"
+channel_model_id = "MiniMax-M2.7-highspeed"
+availability = "available"
+operator_org_id = "minimax"
+seller_org_id = "minimax"
+billing_org_id = "minimax"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+channel_id = "minimax-api"
+model_id = "MiniMax-M3"
+channel_model_id = "MiniMax-M3"
+availability = "available"
+operator_org_id = "minimax"
+seller_org_id = "minimax"
+billing_org_id = "minimax"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "minimax-api/MiniMax-M2.5"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.3", output = "1.2", cache_read = "0.03", cache_write = "0.375" }
+
+[[price_card]]
+offering_id = "minimax-api/MiniMax-M2.7"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.3", output = "1.2", cache_read = "0.06", cache_write = "0.375" }
+
+[[price_card]]
+offering_id = "minimax-api/MiniMax-M2.7-highspeed"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.6", output = "2.4", cache_read = "0.06", cache_write = "0.375" }
+
+[[price_card]]
+offering_id = "minimax-api/MiniMax-M3"
+service_tier = "priority"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "0.45", output = "1.80", cache_read = "0.09" }
+tiers = [{ min_tokens = 512000, rates = { input = "0.90", output = "3.60", cache_read = "0.18" } }]
+
+[[price_card]]
+offering_id = "minimax-api/MiniMax-M3"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "0.30", output = "1.20", cache_read = "0.06" }
+tiers = [{ min_tokens = 512000, rates = { input = "0.60", output = "2.40", cache_read = "0.12" } }]

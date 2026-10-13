@@ -1,0 +1,15 @@
+[defaults]
+recorded_at = "2026-10-13T00:00:00Z"
+
+[[plan]]
+plan_id = "claude-max-5x"
+channel_id = "claude-subscription"
+display_name = "Max 5x"
+price_amount = "100"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+source_id = "claude-pricing@2026-10-13"
+allowances = [{ pool = "claude_platform", unit_id = "USD", refresh_window = "month", quantity = "100" }]
+clients = ["claude-code"]

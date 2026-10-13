@@ -1,0 +1,71 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "openrouter-models@2026-10-13"
+
+[[supersede]]
+table = "offering_revision"
+key = "openrouter/gemini-2.5-flash"
+valid_from = "2025-06-17T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-flash"
+availability = "available"
+valid_from = "2025-06-17T00:00:00Z"
+valid_to = "2026-10-20T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-flash"
+availability = "retired"
+valid_from = "2026-10-20T00:00:00Z"
+date_basis = "official_announced"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[supersede]]
+table = "offering_revision"
+key = "openrouter/gemini-2.5-pro"
+valid_from = "2025-06-17T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-pro"
+availability = "available"
+valid_from = "2025-06-17T00:00:00Z"
+valid_to = "2026-10-20T00:00:00Z"
+date_basis = "official_effective"
+source_id = "openrouter-models@2026-09-25"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-2.5-pro"
+availability = "retired"
+valid_from = "2026-10-20T00:00:00Z"
+date_basis = "official_announced"
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1

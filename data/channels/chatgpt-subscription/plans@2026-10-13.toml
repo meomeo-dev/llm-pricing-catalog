@@ -1,0 +1,48 @@
+[defaults]
+recorded_at = "2026-10-13T00:00:00Z"
+
+[[plan]]
+plan_id = "chatgpt-pro-200"
+channel_id = "chatgpt-subscription"
+display_name = "Pro $200"
+price_amount = "200"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-10-13"
+clients = ["codex"]
+
+[[plan]]
+plan_id = "chatgpt-pro-500"
+channel_id = "chatgpt-subscription"
+display_name = "Pro $500"
+price_amount = "500"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+source_id = "chatgpt-codex-pricing@2026-10-13"
+clients = ["codex"]
+
+[[offering]]
+channel_id = "chatgpt-subscription"
+model_id = "gpt-6.1-sol"
+channel_model_name = "GPT-6.1 Sol"
+availability = "available"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+source_id = "chatgpt-codex-pricing@2026-10-13"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "chatgpt-subscription/gpt-6.1-sol"
+service_tier = "standard"
+price_unit_id = "openai-codex-credit"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+source_id = "chatgpt-codex-pricing@2026-10-13"
+rates = { input = "50", cache_read = "2.5", output = "250" }

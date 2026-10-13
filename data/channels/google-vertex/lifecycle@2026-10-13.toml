@@ -1,0 +1,163 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "vertex-model-versions@2026-10-13"
+
+[[supersede]]
+table = "offering_revision"
+key = "google-vertex/gemini-2.5-pro"
+valid_from = "2025-06-17T00:00:00Z"
+recorded_at = "2026-09-25T06:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-2.5-pro"
+channel_id = "google-vertex"
+valid_from = "2025-06-17T00:00:00Z"
+valid_to = "2026-10-20T00:00:00Z"
+date_basis = "inferred"
+source_id = "vertex-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-2.5-pro"
+channel_id = "google-vertex"
+valid_from = "2026-10-20T00:00:00Z"
+date_basis = "official_announced"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "offering_revision"
+key = "google-vertex/gemini-2.5-flash"
+valid_from = "2025-06-17T00:00:00Z"
+recorded_at = "2026-09-25T06:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-2.5-flash"
+channel_id = "google-vertex"
+valid_from = "2025-06-17T00:00:00Z"
+valid_to = "2026-10-20T00:00:00Z"
+date_basis = "inferred"
+source_id = "vertex-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-2.5-flash"
+channel_id = "google-vertex"
+valid_from = "2026-10-20T00:00:00Z"
+date_basis = "official_announced"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "offering_revision"
+key = "google-vertex/gemini-2.5-flash-lite"
+valid_from = "2025-07-22T00:00:00Z"
+recorded_at = "2026-09-25T06:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-2.5-flash-lite"
+channel_id = "google-vertex"
+valid_from = "2025-07-22T00:00:00Z"
+valid_to = "2026-10-20T00:00:00Z"
+date_basis = "inferred"
+source_id = "vertex-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-2.5-flash-lite"
+channel_id = "google-vertex"
+valid_from = "2026-10-20T00:00:00Z"
+date_basis = "official_announced"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "offering_revision"
+key = "google-vertex/gemini-3.6-flash"
+valid_from = "2026-07-21T00:00:00Z"
+recorded_at = "2026-09-25T06:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-3.6-flash"
+channel_id = "google-vertex"
+valid_from = "2026-07-21T00:00:00Z"
+valid_to = "2026-11-19T00:00:00Z"
+date_basis = "inferred"
+source_id = "vertex-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-3.6-flash"
+channel_id = "google-vertex"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "official_announced"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "offering_revision"
+key = "google-vertex/gemini-3.7-flash"
+valid_from = "2026-08-13T00:00:00Z"
+recorded_at = "2026-09-25T06:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+model_id = "gemini-3.7-flash"
+channel_id = "google-vertex"
+valid_from = "2026-08-13T00:00:00Z"
+valid_to = "2027-01-28T00:00:00Z"
+date_basis = "inferred"
+source_id = "vertex-pricing@2026-09-25"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[offering]]
+model_id = "gemini-3.7-flash"
+channel_id = "google-vertex"
+valid_from = "2027-01-28T00:00:00Z"
+date_basis = "official_announced"
+availability = "retired"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"

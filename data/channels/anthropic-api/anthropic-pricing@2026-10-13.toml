@@ -1,0 +1,43 @@
+[defaults]
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "anthropic-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "anthropic-api"
+model_id = "claude-haiku-5-5"
+channel_model_id = "claude-haiku-5-5"
+availability = "available"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "anthropic"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "anthropic-api/claude-haiku-5-5"
+service_tier = "batch"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.05", output = "0.25" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.25", output = "1.25" } }]
+evidence = [{ source_id = "anthropic-model-haiku-5-5@2026-10-13", stance = "supports" }, { source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "anthropic-api/claude-haiku-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+rates = { input = "0.10", cache_write_5m = "0.125", cache_write_1h = "0.20", cache_read = "0.01", output = "0.50" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.50", cache_write_5m = "0.625", cache_write_1h = "1", cache_read = "0.05", output = "2.50" } }]
+evidence = [{ source_id = "anthropic-model-haiku-5-5@2026-10-13", stance = "supports" }, { source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "anthropic-api/claude-sonnet-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "2", cache_write_5m = "2.50", cache_write_1h = "4", cache_read = "0.10", output = "10" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]

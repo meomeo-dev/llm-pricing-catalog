@@ -1,0 +1,105 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "vertex-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-haiku-5-5"
+channel_model_id = "claude-haiku-5-5"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-10-13"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "inferred"
+channel_id = "google-vertex"
+model_id = "claude-sonnet-5-5"
+channel_model_id = "claude-sonnet-5-5"
+availability = "available"
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-10-13"
+operator_org_id = "google"
+seller_org_id = "anthropic"
+billing_org_id = "google"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-5-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.055", output = "0.275", cache_write_5m = "0.06875", cache_write_1h = "0.11", cache_read = "0.0055" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-5-5"
+service_tier = "batch"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "0.05", output = "0.25", cache_write_5m = "0.0625", cache_write_1h = "0.10", cache_read = "0.005" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "0.11", output = "0.55", cache_write_5m = "0.1375", cache_write_1h = "0.22", cache_read = "0.011" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.55", output = "2.75", cache_write_5m = "0.6875", cache_write_1h = "1.10", cache_read = "0.055" } }]
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-haiku-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "0.10", output = "0.50", cache_write_5m = "0.125", cache_write_1h = "0.20", cache_read = "0.01" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.50", output = "2.50", cache_write_5m = "0.625", cache_write_1h = "1.00", cache_read = "0.05" } }]
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5-5"
+service_tier = "batch"
+region_id = "geo"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.10", output = "5.50", cache_write_5m = "1.375", cache_write_1h = "2.20", cache_read = "0.055" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5-5"
+service_tier = "batch"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "1.00", output = "5.00", cache_write_5m = "1.25", cache_write_1h = "2.00", cache_read = "0.05" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "2.20", output = "11.00", cache_write_5m = "2.75", cache_write_1h = "4.40", cache_read = "0.11" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.20", output = "11.00", cache_write_5m = "2.75", cache_write_1h = "4.40", cache_read = "0.11" } }]
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "google-vertex/claude-sonnet-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gte"
+rates = { input = "2.00", output = "10.00", cache_write_5m = "2.50", cache_write_1h = "4.00", cache_read = "0.10" }
+tiers = [{ min_tokens = 200000, rates = { input = "2.00", output = "10.00", cache_write_5m = "2.50", cache_write_1h = "4.00", cache_read = "0.10" } }]
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]

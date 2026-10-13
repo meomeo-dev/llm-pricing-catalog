@@ -1,0 +1,46 @@
+[defaults]
+recorded_at = "2026-10-13T00:00:00Z"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-opus-5-5"
+channel_model_name = "Claude Opus 5.5"
+availability = "available"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-changelog-models@2026-10-13"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "kiro"
+model_id = "claude-sonnet-5-5"
+channel_model_name = "Claude Sonnet 5.5"
+availability = "available"
+valid_from = "2026-10-02T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-changelog-models@2026-10-13"
+operator_org_id = "aws"
+seller_org_id = "aws"
+billing_org_id = "aws"
+vendor_relationship = "contracted_partner"
+
+[[price_card]]
+offering_id = "kiro/claude-opus-5-5"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-changelog-models@2026-10-13"
+rates = { relative_usage = "2.0" }
+
+[[price_card]]
+offering_id = "kiro/claude-sonnet-5-5"
+service_tier = "standard"
+price_unit_id = "kiro-credit"
+valid_from = "2026-10-02T00:00:00Z"
+date_basis = "official_effective"
+source_id = "kiro-changelog-models@2026-10-13"
+rates = { relative_usage = "1.3" }

@@ -1,0 +1,117 @@
+[defaults]
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "zai-pricing@2026-10-13"
+
+[[offering]]
+valid_from = "2026-02-12T00:00:00Z"
+date_basis = "inferred"
+channel_id = "zai-api"
+model_id = "glm-5"
+channel_model_id = "glm-5"
+availability = "available"
+operator_org_id = "zai"
+seller_org_id = "zai"
+billing_org_id = "zai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-04-07T00:00:00Z"
+date_basis = "inferred"
+channel_id = "zai-api"
+model_id = "glm-5.1"
+channel_model_id = "glm-5.1"
+availability = "available"
+operator_org_id = "zai"
+seller_org_id = "zai"
+billing_org_id = "zai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-06-16T00:00:00Z"
+date_basis = "inferred"
+channel_id = "zai-api"
+model_id = "glm-5.2"
+channel_model_id = "glm-5.2"
+availability = "available"
+operator_org_id = "zai"
+seller_org_id = "zai"
+billing_org_id = "zai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-08-18T00:00:00Z"
+date_basis = "inferred"
+channel_id = "zai-api"
+model_id = "glm-5.3"
+channel_model_id = "glm-5.3"
+availability = "available"
+operator_org_id = "zai"
+seller_org_id = "zai"
+billing_org_id = "zai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-08-26T00:00:00Z"
+date_basis = "inferred"
+channel_id = "zai-api"
+model_id = "glm-5.3-flash"
+channel_model_id = "glm-5.3-flash"
+availability = "available"
+operator_org_id = "zai"
+seller_org_id = "zai"
+billing_org_id = "zai"
+vendor_relationship = "first_party"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+channel_id = "zai-api"
+model_id = "glm-5.3-flashx"
+channel_model_id = "glm-5.3-flashx"
+availability = "available"
+operator_org_id = "zai"
+seller_org_id = "zai"
+billing_org_id = "zai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "zai-api/glm-5"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "1", cache_read = "0.2", output = "3.2" }
+
+[[price_card]]
+offering_id = "zai-api/glm-5.1"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "1.4", cache_read = "0.26", output = "4.4" }
+
+[[price_card]]
+offering_id = "zai-api/glm-5.2"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "1.4", cache_read = "0.26", output = "4.4" }
+
+[[price_card]]
+offering_id = "zai-api/glm-5.3"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "1.4", cache_read = "0.26", output = "4.4" }
+
+[[price_card]]
+offering_id = "zai-api/glm-5.3-flash"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.15", cache_read = "0.03", output = "0.50" }
+
+[[price_card]]
+offering_id = "zai-api/glm-5.3-flashx"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.37", cache_read = "0.075", output = "1.25" }

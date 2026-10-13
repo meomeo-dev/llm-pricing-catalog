@@ -1,0 +1,99 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "copilot-changelog-models-deprecated@2026-10-13"
+
+[[supersede]]
+table = "offering_revision"
+key = "github-copilot/claude-opus-4-7"
+valid_from = "2026-06-01T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-opus-4-7"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+valid_to = "2026-10-02T00:00:00Z"
+date_basis = "inferred"
+source_id = "copilot-models-and-pricing-yaml@2026-09-25"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-opus-4-7"
+availability = "retired"
+valid_from = "2026-10-02T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[supersede]]
+table = "offering_revision"
+key = "github-copilot/gemini-3.5-flash"
+valid_from = "2026-06-01T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.5-flash"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+valid_to = "2026-10-02T00:00:00Z"
+date_basis = "inferred"
+source_id = "copilot-models-and-pricing-yaml@2026-09-25"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.5-flash"
+availability = "retired"
+valid_from = "2026-10-02T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[supersede]]
+table = "offering_revision"
+key = "github-copilot/gemini-3.6-flash"
+valid_from = "2026-06-01T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T04:00:00Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.6-flash"
+availability = "available"
+valid_from = "2026-06-01T00:00:00Z"
+valid_to = "2026-10-02T00:00:00Z"
+date_basis = "inferred"
+source_id = "copilot-models-and-pricing-yaml@2026-09-25"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gemini-3.6-flash"
+availability = "retired"
+valid_from = "2026-10-02T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"

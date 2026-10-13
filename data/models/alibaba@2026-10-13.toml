@@ -1,0 +1,64 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "alibaba-model-pricing@2026-10-13"
+
+[[model]]
+model_id = "qwen3.8-max"
+vendor_org_id = "alibaba"
+family = "qwen-max"
+display_name = "qwen3.8-max"
+
+[[model_revision]]
+model_id = "qwen3.8-max"
+lifecycle = "ga"
+released_on = "2026-08-02"
+context_window = 1000000
+max_input_tokens = 991808
+max_output_tokens = 131072
+reasoning = "optional"
+input_modalities = ["text", "image", "video"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "qwen3.7-plus-2026-05-26"
+vendor_org_id = "alibaba"
+family = "qwen-plus"
+display_name = "qwen3.7-plus-2026-05-26"
+
+[[model_revision]]
+model_id = "qwen3.7-plus-2026-05-26"
+lifecycle = "ga"
+released_on = "2026-06-01"
+context_window = 1000000
+max_input_tokens = 991808
+max_output_tokens = 131072
+reasoning = "optional"
+input_modalities = ["text", "image", "video"]
+output_modalities = ["text"]
+
+[[model_identifier]]
+channel = "alibaba-model-studio"
+kind = "api_id"
+identifier = "qwen3.7-plus"
+model_id = "qwen3.7-plus-2026-05-26"
+valid_from = "2026-06-01T00:00:00Z"
+date_basis = "inferred"
+
+[[model]]
+model_id = "qwen3.8-flash"
+vendor_org_id = "alibaba"
+family = "qwen-flash"
+display_name = "Qwen3.8-Flash"
+
+[[model_revision]]
+model_id = "qwen3.8-flash"
+lifecycle = "ga"
+released_on = "2026-08-26"
+context_window = 1000000
+max_input_tokens = 991808
+max_output_tokens = 131072
+reasoning = "optional"
+input_modalities = ["text", "image", "video"]
+output_modalities = ["text"]

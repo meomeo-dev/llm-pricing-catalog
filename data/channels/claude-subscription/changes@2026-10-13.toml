@@ -1,0 +1,24 @@
+[defaults]
+recorded_at = "2026-10-13T00:00:00Z"
+source_id = "anthropic-release-notes@2026-10-13"
+
+[[supersede]]
+table = "plan_revision"
+key = "claude-max-5x"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T00:00:00Z"
+superseded_at = "2026-10-13T00:00:00Z"
+reason = "restated"
+
+[[plan]]
+plan_id = "claude-max-5x"
+channel_id = "claude-subscription"
+display_name = "Max 5x"
+price_amount = "100"
+price_unit_id = "USD"
+billing_period = "month"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-07T00:00:00Z"
+date_basis = "first_observed"
+source_id = "claude-pricing@2026-09-25"
+clients = ["claude-code"]

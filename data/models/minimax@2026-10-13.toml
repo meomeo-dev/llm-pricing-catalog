@@ -1,0 +1,52 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "minimax-models@2026-10-13"
+
+[[model]]
+model_id = "MiniMax-M3"
+vendor_org_id = "minimax"
+family = "minimax-m"
+display_name = "MiniMax M3"
+
+[[model_revision]]
+model_id = "MiniMax-M3"
+lifecycle = "ga"
+released_on = "2026-06-01"
+context_window = 1000000
+
+[[model]]
+model_id = "MiniMax-M2.7"
+vendor_org_id = "minimax"
+family = "minimax-m"
+display_name = "MiniMax M2.7"
+
+[[model_revision]]
+model_id = "MiniMax-M2.7"
+lifecycle = "ga"
+released_on = "2026-03-18"
+context_window = 204800
+
+[[model]]
+model_id = "MiniMax-M2.7-highspeed"
+vendor_org_id = "minimax"
+family = "minimax-m"
+display_name = "MiniMax-M2.7-highspeed"
+
+[[model_revision]]
+model_id = "MiniMax-M2.7-highspeed"
+lifecycle = "ga"
+released_on = "2026-03-18"
+context_window = 204800
+
+[[model]]
+model_id = "MiniMax-M2.5"
+vendor_org_id = "minimax"
+family = "minimax-m"
+display_name = "MiniMax M2.5"
+
+[[model_revision]]
+model_id = "MiniMax-M2.5"
+lifecycle = "ga"
+context_window = 204800

@@ -1,0 +1,58 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T06:00:00Z"
+source_id = "moonshot-models-overview@2026-10-13"
+
+[[model]]
+model_id = "kimi-k3"
+vendor_org_id = "moonshot"
+family = "kimi-k"
+display_name = "Kimi K3"
+
+[[model_revision]]
+model_id = "kimi-k3"
+lifecycle = "ga"
+context_window = 1048576
+max_output_tokens = 1048576
+reasoning = "always"
+efforts = ["low", "high", "max"]
+default_effort = "max"
+input_modalities = ["text", "image", "video"]
+
+[[model]]
+model_id = "kimi-k2.7-code"
+vendor_org_id = "moonshot"
+family = "kimi-k"
+display_name = "Kimi K2.7 Code"
+
+[[model_revision]]
+model_id = "kimi-k2.7-code"
+lifecycle = "ga"
+context_window = 262144
+reasoning = "always"
+
+[[model]]
+model_id = "kimi-k2.7-code-highspeed"
+vendor_org_id = "moonshot"
+family = "kimi-k"
+display_name = "kimi-k2.7-code-highspeed"
+
+[[model_revision]]
+model_id = "kimi-k2.7-code-highspeed"
+lifecycle = "ga"
+context_window = 262144
+reasoning = "always"
+
+[[model]]
+model_id = "kimi-k2.6"
+vendor_org_id = "moonshot"
+family = "kimi-k"
+display_name = "Kimi K2.6"
+
+[[model_revision]]
+model_id = "kimi-k2.6"
+lifecycle = "ga"
+context_window = 262144
+reasoning = "optional"
+input_modalities = ["text", "image"]

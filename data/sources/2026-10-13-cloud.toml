@@ -1,0 +1,143 @@
+[[source]]
+source_id = "aws-bedrock-price-list@2026-10-13"
+url = "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.json"
+publisher_org_id = "aws"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-10-13T02:44:51Z"
+content_sha256 = "2e5c741eb5ebe8d8bb2926bb31f7ea970ab33423af11e205d3cd71909a8f21db"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-6-astra@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:52Z"
+content_sha256 = "9190206f5ebc9376033bccfba1b7aaeda5402b6ef3549159f9f68978b40c4367"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-6-luna@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-luna.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:52Z"
+content_sha256 = "a9af68162aa3ce9e68492e6ae95d87015530b45edfd9b057d56a9e16cb338220"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-6-sol@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-sol.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:52Z"
+content_sha256 = "c2bcbb58172441171afb302bdc6ba7738df26acbcd389b628ad78e027c28cf44"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-6-1-sol@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-sol.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:53Z"
+content_sha256 = "a95ef91cfc27b99a56bdf2500f0fe276aa32771e16468521686006067544a6b4"
+
+[[source]]
+source_id = "aws-model-card-openai-gpt-56-cyber@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:53Z"
+content_sha256 = "070900cd903745d42656ef0e32100fb1ebb53309130c5d0a15d61b222f5a28e7"
+
+[[source]]
+source_id = "aws-model-card-anthropic-claude-sonnet-5-5@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:54Z"
+content_sha256 = "affae93d8dfc4c3c3cf2441a136cf0958695c45557f2395ecc16b92ccb3ee0fd"
+
+[[source]]
+source_id = "aws-model-card-anthropic-claude-haiku-5-5@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:54Z"
+content_sha256 = "75a96bc78f050193c0b823e6dfffffeca36bafd38b767ede00ab9a5e758f5fae"
+
+[[source]]
+source_id = "aws-model-lifecycle-legacy@2026-10-13"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html"
+publisher_org_id = "aws"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:55Z"
+content_sha256 = "020bac76631abf692063257a26eede0303df0f6784f3839879ed10afb765b331"
+
+[[source]]
+source_id = "anthropic-doc-claude-in-amazon-bedrock@2026-10-13"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:55Z"
+content_sha256 = "902ceed37cfdf5d28cb08871655194ca1ac538a9f35b71f9354a1f8f6a72ac20"
+
+[[source]]
+source_id = "anthropic-doc-claude-on-amazon-bedrock@2026-10-13"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:55Z"
+content_sha256 = "d2c30ac71532b5efcf396bdb80b02a23aaccc34550cc38cab675aaf0ea520958"
+
+[[source]]
+source_id = "anthropic-doc-claude-on-vertex-ai@2026-10-13"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:56Z"
+content_sha256 = "d8d6614f49d6c7b3d6dee769d9093a9fbd216597c9829397275fc006564da937"
+
+[[source]]
+source_id = "vertex-pricing@2026-10-13"
+url = "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:57Z"
+content_sha256 = "7113f691ad9b41a9c117d559c6a4d9e145e23040f222f6a662d2e9ee0af1219a"
+
+[[source]]
+source_id = "vertex-model-versions@2026-10-13"
+url = "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions"
+publisher_org_id = "google"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:59Z"
+content_sha256 = "608cc685deb692dbd714ab1adbedd464f04223095e93cfdb73ce94ce47c2d703"
+
+[[source]]
+source_id = "anthropic-doc-claude-in-microsoft-foundry@2026-10-13"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-13T02:44:57Z"
+content_sha256 = "edd4aac4dfc15536166a3f683c06ce9ee2af57788175a4c5e8bab41f6dd2b920"
+
+[[source]]
+source_id = "azure-retail-prices-gpt@2026-10-13"
+url = "https://prices.azure.com/api/retail/prices?%24filter=serviceName+eq+%27Foundry+Models%27+and+priceType+eq+%27Consumption%27+and+%28productName+eq+%27Azure+OpenAI+GPT6%27+or+productName+eq+%27Azure+OpenAI+GPT5%27%29"
+publisher_org_id = "microsoft"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-10-13T02:46:09Z"
+content_sha256 = "bfbab3c8d3ca0ccc5d4830db8c62f2b7a120ff2f5e811110b55a4cc5a7d6de17"

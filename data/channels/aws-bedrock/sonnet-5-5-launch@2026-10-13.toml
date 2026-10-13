@@ -1,0 +1,32 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "aws-bedrock-price-list@2026-10-13"
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5-5"
+service_tier = "standard"
+valid_from = "2026-09-28T00:00:00Z"
+valid_to = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2", cache_write_5m = "2.5", cache_write_1h = "4", output = "10" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "geo"
+valid_from = "2026-09-28T00:00:00Z"
+valid_to = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.2", cache_write_5m = "2.75", cache_write_1h = "4.4", output = "11" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "regional"
+valid_from = "2026-09-28T00:00:00Z"
+valid_to = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.2", cache_write_5m = "2.75", cache_write_1h = "4.4", output = "11" }
+evidence = [{ source_id = "anthropic-release-notes@2026-10-13", stance = "supports" }]

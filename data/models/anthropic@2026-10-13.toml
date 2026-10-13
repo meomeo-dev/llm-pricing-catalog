@@ -1,0 +1,24 @@
+[defaults]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "anthropic-models@2026-10-13"
+
+[[model]]
+model_id = "claude-haiku-5-5"
+vendor_org_id = "anthropic"
+family = "claude-haiku"
+display_name = "Claude Haiku 5.5"
+
+[[model_revision]]
+model_id = "claude-haiku-5-5"
+lifecycle = "ga"
+released_on = "2026-10-07"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06"
+training_cutoff = "2026-06"
+reasoning = "optional"
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]

@@ -1,0 +1,72 @@
+[defaults]
+recorded_at = "2026-10-13T03:00:00Z"
+source_id = "gemini-changelog@2026-10-13"
+
+[[supersede]]
+table = "model_revision"
+key = "gemini-3.7-flash"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gemini-3.7-flash"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-08T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-models@2026-09-25"
+lifecycle = "ga"
+released_on = "2026-08-13"
+
+[[model_revision]]
+model_id = "gemini-3.7-flash"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-changelog@2026-10-13"
+lifecycle = "deprecated"
+released_on = "2026-08-13"
+deprecated_on = "2026-10-08"
+
+[[supersede]]
+table = "model_revision"
+key = "gemini-3.5-flash"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "restated"
+
+[[model_revision]]
+model_id = "gemini-3.5-flash"
+valid_from = "2026-09-25T00:00:00Z"
+valid_to = "2026-10-08T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-models@2026-09-25"
+lifecycle = "ga"
+released_on = "2026-05-19"
+
+[[model_revision]]
+model_id = "gemini-3.5-flash"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "official_effective"
+source_id = "gemini-changelog@2026-10-13"
+lifecycle = "deprecated"
+released_on = "2026-05-19"
+deprecated_on = "2026-10-08"
+
+[[supersede]]
+table = "model_revision"
+key = "gemini-2.5-computer-use-preview-10-2025"
+valid_from = "2026-09-25T00:00:00Z"
+recorded_at = "2026-09-25T04:00:00Z"
+superseded_at = "2026-10-13T03:00:00Z"
+reason = "correction"
+
+[[model_revision]]
+model_id = "gemini-2.5-computer-use-preview-10-2025"
+valid_from = "2026-09-25T00:00:00Z"
+date_basis = "first_observed"
+source_id = "gemini-deprecations@2026-10-13"
+lifecycle = "retired"
+released_on = "2025-10-07"
+retires_on = "2026-07-28"

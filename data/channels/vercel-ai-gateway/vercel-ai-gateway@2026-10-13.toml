@@ -1,0 +1,273 @@
+[defaults]
+recorded_at = "2026-10-13T04:00:00Z"
+source_id = "vercel-ai-gateway-models@2026-10-13"
+
+[[offering]]
+channel_id = "vercel-ai-gateway"
+model_id = "claude-haiku-5-5"
+channel_model_id = "anthropic/claude-haiku-5.5"
+channel_model_name = "Claude Haiku 5.5"
+availability = "available"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "vercel"
+seller_org_id = "vercel"
+billing_org_id = "vercel"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/claude-haiku-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.1", output = "0.5", cache_read = "0.01", cache_write_5m = "0.125" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.5", output = "2.5", cache_read = "0.05", cache_write_5m = "0.625" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/claude-haiku-5-5"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "0.11", output = "0.55", cache_read = "0.011", cache_write_5m = "0.1375" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.55", output = "2.75", cache_read = "0.055", cache_write_5m = "0.6875" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/claude-haiku-5-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "0.11", output = "0.55", cache_read = "0.011", cache_write_5m = "0.1375" }
+tiers = [{ min_tokens = 100000, rates = { input = "0.55", output = "2.75", cache_read = "0.055", cache_write_5m = "0.6875" } }]
+
+[[offering]]
+channel_id = "vercel-ai-gateway"
+model_id = "claude-sonnet-5-5"
+channel_model_id = "anthropic/claude-sonnet-5.5"
+channel_model_name = "Claude Sonnet 5.5"
+availability = "available"
+valid_from = "2026-09-28T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "vercel"
+seller_org_id = "vercel"
+billing_org_id = "vercel"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/claude-sonnet-5-5"
+service_tier = "standard"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2", output = "10", cache_read = "0.1", cache_write_5m = "2.5" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "2.2", output = "11", cache_read = "0.11", cache_write_5m = "2.75" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/claude-sonnet-5-5"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-10-07T00:00:00Z"
+date_basis = "inferred"
+rates = { input = "2.2", output = "11", cache_read = "0.11", cache_write_5m = "2.75" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-4o-2024-08-06"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "2.5", output = "10", cache_read = "1.25" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-4o-2024-08-06"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "2.5", output = "10", cache_read = "1.25" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-4o-mini-2024-07-18"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.15", output = "0.6", cache_read = "0.075" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-4o-mini-2024-07-18"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+rates = { input = "0.15", output = "0.6", cache_read = "0.075" }
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-5.6-luna"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "0.22", output = "1.32", cache_read = "0.022", cache_write = "0.275" }
+tiers = [{ min_tokens = 272000, rates = { input = "0.44", output = "1.98", cache_read = "0.044", cache_write = "0.55" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-5.6-sol"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "4.4", output = "22", cache_read = "0.44", cache_write = "5.5" }
+tiers = [{ min_tokens = 272000, rates = { input = "8.8", output = "33", cache_read = "0.88", cache_write = "11" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-5.6-terra"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gte"
+rates = { input = "2.2", output = "13.2", cache_read = "0.22", cache_write = "2.75" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "19.8", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6-astra"
+service_tier = "ultrafast"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "60", output = "300", cache_read = "6" }
+tiers = [{ min_tokens = 272000, rates = { input = "120", output = "450", cache_read = "12" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6-astra"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "11", output = "55", cache_read = "1.1", cache_write = "13.75" }
+tiers = [{ min_tokens = 272000, rates = { input = "22", output = "82.5", cache_read = "2.2", cache_write = "27.5" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6-luna"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "0.11", output = "0.55", cache_read = "0.011", cache_write = "0.1375" }
+tiers = [{ min_tokens = 272000, rates = { input = "0.22", output = "0.825", cache_read = "0.022", cache_write = "0.275" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6-sol"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "2.2", output = "11", cache_read = "0.22", cache_write = "2.75" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "16.5", cache_read = "0.44", cache_write = "5.5" } }]
+
+[[offering]]
+channel_id = "vercel-ai-gateway"
+model_id = "gpt-6.1-sol"
+channel_model_id = "openai/gpt-6.1-sol"
+channel_model_name = "GPT-6.1 Sol"
+availability = "available"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "vercel"
+seller_org_id = "vercel"
+billing_org_id = "vercel"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "standard"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "2", output = "10", cache_read = "0.1", cache_write = "2.5" }
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.2", cache_write = "5" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "fast"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write = "5" }
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "30", cache_read = "0.4", cache_write = "10" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "flex"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "1", output = "5", cache_read = "0.05" }
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.1" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "ultrafast"
+valid_from = "2026-10-08T00:00:00Z"
+date_basis = "inferred"
+context_tier_bound = "gt"
+rates = { input = "12", output = "60", cache_read = "0.6" }
+tiers = [{ min_tokens = 272000, rates = { input = "24", output = "90", cache_read = "1.2" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "standard"
+region_id = "eu"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "2.2", output = "11", cache_read = "0.11", cache_write = "2.75" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "16.5", cache_read = "0.22", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "standard"
+region_id = "us"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "2.2", output = "11", cache_read = "0.11", cache_write = "2.75" }
+tiers = [{ min_tokens = 272000, rates = { input = "4.4", output = "16.5", cache_read = "0.22", cache_write = "5.5" } }]
+
+[[price_card]]
+offering_id = "vercel-ai-gateway/gpt-6.1-sol"
+service_tier = "fast"
+region_id = "us"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+rates = { input = "4.4", output = "22", cache_read = "0.22", cache_write = "5.5" }
+tiers = [{ min_tokens = 272000, rates = { input = "8.8", output = "33", cache_read = "0.44", cache_write = "11" } }]
+
+[[model_identifier]]
+channel = "vercel-ai-gateway"
+kind = "api_id"
+identifier = "openai/gpt-6.1-sol-fast"
+model_id = "gpt-6.1-sol"
+implied_service_tier = "fast"
+valid_from = "2026-09-29T00:00:00Z"
+date_basis = "official_effective"
