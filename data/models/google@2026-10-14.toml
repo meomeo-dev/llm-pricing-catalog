@@ -1,0 +1,23 @@
+[defaults]
+valid_from = "2026-10-14T00:00:00Z"
+date_basis = "first_observed"
+recorded_at = "2026-10-14T01:00:00Z"
+source_id = "gemini-model-gemini-4-argon@2026-10-14"
+
+[[model]]
+model_id = "gemini-4-argon"
+vendor_org_id = "google"
+family = "gemini-argon"
+display_name = "Gemini 4 Argon"
+
+[[model_revision]]
+model_id = "gemini-4-argon"
+lifecycle = "ga"
+released_on = "2026-10-13"
+context_window = 1048576
+max_output_tokens = 65536
+reasoning = "optional"
+efforts = ["low", "medium", "high"]
+default_effort = "medium"
+input_modalities = ["text", "image", "video", "audio", "file"]
+output_modalities = ["text"]

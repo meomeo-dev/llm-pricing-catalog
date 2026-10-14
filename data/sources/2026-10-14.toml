@@ -1,0 +1,35 @@
+[[source]]
+source_id = "gemini-pricing@2026-10-14"
+url = "https://ai.google.dev/gemini-api/docs/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-10-14T00:48:20Z"
+content_sha256 = "31aba9433240112f98eab3822c83ea9d69b0a5111c761bd1d3296948f9602000"
+
+[[source]]
+source_id = "gemini-model-gemini-4-argon@2026-10-14"
+url = "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-14T00:48:22Z"
+content_sha256 = "14d6cec81f0d47395a21dd2237946c37b211076607739a976e518487af568e3a"
+
+[[source]]
+source_id = "gemini-latest-model@2026-10-14"
+url = "https://ai.google.dev/gemini-api/docs/latest-model.md.txt"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-10-14T00:48:23Z"
+content_sha256 = "61df1f5c42df43b05a9850710182c2e626b6a39baa9a3dd948f2bfc5de6ea251"
+
+[[source]]
+source_id = "gemini-changelog@2026-10-14"
+url = "https://ai.google.dev/gemini-api/docs/changelog.md.txt"
+publisher_org_id = "google"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-10-14T00:48:24Z"
+content_sha256 = "18a08293853c2877f1d445d1c366069d7a86538bc8ea8d5efa5769584bdc9c50"

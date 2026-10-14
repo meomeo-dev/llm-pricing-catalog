@@ -1,0 +1,79 @@
+[defaults]
+recorded_at = "2026-10-14T01:00:00Z"
+source_id = "gemini-pricing@2026-10-14"
+
+[[offering]]
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "official_effective"
+channel_id = "gemini-api"
+model_id = "gemini-4-argon"
+channel_model_id = "gemini-4-argon"
+availability = "available"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "batch"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.00", output = "10.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "batch"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.00", output = "5.00", cache_read = "0.05" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "flex"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.00", output = "10.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "flex"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.00", output = "5.00", cache_read = "0.05" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "priority"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "7.20", output = "36.00", cache_read = "0.36" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "priority"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "3.60", output = "18.00", cache_read = "0.18" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "standard"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "4.00", output = "20.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-argon"
+service_tier = "standard"
+valid_from = "2026-10-13T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "2.00", output = "10.00", cache_read = "0.10" }

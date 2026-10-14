@@ -122,8 +122,36 @@ model_id = "gemini-3.8-flash"
 [[model_identifier]]
 client = "agy"
 kind = "label"
+identifier = "gemini-3.8-flash-medium"
+model_id = "gemini-3.8-flash"
+recorded_at = "2026-10-14T01:00:00Z"
+
+[[model_identifier]]
+client = "agy"
+kind = "label"
 identifier = "gemini-3.8-flash-high"
 model_id = "gemini-3.8-flash"
+
+[[model_identifier]]
+client = "agy"
+kind = "label"
+identifier = "gemini-4-argon-low"
+model_id = "gemini-4-argon"
+recorded_at = "2026-10-14T01:00:00Z"
+
+[[model_identifier]]
+client = "agy"
+kind = "label"
+identifier = "gemini-4-argon-medium"
+model_id = "gemini-4-argon"
+recorded_at = "2026-10-14T01:00:00Z"
+
+[[model_identifier]]
+client = "agy"
+kind = "label"
+identifier = "gemini-4-argon-high"
+model_id = "gemini-4-argon"
+recorded_at = "2026-10-14T01:00:00Z"
 
 [[model_identifier]]
 client = "agy"
