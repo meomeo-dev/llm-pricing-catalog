@@ -1,0 +1,182 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "gemini-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "gemini-api"
+model_id = "gemini-4-carbon"
+channel_model_id = "gemini-4-carbon"
+availability = "available"
+source_id = "gemini-changelog@2026-11-19"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "standard"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "2.00", output = "10.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "standard"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "4.00", output = "20.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "batch"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.00", output = "5.00", cache_read = "0.05" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "batch"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.00", output = "10.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "flex"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "1.00", output = "5.00", cache_read = "0.05" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "flex"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "2.00", output = "10.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "priority"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-12-01T00:00:00Z"
+is_promotional = 1
+rates = { input = "3.60", output = "18.00", cache_read = "0.18" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-carbon"
+service_tier = "priority"
+valid_from = "2026-12-01T00:00:00Z"
+date_basis = "official_announced"
+rates = { input = "7.20", output = "36.00", cache_read = "0.36" }
+
+[[offering]]
+channel_id = "gemini-api"
+model_id = "gemini-4-hydrogen"
+channel_model_id = "gemini-4-hydrogen"
+availability = "available"
+source_id = "gemini-changelog@2026-11-19"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-hydrogen"
+service_tier = "standard"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "1.50", output = "7.50", cache_read = "0.075" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-hydrogen"
+service_tier = "batch"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.75", output = "3.75", cache_read = "0.0375" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-hydrogen"
+service_tier = "flex"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.75", output = "3.75", cache_read = "0.0375" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-hydrogen"
+service_tier = "priority"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "2.70", output = "13.50", cache_read = "0.135" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-hydrogen"
+service_tier = "free"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0", output = "0", cache_read = "0" }
+
+[[plan]]
+plan_id = "gemini-api/contributor"
+channel_id = "gemini-api"
+display_name = "Gemini API Contributor"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-hydrogen"
+service_tier = "standard"
+plan_id = "gemini-api/contributor"
+rates = { input = "0.75", output = "3.75", cache_read = "0.0375" }
+
+[[offering]]
+channel_id = "gemini-api"
+model_id = "gemini-4-neon"
+channel_model_id = "gemini-4-neon"
+availability = "available"
+source_id = "gemini-changelog@2026-11-19"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "google"
+seller_org_id = "google"
+billing_org_id = "google"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-neon"
+service_tier = "standard"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "3.00", output = "15.00", cache_read = "0.15" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-neon"
+service_tier = "batch"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "1.50", output = "7.50", cache_read = "0.075" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-neon"
+service_tier = "flex"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "1.50", output = "7.50", cache_read = "0.075" }
+
+[[price_card]]
+offering_id = "gemini-api/gemini-4-neon"
+service_tier = "priority"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "5.40", output = "27.00", cache_read = "0.27" }

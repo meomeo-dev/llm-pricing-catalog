@@ -1,0 +1,492 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "openrouter-models@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-4-neon"
+channel_model_id = "google/gemini-4-neon"
+availability = "available"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "Google: Gemini 4 Neon"
+context_window = 1048576
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gemini-4-neon"
+service_tier = "standard"
+rates = { input = "3", output = "15", cache_read = "0.15", input_audio = "3", cache_read_audio = "0.15", cache_write = "0.0833333333333333" }
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "google/gemini-4-neon:batch"
+model_id = "gemini-4-neon"
+offering_id = "openrouter/gemini-4-neon"
+implied_service_tier = "batch"
+valid_from = "2026-11-18T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gemini-4-neon"
+service_tier = "batch"
+rates = { input = "1.5", output = "7.5", cache_read = "0.075", input_audio = "1.5", cache_read_audio = "0.075", cache_write = "0.0833333333333333" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6.2-astra"
+channel_model_id = "openai/gpt-6.2-astra-pro"
+availability = "available"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+variant = "pro"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "OpenAI: GPT-6.2 Astra Pro"
+context_window = 1050000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-astra@pro"
+service_tier = "standard"
+context_tier_bound = "gt"
+rates = { input = "8", output = "40", cache_read = "0.4", cache_write = "10" }
+tiers = [{ min_tokens = 272000, rates = { input = "16", output = "60", cache_read = "0.8", cache_write = "20" } }]
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "openai/gpt-6.2-astra-pro:batch"
+model_id = "gpt-6.2-astra"
+offering_id = "openrouter/gpt-6.2-astra@pro"
+implied_service_tier = "batch"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-astra@pro"
+service_tier = "batch"
+context_tier_bound = "gt"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write = "5" }
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "30", cache_read = "0.4", cache_write = "10" } }]
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6.2-astra"
+channel_model_id = "openai/gpt-6.2-astra"
+availability = "available"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "OpenAI: GPT-6.2 Astra"
+context_window = 1050000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-astra"
+service_tier = "standard"
+context_tier_bound = "gt"
+rates = { input = "8", output = "40", cache_read = "0.4", cache_write = "10" }
+tiers = [{ min_tokens = 272000, rates = { input = "16", output = "60", cache_read = "0.8", cache_write = "20" } }]
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "openai/gpt-6.2-astra:batch"
+model_id = "gpt-6.2-astra"
+offering_id = "openrouter/gpt-6.2-astra"
+implied_service_tier = "batch"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-astra"
+service_tier = "batch"
+context_tier_bound = "gt"
+rates = { input = "4", output = "20", cache_read = "0.2", cache_write = "5" }
+tiers = [{ min_tokens = 272000, rates = { input = "8", output = "30", cache_read = "0.4", cache_write = "10" } }]
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6.2-sol"
+channel_model_id = "openai/gpt-6.2-sol-pro"
+availability = "available"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+variant = "pro"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "OpenAI: GPT-6.2 Sol Pro"
+context_window = 1050000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-sol@pro"
+service_tier = "standard"
+context_tier_bound = "gt"
+rates = { input = "2", output = "10", cache_read = "0.1", cache_write = "2.5" }
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.2", cache_write = "5" } }]
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "openai/gpt-6.2-sol-pro:batch"
+model_id = "gpt-6.2-sol"
+offering_id = "openrouter/gpt-6.2-sol@pro"
+implied_service_tier = "batch"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-sol@pro"
+service_tier = "batch"
+context_tier_bound = "gt"
+rates = { input = "1", output = "5", cache_read = "0.05", cache_write = "1.25" }
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.1", cache_write = "2.5" } }]
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6.2-sol"
+channel_model_id = "openai/gpt-6.2-sol"
+availability = "available"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "OpenAI: GPT-6.2 Sol"
+context_window = 1050000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-sol"
+service_tier = "standard"
+context_tier_bound = "gt"
+rates = { input = "2", output = "10", cache_read = "0.1", cache_write = "2.5" }
+tiers = [{ min_tokens = 272000, rates = { input = "4", output = "15", cache_read = "0.2", cache_write = "5" } }]
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "openai/gpt-6.2-sol:batch"
+model_id = "gpt-6.2-sol"
+offering_id = "openrouter/gpt-6.2-sol"
+implied_service_tier = "batch"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.2-sol"
+service_tier = "batch"
+context_tier_bound = "gt"
+rates = { input = "1", output = "5", cache_read = "0.05", cache_write = "1.25" }
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.1", cache_write = "2.5" } }]
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "qwen4-max"
+channel_model_id = "qwen/qwen4-max"
+availability = "available"
+valid_from = "2026-11-16T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "Qwen: Qwen4 Max"
+context_window = 1000000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/qwen4-max"
+service_tier = "standard"
+rates = { input = "1.425", output = "4.275", cache_read = "0.07125", cache_write = "1.78125" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-4-hydrogen"
+channel_model_id = "google/gemini-4-hydrogen"
+availability = "available"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "Google: Gemini 4 Hydrogen"
+context_window = 1048576
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gemini-4-hydrogen"
+service_tier = "standard"
+rates = { input = "1.5", output = "7.5", cache_read = "0.075", input_audio = "1.5", cache_read_audio = "0.075", cache_write = "0.0833333333333333" }
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "google/gemini-4-hydrogen:batch"
+model_id = "gemini-4-hydrogen"
+offering_id = "openrouter/gemini-4-hydrogen"
+implied_service_tier = "batch"
+valid_from = "2026-11-12T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gemini-4-hydrogen"
+service_tier = "batch"
+rates = { input = "0.75", output = "3.75", cache_read = "0.0375", input_audio = "0.75", cache_read_audio = "0.0375", cache_write = "0.0833333333333333" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gemini-4-carbon"
+channel_model_id = "google/gemini-4-carbon"
+availability = "available"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "Google: Gemini 4 Carbon"
+context_window = 1048576
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gemini-4-carbon"
+service_tier = "standard"
+rates = { input = "2", output = "10", cache_read = "0.1", input_audio = "2", cache_read_audio = "0.1", cache_write = "0.1875" }
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "google/gemini-4-carbon:batch"
+model_id = "gemini-4-carbon"
+offering_id = "openrouter/gemini-4-carbon"
+implied_service_tier = "batch"
+valid_from = "2026-11-10T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gemini-4-carbon"
+service_tier = "batch"
+rates = { input = "1", output = "5", cache_read = "0.05", input_audio = "1", cache_read_audio = "0.05", cache_write = "0.1875" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "claude-fable-5-2"
+channel_model_id = "anthropic/claude-fable-5.2"
+availability = "available"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "Anthropic: Claude Fable 5.2"
+context_window = 1000000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-2"
+service_tier = "standard"
+rates = { input = "8", output = "40", cache_read = "0.2", cache_write_1h = "16", cache_write_5m = "10" }
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "anthropic/claude-fable-5.2:batch"
+model_id = "claude-fable-5-2"
+offering_id = "openrouter/claude-fable-5-2"
+implied_service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/claude-fable-5-2"
+service_tier = "batch"
+rates = { input = "4", output = "20", cache_read = "0.1", cache_write_1h = "8", cache_write_5m = "5" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6.1-terra"
+channel_model_id = "openai/gpt-6.1-terra-pro"
+availability = "available"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+variant = "pro"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "OpenAI: GPT-6.1 Terra Pro"
+context_window = 1050000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.1-terra@pro"
+service_tier = "standard"
+context_tier_bound = "gt"
+rates = { input = "1", output = "5", cache_read = "0.05", cache_write = "1.25" }
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.1", cache_write = "2.5" } }]
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "openai/gpt-6.1-terra-pro:batch"
+model_id = "gpt-6.1-terra"
+offering_id = "openrouter/gpt-6.1-terra@pro"
+implied_service_tier = "batch"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.1-terra@pro"
+service_tier = "batch"
+context_tier_bound = "gt"
+rates = { input = "0.5", output = "2.5", cache_read = "0.025", cache_write = "0.625" }
+tiers = [{ min_tokens = 272000, rates = { input = "1", output = "3.75", cache_read = "0.05", cache_write = "1.25" } }]
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "gpt-6.1-terra"
+channel_model_id = "openai/gpt-6.1-terra"
+availability = "available"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "OpenAI: GPT-6.1 Terra"
+context_window = 1050000
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.1-terra"
+service_tier = "standard"
+context_tier_bound = "gt"
+rates = { input = "1", output = "5", cache_read = "0.05", cache_write = "1.25" }
+tiers = [{ min_tokens = 272000, rates = { input = "2", output = "7.5", cache_read = "0.1", cache_write = "2.5" } }]
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "openai/gpt-6.1-terra:batch"
+model_id = "gpt-6.1-terra"
+offering_id = "openrouter/gpt-6.1-terra"
+implied_service_tier = "batch"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/gpt-6.1-terra"
+service_tier = "batch"
+context_tier_bound = "gt"
+rates = { input = "0.5", output = "2.5", cache_read = "0.025", cache_write = "0.625" }
+tiers = [{ min_tokens = 272000, rates = { input = "1", output = "3.75", cache_read = "0.05", cache_write = "1.25" } }]
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "kimi-k3.1-pro"
+channel_model_id = "moonshotai/kimi-k3.1-pro"
+availability = "available"
+valid_from = "2026-10-23T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "MoonshotAI: Kimi K3.1 Pro"
+context_window = 1048576
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/kimi-k3.1-pro"
+service_tier = "standard"
+rates = { input = "0.253", output = "8.8", cache_read = "0.18" }
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "moonshotai/kimi-k3.1-pro:batch"
+model_id = "kimi-k3.1-pro"
+offering_id = "openrouter/kimi-k3.1-pro"
+implied_service_tier = "batch"
+valid_from = "2026-10-23T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/kimi-k3.1-pro"
+service_tier = "batch"
+rates = { input = "0.372", output = "5.583", cache_read = "0.1" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "MiniMax-M3.1-Flash"
+channel_model_id = "minimax/minimax-m3.1-flash"
+availability = "available"
+valid_from = "2026-10-19T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "MiniMax: MiniMax M3.1 Flash"
+context_window = 1048576
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/MiniMax-M3.1-Flash"
+service_tier = "standard"
+rates = { input = "0.15", output = "0.6", cache_read = "0.015" }
+
+[[offering]]
+channel_id = "openrouter"
+model_id = "deepseek-v4.1-flash-1017"
+channel_model_id = "deepseek/deepseek-v4.1-flash-1017"
+availability = "available"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "disclosed_reseller"
+discloses_upstream = 1
+channel_model_name = "DeepSeek: DeepSeek V4.1 Flash 1017"
+context_window = 1048576
+operator_org_id = "openrouter"
+seller_org_id = "openrouter"
+billing_org_id = "openrouter"
+
+[[price_card]]
+offering_id = "openrouter/deepseek-v4.1-flash-1017"
+service_tier = "standard"
+rates = { input = "0.15", output = "0.6", cache_read = "0.003" }
+
+[[model_identifier]]
+channel = "openrouter"
+kind = "api_id"
+identifier = "deepseek/deepseek-v4.1-flash-1017:batch"
+model_id = "deepseek-v4.1-flash-1017"
+offering_id = "openrouter/deepseek-v4.1-flash-1017"
+implied_service_tier = "batch"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "openrouter/deepseek-v4.1-flash-1017"
+service_tier = "batch"
+rates = { input = "0.036", output = "0.15", cache_read = "0.003" }

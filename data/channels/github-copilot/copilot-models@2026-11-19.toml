@@ -1,0 +1,87 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "copilot-models-and-pricing-yaml@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6.1-terra"
+channel_model_name = "GPT-6.1 Terra"
+availability = "available"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+source_id = "copilot-models-and-pricing-yaml@2026-11-19"
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6.1-terra"
+service_tier = "standard"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", cache_read = "0.10", output = "7.50", cache_write = "2.50" } }]
+evidence = [{ source_id = "copilot-models-and-pricing@2026-11-19", stance = "supports" }]
+rates = { input = "1.00", cache_read = "0.05", output = "5.00", cache_write = "1.25" }
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6.2-astra"
+channel_model_name = "GPT-6.2 Astra"
+availability = "available"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+source_id = "copilot-gpt-6-2-release@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6.2-astra"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "16.00", cache_read = "0.80", output = "60.00", cache_write = "20.00" } }]
+evidence = [{ source_id = "copilot-models-and-pricing@2026-11-19", stance = "supports" }]
+rates = { input = "8.00", cache_read = "0.40", output = "40.00", cache_write = "10.00" }
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "gpt-6.2-sol"
+channel_model_name = "GPT-6.2 Sol"
+availability = "available"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+source_id = "copilot-gpt-6-2-release@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "github-copilot/gpt-6.2-sol"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", cache_read = "0.20", output = "15.00", cache_write = "5.00" } }]
+evidence = [{ source_id = "copilot-models-and-pricing@2026-11-19", stance = "supports" }]
+rates = { input = "2.00", cache_read = "0.10", output = "10.00", cache_write = "2.50" }
+
+[[offering]]
+channel_id = "github-copilot"
+model_id = "claude-fable-5-2"
+channel_model_name = "Claude Fable 5.2"
+availability = "available"
+operator_org_id = "github"
+seller_org_id = "github"
+billing_org_id = "github"
+vendor_relationship = "contracted_partner"
+source_id = "copilot-models-and-pricing-yaml@2026-11-19"
+
+[[price_card]]
+offering_id = "github-copilot/claude-fable-5-2"
+service_tier = "standard"
+evidence = [{ source_id = "copilot-models-and-pricing@2026-11-19", stance = "supports" }]
+rates = { input = "8.00", cache_read = "0.20", output = "40.00", cache_write_5m = "10.00" }

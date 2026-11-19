@@ -1,0 +1,33 @@
+[[meter]]
+meter_id = "cache_write_30m"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "缓存写入（30 分钟 TTL）"
+
+[[meter]]
+meter_id = "cache_write_12h"
+quantity_unit = "token"
+per_quantity = 1000000
+description = "缓存写入（12 小时 TTL）"
+
+[[region]]
+region_id = "us-govcloud"
+kind = "data_zone"
+description = "AWS GovCloud（美国）"
+
+[[region]]
+region_id = "non-global"
+kind = "geo"
+description = "Google Cloud 价目所列非全球端点"
+
+[[region]]
+region_id = "apac"
+kind = "data_zone"
+description = "亚太数据区（Azure APAC Data Zone）"
+
+[[time_window]]
+window_id = "alibaba-deepseek-peak"
+time_zone = "Asia/Singapore"
+iso_weekdays = "[1,2,3,4,5,6,7]"
+ranges = "[[\"08:00\",\"22:00\"]]"
+description = "阿里云 Model Studio 新加坡 DeepSeek 高峰价（每日 UTC+8 08:00–22:00）"

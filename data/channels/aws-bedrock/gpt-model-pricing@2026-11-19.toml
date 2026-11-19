@@ -1,0 +1,292 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "aws-bedrock"
+model_id = "gpt-6.2-astra"
+channel_model_id = "openai.gpt-6.2-astra"
+availability = "available"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+seller_org_id = "openai"
+vendor_relationship = "contracted_partner"
+api_surface = "bedrock-mantle"
+operator_org_id = "aws"
+billing_org_id = "aws"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "us.openai.gpt-6.2-astra"
+model_id = "gpt-6.2-astra"
+offering_id = "aws-bedrock/gpt-6.2-astra"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "global.openai.gpt-6.2-astra"
+model_id = "gpt-6.2-astra"
+offering_id = "aws-bedrock/gpt-6.2-astra"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+region_id = "regional"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "17.60", cache_write_30m = "22.00", cache_read = "0.88", output = "66.00" } }]
+rates = { input = "8.80", cache_write_30m = "11.00", cache_read = "0.44", output = "44.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+region_id = "geo"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "17.60", cache_write_30m = "22.00", cache_read = "0.88", output = "66.00" } }]
+rates = { input = "8.80", cache_write_30m = "11.00", cache_read = "0.44", output = "44.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "16.00", cache_write_30m = "20.00", cache_read = "0.80", output = "60.00" } }]
+rates = { input = "8.00", cache_write_30m = "10.00", cache_read = "0.40", output = "40.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+region_id = "regional"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "52.80", cache_write_30m = "66.00", cache_read = "2.64", output = "198.00" } }]
+is_promotional = 1
+valid_to = "2027-03-01T00:00:00Z"
+rates = { input = "26.40", cache_write_30m = "33.00", cache_read = "1.32", output = "132.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+region_id = "geo"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "52.80", cache_write_30m = "66.00", cache_read = "2.64", output = "198.00" } }]
+is_promotional = 1
+valid_to = "2027-03-01T00:00:00Z"
+rates = { input = "26.40", cache_write_30m = "33.00", cache_read = "1.32", output = "132.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "48.00", cache_write_30m = "60.00", cache_read = "2.40", output = "180.00" } }]
+is_promotional = 1
+valid_to = "2027-03-01T00:00:00Z"
+rates = { input = "24.00", cache_write_30m = "30.00", cache_read = "1.20", output = "120.00" }
+
+[[pricing_rule]]
+rule_key = "aws-bedrock/gpt-6.2-astra-ultrafast"
+channel_id = "aws-bedrock"
+kind = "markup"
+factor = "6"
+scope_models = ["gpt-6.2-astra"]
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+valid_from = "2027-03-01T00:00:00Z"
+date_basis = "official_announced"
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2027-03-01T00:00:00Z"
+date_basis = "official_announced"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+region_id = "regional"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "105.60", cache_write_30m = "132.00", cache_read = "5.28", output = "396.00" } }]
+derivation = "computed_from_rule"
+derived_from_card = { offering_id = "aws-bedrock/gpt-6.2-astra", service_tier = "standard", valid_from = "2026-11-17T00:00:00Z", region_id = "regional" }
+derived_from_rule = { rule_key = "aws-bedrock/gpt-6.2-astra-ultrafast", valid_from = "2027-03-01T00:00:00Z" }
+rates = { input = "52.80", cache_write_30m = "66.00", cache_read = "2.64", output = "264.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2027-03-01T00:00:00Z"
+date_basis = "official_announced"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+region_id = "geo"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "105.60", cache_write_30m = "132.00", cache_read = "5.28", output = "396.00" } }]
+derivation = "computed_from_rule"
+derived_from_card = { offering_id = "aws-bedrock/gpt-6.2-astra", service_tier = "standard", valid_from = "2026-11-17T00:00:00Z", region_id = "geo" }
+derived_from_rule = { rule_key = "aws-bedrock/gpt-6.2-astra-ultrafast", valid_from = "2027-03-01T00:00:00Z" }
+rates = { input = "52.80", cache_write_30m = "66.00", cache_read = "2.64", output = "264.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2027-03-01T00:00:00Z"
+date_basis = "official_announced"
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "96.00", cache_write_30m = "120.00", cache_read = "4.80", output = "360.00" } }]
+derivation = "computed_from_rule"
+derived_from_card = { offering_id = "aws-bedrock/gpt-6.2-astra", service_tier = "standard", valid_from = "2026-11-17T00:00:00Z" }
+derived_from_rule = { rule_key = "aws-bedrock/gpt-6.2-astra-ultrafast", valid_from = "2027-03-01T00:00:00Z" }
+rates = { input = "48.00", cache_write_30m = "60.00", cache_read = "2.40", output = "240.00" }
+
+[[offering]]
+channel_id = "aws-bedrock"
+model_id = "gpt-6.2-sol"
+channel_model_id = "openai.gpt-6.2-sol"
+availability = "available"
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+seller_org_id = "openai"
+vendor_relationship = "contracted_partner"
+api_surface = "bedrock-mantle"
+operator_org_id = "aws"
+billing_org_id = "aws"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "us.openai.gpt-6.2-sol"
+model_id = "gpt-6.2-sol"
+offering_id = "aws-bedrock/gpt-6.2-sol"
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "global.openai.gpt-6.2-sol"
+model_id = "gpt-6.2-sol"
+offering_id = "aws-bedrock/gpt-6.2-sol"
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-sol"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+region_id = "regional"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "4.40", cache_write_30m = "5.50", cache_read = "0.22", output = "16.50" } }]
+rates = { input = "2.20", cache_write_30m = "2.75", cache_read = "0.11", output = "11.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-sol"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+region_id = "geo"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "4.40", cache_write_30m = "5.50", cache_read = "0.22", output = "16.50" } }]
+rates = { input = "2.20", cache_write_30m = "2.75", cache_read = "0.11", output = "11.00" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.2-sol"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", cache_write_30m = "5.00", cache_read = "0.20", output = "15.00" } }]
+rates = { input = "2.00", cache_write_30m = "2.50", cache_read = "0.10", output = "10.00" }
+
+[[offering]]
+channel_id = "aws-bedrock"
+model_id = "gpt-6.1-terra"
+channel_model_id = "openai.gpt-6.1-terra"
+availability = "available"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+seller_org_id = "openai"
+vendor_relationship = "contracted_partner"
+api_surface = "bedrock-mantle"
+operator_org_id = "aws"
+billing_org_id = "aws"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "us.openai.gpt-6.1-terra"
+model_id = "gpt-6.1-terra"
+offering_id = "aws-bedrock/gpt-6.1-terra"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "global.openai.gpt-6.1-terra"
+model_id = "gpt-6.1-terra"
+offering_id = "aws-bedrock/gpt-6.1-terra"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+region_id = "regional"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.20", cache_write_30m = "2.75", cache_read = "0.11", output = "8.25" } }]
+rates = { input = "1.10", cache_write_30m = "1.375", cache_read = "0.055", output = "5.50" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+region_id = "geo"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.20", cache_write_30m = "2.75", cache_read = "0.11", output = "8.25" } }]
+rates = { input = "1.10", cache_write_30m = "1.375", cache_read = "0.055", output = "5.50" }
+
+[[price_card]]
+offering_id = "aws-bedrock/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", cache_write_30m = "2.50", cache_read = "0.10", output = "7.50" } }]
+rates = { input = "1.00", cache_write_30m = "1.25", cache_read = "0.05", output = "5.00" }

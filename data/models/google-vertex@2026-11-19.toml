@@ -1,0 +1,29 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "vertex-model-versions@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "gemini-4-argon-cyber-permissive"
+vendor_org_id = "google"
+family = "gemini"
+display_name = "Gemini 4 Argon Cyber Permissive"
+
+[[model_revision]]
+model_id = "gemini-4-argon-cyber-permissive"
+lifecycle = "limited"
+released_on = "2026-10-13"
+source_id = "vertex-model-versions@2026-11-19"
+
+[[model]]
+model_id = "gemini-4-carbon-cyber-permissive"
+vendor_org_id = "google"
+family = "gemini"
+display_name = "Gemini 4 Carbon Cyber Permissive"
+
+[[model_revision]]
+model_id = "gemini-4-carbon-cyber-permissive"
+lifecycle = "limited"
+released_on = "2026-11-10"
+source_id = "vertex-model-versions@2026-11-19"

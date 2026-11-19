@@ -1,0 +1,90 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "mistral-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "mistral-api"
+model_id = "glm-5.3-flash"
+channel_model_id = "zai-glm-5-3-flash"
+availability = "available"
+source_id = "mistral-model-zai-glm-5-3-flash@2026-11-19"
+valid_from = "2026-10-22T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "contracted_partner"
+context_window = 1000000
+max_output_tokens = 128000
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+
+[[price_card]]
+offering_id = "mistral-api/glm-5.3-flash"
+service_tier = "standard"
+valid_from = "2026-10-22T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.15", output = "0.5", cache_read = "0.03" }
+
+[[offering]]
+channel_id = "mistral-api"
+model_id = "deepseek-v4.1-flash-1017"
+channel_model_id = "deepseek-v4-1-flash-1017"
+availability = "available"
+source_id = "mistral-model-deepseek-v4-flash-1017@2026-11-19"
+valid_from = "2026-10-28T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "contracted_partner"
+context_window = 1000000
+max_output_tokens = 128000
+operator_org_id = "mistral"
+seller_org_id = "mistral"
+billing_org_id = "mistral"
+
+[[price_card]]
+offering_id = "mistral-api/deepseek-v4.1-flash-1017"
+service_tier = "standard"
+valid_from = "2026-10-28T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "0.3", output = "1.2", cache_read = "0.007" }
+
+[[pricing_rule]]
+rule_key = "mistral-api/hosted-batch"
+channel_id = "mistral-api"
+kind = "discount"
+factor = "0.5"
+scope_models = ["glm-5.3-flash", "deepseek-v4.1-flash-1017"]
+source_id = "mistral-batch-pricing@2026-11-19"
+
+[[pricing_rule]]
+rule_key = "mistral-api/priority"
+channel_id = "mistral-api"
+kind = "markup"
+factor = "1.75"
+source_id = "mistral-priority-pricing@2026-11-19"
+
+[[supersede]]
+table = "price_card"
+offering_id = "mistral-api/mistral-large-4"
+service_tier = "standard"
+valid_from = "2026-10-20T00:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[price_card]]
+offering_id = "mistral-api/mistral-large-4"
+service_tier = "standard"
+valid_from = "2026-10-20T00:00:00Z"
+date_basis = "inferred"
+valid_to = "2026-10-29T00:00:00Z"
+source_id = "mistral-pricing@2026-10-13"
+rates = { input = "1.36", output = "4.18", cache_read = "0.14" }
+
+[[price_card]]
+offering_id = "mistral-api/mistral-large-4"
+service_tier = "standard"
+valid_from = "2026-10-29T00:00:00Z"
+date_basis = "official_effective"
+evidence = [{ source_id = "mistral-large-4-update@2026-11-19", stance = "supports" }]
+rates = { input = "0.70", output = "2.10", cache_read = "0.07" }

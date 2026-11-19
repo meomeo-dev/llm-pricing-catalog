@@ -1,0 +1,161 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "deepseek-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[supersede]]
+table = "offering_revision"
+key = "deepseek-api/deepseek-v4.1-flash"
+valid_from = "2026-09-10T04:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[offering]]
+channel_id = "deepseek-api"
+model_id = "deepseek-v4.1-flash"
+channel_model_id = "deepseek-flash"
+availability = "available"
+source_id = "deepseek-pricing@2026-10-13"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-10-17T00:00:00Z"
+operator_org_id = "deepseek"
+seller_org_id = "deepseek"
+billing_org_id = "deepseek"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "deepseek-api"
+model_id = "deepseek-v4.1-flash-1017"
+channel_model_id = "deepseek-flash"
+availability = "available"
+source_id = "deepseek-flash-1017@2026-11-19"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "deepseek"
+seller_org_id = "deepseek"
+billing_org_id = "deepseek"
+vendor_relationship = "first_party"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:deepseek-api|api_id|deepseek-flash"
+valid_from = "2026-09-10T04:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:deepseek-api|api_id|deepseek-v4-flash"
+valid_from = "2026-09-10T04:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[model_identifier]]
+channel = "deepseek-api"
+kind = "api_id"
+identifier = "deepseek-v4-flash"
+model_id = "deepseek-v4.1-flash"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-10-17T00:00:00Z"
+source_id = "deepseek-pricing@2026-10-13"
+
+[[model_identifier]]
+channel = "deepseek-api"
+kind = "api_id"
+identifier = "deepseek-v4-flash"
+model_id = "deepseek-v4.1-flash-1017"
+offering_id = "deepseek-api/deepseek-v4.1-flash-1017"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "deepseek-flash-1017@2026-11-19"
+
+[[supersede]]
+table = "model_identifier"
+key = "channel:deepseek-api|api_id|deepseek-v4-flash-vision-exp"
+valid_from = "2026-09-10T04:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[model_identifier]]
+channel = "deepseek-api"
+kind = "api_id"
+identifier = "deepseek-v4-flash-vision-exp"
+model_id = "deepseek-v4.1-flash"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-10-17T00:00:00Z"
+source_id = "deepseek-pricing@2026-10-13"
+
+[[model_identifier]]
+channel = "deepseek-api"
+kind = "api_id"
+identifier = "deepseek-v4-flash-vision-exp"
+model_id = "deepseek-v4.1-flash-1017"
+offering_id = "deepseek-api/deepseek-v4.1-flash-1017"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+source_id = "deepseek-flash-1017@2026-11-19"
+
+[[supersede]]
+table = "price_card"
+offering_id = "deepseek-api/deepseek-v4.1-flash"
+service_tier = "standard"
+valid_from = "2026-09-10T04:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4.1-flash"
+service_tier = "standard"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-10-17T00:00:00Z"
+source_id = "deepseek-pricing@2026-10-13"
+evidence = [{ source_id = "deepseek-news260910@2026-10-13", stance = "supports" }, { source_id = "deepseek-flash-1017@2026-11-19", stance = "supports" }]
+rates = { cache_read = "0.003", input = "0.15", output = "0.6" }
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4.1-flash-1017"
+service_tier = "standard"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+evidence = [{ source_id = "deepseek-flash-1017@2026-11-19", stance = "supports" }]
+rates = { cache_read = "0.003", input = "0.15", output = "0.6" }
+
+[[supersede]]
+table = "price_card"
+offering_id = "deepseek-api/deepseek-v4.1-flash"
+service_tier = "standard"
+window_id = "deepseek-peak"
+valid_from = "2026-09-10T04:00:00Z"
+recorded_at = "2026-10-13T06:00:00Z"
+superseded_at = "2026-11-19T13:13:24Z"
+reason = "restated"
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4.1-flash"
+service_tier = "standard"
+valid_from = "2026-09-10T04:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-10-17T00:00:00Z"
+source_id = "deepseek-pricing@2026-10-13"
+window_id = "deepseek-peak"
+evidence = [{ source_id = "deepseek-news260910@2026-10-13", stance = "supports" }, { source_id = "deepseek-flash-1017@2026-11-19", stance = "supports" }]
+rates = { cache_read = "0.006", input = "0.3", output = "1.2" }
+
+[[price_card]]
+offering_id = "deepseek-api/deepseek-v4.1-flash-1017"
+service_tier = "standard"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+window_id = "deepseek-peak"
+evidence = [{ source_id = "deepseek-flash-1017@2026-11-19", stance = "supports" }]
+rates = { cache_read = "0.006", input = "0.3", output = "1.2" }

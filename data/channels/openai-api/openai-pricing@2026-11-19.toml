@@ -1,0 +1,284 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "openai-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6.2-astra"
+channel_model_id = "gpt-6.2-astra"
+availability = "available"
+source_id = "openai-changelog@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6.2-sol"
+channel_model_id = "gpt-6.2-sol"
+availability = "available"
+source_id = "openai-changelog@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6.1-terra"
+channel_model_id = "gpt-6.1-terra"
+availability = "available"
+source_id = "openai-changelog@2026-11-19"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6-cyber"
+channel_model_id = "gpt-6-cyber"
+availability = "limited"
+source_id = "openai-changelog@2026-11-19"
+valid_from = "2026-11-05T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6-rosalind"
+channel_model_id = "gpt-6-rosalind"
+availability = "limited"
+source_id = "openai-changelog@2026-11-19"
+valid_from = "2026-10-30T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6.2-astra-law"
+channel_model_id = "gpt-6.2-astra-law"
+availability = "limited"
+source_id = "openai-pricing@2026-11-19"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "openai-api"
+model_id = "gpt-6-astra-law"
+channel_model_id = "gpt-6-astra-law"
+availability = "limited"
+source_id = "openai-pricing@2026-11-19"
+operator_org_id = "openai"
+seller_org_id = "openai"
+billing_org_id = "openai"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-astra"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "16.00", output = "60.00", cache_read = "0.80", cache_write_30m = "20.00", cache_write_12h = "40.00" } }]
+rates = { input = "8.00", output = "40.00", cache_read = "0.40", cache_write_30m = "10.00", cache_write_12h = "20.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-sol"
+service_tier = "standard"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", output = "15.00", cache_read = "0.20", cache_write_30m = "5.00", cache_write_12h = "10.00" } }]
+rates = { input = "2.00", output = "10.00", cache_read = "0.10", cache_write_30m = "2.50", cache_write_12h = "5.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", output = "7.50", cache_read = "0.10", cache_write_30m = "2.50", cache_write_12h = "5.00" } }]
+rates = { input = "1.00", output = "5.00", cache_read = "0.05", cache_write_30m = "1.25", cache_write_12h = "2.50" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-astra"
+service_tier = "batch"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "8.00", output = "30.00", cache_read = "0.40", cache_write_30m = "10.00", cache_write_12h = "20.00" } }]
+rates = { input = "4.00", output = "20.00", cache_read = "0.20", cache_write_30m = "5.00", cache_write_12h = "10.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-sol"
+service_tier = "batch"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", output = "7.50", cache_read = "0.10", cache_write_30m = "2.50", cache_write_12h = "5.00" } }]
+rates = { input = "1.00", output = "5.00", cache_read = "0.05", cache_write_30m = "1.25", cache_write_12h = "2.50" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-terra"
+service_tier = "batch"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "1.00", output = "3.75", cache_read = "0.05", cache_write_30m = "1.25", cache_write_12h = "2.50" } }]
+rates = { input = "0.50", output = "2.50", cache_read = "0.025", cache_write_30m = "0.625", cache_write_12h = "1.25" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-terra"
+service_tier = "flex"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "1.00", output = "3.75", cache_read = "0.05", cache_write_30m = "1.25", cache_write_12h = "2.50" } }]
+rates = { input = "0.50", output = "2.50", cache_read = "0.025", cache_write_30m = "0.625", cache_write_12h = "1.25" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-astra"
+service_tier = "fast"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "32.00", output = "120.00", cache_read = "1.60", cache_write_30m = "40.00", cache_write_12h = "80.00" } }]
+rates = { input = "16.00", output = "80.00", cache_read = "0.80", cache_write_30m = "20.00", cache_write_12h = "40.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-sol"
+service_tier = "fast"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "8.00", output = "30.00", cache_read = "0.40", cache_write_30m = "10.00", cache_write_12h = "20.00" } }]
+rates = { input = "4.00", output = "20.00", cache_read = "0.20", cache_write_30m = "5.00", cache_write_12h = "10.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.1-terra"
+service_tier = "fast"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "4.00", output = "15.00", cache_read = "0.20", cache_write_30m = "5.00", cache_write_12h = "10.00" } }]
+rates = { input = "2.00", output = "10.00", cache_read = "0.10", cache_write_30m = "2.50", cache_write_12h = "5.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-03-01T08:00:00Z"
+is_promotional = 1
+evidence = [{ source_id = "openai-ultrafast@2026-11-19", stance = "supports" }]
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "48.00", output = "180.00", cache_read = "2.40", cache_write_30m = "60.00", cache_write_12h = "120.00" } }]
+rates = { input = "24.00", output = "120.00", cache_read = "1.20", cache_write_30m = "30.00", cache_write_12h = "60.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-sol"
+service_tier = "ultrafast"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+valid_to = "2027-03-01T08:00:00Z"
+is_promotional = 1
+evidence = [{ source_id = "openai-ultrafast@2026-11-19", stance = "supports" }]
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "12.00", output = "45.00", cache_read = "0.60", cache_write_30m = "15.00", cache_write_12h = "30.00" } }]
+rates = { input = "6.00", output = "30.00", cache_read = "0.30", cache_write_30m = "7.50", cache_write_12h = "15.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-astra"
+service_tier = "ultrafast"
+valid_from = "2027-03-01T08:00:00Z"
+date_basis = "official_announced"
+evidence = [{ source_id = "openai-ultrafast@2026-11-19", stance = "supports" }]
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "96.00", output = "360.00", cache_read = "4.80", cache_write_30m = "120.00", cache_write_12h = "240.00" } }]
+rates = { input = "48.00", output = "240.00", cache_read = "2.40", cache_write_30m = "60.00", cache_write_12h = "120.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-sol"
+service_tier = "ultrafast"
+valid_from = "2027-03-01T08:00:00Z"
+date_basis = "official_announced"
+evidence = [{ source_id = "openai-ultrafast@2026-11-19", stance = "supports" }]
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "24.00", output = "90.00", cache_read = "1.20", cache_write_30m = "30.00", cache_write_12h = "60.00" } }]
+rates = { input = "12.00", output = "60.00", cache_read = "0.60", cache_write_30m = "15.00", cache_write_12h = "30.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6-cyber"
+service_tier = "standard"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+is_promotional = 0
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "40.00", output = "150.00", cache_read = "4.00" } }]
+rates = { input = "20.00", output = "100.00", cache_read = "2.00", cache_write_30m = "25.00", cache_write_12h = "50.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6-rosalind"
+service_tier = "standard"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+is_promotional = 1
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "20.00", output = "75.00", cache_read = "2.00", cache_write_30m = "25.00", cache_write_12h = "50.00" } }]
+rates = { input = "10.00", output = "50.00", cache_read = "1.00", cache_write_30m = "12.50", cache_write_12h = "25.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6.2-astra-law"
+service_tier = "standard"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+is_promotional = 1
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "16.00", output = "60.00", cache_read = "0.80", cache_write_30m = "20.00", cache_write_12h = "40.00" } }]
+rates = { input = "8.00", output = "40.00", cache_read = "0.40", cache_write_30m = "10.00", cache_write_12h = "20.00" }
+
+[[price_card]]
+offering_id = "openai-api/gpt-6-astra-law"
+service_tier = "standard"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+is_promotional = 1
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "20.00", output = "75.00", cache_read = "2.00" } }]
+rates = { input = "10.00", output = "50.00", cache_read = "1.00" }
+
+[[pricing_rule]]
+rule_key = "openai-api/background-2h"
+channel_id = "openai-api"
+kind = "discount"
+factor = "0.7"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+scope_models = ["gpt-6.2-astra", "gpt-6.2-sol", "gpt-6.1-terra", "gpt-6-luna"]
+
+[[pricing_rule]]
+rule_key = "openai-api/background-8h"
+channel_id = "openai-api"
+kind = "discount"
+factor = "0.6"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+scope_models = ["gpt-6.2-astra", "gpt-6.2-sol", "gpt-6.1-terra", "gpt-6-luna"]

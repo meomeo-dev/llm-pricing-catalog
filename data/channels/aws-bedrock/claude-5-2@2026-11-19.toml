@@ -1,0 +1,135 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "anthropic-list-prices@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "aws-bedrock"
+model_id = "claude-fable-5-2"
+channel_model_id = "global.anthropic.claude-fable-5-2"
+availability = "available"
+source_id = "bedrock-model-claude-fable-5-2@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+seller_org_id = "anthropic"
+vendor_relationship = "contracted_partner"
+api_surface = "bedrock-runtime"
+operator_org_id = "aws"
+billing_org_id = "aws"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "anthropic.claude-fable-5-2"
+model_id = "claude-fable-5-2"
+offering_id = "aws-bedrock/claude-fable-5-2"
+source_id = "bedrock-model-claude-fable-5-2@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "us.anthropic.claude-fable-5-2"
+model_id = "claude-fable-5-2"
+offering_id = "aws-bedrock/claude-fable-5-2"
+source_id = "bedrock-model-claude-fable-5-2@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[offering]]
+channel_id = "aws-bedrock"
+model_id = "claude-mythos-5-2"
+channel_model_id = "global.anthropic.claude-mythos-5-2"
+availability = "limited"
+source_id = "bedrock-model-claude-mythos-5-2@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+seller_org_id = "anthropic"
+vendor_relationship = "contracted_partner"
+api_surface = "bedrock-runtime"
+operator_org_id = "aws"
+billing_org_id = "aws"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "anthropic.claude-mythos-5-2"
+model_id = "claude-mythos-5-2"
+offering_id = "aws-bedrock/claude-mythos-5-2"
+source_id = "bedrock-model-claude-mythos-5-2@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[model_identifier]]
+channel = "aws-bedrock"
+kind = "api_id"
+identifier = "us.anthropic.claude-mythos-5-2"
+model_id = "claude-mythos-5-2"
+offering_id = "aws-bedrock/claude-mythos-5-2"
+source_id = "bedrock-model-claude-mythos-5-2@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "geo"
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "regional"
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us-govcloud"
+rates = { input = "9.60", output = "48.00", cache_write_5m = "12.00", cache_write_1h = "19.20", cache_read = "0.24" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "geo"
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "regional"
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "aws-bedrock/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us-govcloud"
+rates = { input = "9.60", output = "48.00", cache_write_5m = "12.00", cache_write_1h = "19.20", cache_read = "0.24" }

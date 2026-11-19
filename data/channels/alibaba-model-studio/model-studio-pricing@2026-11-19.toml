@@ -1,0 +1,77 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "alibaba-model-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "alibaba-model-studio"
+model_id = "qwen4-max"
+channel_model_id = "qwen4-max"
+availability = "available"
+source_id = "alibaba-model-releases@2026-11-19"
+valid_from = "2026-11-16T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "alibaba"
+seller_org_id = "alibaba"
+billing_org_id = "alibaba"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "alibaba-model-studio/qwen4-max"
+service_tier = "standard"
+evidence = [{ source_id = "alibaba-qwen4-max@2026-11-19", stance = "supports" }]
+rates = { input = "1.5", output = "4.5", cache_write_5m = "1.875", cache_write_1h = "3", cache_read = "0.075", cache_read_explicit = "0.075" }
+
+[[offering]]
+channel_id = "alibaba-model-studio"
+model_id = "qwen4-max-preview"
+channel_model_id = "qwen4-max-preview"
+availability = "limited"
+source_id = "alibaba-qwen4-max-preview@2026-11-19"
+valid_from = "2026-11-11T02:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-11-25T16:00:00Z"
+operator_org_id = "alibaba"
+seller_org_id = "alibaba"
+billing_org_id = "alibaba"
+vendor_relationship = "first_party"
+
+[[price_gap]]
+channel = "alibaba-model-studio"
+label = "qwen4-max-preview"
+reason = "public_price_unavailable"
+valid_from = "2026-11-11T02:00:00Z"
+date_basis = "official_effective"
+valid_to = "2026-11-25T16:00:00Z"
+source_id = "alibaba-qwen4-max-preview@2026-11-19"
+
+[[offering]]
+channel_id = "alibaba-model-studio"
+model_id = "deepseek-v4.1-flash-1017"
+channel_model_id = "deepseek-v4.1-flash-1017"
+availability = "available"
+source_id = "alibaba-model-releases@2026-11-19"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+seller_org_id = "alibaba"
+vendor_relationship = "contracted_partner"
+operator_org_id = "alibaba"
+billing_org_id = "alibaba"
+
+[[price_card]]
+offering_id = "alibaba-model-studio/deepseek-v4.1-flash-1017"
+service_tier = "standard"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+evidence = [{ source_id = "alibaba-context-cache@2026-11-19", stance = "supports" }]
+rates = { input = "0.15", output = "0.6", cache_read = "0.003" }
+
+[[price_card]]
+offering_id = "alibaba-model-studio/deepseek-v4.1-flash-1017"
+service_tier = "standard"
+valid_from = "2026-10-17T00:00:00Z"
+date_basis = "official_effective"
+window_id = "alibaba-deepseek-peak"
+evidence = [{ source_id = "alibaba-context-cache@2026-11-19", stance = "supports" }]
+rates = { input = "0.3", output = "1.2", cache_read = "0.006" }

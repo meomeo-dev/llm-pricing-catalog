@@ -1,0 +1,62 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "gemini-changelog@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "gemini-4-carbon"
+vendor_org_id = "google"
+family = "gemini"
+display_name = "Gemini 4 Carbon"
+
+[[model_revision]]
+model_id = "gemini-4-carbon"
+lifecycle = "ga"
+released_on = "2026-11-10"
+source_id = "gemini-model-gemini-4-carbon@2026-11-19"
+context_window = 1048576
+max_output_tokens = 65536
+reasoning = "optional"
+efforts = ["low", "medium", "high"]
+default_effort = "high"
+input_modalities = ["text", "image", "video", "audio", "file"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gemini-4-hydrogen"
+vendor_org_id = "google"
+family = "gemini"
+display_name = "Gemini 4 Hydrogen"
+
+[[model_revision]]
+model_id = "gemini-4-hydrogen"
+lifecycle = "ga"
+released_on = "2026-11-12"
+source_id = "gemini-model-gemini-4-hydrogen@2026-11-19"
+context_window = 1048576
+max_output_tokens = 65536
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh"]
+default_effort = "high"
+input_modalities = ["text", "image", "video", "audio", "file"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gemini-4-neon"
+vendor_org_id = "google"
+family = "gemini"
+display_name = "Gemini 4 Neon"
+
+[[model_revision]]
+model_id = "gemini-4-neon"
+lifecycle = "ga"
+released_on = "2026-11-18"
+source_id = "gemini-model-gemini-4-neon@2026-11-19"
+context_window = 1048576
+max_output_tokens = 65536
+reasoning = "optional"
+efforts = ["low", "medium", "high", "xhigh"]
+default_effort = "high"
+input_modalities = ["text", "image", "video", "audio", "file"]
+output_modalities = ["text"]

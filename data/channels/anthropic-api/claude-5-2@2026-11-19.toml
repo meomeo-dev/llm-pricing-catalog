@@ -1,0 +1,121 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "anthropic-list-prices@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "anthropic-api"
+model_id = "claude-fable-5-2"
+channel_model_id = "claude-fable-5-2"
+availability = "available"
+source_id = "anthropic-release-notes@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "anthropic"
+vendor_relationship = "first_party"
+
+[[offering]]
+channel_id = "anthropic-api"
+model_id = "claude-mythos-5-2"
+channel_model_id = "claude-mythos-5-2"
+availability = "limited"
+source_id = "anthropic-release-notes@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+billing_org_id = "anthropic"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-2"
+service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "4.00", output = "20.00", cache_write_5m = "5.00", cache_write_1h = "8.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-2"
+service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+rates = { input = "4.40", output = "22.00", cache_write_5m = "5.50", cache_write_1h = "8.80", cache_read = "0.11" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-2"
+service_tier = "fast"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "16.00", output = "80.00", cache_write_5m = "20.00", cache_write_1h = "32.00", cache_read = "0.40" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-mythos-5-2"
+service_tier = "fast"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+rates = { input = "17.60", output = "88.00", cache_write_5m = "22.00", cache_write_1h = "35.20", cache_read = "0.44" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-2"
+service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "4.00", output = "20.00", cache_write_5m = "5.00", cache_write_1h = "8.00", cache_read = "0.10" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-2"
+service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+rates = { input = "4.40", output = "22.00", cache_write_5m = "5.50", cache_write_1h = "8.80", cache_read = "0.11" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-2"
+service_tier = "fast"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "16.00", output = "80.00", cache_write_5m = "20.00", cache_write_1h = "32.00", cache_read = "0.40" }
+
+[[price_card]]
+offering_id = "anthropic-api/claude-fable-5-2"
+service_tier = "fast"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+rates = { input = "17.60", output = "88.00", cache_write_5m = "22.00", cache_write_1h = "35.20", cache_read = "0.44" }

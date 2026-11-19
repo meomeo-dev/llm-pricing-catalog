@@ -1,0 +1,115 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "openai-changelog@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "gpt-6.2-astra"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6.2 Astra"
+
+[[model_revision]]
+model_id = "gpt-6.2-astra"
+lifecycle = "ga"
+released_on = "2026-11-17"
+source_id = "openai-model-gpt-6.2-astra@2026-11-19"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-05-18"
+reasoning = "always"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6.2-sol"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6.2 Sol"
+
+[[model_revision]]
+model_id = "gpt-6.2-sol"
+lifecycle = "ga"
+released_on = "2026-11-17"
+source_id = "openai-model-gpt-6.2-sol@2026-11-19"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06-01"
+reasoning = "always"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6.1-terra"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6.1 Terra"
+
+[[model_revision]]
+model_id = "gpt-6.1-terra"
+lifecycle = "ga"
+released_on = "2026-10-26"
+source_id = "openai-model-gpt-6.1-terra@2026-11-19"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06-01"
+reasoning = "optional"
+efforts = ["none", "low", "medium", "high", "xhigh", "max"]
+default_effort = "medium"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6-cyber"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6 Cyber"
+
+[[model_revision]]
+model_id = "gpt-6-cyber"
+lifecycle = "limited"
+released_on = "2026-11-05"
+source_id = "openai-model-gpt-6-cyber@2026-11-19"
+context_window = 1050000
+max_input_tokens = 922000
+max_output_tokens = 128000
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "gpt-6-rosalind"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6 Rosalind"
+
+[[model_revision]]
+model_id = "gpt-6-rosalind"
+lifecycle = "limited"
+released_on = "2026-10-30"
+source_id = "openai-pricing@2026-11-19"
+
+[[model]]
+model_id = "gpt-6.2-astra-law"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6.2 Astra for Law"
+
+[[model_revision]]
+model_id = "gpt-6.2-astra-law"
+lifecycle = "limited"
+source_id = "openai-pricing@2026-11-19"
+
+[[model]]
+model_id = "gpt-6-astra-law"
+vendor_org_id = "openai"
+family = "gpt-6"
+display_name = "GPT-6 Astra for Law"
+
+[[model_revision]]
+model_id = "gpt-6-astra-law"
+lifecycle = "limited"
+source_id = "openai-pricing@2026-11-19"

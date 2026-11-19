@@ -1,0 +1,99 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "azure-foundry-openai-models@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "gpt-6.2-astra"
+channel_model_id = "gpt-6.2-astra"
+availability = "available"
+source_id = "azure-foundry-openai-models@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "contracted_partner"
+operator_org_id = "microsoft"
+seller_org_id = "microsoft"
+billing_org_id = "microsoft"
+
+[[price_gap]]
+channel = "azure-foundry"
+label = "gpt-6.2-astra"
+reason = "public_price_unavailable"
+source_id = "azure-retail-prices-gpt-62@2026-11-19"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "gpt-6.2-sol"
+channel_model_id = "gpt-6.2-sol"
+availability = "available"
+source_id = "azure-foundry-openai-models@2026-11-19"
+valid_from = "2026-11-17T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "contracted_partner"
+operator_org_id = "microsoft"
+seller_org_id = "microsoft"
+billing_org_id = "microsoft"
+
+[[price_gap]]
+channel = "azure-foundry"
+label = "gpt-6.2-sol"
+reason = "public_price_unavailable"
+source_id = "azure-retail-prices-gpt-62@2026-11-19"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "gpt-6.1-terra"
+channel_model_id = "gpt-6.1-terra"
+availability = "available"
+source_id = "azure-foundry-openai-models@2026-11-19"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+vendor_relationship = "contracted_partner"
+operator_org_id = "microsoft"
+seller_org_id = "microsoft"
+billing_org_id = "microsoft"
+
+[[price_card]]
+offering_id = "azure-foundry/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "azure-foundry-gpt-6-1-terra@2026-11-19"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.00", cache_read = "0.10", cache_write = "2.50", output = "7.50" } }]
+rates = { input = "1.00", cache_read = "0.05", cache_write = "1.25", output = "5.00" }
+
+[[price_card]]
+offering_id = "azure-foundry/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "azure-foundry-gpt-6-1-terra@2026-11-19"
+region_id = "us"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.20", cache_read = "0.11", cache_write = "2.75", output = "8.25" } }]
+rates = { input = "1.10", cache_read = "0.055", cache_write = "1.375", output = "5.50" }
+
+[[price_card]]
+offering_id = "azure-foundry/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "azure-foundry-gpt-6-1-terra@2026-11-19"
+region_id = "eu"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.40", cache_read = "0.12", cache_write = "3.00", output = "9.00" } }]
+rates = { input = "1.20", cache_read = "0.06", cache_write = "1.50", output = "6.00" }
+
+[[price_card]]
+offering_id = "azure-foundry/gpt-6.1-terra"
+service_tier = "standard"
+valid_from = "2026-10-26T00:00:00Z"
+date_basis = "official_effective"
+source_id = "azure-foundry-gpt-6-1-terra@2026-11-19"
+region_id = "apac"
+context_tier_bound = "gt"
+tiers = [{ min_tokens = 272000, rates = { input = "2.40", cache_read = "0.12", cache_write = "3.00", output = "9.00" } }]
+rates = { input = "1.20", cache_read = "0.06", cache_write = "1.50", output = "6.00" }

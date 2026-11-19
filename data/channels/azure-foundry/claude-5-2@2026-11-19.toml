@@ -1,0 +1,77 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "anthropic-list-prices@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-fable-5-2"
+channel_model_id = "claude-fable-5-2"
+availability = "available"
+source_id = "anthropic-foundry@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+
+[[model_identifier]]
+channel = "azure-foundry"
+kind = "api_id"
+identifier = "claude-fable-5-2-fast"
+model_id = "claude-fable-5-2"
+offering_id = "azure-foundry/claude-fable-5-2"
+implied_service_tier = "fast"
+source_id = "anthropic-fast@2026-11-19"
+
+[[offering]]
+channel_id = "azure-foundry"
+model_id = "claude-mythos-5-2"
+channel_model_id = "claude-mythos-5-2"
+availability = "limited"
+source_id = "anthropic-foundry@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+billing_org_id = "microsoft"
+vendor_relationship = "contracted_partner"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+
+[[model_identifier]]
+channel = "azure-foundry"
+kind = "api_id"
+identifier = "claude-mythos-5-2-fast"
+model_id = "claude-mythos-5-2"
+offering_id = "azure-foundry/claude-mythos-5-2"
+implied_service_tier = "fast"
+source_id = "anthropic-fast@2026-11-19"
+
+[[price_card]]
+offering_id = "azure-foundry/claude-mythos-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-fable-5-2"
+service_tier = "fast"
+source_id = "anthropic-fast@2026-11-19"
+evidence = [{ source_id = "anthropic-pricing@2026-11-19", stance = "supports" }]
+rates = { input = "16.00", output = "80.00", cache_write_5m = "20.00", cache_write_1h = "32.00", cache_read = "0.40" }
+
+[[price_card]]
+offering_id = "azure-foundry/claude-mythos-5-2"
+service_tier = "fast"
+source_id = "anthropic-fast@2026-11-19"
+evidence = [{ source_id = "anthropic-pricing@2026-11-19", stance = "supports" }]
+rates = { input = "16.00", output = "80.00", cache_write_5m = "20.00", cache_write_1h = "32.00", cache_read = "0.40" }

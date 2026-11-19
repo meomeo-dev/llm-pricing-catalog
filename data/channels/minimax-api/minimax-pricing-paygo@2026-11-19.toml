@@ -1,0 +1,26 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "minimax-pricing-paygo@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "minimax-api"
+model_id = "MiniMax-M3.1-Flash"
+channel_model_id = "MiniMax-M3.1-Flash"
+availability = "available"
+source_id = "minimax-m31-flash-launch@2026-11-19"
+valid_from = "2026-10-19T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "minimax"
+seller_org_id = "minimax"
+billing_org_id = "minimax"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "minimax-api/MiniMax-M3.1-Flash"
+service_tier = "standard"
+valid_from = "2026-10-19T00:00:00Z"
+date_basis = "official_effective"
+evidence = [{ source_id = "minimax-m31-flash-launch@2026-11-19", stance = "supports" }]
+rates = { input = "0.15", output = "0.60", cache_read = "0.015" }

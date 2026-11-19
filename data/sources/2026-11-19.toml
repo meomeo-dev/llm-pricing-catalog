@@ -1,0 +1,520 @@
+[[source]]
+source_id = "openai-pricing@2026-11-19"
+url = "https://developers.openai.com/api/docs/pricing.md"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "427698a0c4f1cf4abb2569cb0f9a4ca7fcacfa2f45d61a75f221f0b590ac5114"
+
+[[source]]
+source_id = "openai-ultrafast@2026-11-19"
+url = "https://developers.openai.com/api/docs/guides/ultrafast-mode.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "088db20880aace1495be11e7ffe7bc6e06cb0ac05b10502dae02fa5d607c0211"
+
+[[source]]
+source_id = "openai-changelog@2026-11-19"
+url = "https://developers.openai.com/api/docs/changelog.md"
+publisher_org_id = "openai"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "57a65d2f0e9ba395d8eadeb4a943c64d46bc327c04ab0a0b5ce30889df10044e"
+
+[[source]]
+source_id = "openai-model-gpt-6.2-astra@2026-11-19"
+url = "https://developers.openai.com/api/docs/models/gpt-6.2-astra.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "89611cfc6a48262e6e73d2bca8e9aed9c6694b9ae2955a12d16f0d949081d639"
+
+[[source]]
+source_id = "openai-model-gpt-6.2-sol@2026-11-19"
+url = "https://developers.openai.com/api/docs/models/gpt-6.2-sol.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "3c1aa626387fc854be2560f16620f0c913f4a2aa97e8208d4239efd3279fe913"
+
+[[source]]
+source_id = "openai-model-gpt-6.1-terra@2026-11-19"
+url = "https://developers.openai.com/api/docs/models/gpt-6.1-terra.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "b7db94c4ba947e82ef8cf72df3e4fec7212f085bce310557085f048b7314bce6"
+
+[[source]]
+source_id = "openai-model-gpt-6-cyber@2026-11-19"
+url = "https://developers.openai.com/api/docs/models/gpt-6-cyber.md"
+publisher_org_id = "openai"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "4ef808a763bda3cc7b65ed7cd9cd247deb34fcd5f27e9b03a82bf75b0f9d3553"
+
+[[source]]
+source_id = "gemini-pricing@2026-11-19"
+url = "https://aistudio.google.com/docs/pricing.md"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "9c7ea643955f30d793c3b18d0b49ee85d5eb946c7d5cda3dcef3170f4b8ef92d"
+
+[[source]]
+source_id = "gemini-changelog@2026-11-19"
+url = "https://aistudio.google.com/docs/changelog.md"
+publisher_org_id = "google"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "f29fa1f4a887e6bf8970e6a0bc8255e830f0c6c7ca668841839c6fec47537a9c"
+
+[[source]]
+source_id = "gemini-model-gemini-4-carbon@2026-11-19"
+url = "https://aistudio.google.com/docs/models/gemini-4-carbon.md"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "246d9801eac3340def9761289f4b8acde9ce7e241b41b423c35f8f8ecfd302df"
+
+[[source]]
+source_id = "gemini-model-gemini-4-hydrogen@2026-11-19"
+url = "https://aistudio.google.com/docs/models/gemini-4-hydrogen.md"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "7ab00dcf8fc3dfd5fe8092a63e0b287feac2bc46830bbc8049682d15d75780fe"
+
+[[source]]
+source_id = "gemini-model-gemini-4-neon@2026-11-19"
+url = "https://aistudio.google.com/docs/models/gemini-4-neon.md"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "a7a4b434a31b957da7f084c30c2ead10a0e7b27ad3119cbfa6720c54a4033898"
+
+[[source]]
+source_id = "deepseek-flash-1017@2026-11-19"
+url = "https://api-docs.deepseek.com/news/news261017/"
+publisher_org_id = "deepseek"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "43b5546f90cfca963544131829f2ad421db9563ec0557bdd28819e30f12776d5"
+
+[[source]]
+source_id = "deepseek-pricing@2026-11-19"
+url = "https://api-docs.deepseek.com/quick_start/pricing/"
+publisher_org_id = "deepseek"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "38d9c0ff29a72b17651aaa742a610b4eee4b34f3df803db811d3fa17388ec41e"
+
+[[source]]
+source_id = "deepseek-weights-1017@2026-11-19"
+url = "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017/raw/main/README.md"
+publisher_org_id = "deepseek"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "b72b796e4f4c739eca5d0ad360a7679b39118ca7eb64891f7151a527b292c42a"
+
+[[source]]
+source_id = "alibaba-model-pricing@2026-11-19"
+url = "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+publisher_org_id = "alibaba"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "dbebc00ca93a55d6f43637e1a44414b31510b175432279f866aa98ee3ad18d02"
+
+[[source]]
+source_id = "alibaba-model-releases@2026-11-19"
+url = "https://www.alibabacloud.com/help/en/model-studio/newly-released-models"
+publisher_org_id = "alibaba"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "e2689fcf3789319ffd3ebae2c401407dabc0f1e23687b410c302c5080f0e4ca6"
+
+[[source]]
+source_id = "alibaba-qwen4-max@2026-11-19"
+url = "https://www.alibabacloud.com/help/en/model-studio/qwen4-max"
+publisher_org_id = "alibaba"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "a6bd26d7be35fe12b1134645e7013b440aef0879f0159d6b649e8f6a689a8a5a"
+
+[[source]]
+source_id = "alibaba-qwen4-max-preview@2026-11-19"
+url = "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview"
+publisher_org_id = "alibaba"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "fd567463358d28654423dfbe96ef79cf5b25a2dae11c316fff8ad2f3eb2f56a5"
+
+[[source]]
+source_id = "alibaba-context-cache@2026-11-19"
+url = "https://www.alibabacloud.com/help/en/model-studio/context-cache"
+publisher_org_id = "alibaba"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "7baea128e5b84717cc2cebc05c34888c3c7e4bfd6e51ec985163b231d43afef5"
+
+[[source]]
+source_id = "moonshot-k31-pricing@2026-11-19"
+url = "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing"
+publisher_org_id = "moonshot"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "5ac0f73adcb8df9c2a2b4ec06ef96dd38e0252a501d037e89b376b35b7a79de7"
+
+[[source]]
+source_id = "moonshot-k31-quickstart@2026-11-19"
+url = "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart.md"
+publisher_org_id = "moonshot"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "150d4b7256f79924e0628a7f57a18b44c4a8d520143c63f549966359207edd4c"
+
+[[source]]
+source_id = "moonshot-k31-release@2026-11-19"
+url = "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html"
+publisher_org_id = "moonshot"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "04d8098daf02bc1c0e8a80941cb71acb6a1ac8e6d1fa860c7d5c794b043f14e8"
+
+[[source]]
+source_id = "moonshot-pricing-batch@2026-11-19"
+url = "https://platform.kimi.ai/docs/pricing/batch"
+publisher_org_id = "moonshot"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "2a8893d05d45fc24225cca818c40bed97a7d3395075fa1a203169caa43853db1"
+
+[[source]]
+source_id = "minimax-m31-flash-launch@2026-11-19"
+url = "https://www.minimax.io/blog/minimax-m31f"
+publisher_org_id = "minimax"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "f9862567511fa792fe43dd312a5a11ed2a21ff67524c3a30842d6feeebf9eaa3"
+
+[[source]]
+source_id = "minimax-pricing-paygo@2026-11-19"
+url = "https://platform.minimax.io/docs/pricing/overview.md"
+publisher_org_id = "minimax"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "aaa2c8c860fd072e80d3f794ccdea13da89fe24c8a792b176239f8928f9116dd"
+
+[[source]]
+source_id = "minimax-text-generation@2026-11-19"
+url = "https://platform.minimax.io/docs/guides/text-generation.md"
+publisher_org_id = "minimax"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "940cdff249cd19e62bf84cdd3b7592cc586394816eb40235536ae79f4e5c3cfb"
+
+[[source]]
+source_id = "mistral-pricing@2026-11-19"
+url = "https://docs.mistral.ai/inference/pricing"
+publisher_org_id = "mistral"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "4300488037b6a57d1ca560204678142e669d7e0e467c70510bbfbd27c595e4b3"
+
+[[source]]
+source_id = "mistral-batch-pricing@2026-11-19"
+url = "https://docs.mistral.ai/inference/batch-processing"
+publisher_org_id = "mistral"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "f9a68fd36c7c056b950ee93f322bdfe469fbc38b0d97029736e0e26caebe1f65"
+
+[[source]]
+source_id = "mistral-priority-pricing@2026-11-19"
+url = "https://docs.mistral.ai/inference/priority-tier"
+publisher_org_id = "mistral"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "b49cba374c75d88206f8a756df380a860c064d963908a7152c36eb978c41ae26"
+
+[[source]]
+source_id = "mistral-model-zai-glm-5-3-flash@2026-11-19"
+url = "https://docs.mistral.ai/models/zai-glm-5-3-flash"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "f9ec8e97af523deac865beec447a1ed8dee8d669780791bc467f85e4b9862d85"
+
+[[source]]
+source_id = "mistral-model-deepseek-v4-flash-1017@2026-11-19"
+url = "https://docs.mistral.ai/models/deepseek-v4-flash-1017"
+publisher_org_id = "mistral"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "bfeeb2a8fd794e2409298768a8fcb548380600cfec4cfa5a2d506f64b94a3121"
+
+[[source]]
+source_id = "mistral-large-4-update@2026-11-19"
+url = "https://mistral.ai/news/mistral-large-4-oss/"
+publisher_org_id = "mistral"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "1fdc2a639362caca94b10dcc289adf4dc182ec831771985292bba815cbd2c173"
+
+[[source]]
+source_id = "anthropic-release-notes@2026-11-19"
+url = "https://platform.claude.com/docs/en/release-notes/overview.md"
+publisher_org_id = "anthropic"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "599b183a126388b48baf75f799aa43a9a4128be14ebd15ed2d9cd490aa3f54be"
+
+[[source]]
+source_id = "anthropic-list-prices@2026-11-19"
+url = "https://assets.claude.com/a04aca860a54b7323e33f449706e9b43680e1346.pdf"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "6e1c4764e91deb0318cecce96d8c5eb492c854b2f5f624060b0163db68a49511"
+
+[[source]]
+source_id = "anthropic-pricing@2026-11-19"
+url = "https://platform.claude.com/docs/en/about-claude/pricing.md"
+publisher_org_id = "anthropic"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "8fba19f5dbcab60a1ebb3f68b7d3785f6286f76e239d9a3191f2a2a1e06de9d3"
+
+[[source]]
+source_id = "anthropic-fast@2026-11-19"
+url = "https://platform.claude.com/docs/en/build-with-claude/fast-mode.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "8df0dca1bc0b9e3cc467f094b67f91b1dda885a3124a5cd7a78e90a5eb2edf58"
+
+[[source]]
+source_id = "anthropic-claude-aws@2026-11-19"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "dbcef5b0c54c315c93efb0f43612517525d6922ac928147f5d0ec1b3fcb821dc"
+
+[[source]]
+source_id = "anthropic-foundry@2026-11-19"
+url = "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "04c22c67a60f7473df4bbf58ec9d028a2406afb5e73a26d65b85fceb81338139"
+
+[[source]]
+source_id = "anthropic-model-fable-5-2@2026-11-19"
+url = "https://platform.claude.com/docs/en/models/fable-5-2/overview"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "f9a7e78b5bb8d898732ef9b9005903b82e263a48e9328f45846a478c270e5527"
+
+[[source]]
+source_id = "bedrock-model-claude-fable-5-2@2026-11-19"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-2.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "71d0eb81c6acfb0dede176581674082029b6926922b8fbaebcf5346eddd4d45d"
+
+[[source]]
+source_id = "anthropic-model-mythos-5-2@2026-11-19"
+url = "https://platform.claude.com/docs/en/models/mythos-5-2/overview"
+publisher_org_id = "anthropic"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "21d761459be55dbbca7ff955867c100dc330a05f119e7f7e9fd42cb51ea44d3a"
+
+[[source]]
+source_id = "bedrock-model-claude-mythos-5-2@2026-11-19"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-5-2.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "f5d52135105b286f05c924a91c9a425d69cf09f73402ae1703966c4eb0ef1506"
+
+[[source]]
+source_id = "vertex-pricing-gemini@2026-11-19"
+url = "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+publisher_org_id = "google"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "ef24ae14484ac82500c1849f480435017f1c2896f45e841e81581c38c80d949e"
+
+[[source]]
+source_id = "vertex-model-versions@2026-11-19"
+url = "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions"
+publisher_org_id = "google"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "acf36c4d105fcdcbb3b21e0e338853e71de308cf58d4f4cf90cd7b16dfe42e6b"
+
+[[source]]
+source_id = "openrouter-models@2026-11-19"
+url = "https://openrouter.ai/api/v1/models"
+publisher_org_id = "openrouter"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "6d30ccc042bc3dc12ebc2290a522c415f8b96d4a883b1ba4f24e8fdf92ed67c2"
+
+[[source]]
+source_id = "vercel-ai-gateway-models@2026-11-19"
+url = "https://ai-gateway.vercel.sh/v1/models"
+publisher_org_id = "vercel"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "496c559112d28f492377be84d9069c8c2575e79ecada522d097e47701871f9f5"
+
+[[source]]
+source_id = "bedrock-model-gpt-6.2-astra@2026-11-19"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-2-astra.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "70ad4a875a1094dc5b6d6583a40ca2c2ce40433519d4f92ae07bf8697116c351"
+
+[[source]]
+source_id = "bedrock-model-gpt-6.2-sol@2026-11-19"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-2-sol.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "7c40d5d577b351bc44da282187befc897092f76c0ae13ab670c3f7aa4f30ad5f"
+
+[[source]]
+source_id = "bedrock-model-gpt-6.1-terra@2026-11-19"
+url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-terra.html"
+publisher_org_id = "aws"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "51c49a4b10611e75da3033d222cd0e963cf57a87e6207c274b8f15af7b4b6b0c"
+
+[[source]]
+source_id = "azure-foundry-openai-models@2026-11-19"
+url = "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure"
+publisher_org_id = "microsoft"
+kind = "official_model_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "136e5b1d93615fb06478a399323d38ef1f8979ca9c6c25c425b4291b1fb0581b"
+
+[[source]]
+source_id = "azure-foundry-gpt-6-1-terra@2026-11-19"
+url = "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/gpt-6-1-terra-now-generally-available-in-microsoft-foundry-build-agents-that-see/4567769"
+publisher_org_id = "microsoft"
+kind = "official_announcement"
+retrieved_at = "2026-11-19T13:13:24Z"
+page_updated_on = "2026-10-26"
+
+[[source]]
+source_id = "azure-retail-prices-gpt-62@2026-11-19"
+url = "https://prices.azure.com/api/retail/prices?%24filter=serviceName+eq+%27Foundry+Models%27+and+priceType+eq+%27Consumption%27+and+productName+eq+%27Azure+OpenAI+GPT6%27+and+%28contains%28skuName%2C+%276.2%27%29+or+contains%28meterName%2C+%276.2%27%29+or+contains%28skuName%2C+%276-2%27%29+or+contains%28meterName%2C+%276-2%27%29%29"
+publisher_org_id = "microsoft"
+kind = "official_api"
+machine_readable = 1
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "d05e6f94eecce83d548e0b39f3f76ef094c8653c0b9747f93828be4ad6134691"
+
+[[source]]
+source_id = "copilot-models-and-pricing-yaml@2026-11-19"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/models-and-pricing.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "c6d67959f50d637dbea72bfec0a68d367853ca1dc031fb4b573d0c0d16e4580b"
+
+[[source]]
+source_id = "copilot-models-and-pricing@2026-11-19"
+url = "https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing.md"
+publisher_org_id = "github"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "92fd8fea93f82964034759b3fabd709991c8a243a87b481c4a936fbacc648126"
+
+[[source]]
+source_id = "copilot-annual-multipliers@2026-11-19"
+url = "https://raw.githubusercontent.com/github/docs/main/data/tables/copilot/annual-subscriber-model-multipliers.yml"
+publisher_org_id = "github"
+kind = "official_repository"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "3e72a49f725fd3b4e807873c01485162fd418f6f509d66ab366df8fa4cf33c43"
+
+[[source]]
+source_id = "copilot-gpt-6-2-release@2026-11-19"
+url = "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/"
+publisher_org_id = "github"
+kind = "official_announcement"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "cea398222f1663c7686dd5bb0a4a14bcbd7e49341ae635eefd3f8e969cbc5ca2"
+
+[[source]]
+source_id = "chatgpt-codex-pricing@2026-11-19"
+url = "https://developers.openai.com/codex/pricing.md"
+publisher_org_id = "openai"
+kind = "official_pricing_page"
+machine_readable = 0
+retrieved_at = "2026-11-19T13:13:24Z"
+content_sha256 = "83c9e06d02f40b0974ccefc151a30d11420bad88bb6128e75f948c1956ebc42d"

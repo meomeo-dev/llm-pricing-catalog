@@ -1,0 +1,45 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "anthropic-release-notes@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "claude-fable-5-2"
+vendor_org_id = "anthropic"
+family = "claude-fable"
+display_name = "Claude Fable 5.2"
+
+[[model_revision]]
+model_id = "claude-fable-5-2"
+lifecycle = "ga"
+released_on = "2026-11-09"
+source_id = "anthropic-model-fable-5-2@2026-11-19"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06"
+reasoning = "always"
+efforts = ["low", "medium", "high", "xhigh", "max"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]
+
+[[model]]
+model_id = "claude-mythos-5-2"
+vendor_org_id = "anthropic"
+family = "claude-mythos"
+display_name = "Claude Mythos 5.2"
+
+[[model_revision]]
+model_id = "claude-mythos-5-2"
+lifecycle = "limited"
+released_on = "2026-11-09"
+source_id = "anthropic-model-mythos-5-2@2026-11-19"
+context_window = 1000000
+max_output_tokens = 128000
+knowledge_cutoff = "2026-06"
+reasoning = "always"
+efforts = ["low", "medium", "high", "xhigh", "max"]
+default_effort = "high"
+input_modalities = ["text", "image"]
+output_modalities = ["text"]

@@ -1,0 +1,80 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "anthropic-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "claude-platform-aws"
+model_id = "claude-fable-5-2"
+channel_model_id = "claude-fable-5-2"
+availability = "available"
+source_id = "anthropic-claude-aws@2026-11-19"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+billing_org_id = "aws"
+operator_org_id = "anthropic"
+seller_org_id = "anthropic"
+vendor_relationship = "first_party"
+
+[[pricing_rule]]
+rule_key = "claude-platform-aws/fable-5-2-global"
+channel_id = "claude-platform-aws"
+kind = "markup"
+reference_channel_id = "anthropic-api"
+factor = "1"
+scope_models = ["claude-fable-5-2"]
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "claude-platform-aws/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+derivation = "computed_from_rule"
+derived_from_rule = { rule_key = "claude-platform-aws/fable-5-2-global", valid_from = "2026-11-09T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-2", service_tier = "standard", valid_from = "2026-11-09T00:00:00Z" }
+rates = { input = "8.00", output = "40.00", cache_write_5m = "10.00", cache_write_1h = "16.00", cache_read = "0.20" }
+
+[[price_card]]
+offering_id = "claude-platform-aws/claude-fable-5-2"
+service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+derivation = "computed_from_rule"
+derived_from_rule = { rule_key = "claude-platform-aws/fable-5-2-global", valid_from = "2026-11-09T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-2", service_tier = "batch", valid_from = "2026-11-09T00:00:00Z" }
+rates = { input = "4.00", output = "20.00", cache_write_5m = "5.00", cache_write_1h = "8.00", cache_read = "0.10" }
+
+[[pricing_rule]]
+rule_key = "claude-platform-aws/fable-5-2-us"
+channel_id = "claude-platform-aws"
+kind = "markup"
+reference_channel_id = "anthropic-api"
+factor = "1.1"
+scope_models = ["claude-fable-5-2"]
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+
+[[price_card]]
+offering_id = "claude-platform-aws/claude-fable-5-2"
+service_tier = "standard"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+derivation = "computed_from_rule"
+derived_from_rule = { rule_key = "claude-platform-aws/fable-5-2-us", valid_from = "2026-11-09T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-2", service_tier = "standard", valid_from = "2026-11-09T00:00:00Z" }
+rates = { input = "8.80", output = "44.00", cache_write_5m = "11.00", cache_write_1h = "17.60", cache_read = "0.22" }
+
+[[price_card]]
+offering_id = "claude-platform-aws/claude-fable-5-2"
+service_tier = "batch"
+valid_from = "2026-11-09T00:00:00Z"
+date_basis = "official_effective"
+region_id = "us"
+derivation = "computed_from_rule"
+derived_from_rule = { rule_key = "claude-platform-aws/fable-5-2-us", valid_from = "2026-11-09T00:00:00Z" }
+derived_from_card = { offering_id = "anthropic-api/claude-fable-5-2", service_tier = "batch", valid_from = "2026-11-09T00:00:00Z" }
+rates = { input = "4.40", output = "22.00", cache_write_5m = "5.50", cache_write_1h = "8.80", cache_read = "0.11" }

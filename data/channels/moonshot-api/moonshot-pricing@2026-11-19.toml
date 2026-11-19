@@ -1,0 +1,49 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "moonshot-k31-pricing@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[offering]]
+channel_id = "moonshot-api"
+model_id = "kimi-k3.1-pro"
+channel_model_id = "kimi-k3.1-pro"
+availability = "available"
+source_id = "moonshot-k31-release@2026-11-19"
+valid_from = "2026-10-23T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "moonshot"
+seller_org_id = "moonshot"
+billing_org_id = "moonshot"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k3.1-pro"
+service_tier = "standard"
+rates = { input = "2.00", output = "10.00", cache_read = "0.20", cache_write_5m = "2.00", cache_write_1h = "4.00" }
+
+[[offering]]
+channel_id = "moonshot-api"
+model_id = "kimi-k3.1-pro-highspeed"
+channel_model_id = "kimi-k3.1-pro-highspeed"
+availability = "available"
+source_id = "moonshot-k31-release@2026-11-19"
+valid_from = "2026-10-23T00:00:00Z"
+date_basis = "official_effective"
+operator_org_id = "moonshot"
+seller_org_id = "moonshot"
+billing_org_id = "moonshot"
+vendor_relationship = "first_party"
+
+[[price_card]]
+offering_id = "moonshot-api/kimi-k3.1-pro-highspeed"
+service_tier = "standard"
+rates = { input = "4.00", output = "20.00", cache_read = "0.20", cache_write_5m = "4.00", cache_write_1h = "8.00" }
+
+[[pricing_rule]]
+rule_key = "moonshot-api/k3-batch"
+channel_id = "moonshot-api"
+kind = "discount"
+factor = "0.6"
+source_id = "moonshot-pricing-batch@2026-11-19"
+scope_models = ["kimi-k3", "kimi-k3.1-pro"]

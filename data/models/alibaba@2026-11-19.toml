@@ -1,0 +1,45 @@
+[defaults]
+recorded_at = "2026-11-19T13:13:24Z"
+source_id = "alibaba-qwen4-max@2026-11-19"
+valid_from = "2026-11-19T00:00:00Z"
+date_basis = "first_observed"
+
+[[model]]
+model_id = "qwen4-max"
+vendor_org_id = "alibaba"
+family = "qwen4"
+display_name = "Qwen4-Max"
+
+[[model_revision]]
+model_id = "qwen4-max"
+lifecycle = "ga"
+released_on = "2026-11-16"
+source_id = "alibaba-qwen4-max@2026-11-19"
+reasoning = "optional"
+context_window = 1000000
+input_modalities = ["text", "image", "video"]
+output_modalities = ["text"]
+max_input_tokens = 991808
+max_output_tokens = 262144
+efforts = ["low", "high", "xhigh"]
+default_effort = "high"
+
+[[model]]
+model_id = "qwen4-max-preview"
+vendor_org_id = "alibaba"
+family = "qwen4"
+display_name = "Qwen4-Max-Preview"
+
+[[model_revision]]
+model_id = "qwen4-max-preview"
+lifecycle = "preview"
+released_on = "2026-11-11"
+source_id = "alibaba-qwen4-max-preview@2026-11-19"
+reasoning = "optional"
+context_window = 1000000
+input_modalities = ["text", "image", "video"]
+output_modalities = ["text"]
+max_output_tokens = 393216
+retires_on = "2026-11-25"
+efforts = ["low", "medium", "xhigh"]
+default_effort = "xhigh"
